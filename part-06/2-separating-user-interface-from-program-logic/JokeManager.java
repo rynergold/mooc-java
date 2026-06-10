@@ -1,3 +1,5 @@
+package part06.separatinguserinterfacefromprogramlogic;
+
 // Joke Manager (2 parts) — see JokeManager.md for full spec
 // Expected output:
 // Drawing jokes:

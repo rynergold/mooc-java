@@ -1,3 +1,5 @@
+package part03.arrays;
+
 // Index was not found — see IndexWasNotFound.md for full spec
 // Expected output:
 // Search for? **3**

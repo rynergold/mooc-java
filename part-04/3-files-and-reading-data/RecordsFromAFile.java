@@ -1,3 +1,5 @@
+package part04.filesandreadingdata;
+
 // Records From a File — see RecordsFromAFile.md for full spec
 // Expected output:
 // Name of the file:

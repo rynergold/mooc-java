@@ -1,3 +1,5 @@
+package part08.hashmap;
+
 // Nicknames — see Nicknames.md for full spec
 // Expected output:
 // (see spec)

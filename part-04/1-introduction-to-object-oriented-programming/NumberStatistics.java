@@ -1,3 +1,5 @@
+package part04.introductiontoobjectorientedprogramming;
+
 // Statistics (4 parts) — see NumberStatistics.md for full spec
 // Expected output:
 // Count: 4

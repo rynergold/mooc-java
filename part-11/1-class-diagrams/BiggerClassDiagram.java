@@ -1,3 +1,5 @@
+package part11.classdiagrams;
+
 // Bigger class diagram — see BiggerClassDiagram.md for full spec
 // Expected output:
 // (see spec)

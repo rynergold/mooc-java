@@ -1,3 +1,5 @@
+package part07.largerexercises;
+
 // Grade statistics (4 parts) — see GradeStatistics.md for full spec
 // Expected output:
 // 37

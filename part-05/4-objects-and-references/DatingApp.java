@@ -1,3 +1,5 @@
+package part05.objectsandreferences;
+
 // Dating app (3 parts) — see DatingApp.md for full spec
 // Expected output:
 // Friday of the examined week is 13.2.2015

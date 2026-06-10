@@ -1,3 +1,5 @@
+package part01.printing;
+
 // Once Upon a Time — see OnceUponATime.md for full spec
 // Expected output:
 // Once upon a time

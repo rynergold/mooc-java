@@ -1,3 +1,5 @@
+package part09.inheritance;
+
 // Warehousing (7 parts) — see Warehousing.md for full spec
 // Expected output:
 // Juice

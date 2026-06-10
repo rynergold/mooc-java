@@ -1,3 +1,5 @@
+package part04.objectsinalist;
+
 // Personal information — see PersonalInformation.md for full spec
 // Expected output:
 // First name: **Jean**

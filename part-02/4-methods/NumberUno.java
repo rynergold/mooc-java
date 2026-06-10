@@ -1,3 +1,5 @@
+package part02.methods;
+
 // Number uno — see NumberUno.md for full spec
 // Expected output:
 // (see spec)

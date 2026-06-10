@@ -1,3 +1,5 @@
+package part05.objectsandreferences;
+
 // Money (3 parts) — see Money.md for full spec
 // Expected output:
 // (see spec)

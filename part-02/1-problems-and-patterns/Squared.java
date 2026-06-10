@@ -1,3 +1,5 @@
+package part02.problemsandpatterns;
+
 // Squared — see Squared.md for full spec
 // Expected output:
 // **4**

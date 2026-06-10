@@ -1,3 +1,5 @@
+package part04.introductiontoobjectorientedprogramming;
+
 // Decreasing counter (3 parts) — see DecreasingCounter.md for full spec
 // Expected output:
 // value: 10

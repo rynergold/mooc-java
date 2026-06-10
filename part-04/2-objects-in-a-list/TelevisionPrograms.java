@@ -1,3 +1,5 @@
+package part04.objectsinalist;
+
 // Television programs — see TelevisionPrograms.md for full spec
 // Expected output:
 // Name: **Rick and Morty**

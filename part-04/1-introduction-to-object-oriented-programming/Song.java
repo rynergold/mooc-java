@@ -1,3 +1,5 @@
+package part04.introductiontoobjectorientedprogramming;
+
 // Song — see Song.md for full spec
 // Expected output:
 // The song In The Garden has a length of 10910 seconds.

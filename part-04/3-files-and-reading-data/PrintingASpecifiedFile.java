@@ -1,3 +1,5 @@
+package part04.filesandreadingdata;
+
 // Printing a Specified File — see PrintingASpecifiedFile.md for full spec
 // Expected output:
 // Which file should have its contents printed?

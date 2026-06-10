@@ -1,3 +1,5 @@
+package part10.otherusefultechniques;
+
 // Regular expressions (3 parts) — see RegularExpressions.md for full spec
 // Expected output:
 // Enter a string: **tue**

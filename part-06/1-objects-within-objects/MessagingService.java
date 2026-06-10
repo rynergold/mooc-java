@@ -1,3 +1,5 @@
+package part06.objectswithinobjects;
+
 // MessagingService — see MessagingService.md for full spec
 // Expected output:
 // (see spec)

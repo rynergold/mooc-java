@@ -1,3 +1,5 @@
+package part02.methods;
+
 // Advanced astrology (3 parts) — see AdvancedAstrology.md for full spec
 // Expected output:
 // *

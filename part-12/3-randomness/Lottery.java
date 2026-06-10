@@ -1,3 +1,5 @@
+package part12.randomness;
+
 // Lottery — see Lottery.md for full spec
 // Expected output:
 // Lottery numbers:

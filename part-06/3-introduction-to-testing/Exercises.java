@@ -1,3 +1,5 @@
+package part06.introductiontotesting;
+
 // Exercises (2 parts) — see Exercises.md for full spec
 // Expected output:
 // (see spec)

@@ -1,3 +1,5 @@
+package part03.arrays;
+
 // Swap — see Swap.md for full spec
 // Expected output:
 // 1

@@ -1,3 +1,5 @@
+package part07.largerexercises;
+
 // Recipe search (4 parts) — see RecipeSearch.md for full spec
 // Expected output:
 // Pancake dough

@@ -1,3 +1,5 @@
+package part12.typeparameters;
+
 // Hideout — see Hideout.md for full spec
 // Expected output:
 // false

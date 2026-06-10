@@ -1,3 +1,5 @@
+package part02.repeating;
+
 // Average of positive numbers — see AverageOfPositiveNumbers.md for full spec
 // Expected output:
 // **3**

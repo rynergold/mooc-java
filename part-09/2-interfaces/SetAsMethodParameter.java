@@ -1,3 +1,5 @@
+package part09.interfaces;
+
 // Set as  method parameter — see SetAsMethodParameter.md for full spec
 // Expected output:
 // 2

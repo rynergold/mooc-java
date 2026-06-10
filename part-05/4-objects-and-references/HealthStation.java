@@ -1,3 +1,5 @@
+package part05.objectsandreferences;
+
 // Health station (3 parts) — see HealthStation.md for full spec
 // Expected output:
 // Ethan's weight: 7 kilos

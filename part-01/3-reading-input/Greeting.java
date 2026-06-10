@@ -1,3 +1,5 @@
+package part01.readinginput;
+
 // Greeting — see Greeting.md for full spec
 // Expected output:
 // What's your name?

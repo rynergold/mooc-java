@@ -1,3 +1,5 @@
+package part03.lists;
+
 // Sum of a list — see SumOfAList.md for full spec
 // Expected output:
 // **72**

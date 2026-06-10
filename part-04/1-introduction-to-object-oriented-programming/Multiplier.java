@@ -1,3 +1,5 @@
+package part04.introductiontoobjectorientedprogramming;
+
 // Multiplier — see Multiplier.md for full spec
 // Expected output:
 // multiplyByThree.multiply(2): 6

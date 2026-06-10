@@ -1,3 +1,5 @@
+package part10.interfacecomparable;
+
 // Literacy comparison (2 parts) — see LiteracyComparison.md for full spec
 // Expected output:
 // Niger (2015), female, 11.01572

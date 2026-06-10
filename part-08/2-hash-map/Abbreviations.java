@@ -1,3 +1,5 @@
+package part08.hashmap;
+
 // Abbreviations — see Abbreviations.md for full spec
 // Expected output:
 // for example more precisely and so on lol

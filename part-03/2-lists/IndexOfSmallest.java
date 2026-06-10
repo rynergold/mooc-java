@@ -1,3 +1,5 @@
+package part03.lists;
+
 // Index of smallest — see IndexOfSmallest.md for full spec
 // Expected output:
 // **72**

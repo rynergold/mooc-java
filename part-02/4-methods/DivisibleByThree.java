@@ -1,3 +1,5 @@
+package part02.methods;
+
 // Divisible by three — see DivisibleByThree.md for full spec
 // Expected output:
 // 3

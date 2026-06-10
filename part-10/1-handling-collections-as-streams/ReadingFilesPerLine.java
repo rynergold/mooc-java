@@ -1,3 +1,5 @@
+package part10.handlingcollectionsasstreams;
+
 // Reading Files Per Line — see ReadingFilesPerLine.md for full spec
 // Expected output:
 // (see spec)

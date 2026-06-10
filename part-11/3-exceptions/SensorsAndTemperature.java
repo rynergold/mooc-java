@@ -1,3 +1,5 @@
+package part11.exceptions;
+
 // Sensors and temperature (4 parts) — see SensorsAndTemperature.md for full spec
 // Expected output:
 // 10

@@ -1,3 +1,5 @@
+package part14.multimediainprograms;
+
 // Smiley — see Smiley.md for full spec
 // Expected output:
 // (see spec)

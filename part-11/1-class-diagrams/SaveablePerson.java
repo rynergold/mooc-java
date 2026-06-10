@@ -1,3 +1,5 @@
+package part11.classdiagrams;
+
 // Saveable person — see SaveablePerson.md for full spec
 // Expected output:
 // (see spec)

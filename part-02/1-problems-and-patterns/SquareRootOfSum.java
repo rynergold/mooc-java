@@ -1,3 +1,5 @@
+package part02.problemsandpatterns;
+
 // Square root of sum — see SquareRootOfSum.md for full spec
 // Expected output:
 // **1**

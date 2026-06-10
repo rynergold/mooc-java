@@ -1,3 +1,5 @@
+package part04.introductiontoobjectorientedprogramming;
+
 // Dog attributes — see DogAttributes.md for full spec
 // Expected output:
 // (see spec)

@@ -1,3 +1,5 @@
+package part02.methods;
+
 // Star sign (4 parts) — see StarSign.md for full spec
 // Expected output:
 // *****

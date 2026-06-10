@@ -1,3 +1,5 @@
+package part04.introductiontoobjectorientedprogramming;
+
 // Room — see Room.md for full spec
 // Expected output:
 // (see spec)

@@ -1,3 +1,5 @@
+package part08.recap;
+
 // To do list (2 parts) — see TodoList.md for full spec
 // Expected output:
 // Command: **add**

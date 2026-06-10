@@ -1,3 +1,5 @@
+package part12.typeparameters;
+
 // Pipe — see Pipe.md for full spec
 // Expected output:
 // dibi

@@ -1,3 +1,5 @@
+package part02.methods;
+
 // Reprint — see Reprint.md for full spec
 // Expected output:
 // How many times?

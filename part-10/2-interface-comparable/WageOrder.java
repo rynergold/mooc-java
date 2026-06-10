@@ -1,3 +1,5 @@
+package part10.interfacecomparable;
+
 // Wage order — see WageOrder.md for full spec
 // Expected output:
 // (see spec)

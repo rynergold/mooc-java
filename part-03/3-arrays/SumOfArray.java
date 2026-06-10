@@ -1,3 +1,5 @@
+package part03.arrays;
+
 // Sum of array — see SumOfArray.md for full spec
 // Expected output:
 // 15

@@ -1,3 +1,5 @@
+package part08.recap;
+
 // Liquid Containers 2.0 (2 parts) — see LiquidContainers2.md for full spec
 // Expected output:
 // 0/100

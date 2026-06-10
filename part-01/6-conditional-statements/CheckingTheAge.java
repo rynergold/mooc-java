@@ -1,3 +1,5 @@
+package part01.conditionalstatements;
+
 // Checking the age — see CheckingTheAge.md for full spec
 // Expected output:
 // How old are you? **10**

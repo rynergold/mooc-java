@@ -1,3 +1,5 @@
+package part12.multidimensionaldata;
+
 // Array as a string — see ArrayAsAString.md for full spec
 // Expected output:
 // 050

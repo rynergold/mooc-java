@@ -1,3 +1,5 @@
+package part08.similarityofobjects;
+
 // Same date — see SameDate.md for full spec
 // Expected output:
 // false

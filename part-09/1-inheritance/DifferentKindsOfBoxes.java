@@ -1,3 +1,5 @@
+package part09.inheritance;
+
 // DifferentKindsOfBoxes (3 parts) — see DifferentKindsOfBoxes.md for full spec
 // Expected output:
 // true

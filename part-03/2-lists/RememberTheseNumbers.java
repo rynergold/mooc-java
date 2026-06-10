@@ -1,3 +1,5 @@
+package part03.lists;
+
 // Remember these numbers — see RememberTheseNumbers.md for full spec
 // Expected output:
 // **72**

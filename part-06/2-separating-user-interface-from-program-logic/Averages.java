@@ -1,3 +1,5 @@
+package part06.separatinguserinterfacefromprogramlogic;
+
 // Averages (3 parts) — see Averages.md for full spec
 // Expected output:
 // 4.75

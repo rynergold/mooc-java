@@ -1,3 +1,5 @@
+package part10.handlingcollectionsasstreams;
+
 // Unique last names — see UniqueLastNames.md for full spec
 // Expected output:
 // Continue personal information input? "quit" ends:

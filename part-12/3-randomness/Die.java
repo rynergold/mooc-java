@@ -1,3 +1,5 @@
+package part12.randomness;
+
 // Die — see Die.md for full spec
 // Expected output:
 // 1

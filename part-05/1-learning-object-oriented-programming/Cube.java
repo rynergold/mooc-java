@@ -1,3 +1,5 @@
+package part05.learningobjectorientedprogramming;
+
 // Cube — see Cube.md for full spec
 // Expected output:
 // 64

@@ -1,3 +1,5 @@
+package part03.arrays;
+
 // Print neatly — see PrintNeatly.md for full spec
 // Expected output:
 // 5, 1, 3, 4, 2

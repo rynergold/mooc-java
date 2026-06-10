@@ -1,3 +1,5 @@
+package part12.multidimensionaldata;
+
 // Magic square (4 parts) — see MagicSquare.md for full spec
 // Expected output:
 // (see spec)

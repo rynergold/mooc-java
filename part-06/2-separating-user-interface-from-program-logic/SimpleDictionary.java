@@ -1,3 +1,5 @@
+package part06.separatinguserinterfacefromprogramlogic;
+
 // Simple Dictionary (4 parts) — see SimpleDictionary.md for full spec
 // Expected output:
 // yksi

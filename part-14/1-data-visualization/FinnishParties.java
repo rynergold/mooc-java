@@ -1,3 +1,5 @@
+package part14.datavisualization;
+
 // Finnish parties — see FinnishParties.md for full spec
 // Expected output:
 // KOK

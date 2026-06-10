@@ -1,3 +1,5 @@
+package part09.objectpolymorphism;
+
 // Animals (4 parts) — see Animals.md for full spec
 // Expected output:
 // Dog barks

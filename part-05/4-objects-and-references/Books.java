@@ -1,3 +1,5 @@
+package part05.objectsandreferences;
+
 // Books — see Books.md for full spec
 // Expected output:
 // Name (empty will stop):

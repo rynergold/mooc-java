@@ -1,3 +1,5 @@
+package part03.strings;
+
 // Login — see Login.md for full spec
 // Expected output:
 // Enter username: **alex**

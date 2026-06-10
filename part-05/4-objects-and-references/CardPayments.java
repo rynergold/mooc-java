@@ -1,3 +1,5 @@
+package part05.objectsandreferences;
+
 // Card payments (4 sections) — see CardPayments.md for full spec
 // Expected output:
 // money 10.0

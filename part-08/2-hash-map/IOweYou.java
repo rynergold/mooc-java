@@ -1,3 +1,5 @@
+package part08.hashmap;
+
 // I owe you — see IOweYou.md for full spec
 // Expected output:
 // 51.5

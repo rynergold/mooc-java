@@ -1,3 +1,5 @@
+package part02.methods;
+
 // Greatest — see Greatest.md for full spec
 // Expected output:
 // Greatest: 7

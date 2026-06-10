@@ -1,3 +1,5 @@
+package part07.algorithms;
+
 // Searching — see Searching.md for full spec
 // Expected output:
 // (see spec)

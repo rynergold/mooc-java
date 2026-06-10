@@ -1,3 +1,5 @@
+package part14.datavisualization;
+
 // Savings calculator (3 parts) — see SavingsCalculator.md for full spec
 // Expected output:
 // (see spec)

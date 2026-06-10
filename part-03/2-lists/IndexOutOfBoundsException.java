@@ -1,3 +1,5 @@
+package part03.lists;
+
 // IndexOutOfBoundsException — see IndexOutOfBoundsException.md for full spec
 // Expected output:
 // (see spec)

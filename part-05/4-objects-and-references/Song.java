@@ -1,3 +1,5 @@
+package part05.objectsandreferences;
+
 // Song — see Song.md for full spec
 // Expected output:
 // Songs are equal

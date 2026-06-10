@@ -1,3 +1,5 @@
+package part08.hashmap;
+
 // Print me my hash map — see PrintMeMyHashmap.md for full spec
 // Expected output:
 // f.e

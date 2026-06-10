@@ -1,3 +1,5 @@
+package part02.moreloops;
+
 // Sum of a sequence — see SumOfASequence.md for full spec
 // Expected output:
 // Last number? **3**

@@ -1,3 +1,5 @@
+package part10.handlingcollectionsasstreams;
+
 // Limited numbers — see LimitedNumbers.md for full spec
 // Expected output:
 // **7**

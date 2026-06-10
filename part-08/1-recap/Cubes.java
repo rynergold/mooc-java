@@ -1,3 +1,5 @@
+package part08.recap;
+
 // Cubes — see Cubes.md for full spec
 // Expected output:
 // **3**

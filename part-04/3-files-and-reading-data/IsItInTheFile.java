@@ -1,3 +1,5 @@
+package part04.filesandreadingdata;
+
 // Is it in the file? — see IsItInTheFile.md for full spec
 // Expected output:
 // Name of the file:

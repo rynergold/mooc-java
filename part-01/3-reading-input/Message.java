@@ -1,3 +1,5 @@
+package part01.readinginput;
+
 // Message — see Message.md for full spec
 // Expected output:
 // Write a message:

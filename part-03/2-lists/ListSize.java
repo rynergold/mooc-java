@@ -1,3 +1,5 @@
+package part03.lists;
+
 // List size — see ListSize.md for full spec
 // Expected output:
 // **Tom**

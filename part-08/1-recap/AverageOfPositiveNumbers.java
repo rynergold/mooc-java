@@ -1,3 +1,5 @@
+package part08.recap;
+
 // Average of positive numbers — see AverageOfPositiveNumbers.md for full spec
 // Expected output:
 // **3**
