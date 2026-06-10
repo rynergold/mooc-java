@@ -1,4 +1,4 @@
-package part03.s03arrays;
+package src.main.java.part03.s03arrays;
 
 // Print neatly — see PrintNeatly.md for full spec
 // Expected output:

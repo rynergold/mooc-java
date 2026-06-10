@@ -1,4 +1,4 @@
-package part12.s04multidimensionaldata;
+package src.main.java.part12.s04multidimensionaldata;
 
 // Array as a string — see ArrayAsAString.md for full spec
 // Expected output:

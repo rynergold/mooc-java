@@ -1,4 +1,4 @@
-package part08.s01recap;
+package src.main.java.part08.s01recap;
 
 // Average of positive numbers — see Part08AverageOfPositiveNumbers.md for full spec
 // Expected output:

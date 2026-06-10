@@ -1,4 +1,4 @@
-package part01.s06conditionalstatements;
+package src.main.java.part01.s06conditionalstatements;
 
 // Gift tax — see GiftTax.md for full spec
 // Expected output:

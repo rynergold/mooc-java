@@ -1,4 +1,4 @@
-package part03.s02lists;
+package src.main.java.part03.s02lists;
 
 // Sum — see Sum.md for full spec
 // Expected output:

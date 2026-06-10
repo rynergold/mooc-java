@@ -1,4 +1,4 @@
-package part04.s02objectsinalist;
+package src.main.java.part04.s02objectsinalist;
 
 // Books — see Books.md for full spec
 // Expected output:

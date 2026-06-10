@@ -1,4 +1,4 @@
-package part14.s01datavisualization;
+package src.main.java.part14.s01datavisualization;
 
 // Shanghai — see Shanghai.md for full spec
 // Expected output:

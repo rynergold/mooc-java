@@ -1,4 +1,4 @@
-package part07.s01programmingparadigms;
+package src.main.java.part07.s01programmingparadigms;
 
 // Liquid Containers 2.0 (2 parts) — see LiquidContainers2.md for full spec
 // Expected output:

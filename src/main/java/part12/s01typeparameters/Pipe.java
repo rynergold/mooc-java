@@ -1,4 +1,4 @@
-package part12.s01typeparameters;
+package src.main.java.part12.s01typeparameters;
 
 // Pipe — see Pipe.md for full spec
 // Expected output:

@@ -1,4 +1,4 @@
-package part06.s02separatinguserinterfacefromprogramlogic;
+package src.main.java.part06.s02separatinguserinterfacefromprogramlogic;
 
 // Joke Manager (2 parts) — see JokeManager.md for full spec
 // Expected output:

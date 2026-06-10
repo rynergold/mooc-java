@@ -1,4 +1,4 @@
-package part09.s03objectpolymorphism;
+package src.main.java.part09.s03objectpolymorphism;
 
 // Animals (4 parts) — see Animals.md for full spec
 // Expected output:

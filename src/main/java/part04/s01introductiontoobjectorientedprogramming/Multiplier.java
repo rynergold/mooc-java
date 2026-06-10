@@ -1,4 +1,4 @@
-package part04.s01introductiontoobjectorientedprogramming;
+package src.main.java.part04.s01introductiontoobjectorientedprogramming;
 
 // Multiplier — see Multiplier.md for full spec
 // Expected output:

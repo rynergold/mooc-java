@@ -1,4 +1,4 @@
-package part06.s03introductiontotesting;
+package src.main.java.part06.s03introductiontotesting;
 
 // Exercises (2 parts) — see Exercises.md for full spec
 // Expected output:

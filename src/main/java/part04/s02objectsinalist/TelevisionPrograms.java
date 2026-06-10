@@ -1,4 +1,4 @@
-package part04.s02objectsinalist;
+package src.main.java.part04.s02objectsinalist;
 
 // Television programs — see TelevisionPrograms.md for full spec
 // Expected output:

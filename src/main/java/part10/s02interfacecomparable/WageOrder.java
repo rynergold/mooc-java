@@ -1,4 +1,4 @@
-package part10.s02interfacecomparable;
+package src.main.java.part10.s02interfacecomparable;
 
 // Wage order — see WageOrder.md for full spec
 // Expected output:

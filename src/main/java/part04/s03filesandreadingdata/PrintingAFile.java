@@ -1,4 +1,4 @@
-package part04.s03filesandreadingdata;
+package src.main.java.part04.s03filesandreadingdata;
 
 // Printing a File — see PrintingAFile.md for full spec
 // Expected output:

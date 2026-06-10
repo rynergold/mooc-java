@@ -1,4 +1,4 @@
-package part01.s01startingprogramming;
+package src.main.java.part01.s01startingprogramming;
 
 // Sandbox — see Sandbox.md for full spec
 // Expected output:

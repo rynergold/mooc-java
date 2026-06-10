@@ -1,4 +1,4 @@
-package part07.s02algorithms;
+package src.main.java.part07.s02algorithms;
 
 // Searching — see Searching.md for full spec
 // Expected output:

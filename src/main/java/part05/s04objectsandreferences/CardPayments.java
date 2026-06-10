@@ -1,4 +1,4 @@
-package part05.s04objectsandreferences;
+package src.main.java.part05.s04objectsandreferences;
 
 // Card payments (4 sections) — see CardPayments.md for full spec
 // Expected output:

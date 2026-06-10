@@ -1,4 +1,4 @@
-package part02.s01problemsandpatterns;
+package src.main.java.part02.s01problemsandpatterns;
 
 // Absolute Value — see AbsoluteValue.md for full spec
 // Expected output:

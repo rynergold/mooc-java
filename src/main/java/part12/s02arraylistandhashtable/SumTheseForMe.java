@@ -1,4 +1,4 @@
-package part12.s02arraylistandhashtable;
+package src.main.java.part12.s02arraylistandhashtable;
 
 // Sum these for me — see SumTheseForMe.md for full spec
 // Expected output:

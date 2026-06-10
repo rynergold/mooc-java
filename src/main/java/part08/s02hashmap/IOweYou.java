@@ -1,4 +1,4 @@
-package part08.s02hashmap;
+package src.main.java.part08.s02hashmap;
 
 // I owe you — see IOweYou.md for full spec
 // Expected output:

@@ -1,4 +1,4 @@
-package part11.s02packages;
+package src.main.java.part11.s02packages;
 
 // Three packages — see TheThreePackages.md for full spec
 // Expected output:

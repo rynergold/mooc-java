@@ -1,4 +1,4 @@
-package part08.s03similarityofobjects;
+package src.main.java.part08.s03similarityofobjects;
 
 // Same date — see SameDate.md for full spec
 // Expected output:

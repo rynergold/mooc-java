@@ -1,4 +1,4 @@
-package part09.s02interfaces;
+package src.main.java.part09.s02interfaces;
 
 // Set as  method parameter — see SetAsMethodParameter.md for full spec
 // Expected output:

@@ -1,4 +1,4 @@
-package part08.s04groupingdatausinghashmaps;
+package src.main.java.part08.s04groupingdatausinghashmaps;
 
 // Storage facility (2 parts) — see StorageFacility.md for full spec
 // Expected output:

@@ -1,4 +1,4 @@
-package part02.s04methods;
+package src.main.java.part02.s04methods;
 
 // From parameter to one — see FromParameterToOne.md for full spec
 // Expected output:

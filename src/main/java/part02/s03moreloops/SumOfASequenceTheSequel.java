@@ -1,4 +1,4 @@
-package part02.s03moreloops;
+package src.main.java.part02.s03moreloops;
 
 // Sum of a sequence - the sequel — see SumOfASequenceTheSequel.md for full spec
 // Expected output:

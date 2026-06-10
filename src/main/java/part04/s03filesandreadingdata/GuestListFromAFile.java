@@ -1,4 +1,4 @@
-package part04.s03filesandreadingdata;
+package src.main.java.part04.s03filesandreadingdata;
 
 // Guest List From a File — see GuestListFromAFile.md for full spec
 // Expected output:

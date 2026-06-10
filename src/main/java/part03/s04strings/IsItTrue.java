@@ -1,4 +1,4 @@
-package part03.s04strings;
+package src.main.java.part03.s04strings;
 
 // Is it true — see IsItTrue.md for full spec
 // Expected output:

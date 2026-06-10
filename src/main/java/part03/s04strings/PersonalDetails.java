@@ -1,4 +1,4 @@
-package part03.s04strings;
+package src.main.java.part03.s04strings;
 
 // Personal details — see PersonalDetails.md for full spec
 // Expected output:

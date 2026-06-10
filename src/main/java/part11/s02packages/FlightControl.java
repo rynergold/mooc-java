@@ -1,4 +1,4 @@
-package part11.s02packages;
+package src.main.java.part11.s02packages;
 
 // FlightControl (2 parts) — see FlightControl.md for full spec
 // Expected output:

@@ -1,4 +1,4 @@
-package part09.s02interfaces;
+package src.main.java.part09.s02interfaces;
 
 // TacoBoxes (2 parts) — see TacoBoxes.md for full spec
 // Expected output:

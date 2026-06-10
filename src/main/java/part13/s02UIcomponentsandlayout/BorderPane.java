@@ -1,4 +1,4 @@
-package part13.s02UIcomponentsandlayout;
+package src.main.java.part13.s02UIcomponentsandlayout;
 
 // BorderPane — see BorderPane.md for full spec
 // Expected output:

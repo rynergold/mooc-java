@@ -1,4 +1,4 @@
-package part13.s05multipleviews;
+package src.main.java.part13.s05multipleviews;
 
 // Vocabulary practice — see VocabularyPractice.md for full spec
 // Expected output:

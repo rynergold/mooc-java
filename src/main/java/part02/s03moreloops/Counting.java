@@ -1,4 +1,4 @@
-package part02.s03moreloops;
+package src.main.java.part02.s03moreloops;
 
 // Counting — see Counting.md for full spec
 // Expected output:

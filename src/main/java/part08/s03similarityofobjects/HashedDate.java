@@ -1,4 +1,4 @@
-package part08.s03similarityofobjects;
+package src.main.java.part08.s03similarityofobjects;
 
 // Hash for date — see HashedDate.md for full spec
 // Expected output:

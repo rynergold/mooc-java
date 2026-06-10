@@ -1,4 +1,4 @@
-package part08.s01recap;
+package src.main.java.part08.s01recap;
 
 // Cubes — see Part08Cubes.md for full spec
 // Expected output:

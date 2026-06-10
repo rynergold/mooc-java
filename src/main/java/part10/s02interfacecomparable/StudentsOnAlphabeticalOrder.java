@@ -1,4 +1,4 @@
-package part10.s02interfacecomparable;
+package src.main.java.part10.s02interfacecomparable;
 
 // Students on alphabetical order — see StudentsOnAlphabeticalOrder.md for full spec
 // Expected output:

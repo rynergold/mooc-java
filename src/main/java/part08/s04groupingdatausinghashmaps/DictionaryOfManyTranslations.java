@@ -1,4 +1,4 @@
-package part08.s04groupingdatausinghashmaps;
+package src.main.java.part08.s04groupingdatausinghashmaps;
 
 // Dictionary of many translations — see DictionaryOfManyTranslations.md for full spec
 // Expected output:

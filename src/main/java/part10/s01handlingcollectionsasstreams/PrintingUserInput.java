@@ -1,4 +1,4 @@
-package part10.s01handlingcollectionsasstreams;
+package src.main.java.part10.s01handlingcollectionsasstreams;
 
 // Printing User Input — see PrintingUserInput.md for full spec
 // Expected output:

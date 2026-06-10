@@ -1,4 +1,4 @@
-package part01.s02printing;
+package src.main.java.part01.s02printing;
 
 // Dinosaur — see Dinosaur.md for full spec
 // Expected output:

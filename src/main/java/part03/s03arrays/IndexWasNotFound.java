@@ -1,4 +1,4 @@
-package part03.s03arrays;
+package src.main.java.part03.s03arrays;
 
 // Index was not found — see IndexWasNotFound.md for full spec
 // Expected output:

@@ -1,4 +1,4 @@
-package part02.s04methods;
+package src.main.java.part02.s04methods;
 
 // Greatest — see Greatest.md for full spec
 // Expected output:

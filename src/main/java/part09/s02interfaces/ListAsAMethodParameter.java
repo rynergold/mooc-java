@@ -1,4 +1,4 @@
-package part09.s02interfaces;
+package src.main.java.part09.s02interfaces;
 
 // List as a method parameter — see ListAsAMethodParameter.md for full spec
 // Expected output:

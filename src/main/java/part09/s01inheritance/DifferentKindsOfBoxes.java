@@ -1,4 +1,4 @@
-package part09.s01inheritance;
+package src.main.java.part09.s01inheritance;
 
 // DifferentKindsOfBoxes (3 parts) — see DifferentKindsOfBoxes.md for full spec
 // Expected output:

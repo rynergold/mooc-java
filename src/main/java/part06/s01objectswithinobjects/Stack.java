@@ -1,4 +1,4 @@
-package part06.s01objectswithinobjects;
+package src.main.java.part06.s01objectswithinobjects;
 
 // Stack (2 parts) — see Stack.md for full spec
 // Expected output:

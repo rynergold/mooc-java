@@ -1,4 +1,4 @@
-package part01.s03readinginput;
+package src.main.java.part01.s03readinginput;
 
 // Message Three Times — see MessageThreeTimes.md for full spec
 // Expected output:

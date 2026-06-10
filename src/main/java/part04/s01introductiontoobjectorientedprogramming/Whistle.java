@@ -1,4 +1,4 @@
-package part04.s01introductiontoobjectorientedprogramming;
+package src.main.java.part04.s01introductiontoobjectorientedprogramming;
 
 // Whistle — see Whistle.md for full spec
 // Expected output:

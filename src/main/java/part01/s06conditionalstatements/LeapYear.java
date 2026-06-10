@@ -1,4 +1,4 @@
-package part01.s06conditionalstatements;
+package src.main.java.part01.s06conditionalstatements;
 
 // Leap year — see LeapYear.md for full spec
 // Expected output:

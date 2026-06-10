@@ -1,4 +1,4 @@
-package part13.s02UIcomponentsandlayout;
+package src.main.java.part13.s02UIcomponentsandlayout;
 
 // Button and TextField — see ButtonAndTextField.md for full spec
 // Expected output:

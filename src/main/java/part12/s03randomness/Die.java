@@ -1,4 +1,4 @@
-package part12.s03randomness;
+package src.main.java.part12.s03randomness;
 
 // Die — see Die.md for full spec
 // Expected output:

@@ -1,4 +1,4 @@
-package part06.s02separatinguserinterfacefromprogramlogic;
+package src.main.java.part06.s02separatinguserinterfacefromprogramlogic;
 
 // Simple Dictionary (4 parts) — see SimpleDictionary.md for full spec
 // Expected output:

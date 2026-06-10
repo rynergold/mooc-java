@@ -1,4 +1,4 @@
-package part12.s03randomness;
+package src.main.java.part12.s03randomness;
 
 // Lottery — see Lottery.md for full spec
 // Expected output:

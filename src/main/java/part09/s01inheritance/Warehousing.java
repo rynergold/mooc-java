@@ -1,4 +1,4 @@
-package part09.s01inheritance;
+package src.main.java.part09.s01inheritance;
 
 // Warehousing (7 parts) — see Warehousing.md for full spec
 // Expected output:

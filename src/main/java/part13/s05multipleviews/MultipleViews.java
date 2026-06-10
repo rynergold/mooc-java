@@ -1,4 +1,4 @@
-package part13.s05multipleviews;
+package src.main.java.part13.s05multipleviews;
 
 // Multiple views — see MultipleViews.md for full spec
 // Expected output:

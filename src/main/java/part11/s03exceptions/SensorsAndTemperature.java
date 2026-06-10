@@ -1,4 +1,4 @@
-package part11.s03exceptions;
+package src.main.java.part11.s03exceptions;
 
 // Sensors and temperature (4 parts) — see SensorsAndTemperature.md for full spec
 // Expected output:

@@ -1,4 +1,4 @@
-package part07.s03largerexercises;
+package src.main.java.part07.s03largerexercises;
 
 // Grade statistics (4 parts) — see GradeStatistics.md for full spec
 // Expected output:

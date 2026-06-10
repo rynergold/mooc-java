@@ -1,4 +1,4 @@
-package part11.s02packages;
+package src.main.java.part11.s02packages;
 
 // First packages (3 parts) — see FirstPackages.md for full spec
 // Expected output:

@@ -1,4 +1,4 @@
-package part05.s04objectsandreferences;
+package src.main.java.part05.s04objectsandreferences;
 
 // Archive (2 parts) — see Archive.md for full spec
 // Expected output:

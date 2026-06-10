@@ -1,4 +1,4 @@
-package part01.s03readinginput;
+package src.main.java.part01.s03readinginput;
 
 // Conversation — see Conversation.md for full spec
 // Expected output:

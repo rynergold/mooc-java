@@ -1,4 +1,4 @@
-package part02.s01problemsandpatterns;
+package src.main.java.part02.s01problemsandpatterns;
 
 // Square root of sum — see SquareRootOfSum.md for full spec
 // Expected output:

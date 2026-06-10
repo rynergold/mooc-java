@@ -1,4 +1,4 @@
-package part02.s04methods;
+package src.main.java.part02.s04methods;
 
 // Star sign (4 parts) — see StarSign.md for full spec
 // Expected output:

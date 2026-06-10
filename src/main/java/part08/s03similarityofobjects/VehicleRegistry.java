@@ -1,4 +1,4 @@
-package part08.s03similarityofobjects;
+package src.main.java.part08.s03similarityofobjects;
 
 // Vehicle Registry (3 parts) — see VehicleRegistry.md for full spec
 // Expected output:

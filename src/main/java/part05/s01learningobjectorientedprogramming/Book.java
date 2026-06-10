@@ -1,4 +1,4 @@
-package part05.s01learningobjectorientedprogramming;
+package src.main.java.part05.s01learningobjectorientedprogramming;
 
 // Book — see Book.md for full spec
 // Expected output:

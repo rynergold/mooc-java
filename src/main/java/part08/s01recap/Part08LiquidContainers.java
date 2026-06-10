@@ -1,4 +1,4 @@
-package part08.s01recap;
+package src.main.java.part08.s01recap;
 
 // Liquid containers (3 parts) — see Part08LiquidContainers.md for full spec
 // Expected output:

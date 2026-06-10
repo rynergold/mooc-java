@@ -1,4 +1,4 @@
-package part06.s01objectswithinobjects;
+package src.main.java.part06.s01objectswithinobjects;
 
 // Printing a Collection — see PrintingACollection.md for full spec
 // Expected output:

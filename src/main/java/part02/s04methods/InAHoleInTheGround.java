@@ -1,4 +1,4 @@
-package part02.s04methods;
+package src.main.java.part02.s04methods;
 
 // In a hole in the ground — see InAHoleInTheGround.md for full spec
 // Expected output:

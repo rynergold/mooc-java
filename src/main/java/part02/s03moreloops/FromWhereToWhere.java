@@ -1,4 +1,4 @@
-package part02.s03moreloops;
+package src.main.java.part02.s03moreloops;
 
 // From where to where? (2 parts) — see FromWhereToWhere.md for full spec
 // Expected output:

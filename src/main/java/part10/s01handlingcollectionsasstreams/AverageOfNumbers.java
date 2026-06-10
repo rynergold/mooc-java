@@ -1,4 +1,4 @@
-package part10.s01handlingcollectionsasstreams;
+package src.main.java.part10.s01handlingcollectionsasstreams;
 
 // Average of Numbers — see AverageOfNumbers.md for full spec
 // Expected output:

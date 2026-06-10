@@ -1,4 +1,4 @@
-package part11.s01classdiagrams;
+package src.main.java.part11.s01classdiagrams;
 
 // Bigger class diagram — see BiggerClassDiagram.md for full spec
 // Expected output:
