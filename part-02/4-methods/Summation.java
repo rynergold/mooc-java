@@ -1,5 +1,3 @@
-package part02.methods;
-
 // Summation — see Summation.md for full spec
 // Expected output:
 // Sum: 14

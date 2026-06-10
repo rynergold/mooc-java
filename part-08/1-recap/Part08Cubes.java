@@ -1,5 +1,3 @@
-package part08.recap;
-
 // Cubes — see Cubes.md for full spec
 // Expected output:
 // **3**
@@ -11,7 +9,7 @@ package part08.recap;
 // **end**
 // **end**
 
-public class Cubes {
+public class Part08Cubes {
     public static void main(String[] args) {
         // Write your program here
 

@@ -1,5 +1,3 @@
-package part10.handlingcollectionsasstreams;
-
 // Printing User Input — see PrintingUserInput.md for full spec
 // Expected output:
 // **first**

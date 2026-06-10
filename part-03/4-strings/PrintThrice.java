@@ -1,5 +1,3 @@
-package part03.strings;
-
 // Print thrice — see PrintThrice.md for full spec
 // Expected output:
 // Give a word: **cake**

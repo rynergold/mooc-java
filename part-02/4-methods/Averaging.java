@@ -1,5 +1,3 @@
-package part02.methods;
-
 // Averaging — see Averaging.md for full spec
 // Expected output:
 // Average: 3.5

@@ -1,5 +1,3 @@
-package part09.interfaces;
-
 // Map as a method parameter — see MapAsAMethodParameter.md for full spec
 // Expected output:
 // 2

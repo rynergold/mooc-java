@@ -1,5 +1,3 @@
-package part03.strings;
-
 // Personal details — see PersonalDetails.md for full spec
 // Expected output:
 // **sebastian,2017**

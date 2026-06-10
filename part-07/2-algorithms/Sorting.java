@@ -1,5 +1,3 @@
-package part07.algorithms;
-
 // Sorting (5 parts) — see Sorting.md for full spec
 // Expected output:
 // Smallest: 5

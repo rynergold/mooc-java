@@ -1,5 +1,3 @@
-package part04.filesandreadingdata;
-
 // Numbers From a File — see NumbersFromAFile.md for full spec
 // Expected output:
 // File? **numbers-1.txt**

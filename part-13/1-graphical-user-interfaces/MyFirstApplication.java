@@ -1,5 +1,3 @@
-package part13.graphicaluserinterfaces;
-
 // My first application — see MyFirstApplication.md for full spec
 // Expected output:
 // (see spec)

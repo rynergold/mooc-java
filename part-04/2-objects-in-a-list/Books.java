@@ -1,5 +1,3 @@
-package part04.objectsinalist;
-
 // Books — see Books.md for full spec
 // Expected output:
 // Title: **To Kill a Mockingbird**

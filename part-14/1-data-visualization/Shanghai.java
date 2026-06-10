@@ -1,5 +1,3 @@
-package part14.datavisualization;
-
 // Shanghai — see Shanghai.md for full spec
 // Expected output:
 // (see spec)

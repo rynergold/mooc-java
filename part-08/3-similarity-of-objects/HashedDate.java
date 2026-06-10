@@ -1,5 +1,3 @@
-package part08.similarityofobjects;
-
 // Hash for date — see HashedDate.md for full spec
 // Expected output:
 // (see spec)

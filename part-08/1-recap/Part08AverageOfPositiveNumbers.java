@@ -1,5 +1,3 @@
-package part08.recap;
-
 // Average of positive numbers — see AverageOfPositiveNumbers.md for full spec
 // Expected output:
 // **3**
@@ -19,7 +17,7 @@ package part08.recap;
 // **0**
 // 1.0
 
-public class AverageOfPositiveNumbers {
+public class Part08AverageOfPositiveNumbers {
     public static void main(String[] args) {
         // Write your program here
 

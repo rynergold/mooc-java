@@ -1,5 +1,3 @@
-package part05.objectsandreferences;
-
 // Archive (2 parts) — see Archive.md for full spec
 // Expected output:
 // Identifier? (empty will stop)

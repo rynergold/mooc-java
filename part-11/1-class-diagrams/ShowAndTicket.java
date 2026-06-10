@@ -1,5 +1,3 @@
-package part11.classdiagrams;
-
 // Show and ticket — see ShowAndTicket.md for full spec
 // Expected output:
 // (see spec)

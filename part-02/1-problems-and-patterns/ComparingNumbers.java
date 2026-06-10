@@ -1,5 +1,3 @@
-package part02.problemsandpatterns;
-
 // Comparing Numbers — see ComparingNumbers.md for full spec
 // Expected output:
 // **8**

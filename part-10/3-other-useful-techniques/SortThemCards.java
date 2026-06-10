@@ -1,5 +1,3 @@
-package part10.otherusefultechniques;
-
 // Sort them cards! (6 parts) — see SortThemCards.md for full spec
 // Expected output:
 // DIAMOND 2

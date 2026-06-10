@@ -1,5 +1,3 @@
-package part05.objectsandreferences;
-
 // NullPointerException — see NullPointerException.md for full spec
 // Expected output:
 // (see spec)

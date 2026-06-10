@@ -1,5 +1,3 @@
-package part04.introductiontoobjectorientedprogramming;
-
 // Whistle — see Whistle.md for full spec
 // Expected output:
 // Kvaak

@@ -1,5 +1,3 @@
-package part06.objectswithinobjects;
-
 // Height Order (3 parts) — see HeightOrder.md for full spec
 // Expected output:
 // Empty room? true

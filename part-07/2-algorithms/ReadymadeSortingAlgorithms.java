@@ -1,5 +1,3 @@
-package part07.algorithms;
-
 // Ready-made Sorting Algorithms — see ReadymadeSortingAlgorithms.md for full spec
 // Expected output:
 // (see spec)

@@ -1,5 +1,3 @@
-package part01.readinginput;
-
 // Message Three Times — see MessageThreeTimes.md for full spec
 // Expected output:
 // Write a message:

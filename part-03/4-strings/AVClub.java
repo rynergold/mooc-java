@@ -1,5 +1,3 @@
-package part03.strings;
-
 // AV Club — see AVClub.md for full spec
 // Expected output:
 // **java is a programming language**

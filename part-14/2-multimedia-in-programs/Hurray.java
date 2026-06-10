@@ -1,5 +1,3 @@
-package part14.multimediainprograms;
-
 // Hurray — see Hurray.md for full spec
 // Expected output:
 // (see spec)

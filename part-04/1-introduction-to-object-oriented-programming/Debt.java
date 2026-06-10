@@ -1,5 +1,3 @@
-package part04.introductiontoobjectorientedprogramming;
-
 // Debt — see Debt.md for full spec
 // Expected output:
 // 120000.0

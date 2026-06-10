@@ -1,5 +1,3 @@
-package part05.learningobjectorientedprogramming;
-
 // Fitbyte — see FitByte.md for full spec
 // Expected output:
 // Target 50.0% of maximum: 122.48500000000001

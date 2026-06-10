@@ -1,5 +1,3 @@
-package part06.objectswithinobjects;
-
 // Stack (2 parts) — see Stack.md for full spec
 // Expected output:
 // true

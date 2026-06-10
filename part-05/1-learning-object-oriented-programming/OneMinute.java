@@ -1,5 +1,3 @@
-package part05.learningobjectorientedprogramming;
-
 // One Minute — see OneMinute.md for full spec
 // Expected output:
 // (see spec)

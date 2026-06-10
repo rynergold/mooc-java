@@ -1,5 +1,3 @@
-package part08.groupingdatausinghashmaps;
-
 // Storage facility (2 parts) — see StorageFacility.md for full spec
 // Expected output:
 // [ice skates, ice hockey stick, ice skates]

@@ -1,5 +1,3 @@
-package part11.classdiagrams;
-
 // Book and plane — see ABookAndAPlane.md for full spec
 // Expected output:
 // (see spec)

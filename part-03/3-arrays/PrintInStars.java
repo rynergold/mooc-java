@@ -1,5 +1,3 @@
-package part03.arrays;
-
 // Print in stars — see PrintInStars.md for full spec
 // Expected output:
 // *****

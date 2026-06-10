@@ -1,5 +1,3 @@
-package part06.objectswithinobjects;
-
 // Printing a Collection — see PrintingACollection.md for full spec
 // Expected output:
 // The collection alphabet is empty.

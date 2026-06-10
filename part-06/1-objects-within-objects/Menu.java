@@ -1,5 +1,3 @@
-package part06.objectswithinobjects;
-
 // Menu (3 parts) — see Menu.md for full spec
 // Expected output:
 // Tofu ratatouille

@@ -1,5 +1,3 @@
-package part02.moreloops;
-
 // From where to where? (2 parts) — see FromWhereToWhere.md for full spec
 // Expected output:
 // Where to? **3**

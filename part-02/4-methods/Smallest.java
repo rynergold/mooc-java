@@ -1,5 +1,3 @@
-package part02.methods;
-
 // Smallest — see Smallest.md for full spec
 // Expected output:
 // Smallest: 2

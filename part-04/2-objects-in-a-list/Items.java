@@ -1,5 +1,3 @@
-package part04.objectsinalist;
-
 // Items — see Items.md for full spec
 // Expected output:
 // Name: **Hammer**

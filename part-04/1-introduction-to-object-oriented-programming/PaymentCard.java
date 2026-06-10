@@ -1,5 +1,3 @@
-package part04.introductiontoobjectorientedprogramming;
-
 // Payment Card (6 parts) — see PaymentCard.md for full spec
 // Expected output:
 // The card has a balance of 50.0 euros

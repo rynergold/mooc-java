@@ -1,5 +1,3 @@
-package part02.moreloops;
-
 // Factorial — see Factorial.md for full spec
 // Expected output:
 // Give a number: **3**

@@ -1,5 +1,3 @@
-package part02.moreloops;
-
 // Counting — see Counting.md for full spec
 // Expected output:
 // **4**

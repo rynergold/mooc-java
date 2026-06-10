@@ -1,5 +1,3 @@
-package part13.multipleviews;
-
 // Joke — see Joke.md for full spec
 // Expected output:
 // (see spec)

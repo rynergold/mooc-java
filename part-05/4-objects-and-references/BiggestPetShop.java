@@ -1,5 +1,3 @@
-package part05.objectsandreferences;
-
 // Biggest pet shop — see BiggestPetShop.md for full spec
 // Expected output:
 // Leo, has a friend called Lucy (golden retriever)

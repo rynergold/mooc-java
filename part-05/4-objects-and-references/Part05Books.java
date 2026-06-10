@@ -1,5 +1,3 @@
-package part05.objectsandreferences;
-
 // Books — see Books.md for full spec
 // Expected output:
 // Name (empty will stop):
@@ -19,7 +17,7 @@ package part05.objectsandreferences;
 //
 // Thank you! Books added: 2
 
-public class Books {
+public class Part05Books {
     public static void main(String[] args) {
         // Write your program here
 

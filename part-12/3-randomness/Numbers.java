@@ -1,5 +1,3 @@
-package part12.randomness;
-
 // Numbers — see Numbers.md for full spec
 // Expected output:
 // How many random numbers should be printed?

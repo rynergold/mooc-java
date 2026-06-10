@@ -1,5 +1,3 @@
-package part03.lists;
-
 // On the list? — see OnTheList.md for full spec
 // Expected output:
 // **Tom**

@@ -1,5 +1,3 @@
-package part14.datavisualization;
-
 // Unfair Advertisement — see UnfairAdvertisement.md for full spec
 // Expected output:
 // (see spec)

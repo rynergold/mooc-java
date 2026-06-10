@@ -1,5 +1,3 @@
-package part04.filesandreadingdata;
-
 // Guest List From a File — see GuestListFromAFile.md for full spec
 // Expected output:
 // Name of the file:

@@ -1,5 +1,3 @@
-package part09.interfaces;
-
 // List as a method parameter — see ListAsAMethodParameter.md for full spec
 // Expected output:
 // 3

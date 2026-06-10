@@ -1,5 +1,3 @@
-package part10.handlingcollectionsasstreams;
-
 // Average of Numbers — see AverageOfNumbers.md for full spec
 // Expected output:
 // Input numbers, type "end" to stop.

@@ -1,5 +1,3 @@
-package part01.conditionalstatements;
-
 // Leap year — see LeapYear.md for full spec
 // Expected output:
 // Give a year: **2011**

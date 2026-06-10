@@ -1,5 +1,3 @@
-package part03.strings;
-
 // Age of the oldest — see AgeOfTheOldest.md for full spec
 // Expected output:
 // **sebastian,2**

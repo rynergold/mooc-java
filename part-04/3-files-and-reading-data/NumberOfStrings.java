@@ -1,5 +1,3 @@
-package part04.filesandreadingdata;
-
 // Number of Strings — see NumberOfStrings.md for full spec
 // Expected output:
 // **I**

@@ -1,5 +1,3 @@
-package part03.strings;
-
 // LastWords — see LastWords.md for full spec
 // Expected output:
 // **one two three four**

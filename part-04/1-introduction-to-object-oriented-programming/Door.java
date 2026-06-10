@@ -1,5 +1,3 @@
-package part04.introductiontoobjectorientedprogramming;
-
 // Door — see Door.md for full spec
 // Expected output:
 // Who's there?

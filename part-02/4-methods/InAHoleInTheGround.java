@@ -1,5 +1,3 @@
-package part02.methods;
-
 // In a hole in the ground — see InAHoleInTheGround.md for full spec
 // Expected output:
 // In a hole in the ground there lived a method

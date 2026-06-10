@@ -1,5 +1,3 @@
-package part13.multipleviews;
-
 // Greeter — see Greeter.md for full spec
 // Expected output:
 // (see spec)

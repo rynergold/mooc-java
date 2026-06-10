@@ -1,5 +1,3 @@
-package part02.moreloops;
-
 // Repeating, breaking and remembering (5 parts) — see RepeatingBreakingAndRemembering.md for full spec
 // Expected output:
 // Give numbers:

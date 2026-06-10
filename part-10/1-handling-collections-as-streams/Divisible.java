@@ -1,5 +1,3 @@
-package part10.handlingcollectionsasstreams;
-
 // Divisible — see Divisible.md for full spec
 // Expected output:
 // 3

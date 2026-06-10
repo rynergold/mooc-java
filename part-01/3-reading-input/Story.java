@@ -1,5 +1,3 @@
-package part01.readinginput;
-
 // Story — see Story.md for full spec
 // Expected output:
 // I will tell you a story, but I need some information first.

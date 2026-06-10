@@ -1,5 +1,3 @@
-package part14.mavenandthirdpartylibraries;
-
 // Database — see Database.md for full spec
 // Expected output:
 // (see spec)

@@ -1,5 +1,3 @@
-package part03.lists;
-
 // Remove last — see RemoveLast.md for full spec
 // Expected output:
 // [First, Second, Third]

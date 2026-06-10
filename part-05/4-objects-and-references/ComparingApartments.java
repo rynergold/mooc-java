@@ -1,5 +1,3 @@
-package part05.objectsandreferences;
-
 // Comparing apartments (3 parts) — see ComparingApartments.md for full spec
 // Expected output:
 // (see spec)

@@ -1,5 +1,3 @@
-package part04.introductiontoobjectorientedprogramming;
-
 // Gauge — see Gauge.md for full spec
 // Expected output:
 // Not full! Value: 0

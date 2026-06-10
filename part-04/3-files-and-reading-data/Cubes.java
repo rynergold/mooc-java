@@ -1,5 +1,3 @@
-package part04.filesandreadingdata;
-
 // Cubes — see Cubes.md for full spec
 // Expected output:
 // **3**

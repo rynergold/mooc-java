@@ -1,5 +1,3 @@
-package part03.lists;
-
 // First and last — see FirstAndLast.md for full spec
 // Expected output:
 // **Tom**

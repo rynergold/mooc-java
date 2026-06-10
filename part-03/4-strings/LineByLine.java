@@ -1,5 +1,3 @@
-package part03.strings;
-
 // Line by line — see LineByLine.md for full spec
 // Expected output:
 // **once upon a time**

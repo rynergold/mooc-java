@@ -1,5 +1,3 @@
-package part04.filesandreadingdata;
-
 // Sport Statistics — see SportStatistics.md for full spec
 // Expected output:
 // File:

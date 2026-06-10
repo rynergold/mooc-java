@@ -1,5 +1,3 @@
-package part01.readinginput;
-
 // Conversation — see Conversation.md for full spec
 // Expected output:
 // Greetings! How are you doing?

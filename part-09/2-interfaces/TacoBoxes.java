@@ -1,5 +1,3 @@
-package part09.interfaces;
-
 // TacoBoxes (2 parts) — see TacoBoxes.md for full spec
 // Expected output:
 // (see spec)

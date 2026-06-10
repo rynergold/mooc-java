@@ -1,5 +1,3 @@
-package part11.packages;
-
 // FlightControl (2 parts) — see FlightControl.md for full spec
 // Expected output:
 // Airport Asset Control

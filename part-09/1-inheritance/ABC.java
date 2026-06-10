@@ -1,5 +1,3 @@
-package part09.inheritance;
-
 // ABC (2 parts) — see ABC.md for full spec
 // Expected output:
 // A

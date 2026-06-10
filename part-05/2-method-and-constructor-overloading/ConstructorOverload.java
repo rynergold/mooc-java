@@ -1,5 +1,3 @@
-package part05.methodandconstructoroverloading;
-
 // Constructor Overload — see ConstructorOverload.md for full spec
 // Expected output:
 // Tape measure (1 kg) can be found from the shelf

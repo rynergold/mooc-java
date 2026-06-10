@@ -1,5 +1,3 @@
-package part03.strings;
-
 // Is it true — see IsItTrue.md for full spec
 // Expected output:
 // Give a string: **true**

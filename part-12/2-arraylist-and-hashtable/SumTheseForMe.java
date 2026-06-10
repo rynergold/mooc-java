@@ -1,5 +1,3 @@
-package part12.arraylistandhashtable;
-
 // Sum these for me — see SumTheseForMe.md for full spec
 // Expected output:
 // 0

@@ -1,5 +1,3 @@
-package part02.moreloops;
-
 // Counting to hundred — see CountingToHundred.md for full spec
 // Expected output:
 // **99**

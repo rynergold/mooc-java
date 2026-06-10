@@ -1,5 +1,3 @@
-package part01.readinginput;
-
 // Hi Ada Lovelace! — see HiAdaLovelace.md for full spec
 // Expected output:
 // Hi Ada Lovelace!

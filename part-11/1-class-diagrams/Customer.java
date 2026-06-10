@@ -1,5 +1,3 @@
-package part11.classdiagrams;
-
 // Customer — see Customer.md for full spec
 // Expected output:
 // (see spec)

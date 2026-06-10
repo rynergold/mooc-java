@@ -1,5 +1,3 @@
-package part10.handlingcollectionsasstreams;
-
 // Positive Numbers — see PositiveNumbers.md for full spec
 // Expected output:
 // (see spec)

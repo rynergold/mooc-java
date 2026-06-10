@@ -1,5 +1,3 @@
-package part14.datavisualization;
-
 // Cycling statistics — see CyclingStatistics.md for full spec
 // Expected output:
 // (see spec)

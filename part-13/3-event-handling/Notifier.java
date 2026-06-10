@@ -1,5 +1,3 @@
-package part13.eventhandling;
-
 // Notifier — see Notifier.md for full spec
 // Expected output:
 // (see spec)

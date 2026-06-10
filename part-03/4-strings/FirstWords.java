@@ -1,5 +1,3 @@
-package part03.strings;
-
 // First words — see FirstWords.md for full spec
 // Expected output:
 // **one two three four**

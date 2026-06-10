@@ -1,5 +1,3 @@
-package part05.methodandconstructoroverloading;
-
 // Overloaded Counter (2 parts) — see OverloadedCounter.md for full spec
 // Expected output:
 // (see spec)

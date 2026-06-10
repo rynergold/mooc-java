@@ -1,5 +1,3 @@
-package part11.classdiagrams;
-
 // StudentAndUniversity — see StudentAndUniversity.md for full spec
 // Expected output:
 // (see spec)

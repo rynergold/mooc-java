@@ -1,5 +1,3 @@
-package part04.filesandreadingdata;
-
 // Creating a New File — see CreatingANewFile.md for full spec
 // Expected output:
 // (see spec)

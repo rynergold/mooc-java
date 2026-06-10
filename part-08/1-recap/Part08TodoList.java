@@ -1,5 +1,3 @@
-package part08.recap;
-
 // To do list (2 parts) — see TodoList.md for full spec
 // Expected output:
 // Command: **add**
@@ -55,7 +53,7 @@ package part08.recap;
 // 1: stop
 // Command: **stop**
 
-public class TodoList {
+public class Part08TodoList {
     public static void main(String[] args) {
         // Write your program here
 

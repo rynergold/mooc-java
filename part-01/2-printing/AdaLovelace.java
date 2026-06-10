@@ -1,5 +1,3 @@
-package part01.printing;
-
 // Ada Lovelace — see AdaLovelace.md for full spec
 // Expected output:
 // Ada Lovelace

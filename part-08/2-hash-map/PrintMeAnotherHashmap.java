@@ -1,5 +1,3 @@
-package part08.hashmap;
-
 // Print me another hash map — see PrintMeAnotherHashmap.md for full spec
 // Expected output:
 // Name: Pride and prejudice (1813)

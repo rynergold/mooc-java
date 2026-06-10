@@ -1,5 +1,3 @@
-package part01.printing;
-
 // Dinosaur — see Dinosaur.md for full spec
 // Expected output:
 // Once upon a time

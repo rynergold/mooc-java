@@ -1,5 +1,3 @@
-package part13.UIcomponentsandlayout;
-
 // Text statistics — see TextStatistics.md for full spec
 // Expected output:
 // (see spec)

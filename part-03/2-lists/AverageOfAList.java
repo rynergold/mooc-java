@@ -1,5 +1,3 @@
-package part03.lists;
-
 // Average of a list — see AverageOfAList.md for full spec
 // Expected output:
 // **72**

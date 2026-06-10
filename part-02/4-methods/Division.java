@@ -1,5 +1,3 @@
-package part02.methods;
-
 // Division — see Division.md for full spec
 // Expected output:
 // 0.6

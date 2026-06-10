@@ -1,5 +1,3 @@
-package part02.methods;
-
 // Word — see Word.md for full spec
 // Expected output:
 // (see spec)

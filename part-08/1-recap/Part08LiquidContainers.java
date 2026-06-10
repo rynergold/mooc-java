@@ -1,5 +1,3 @@
-package part08.recap;
-
 // Liquid containers (3 parts) — see LiquidContainers.md for full spec
 // Expected output:
 // First: 0/100
@@ -95,7 +93,7 @@ package part08.recap;
 // Second: 0/100
 // **quit**
 
-public class LiquidContainers {
+public class Part08LiquidContainers {
     public static void main(String[] args) {
         // Write your program here
 

@@ -1,5 +1,3 @@
-package part10.handlingcollectionsasstreams;
-
 // Weighting (2 parts) — see Weighting.md for full spec
 // Expected output:
 // (see spec)

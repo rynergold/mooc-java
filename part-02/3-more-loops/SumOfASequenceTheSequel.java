@@ -1,5 +1,3 @@
-package part02.moreloops;
-
 // Sum of a sequence - the sequel — see SumOfASequenceTheSequel.md for full spec
 // Expected output:
 // First number? **3**

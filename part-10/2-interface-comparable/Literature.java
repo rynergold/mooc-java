@@ -1,5 +1,3 @@
-package part10.interfacecomparable;
-
 // Literature (3 parts) — see Literature.md for full spec
 // Expected output:
 // Input the name of the book, empty stops: **The Ringing Lullaby Book**

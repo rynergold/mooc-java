@@ -1,5 +1,3 @@
-package part02.methods;
-
 // From one to parameter — see FromOneToParameter.md for full spec
 // Expected output:
 // 1
