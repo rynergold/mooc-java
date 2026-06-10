@@ -1,12 +1,4 @@
-// Exercise: part01-Part01_09.Conversation
-// Section: Part 01 / 3-reading-input
-// Course: https://java-programming.mooc.fi/part-1/3-reading-input
-//
-// Spec (brief):
-// Write a program that works as follows:
-// Greetings! How are you doing?
-// **Good thank you!**
-//
+// Conversation — see Conversation.md for full spec
 // Expected output:
 // Greetings! How are you doing?
 // **Good thank you!**

@@ -1,11 +1,4 @@
-// Exercise: part01-Part01_10.Story
-// Section: Part 01 / 3-reading-input
-// Course: https://java-programming.mooc.fi/part-1/3-reading-input
-//
-// Spec (brief):
-// **NB!** The example output might align wrong on narrow displays. If you're using only a limited portion of the browser window, or your display is otherwise very narrow, try to stretch the display horizontally to see if the text aligns differently. The exercise expects the text to align as it does on wider displays.
-// Write a program that asks the user for a character's name and their job. The program then prints a short story.
-//
+// Story — see Story.md for full spec
 // Expected output:
 // I will tell you a story, but I need some information first.
 // What is the main character called?

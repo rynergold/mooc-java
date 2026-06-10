@@ -1,12 +1,4 @@
-// Exercise: part09-Part09_01.ABC
-// Section: Part 09 / 1-inheritance
-// Course: https://java-programming.mooc.fi/part-9/1-inheritance
-//
-// Spec (brief):
-// Let's practice creating and inheriting classes.
-// Luokkien luominen-->
-// Creating classes
-//
+// ABC (2 parts) — see ABC.md for full spec
 // Expected output:
 // A
 // B

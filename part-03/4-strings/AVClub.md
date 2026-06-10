@@ -1,0 +1,53 @@
+# AV Club
+
+**Exercise:** `part03-Part03_27.AVClub`
+**Section:** Part 03 / 4-strings
+**Course:** https://java-programming.mooc.fi/part-3/4-strings
+
+## Spec
+
+Write a program that reads user input until an empty line. For each non-empty string, the program splits the string by spaces ` ` and then prints the pieces that contain `av`, each on a new line.
+
+**java is a programming language**
+java
+**navy blue shirt**
+navy
+
+**Do you have a favorite flavor**
+have
+favorite
+flavor
+**was it a cat?**
+
+Tip! Strings have a `contains`-method, which tells if a string contains another string. It works like this:
+
+```java
+String text = "volcanologist";
+
+if (text.contains("can")) {
+    System.out.println("can was found");
+}
+
+if (!text.contains("tin")) {
+    System.out.println("tin wasn't found");
+}
+```
+
+can was found
+tin wasn't found
+
+## Expected Output
+
+```
+**java is a programming language**
+java
+**navy blue shirt**
+navy
+**Do you have a favorite flavor**
+have
+favorite
+flavor
+**was it a cat?**
+can was found
+tin wasn't found
+```

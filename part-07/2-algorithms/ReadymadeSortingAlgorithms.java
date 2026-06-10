@@ -1,12 +1,4 @@
-// Exercise: part07-Part07_04.ReadymadeSortingAlgorithms
-// Section: Part 07 / 2-algorithms
-// Course: https://java-programming.mooc.fi/part-7/2-algorithms
-//
-// Spec (brief):
-// luvut)` järjestää lukuja sisältävän listan.
-// - `public static void jarjestaMerkkijonot(ArrayList merkkijonot)` järjestää merkkijonoja sisältävän listan.
-// Hyödynnä metodien toteutuksessa Javan valmiita kirjastoja.-->
-//
+// Ready-made Sorting Algorithms — see ReadymadeSortingAlgorithms.md for full spec
 // Expected output:
 // (see spec)
 

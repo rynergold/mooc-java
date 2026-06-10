@@ -1,10 +1,4 @@
-// Exercise: osa05-Osa05_07.NullPointerException
-// Section: Part 05 / 4-objects-and-references
-// Course: https://java-programming.mooc.fi/part-5/4-objects-and-references
-//
-// Spec (brief):
-// -->
-//
+// NullPointerException — see NullPointerException.md for full spec
 // Expected output:
 // (see spec)
 

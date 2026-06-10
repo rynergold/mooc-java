@@ -1,13 +1,4 @@
-// Exercise: part09-Part09_09.SetAsMethodParameter
-// Section: Part 09 / 2-interfaces
-// Course: https://java-programming.mooc.fi/part-9/2-interfaces
-//
-// Spec (brief):
-// In the Main-class, implement the static method `returnSize`, which receives a Set object as a parameter and returns its size.
-// The method should work e.g. like this:
-//  nimet = new HashSet<>();
-// nimet.add("eka");
-//
+// Set as  method parameter — see SetAsMethodParameter.md for full spec
 // Expected output:
 // 2
 

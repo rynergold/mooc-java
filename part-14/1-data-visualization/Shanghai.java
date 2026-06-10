@@ -1,10 +1,4 @@
-// Exercise: osa14-Osa14_01.Shanghai
-// Section: Part 14 / 1-data-visualization
-// Course: https://java-programming.mooc.fi/part-14/1-data-visualization
-//
-// Spec (brief):
-// -->
-//
+// Shanghai — see Shanghai.md for full spec
 // Expected output:
 // (see spec)
 

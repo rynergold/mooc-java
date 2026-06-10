@@ -1,11 +1,4 @@
-// Exercise: part02-Part02_15.CountingToHundred
-// Section: Part 02 / 3-more-loops
-// Course: https://java-programming.mooc.fi/part-2/3-more-loops
-//
-// Spec (brief):
-// Write a program, which reads an integer from the user. Then the program prints numbers from that number to 100. You can assume that the user always gives a number less than 100. Below are some examples of the expected functionality.
-// **99**
-//
+// Counting to hundred — see CountingToHundred.md for full spec
 // Expected output:
 // **99**
 // 99

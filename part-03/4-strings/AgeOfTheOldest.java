@@ -1,20 +1,5 @@
-// Exercise: part03-Part03_30.AgeOfTheOldest
-// Section: Part 03 / 4-strings
-// Course: https://java-programming.mooc.fi/part-3/4-strings
-//
-// Spec (brief):
-// Write a program that reads names and ages from the user until an empty line is entered. The  name and age are separated by a comma.
-// After reading all user input, the program prints the age of the oldest person. You can assume that the user enters at least one person, and that one of the users is older than the others.
-//
+// Age of the oldest — see AgeOfTheOldest.md for full spec
 // Expected output:
-// <!-- **leevi,2**
-// **anton,2**
-// **lilja,1**
-// **venla,5**
-// **gabriel,10**
-//
-// Vanhimman ikä: 10 -->
-//
 // **sebastian,2**
 // **lucas,2**
 // **lily,1**

@@ -1,15 +1,6 @@
-// Exercise: part07-Part07_03.Sorting
-// Section: Part 07 / 2-algorithms
-// Course: https://java-programming.mooc.fi/part-7/2-algorithms
-//
-// Spec (brief):
-// Finding the smallest value
-// Create in the class `MainProgram` a class method `smallest` that takes an integer array as a parameter. It should return the smallest value in the array.
-//
+// Sorting (5 parts) — see Sorting.md for full spec
 // Expected output:
-// Pienin: 5
 // Smallest: 5
-// Pienimmän indeksi: 1
 // Index of the smallest number: 1
 // 0
 // 1

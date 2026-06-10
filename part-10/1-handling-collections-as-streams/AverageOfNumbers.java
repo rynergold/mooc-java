@@ -1,11 +1,4 @@
-// Exercise: part10-Part10_01.AverageOfNumbers
-// Section: Part 10 / 1-handling-collections-as-streams
-// Course: https://java-programming.mooc.fi/part-10/1-handling-collections-as-streams
-//
-// Spec (brief):
-// Implement a program, which reads user input. If the user input is "end", the program stops reading input. The rest of the input is numbers. When the user input is "end", the program prints the average of all of the numbers.
-// Implement calculating the average using a stream!
-//
+// Average of Numbers — see AverageOfNumbers.md for full spec
 // Expected output:
 // Input numbers, type "end" to stop.
 // **2**

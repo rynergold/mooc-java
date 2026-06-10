@@ -1,11 +1,4 @@
-// Exercise: part07-Part07_02.LiquidContainers2
-// Section: Part 07 / 1-programming-paradigms
-// Course: https://java-programming.mooc.fi/part-7/1-programming-paradigms
-//
-// Spec (brief):
-// Let's redo the previous program for handling two liquid containers. This time we'll create a class "Container", which is responsible for managing the contents of a container.
-// Container
-//
+// Liquid Containers 2.0 (2 parts) — see LiquidContainers2.md for full spec
 // Expected output:
 // 0/100
 // 50/100

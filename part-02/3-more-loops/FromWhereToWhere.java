@@ -1,11 +1,4 @@
-// Exercise: part02-Part02_16.FromWhereToWhere
-// Section: Part 02 / 3-more-loops
-// Course: https://java-programming.mooc.fi/part-2/3-more-loops
-//
-// Spec (brief):
-// This exercise is the first two-part exercise. When you complete both parts, you will get two exercise points. You can also submit the exercise after completing only the first part.
-// Where to
-//
+// From where to where? (2 parts) — see FromWhereToWhere.md for full spec
 // Expected output:
 // Where to? **3**
 // 1

@@ -1,12 +1,4 @@
-// Exercise: part07-Part07_01.LiquidContainers
-// Section: Part 07 / 1-programming-paradigms
-// Course: https://java-programming.mooc.fi/part-7/1-programming-paradigms
-//
-// Spec (brief):
-// Let's create an interactive program to control two liquid containers. The containers are named "first" and "second". Each are capable of containing 100 liters of liquid at a time.
-// The program offers the functionality to add, move and remove liquid. Using the "add" command will add liquid to the first container, "move" will move liquid from the first container to the second container and "remove" will remove liquid from the second container.
-// The commands must be defined as following:
-//
+// Liquid containers (3 parts) — see LiquidContainers.md for full spec
 // Expected output:
 // First: 0/100
 // Second: 0/100

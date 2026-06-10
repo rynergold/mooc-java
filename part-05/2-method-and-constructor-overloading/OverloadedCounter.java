@@ -1,11 +1,4 @@
-// Exercise: part05-Part05_06.OverloadedCounter
-// Section: Part 05 / 2-method-and-constructor-overloading
-// Course: https://java-programming.mooc.fi/part-5/2-method-and-constructor-overloading
-//
-// Spec (brief):
-// Multiple constructors
-// Implement a class called `Counter`. The class contains a number whose value can be incremented and decremented. The class must have the following constructors:
-//
+// Overloaded Counter (2 parts) — see OverloadedCounter.md for full spec
 // Expected output:
 // (see spec)
 

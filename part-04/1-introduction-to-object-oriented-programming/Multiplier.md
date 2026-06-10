@@ -1,0 +1,44 @@
+# Multiplier
+
+**Exercise:** `part04-Part04_14.Multiplier`
+**Section:** Part 04 / 1-introduction-to-object-oriented-programming
+**Course:** https://java-programming.mooc.fi/part-4/1-introduction-to-object-oriented-programming
+
+## Spec
+
+Create a class Multiplier that has a:
+
+- Constructor `public Multiplier(int number)`.
+- Method `public int multiply(int number)` which returns the value `number` passed to it multiplied by the `number` provided to the constructor.
+
+You also need to create an instance variable in this exercise.
+
+An example of the class in use:
+
+```java
+Multiplier multiplyByThree = new Multiplier(3);
+
+System.out.println("multiplyByThree.multiply(2): " + multiplyByThree.multiply(2));
+
+Multiplier multiplyByFour = new Multiplier(4);
+
+System.out.println("multiplyByFour.multiply(2): " + multiplyByFour.multiply(2));
+System.out.println("multiplyByThree.multiply(1): " + multiplyByThree.multiply(1));
+System.out.println("multiplyByFour.multiply(1): " + multiplyByFour.multiply(1));
+```
+
+Output
+
+multiplyByThree.multiply(2): 6
+multiplyByFour.multiply(2): 8
+multiplyByThree.multiply(1): 3
+multiplyByFour.multiply(1): 4
+
+## Expected Output
+
+```
+multiplyByThree.multiply(2): 6
+multiplyByFour.multiply(2): 8
+multiplyByThree.multiply(1): 3
+multiplyByFour.multiply(1): 4
+```
