@@ -1,0 +1,25 @@
+# Printing a File
+
+**Exercise:** `part04-Part04_24.PrintingAFile`
+**Package:** `part04.03filesandreadingdata`
+
+## Spec
+
+Write a program that prints the contents of a file called "data.txt", such that each line of the file is printed on its own line.
+
+If the file content looks like so:
+
+In a
+world
+
+Then the program should print the following:
+
+In a
+world
+
+## Expected Output
+
+```
+In a
+world
+```
