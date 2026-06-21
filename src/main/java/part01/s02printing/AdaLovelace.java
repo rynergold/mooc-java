@@ -1,4 +1,4 @@
-package src.main.java.part01.s02printing;
+package part01.s02printing;
 
 // Ada Lovelace — see AdaLovelace.md for full spec
 // Expected output:
@@ -7,6 +7,7 @@ package src.main.java.part01.s02printing;
 public class AdaLovelace {
     public static void main(String[] args) {
         // Write your program here
-
+      
+      System.out.println("Ada Lovelace");
     }
 }
