@@ -41,7 +41,7 @@ public class Program {
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `1`<br>`6`<br>`3`<br>`5`<br>`3`<br>`3`<br>`2`<br>`2`<br>`6`<br>`1` |
+| Program execution | <pre>1<br>6<br>3<br>5<br>3<br>3<br>2<br>2<br>6<br>1</pre> |
 
 ## Terminal Practice
 

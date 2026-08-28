@@ -11,8 +11,8 @@ Write a program that asks the user to write a string. When the user provides a s
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `Bye` | `Write a message:`<br>`Bye` |
-| `Once upon a time...` | `Write a message:`<br>`Once upon a time...` |
+| <pre>Bye</pre> | <pre>Write a message:<br>Bye</pre> |
+| <pre>Once upon a time...</pre> | <pre>Write a message:<br>Once upon a time...</pre> |
 
 ## Terminal Practice
 

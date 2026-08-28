@@ -27,7 +27,7 @@ public static void main(String[] args) {
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `3`<br>`2`<br>`-5` |
+| Program execution | <pre>3<br>2<br>-5</pre> |
 
 ## Terminal Practice
 

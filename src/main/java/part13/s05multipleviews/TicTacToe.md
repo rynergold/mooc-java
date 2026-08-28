@@ -38,7 +38,7 @@ The tests of this exercise are not the most detailed ones. Try to create the pro
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

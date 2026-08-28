@@ -16,9 +16,9 @@ Hint: combine the programs you wrote for the exercises "Greatest number in the l
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `72`<br>2. `2`<br>3. `8`<br>4. `8`<br>5. `11`<br>6. `9999` | *(No output)* |
-| 1. `72`<br>2. `44`<br>3. `8`<br>4. `8`<br>5. `11`<br>6. `9999` | `Smallest number: 2`<br>`Found at index: 1` |
-| Program execution | `Smallest number: 8`<br>`Found at index: 2`<br>`Found at index: 3` |
+| <pre>1. 72<br>2. 2<br>3. 8<br>4. 8<br>5. 11<br>6. 9999</pre> | *(No output)* |
+| <pre>1. 72<br>2. 44<br>3. 8<br>4. 8<br>5. 11<br>6. 9999</pre> | <pre>Smallest number: 2<br>Found at index: 1</pre> |
+| Program execution | <pre>Smallest number: 8<br>Found at index: 2<br>Found at index: 3</pre> |
 
 ## Terminal Practice
 

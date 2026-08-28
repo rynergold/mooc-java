@@ -13,7 +13,7 @@ Create a method `public int hashCode()` for the `SimpleDate` class, which calcul
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

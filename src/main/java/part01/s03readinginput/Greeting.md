@@ -11,8 +11,8 @@ Write a program that prompts the user with `"What's your name?"`. When the user 
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `Ada` | `What's your name?`<br>`Hi Ada` |
-| `Lily` | `What's your name?`<br>`Hi Lily` |
+| <pre>Ada</pre> | <pre>What's your name?<br>Hi Ada</pre> |
+| <pre>Lily</pre> | <pre>What's your name?<br>Hi Lily</pre> |
 
 ## Terminal Practice
 

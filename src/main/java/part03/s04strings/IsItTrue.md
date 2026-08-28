@@ -17,8 +17,8 @@ Try again!
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `true` | `Give a string:`<br>`You got it right!` |
-| `trueish` | `Give a string:`<br>`Try again!` |
+| <pre>true</pre> | <pre>Give a string:<br>You got it right!</pre> |
+| <pre>trueish</pre> | <pre>Give a string:<br>Try again!</pre> |
 
 ## Terminal Practice
 

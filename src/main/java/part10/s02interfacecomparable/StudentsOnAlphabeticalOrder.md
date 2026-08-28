@@ -13,7 +13,7 @@ The exercise template includes the class `Student`, which has a name. Implement 
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

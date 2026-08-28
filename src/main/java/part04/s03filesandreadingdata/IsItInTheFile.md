@@ -25,7 +25,7 @@ Reading the file nonexistent.txt failed.
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `names.txt`<br>2. `Antti`<br>3. `names.txt`<br>4. `ada`<br>5. `nonexistent.txt`<br>6. `test` | `Name of the file:`<br>`Search for:`<br>`Not found.`<br>`Name of the file:`<br>`Search for:`<br>`Found!`<br>`Name of the file:`<br>`Search for:`<br>`Reading the file nonexistent.txt failed.` |
+| <pre>1. names.txt<br>2. Antti<br>3. names.txt<br>4. ada<br>5. nonexistent.txt<br>6. test</pre> | <pre>Name of the file:<br>Search for:<br>Not found.<br>Name of the file:<br>Search for:<br>Found!<br>Name of the file:<br>Search for:<br>Reading the file nonexistent.txt failed.</pre> |
 
 ## Terminal Practice
 

@@ -11,7 +11,7 @@ The class diagram below shows the class Customer. Implement the class in the exe
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

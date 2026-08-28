@@ -22,7 +22,7 @@ duckWhistle.sound();
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Kvaak`<br>`Peef`<br>`Kvaak` |
+| Program execution | <pre>Kvaak<br>Peef<br>Kvaak</pre> |
 
 ## Terminal Practice
 

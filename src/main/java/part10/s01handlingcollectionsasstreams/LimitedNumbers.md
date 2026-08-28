@@ -11,7 +11,7 @@ Write a program that reads user input. When the user gives a negative number as 
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `7`<br>2. `14`<br>3. `4`<br>4. `5`<br>5. `4`<br>6. `-1` | `4`<br>`5`<br>`4` |
+| <pre>1. 7<br>2. 14<br>3. 4<br>4. 5<br>5. 4<br>6. -1</pre> | <pre>4<br>5<br>4</pre> |
 
 ## Terminal Practice
 

@@ -132,9 +132,9 @@ Change the previous program so that it also calculates the sum of even and odd n
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Count: 4`<br>`Count: 4`<br>`Sum: 11`<br>`Average: 2.75` |
-| 1. `4`<br>2. `2`<br>3. `5`<br>4. `4`<br>5. `-1` | `Enter numbers:`<br>`Sum: 15` |
-| 1. `4`<br>2. `2`<br>3. `5`<br>4. `2`<br>5. `-1` | `Enter numbers:`<br>`Sum: 13`<br>`Sum of even numbers: 8`<br>`Sum of odd numbers: 5` |
+| Program execution | <pre>Count: 4<br>Count: 4<br>Sum: 11<br>Average: 2.75</pre> |
+| <pre>1. 4<br>2. 2<br>3. 5<br>4. 4<br>5. -1</pre> | <pre>Enter numbers:<br>Sum: 15</pre> |
+| <pre>1. 4<br>2. 2<br>3. 5<br>4. 2<br>5. -1</pre> | <pre>Enter numbers:<br>Sum: 13<br>Sum of even numbers: 8<br>Sum of odd numbers: 5</pre> |
 
 ## Terminal Practice
 

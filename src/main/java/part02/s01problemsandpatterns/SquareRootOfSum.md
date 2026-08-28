@@ -27,7 +27,7 @@ Here are a few examples:
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `1`<br>2. `0`<br>3. `5`<br>4. `4`<br>5. `1`<br>6. `35` | `1`<br>`3`<br>`6` |
+| <pre>1. 1<br>2. 0<br>3. 5<br>4. 4<br>5. 1<br>6. 35</pre> | <pre>1<br>3<br>6</pre> |
 
 ## Terminal Practice
 

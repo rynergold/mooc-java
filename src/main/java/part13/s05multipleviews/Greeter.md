@@ -15,7 +15,7 @@ An example of how the program should work:
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

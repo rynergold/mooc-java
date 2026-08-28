@@ -26,7 +26,7 @@ Sample output:
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `7` | `How many times?`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method` |
+| <pre>7</pre> | <pre>How many times?<br>In a hole in the ground there lived a method<br>In a hole in the ground there lived a method<br>In a hole in the ground there lived a method<br>In a hole in the ground there lived a method<br>In a hole in the ground there lived a method<br>In a hole in the ground there lived a method<br>In a hole in the ground there lived a method</pre> |
 
 ## Terminal Practice
 

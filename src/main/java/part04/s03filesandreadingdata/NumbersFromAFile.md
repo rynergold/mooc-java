@@ -41,7 +41,7 @@ numbers-2.txt:
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `numbers-1.txt`<br>2. `15`<br>3. `20`<br>4. `numbers-1.txt`<br>5. `0`<br>6. `300` | `File?`<br>`Lower bound?`<br>`Upper bound?`<br>`Numbers: 2`<br>`File?`<br>`Lower bound?`<br>`Upper bound?`<br>`Numbers: 4` |
+| <pre>1. numbers-1.txt<br>2. 15<br>3. 20<br>4. numbers-1.txt<br>5. 0<br>6. 300</pre> | <pre>File?<br>Lower bound?<br>Upper bound?<br>Numbers: 2<br>File?<br>Lower bound?<br>Upper bound?<br>Numbers: 4</pre> |
 
 ## Terminal Practice
 

@@ -35,7 +35,7 @@ Once you get the program to work, try out the previous example with the interest
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `120000.0`<br>`121200.0`<br>`147887.0328416936` |
+| Program execution | <pre>120000.0<br>121200.0<br>147887.0328416936</pre> |
 
 ## Terminal Practice
 

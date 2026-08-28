@@ -19,7 +19,7 @@ The class doesn't do much yet. However, practicing this step is valuable for wha
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

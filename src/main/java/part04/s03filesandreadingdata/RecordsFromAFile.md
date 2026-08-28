@@ -20,7 +20,7 @@ Your task is to write a program that first prompts the user for the name of the 
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `data.txt` | `Name of the file:`<br>`lily, age: 3 years`<br>`anton, age: 5 years`<br>`levi, age: 4 years`<br>`amy, age: 1 year` |
+| <pre>data.txt</pre> | <pre>Name of the file:<br>lily, age: 3 years<br>anton, age: 5 years<br>levi, age: 4 years<br>amy, age: 1 year</pre> |
 
 ## Terminal Practice
 

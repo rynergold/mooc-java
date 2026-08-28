@@ -60,13 +60,13 @@ The collection characters is empty.
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `The collection alphabet is empty.` |
-| Program execution | `The collection alphabet has 1 element:`<br>`a` |
-| Program execution | `The collection alphabet has 2 elements:`<br>`a`<br>`b` |
-| Program execution | `The collection alphabet has 3 elements:`<br>`a`<br>`b`<br>`c`<br>`The collection characters is empty.` |
-| Program execution | `The collection characters has 1 element:`<br>`magneto` |
-| Program execution | `The collection characters has 2 elements:`<br>`magneto`<br>`mystique` |
-| Program execution | `The collection characters has 3 elements:`<br>`magneto`<br>`mystique`<br>`phoenix` |
+| Program execution | <pre>The collection alphabet is empty.</pre> |
+| Program execution | <pre>The collection alphabet has 1 element:<br>a</pre> |
+| Program execution | <pre>The collection alphabet has 2 elements:<br>a<br>b</pre> |
+| Program execution | <pre>The collection alphabet has 3 elements:<br>a<br>b<br>c<br>The collection characters is empty.</pre> |
+| Program execution | <pre>The collection characters has 1 element:<br>magneto</pre> |
+| Program execution | <pre>The collection characters has 2 elements:<br>magneto<br>mystique</pre> |
+| Program execution | <pre>The collection characters has 3 elements:<br>magneto<br>mystique<br>phoenix</pre> |
 
 ## Terminal Practice
 

@@ -31,7 +31,7 @@ You've come this far, and now you can display a grid of four small images. Next,
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

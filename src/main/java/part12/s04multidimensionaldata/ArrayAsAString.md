@@ -40,7 +40,7 @@ System.out.println(arrayAsString(matrix));
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `050`<br>`307`<br>`3276`<br>`2410`<br>`3210` |
+| Program execution | <pre>050<br>307<br>3276<br>2410<br>3210</pre> |
 
 ## Terminal Practice
 

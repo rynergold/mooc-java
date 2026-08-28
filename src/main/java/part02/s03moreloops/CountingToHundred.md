@@ -25,7 +25,7 @@ Write a program, which reads an integer from the user. Then the program prints n
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `99`<br>2. `-4` | `99`<br>`100`<br>`-4`<br>`-3`<br>`-2`<br>`-1`<br>`0`<br>`1`<br>`2`<br>`... (many numbers in between) ...`<br>`98`<br>`99`<br>`100` |
+| <pre>1. 99<br>2. -4</pre> | <pre>99<br>100<br>-4<br>-3<br>-2<br>-1<br>0<br>1<br>2<br>... (many numbers in between) ...<br>98<br>99<br>100</pre> |
 
 ## Terminal Practice
 

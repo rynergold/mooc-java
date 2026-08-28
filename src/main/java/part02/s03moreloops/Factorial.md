@@ -27,8 +27,8 @@ _Additional info_: Factorials are used especially in probability calculus when e
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `3` | `Give a number:`<br>`Factorial: 6` |
-| `10` | `Give a number:`<br>`Factorial: 3628800` |
+| <pre>3</pre> | <pre>Give a number:<br>Factorial: 6</pre> |
+| <pre>10</pre> | <pre>Give a number:<br>Factorial: 3628800</pre> |
 
 ## Terminal Practice
 

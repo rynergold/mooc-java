@@ -17,7 +17,7 @@ Write a program that reads an integer from the user and prints the square of the
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `4`<br>2. `-3`<br>3. `5` | `16`<br>`9`<br>`25` |
+| <pre>1. 4<br>2. -3<br>3. 5</pre> | <pre>16<br>9<br>25</pre> |
 
 ## Terminal Practice
 

@@ -13,7 +13,7 @@ Implement the method using stream! For collecting the numbers try the command `C
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

@@ -118,7 +118,7 @@ value: 0
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `value: 10`<br>`value: 9`<br>`value: 8`<br>`value: 2`<br>`value: 1`<br>`value: 0`<br>`value: 0`<br>`value: 100`<br>`value: 0`<br>`value: 0` |
+| Program execution | <pre>value: 10<br>value: 9<br>value: 8<br>value: 2<br>value: 1<br>value: 0<br>value: 0<br>value: 100<br>value: 0<br>value: 0</pre> |
 
 ## Terminal Practice
 

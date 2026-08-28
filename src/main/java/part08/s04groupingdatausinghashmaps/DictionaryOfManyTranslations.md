@@ -34,7 +34,7 @@ System.out.println(dictionary.translate("bow"));
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `[maata, valehdella]`<br>`[]` |
+| Program execution | <pre>[maata, valehdella]<br>[]</pre> |
 
 ## Terminal Practice
 

@@ -31,7 +31,7 @@ Implement versions which are given one parameter of the methods `increase` and `
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

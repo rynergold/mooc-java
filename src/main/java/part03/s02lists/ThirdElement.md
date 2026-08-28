@@ -17,9 +17,9 @@ Alex
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` | *(No output)* |
-| 1. `Emma`<br>2. `Alex`<br>3. `Mary` | `Alex` |
-| Program execution | `Mary` |
+| <pre>1. Tom<br>2. Emma<br>3. Alex<br>4. Mary</pre> | *(No output)* |
+| <pre>1. Emma<br>2. Alex<br>3. Mary</pre> | <pre>Alex</pre> |
+| Program execution | <pre>Mary</pre> |
 
 ## Terminal Practice
 

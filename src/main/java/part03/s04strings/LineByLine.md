@@ -11,7 +11,7 @@ Write a program that reads strings from the user. If the input is empty, the pro
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `once upon a time`<br>2. `a little program`<br>3. `halted` | `once`<br>`upon`<br>`a`<br>`time`<br>`a`<br>`little`<br>`program`<br>`halted` |
+| <pre>1. once upon a time<br>2. a little program<br>3. halted</pre> | <pre>once<br>upon<br>a<br>time<br>a<br>little<br>program<br>halted</pre> |
 
 ## Terminal Practice
 

@@ -20,7 +20,7 @@ printNeatly(array);
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `5, 1, 3, 4, 2` |
+| Program execution | <pre>5, 1, 3, 4, 2</pre> |
 
 ## Terminal Practice
 

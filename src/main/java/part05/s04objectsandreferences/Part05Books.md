@@ -15,8 +15,8 @@ Example print
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Bossypants`<br>2. `2013`<br>3. `Seriously...I'm Kidding`<br>4. `2012`<br>5. `Seriously...I'm Kidding`<br>6. `2012` | `Name (empty will stop):`<br>`Publication year:`<br>`Name (empty will stop):`<br>`Publication year:`<br>`Name (empty will stop):`<br>`Publication year:`<br>`The book is already on the list. Let's not add the same book again.`<br>`Name (empty will stop):` |
-| Program execution | `Thank you! Books added: 2` |
+| <pre>1. Bossypants<br>2. 2013<br>3. Seriously...I'm Kidding<br>4. 2012<br>5. Seriously...I'm Kidding<br>6. 2012</pre> | <pre>Name (empty will stop):<br>Publication year:<br>Name (empty will stop):<br>Publication year:<br>Name (empty will stop):<br>Publication year:<br>The book is already on the list. Let's not add the same book again.<br>Name (empty will stop):</pre> |
+| Program execution | <pre>Thank you! Books added: 2</pre> |
 
 ## Terminal Practice
 

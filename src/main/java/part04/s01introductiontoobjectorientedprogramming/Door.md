@@ -20,8 +20,8 @@ alexander.knock();
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Who's there?` |
-| Program execution | `Who's there?` |
+| Program execution | <pre>Who's there?</pre> |
+| Program execution | <pre>Who's there?</pre> |
 
 ## Terminal Practice
 

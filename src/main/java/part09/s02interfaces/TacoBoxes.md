@@ -30,7 +30,7 @@ Implement the class `CustomTacoBox`, that implements the `TacoBox` interface. `C
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

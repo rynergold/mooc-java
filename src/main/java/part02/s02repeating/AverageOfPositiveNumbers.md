@@ -24,7 +24,7 @@ Cannot calculate the average
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `3`<br>2. `5`<br>3. `1`<br>4. `-3`<br>5. `0`<br>6. `0`<br>7. `-3`<br>8. `1`<br>9. `0`<br>10. `1`<br>11. `1`<br>12. `0` | `3.0`<br>`Cannot calculate the average`<br>`1.0`<br>`1.0` |
+| <pre>1. 3<br>2. 5<br>3. 1<br>4. -3<br>5. 0<br>6. 0<br>7. -3<br>8. 1<br>9. 0<br>10. 1<br>11. 1<br>12. 0</pre> | <pre>3.0<br>Cannot calculate the average<br>1.0<br>1.0</pre> |
 
 ## Terminal Practice
 

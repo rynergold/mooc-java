@@ -35,7 +35,7 @@ tin wasn't found
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `java is a programming language`<br>2. `navy blue shirt`<br>3. `Do you have a favorite flavor`<br>4. `was it a cat?` | `java`<br>`navy`<br>`have`<br>`favorite`<br>`flavor`<br>`can was found`<br>`tin wasn't found` |
+| <pre>1. java is a programming language<br>2. navy blue shirt<br>3. Do you have a favorite flavor<br>4. was it a cat?</pre> | <pre>java<br>navy<br>have<br>favorite<br>flavor<br>can was found<br>tin wasn't found</pre> |
 
 ## Terminal Practice
 

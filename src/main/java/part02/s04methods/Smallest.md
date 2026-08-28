@@ -27,7 +27,7 @@ The output of the program:
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Smallest: 2` |
+| Program execution | <pre>Smallest: 2</pre> |
 
 ## Terminal Practice
 

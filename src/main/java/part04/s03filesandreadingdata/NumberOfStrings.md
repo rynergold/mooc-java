@@ -15,7 +15,7 @@ Write a program that reads strings from the user until the user inputs the strin
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `I`<br>2. `have`<br>3. `a`<br>4. `feeling`<br>5. `that`<br>6. `I`<br>7. `have`<br>8. `written`<br>9. `this`<br>10. `wrong`<br>11. `before`<br>12. `end`<br>13. `end` | `11`<br>`0` |
+| <pre>1. I<br>2. have<br>3. a<br>4. feeling<br>5. that<br>6. I<br>7. have<br>8. written<br>9. this<br>10. wrong<br>11. before<br>12. end<br>13. end</pre> | <pre>11<br>0</pre> |
 
 ## Terminal Practice
 

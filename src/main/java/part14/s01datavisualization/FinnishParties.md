@@ -34,7 +34,7 @@ The visualization created by the application should look something like this:
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `KOK`<br>`16.1`<br>`18.1`<br>`20.9` |
+| Program execution | <pre>KOK<br>16.1<br>18.1<br>20.9</pre> |
 
 ## Terminal Practice
 

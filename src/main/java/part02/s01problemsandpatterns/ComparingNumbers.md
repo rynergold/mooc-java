@@ -19,7 +19,7 @@ A few examples of the expected behaviour:
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `8`<br>2. `4`<br>3. `-3`<br>4. `5`<br>5. `1`<br>6. `1` | `8 is greater than 4.`<br>`-3 is smaller than 5.`<br>`1 is equal to 1.` |
+| <pre>1. 8<br>2. 4<br>3. -3<br>4. 5<br>5. 1<br>6. 1</pre> | <pre>8 is greater than 4.<br>-3 is smaller than 5.<br>1 is equal to 1.</pre> |
 
 ## Terminal Practice
 

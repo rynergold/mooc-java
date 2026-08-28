@@ -11,7 +11,7 @@ The class diagram below depicts the classes Book and Plane. Implement the classe
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

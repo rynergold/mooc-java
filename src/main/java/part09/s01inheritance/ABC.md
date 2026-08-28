@@ -49,7 +49,7 @@ C
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `A`<br>`B`<br>`C`<br>`A`<br>`B`<br>`C` |
+| Program execution | <pre>A<br>B<br>C<br>A<br>B<br>C</pre> |
 
 ## Terminal Practice
 

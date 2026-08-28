@@ -29,7 +29,7 @@ The output of the program:
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Sum: 14` |
+| Program execution | <pre>Sum: 14</pre> |
 
 ## Terminal Practice
 

@@ -67,37 +67,37 @@ Meatballs, cooking time: 20
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Pancake dough`<br>`60`<br>`milk`<br>`egg`<br>`flour`<br>`salt`<br>`butter` |
-| Program execution | `Meatballs`<br>`20`<br>`ground meat`<br>`egg`<br>`breadcrumbs` |
-| `recipes.txt` | `Tofu rolls`<br>`30`<br>`tofu`<br>`rice`<br>`water`<br>`carrot`<br>`cucumber`<br>`avocado`<br>`wasabi`<br>`File to read:` |
-| Program execution | `Commands:`<br>`list - lists the recipes`<br>`stop - stops the program` |
-| `list` | `Enter command:` |
-| Program execution | `Recipes:`<br>`Pancake dough, cooking time: 60`<br>`Meatballs, cooking time: 20`<br>`Tofu rolls, cooking time: 30` |
-| 1. `stop`<br>2. `recipes.txt` | `Enter command:`<br>`File to read:` |
-| Program execution | `Commands:`<br>`list - lists the recipes`<br>`stop - stops the program`<br>`find name - searches recipes by name` |
-| `list` | `Enter command:` |
-| Program execution | `Recipes:`<br>`Pancake dough, cooking time: 60`<br>`Meatballs, cooking time: 20`<br>`Tofu rolls, cooking time: 30` |
-| 1. `find name`<br>2. `roll` | `Enter command:`<br>`Searched word:` |
-| Program execution | `Recipes:`<br>`Tofu rolls, cooking time: 30` |
-| 1. `stop`<br>2. `recipes.txt` | `Enter command:`<br>`File to read:` |
-| Program execution | `Commands:`<br>`list - lists the recipes`<br>`stop - stops the program`<br>`find name - searches recipes by name`<br>`find cooking time - searches recipes by cooking time` |
-| 1. `find cooking time`<br>2. `30` | `Enter command:`<br>`Max cooking time:` |
-| Program execution | `Recipes:`<br>`Meatballs, cooking time: 20`<br>`Tofu rolls, cooking time: 30` |
-| 1. `find cooking time`<br>2. `15` | `Enter command:`<br>`Max cooking time:` |
-| Program execution | `Recipes:` |
-| 1. `find name`<br>2. `roll` | `Enter command:`<br>`Searched word:` |
-| Program execution | `Recipes:`<br>`Tofu rolls, cooking time: 30` |
-| 1. `stop`<br>2. `recipes.txt` | `Enter command:`<br>`File to read:` |
-| Program execution | `Commands:`<br>`list - lists the recipes`<br>`stop - stops the program`<br>`find name - searches recipes by name`<br>`find cooking time - searches recipes by cooking time`<br>`find ingredient - searches recipes by ingredient` |
-| 1. `find cooking time`<br>2. `30` | `Enter command:`<br>`Max cooking time:` |
-| Program execution | `Recipes:`<br>`Meatballs, cooking time: 20`<br>`Tofu rolls, cooking time: 30` |
-| 1. `find ingredient`<br>2. `sugar` | `Enter command:`<br>`Ingredient:` |
-| Program execution | `Recipes:`<br>`Pancake dough, cooking time: 60` |
-| 1. `find ingredient`<br>2. `egg` | `Enter command:`<br>`Ingredient:` |
-| Program execution | `Recipes:`<br>`Pancake dough, cooking time: 60`<br>`Meatballs, cooking time: 20` |
-| 1. `find ingredient`<br>2. `gg` | `Enter command:`<br>`Ingredient:` |
-| Program execution | `Recipes:` |
-| `stop` | `Enter command:` |
+| Program execution | <pre>Pancake dough<br>60<br>milk<br>egg<br>flour<br>salt<br>butter</pre> |
+| Program execution | <pre>Meatballs<br>20<br>ground meat<br>egg<br>breadcrumbs</pre> |
+| <pre>recipes.txt</pre> | <pre>Tofu rolls<br>30<br>tofu<br>rice<br>water<br>carrot<br>cucumber<br>avocado<br>wasabi<br>File to read:</pre> |
+| Program execution | <pre>Commands:<br>list - lists the recipes<br>stop - stops the program</pre> |
+| <pre>list</pre> | <pre>Enter command:</pre> |
+| Program execution | <pre>Recipes:<br>Pancake dough, cooking time: 60<br>Meatballs, cooking time: 20<br>Tofu rolls, cooking time: 30</pre> |
+| <pre>1. stop<br>2. recipes.txt</pre> | <pre>Enter command:<br>File to read:</pre> |
+| Program execution | <pre>Commands:<br>list - lists the recipes<br>stop - stops the program<br>find name - searches recipes by name</pre> |
+| <pre>list</pre> | <pre>Enter command:</pre> |
+| Program execution | <pre>Recipes:<br>Pancake dough, cooking time: 60<br>Meatballs, cooking time: 20<br>Tofu rolls, cooking time: 30</pre> |
+| <pre>1. find name<br>2. roll</pre> | <pre>Enter command:<br>Searched word:</pre> |
+| Program execution | <pre>Recipes:<br>Tofu rolls, cooking time: 30</pre> |
+| <pre>1. stop<br>2. recipes.txt</pre> | <pre>Enter command:<br>File to read:</pre> |
+| Program execution | <pre>Commands:<br>list - lists the recipes<br>stop - stops the program<br>find name - searches recipes by name<br>find cooking time - searches recipes by cooking time</pre> |
+| <pre>1. find cooking time<br>2. 30</pre> | <pre>Enter command:<br>Max cooking time:</pre> |
+| Program execution | <pre>Recipes:<br>Meatballs, cooking time: 20<br>Tofu rolls, cooking time: 30</pre> |
+| <pre>1. find cooking time<br>2. 15</pre> | <pre>Enter command:<br>Max cooking time:</pre> |
+| Program execution | <pre>Recipes:</pre> |
+| <pre>1. find name<br>2. roll</pre> | <pre>Enter command:<br>Searched word:</pre> |
+| Program execution | <pre>Recipes:<br>Tofu rolls, cooking time: 30</pre> |
+| <pre>1. stop<br>2. recipes.txt</pre> | <pre>Enter command:<br>File to read:</pre> |
+| Program execution | <pre>Commands:<br>list - lists the recipes<br>stop - stops the program<br>find name - searches recipes by name<br>find cooking time - searches recipes by cooking time<br>find ingredient - searches recipes by ingredient</pre> |
+| <pre>1. find cooking time<br>2. 30</pre> | <pre>Enter command:<br>Max cooking time:</pre> |
+| Program execution | <pre>Recipes:<br>Meatballs, cooking time: 20<br>Tofu rolls, cooking time: 30</pre> |
+| <pre>1. find ingredient<br>2. sugar</pre> | <pre>Enter command:<br>Ingredient:</pre> |
+| Program execution | <pre>Recipes:<br>Pancake dough, cooking time: 60</pre> |
+| <pre>1. find ingredient<br>2. egg</pre> | <pre>Enter command:<br>Ingredient:</pre> |
+| Program execution | <pre>Recipes:<br>Pancake dough, cooking time: 60<br>Meatballs, cooking time: 20</pre> |
+| <pre>1. find ingredient<br>2. gg</pre> | <pre>Enter command:<br>Ingredient:</pre> |
+| Program execution | <pre>Recipes:</pre> |
+| <pre>stop</pre> | <pre>Enter command:</pre> |
 
 ## Terminal Practice
 

@@ -50,13 +50,13 @@ The form is incorrect.
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `tue` | `Enter a string:`<br>`The form is correct.` |
-| `abc` | `Enter a string:`<br>`The form is incorrect.` |
-| `oi` | `Enter a string:`<br>`The form is correct.` |
-| `queue` | `Enter a string:`<br>`The form is incorrect.` |
-| `17:23:05` | `Enter a string:`<br>`The form is correct.` |
-| `abc` | `Enter a string:`<br>`The form is incorrect.` |
-| `33:33:33` | `Enter a string:`<br>`The form is incorrect.` |
+| <pre>tue</pre> | <pre>Enter a string:<br>The form is correct.</pre> |
+| <pre>abc</pre> | <pre>Enter a string:<br>The form is incorrect.</pre> |
+| <pre>oi</pre> | <pre>Enter a string:<br>The form is correct.</pre> |
+| <pre>queue</pre> | <pre>Enter a string:<br>The form is incorrect.</pre> |
+| <pre>17:23:05</pre> | <pre>Enter a string:<br>The form is correct.</pre> |
+| <pre>abc</pre> | <pre>Enter a string:<br>The form is incorrect.</pre> |
+| <pre>33:33:33</pre> | <pre>Enter a string:<br>The form is incorrect.</pre> |
 
 ## Terminal Practice
 

@@ -32,7 +32,7 @@ public static void main(String[] args) {
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `3`<br>`6`<br>`3`<br>`6`<br>`9` |
+| Program execution | <pre>3<br>6<br>3<br>6<br>9</pre> |
 
 ## Terminal Practice
 

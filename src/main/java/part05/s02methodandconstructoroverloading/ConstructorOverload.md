@@ -31,7 +31,7 @@ System.out.println(tyre);
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Tape measure (1 kg) can be found from the shelf`<br>`Plaster (1 kg) can be found from the home improvement section`<br>`Tyre (5 kg) can be found from the shelf` |
+| Program execution | <pre>Tape measure (1 kg) can be found from the shelf<br>Plaster (1 kg) can be found from the home improvement section<br>Tyre (5 kg) can be found from the shelf</pre> |
 
 ## Terminal Practice
 

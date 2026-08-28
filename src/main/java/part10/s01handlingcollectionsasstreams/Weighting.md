@@ -11,7 +11,7 @@ The exercise template includes the probably familiar project "Cargo hold". Howev
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

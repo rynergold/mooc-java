@@ -100,9 +100,9 @@ Meatballs with mustard sauce
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Tofu ratatouille`<br>`Chilli coconut chicken`<br>`Meatballs with mustard sauce` |
-| Program execution | `Tomato and mozzarella salad`<br>`Tofu ratatouille`<br>`Chilli Coconut Chicken`<br>`Meatballs with mustard sauce`<br>`Tofu ratatouille`<br>`Chilli Coconut Chicken`<br>`Meatballs with mustard sauce` |
-| Program execution | `Tomato and mozzarella salad` |
+| Program execution | <pre>Tofu ratatouille<br>Chilli coconut chicken<br>Meatballs with mustard sauce</pre> |
+| Program execution | <pre>Tomato and mozzarella salad<br>Tofu ratatouille<br>Chilli Coconut Chicken<br>Meatballs with mustard sauce<br>Tofu ratatouille<br>Chilli Coconut Chicken<br>Meatballs with mustard sauce</pre> |
+| Program execution | <pre>Tomato and mozzarella salad</pre> |
 
 ## Terminal Practice
 

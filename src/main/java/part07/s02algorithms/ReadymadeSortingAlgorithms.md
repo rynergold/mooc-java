@@ -21,7 +21,7 @@ Be sure to use the ready-made Java libraries in your implementation.
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

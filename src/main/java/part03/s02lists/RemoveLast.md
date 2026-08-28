@@ -26,7 +26,7 @@ System.out.println(strings);
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `[First, Second, Third]`<br>`[First]` |
+| Program execution | <pre>[First, Second, Third]<br>[First]</pre> |
 
 ## Terminal Practice
 

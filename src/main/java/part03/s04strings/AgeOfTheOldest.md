@@ -13,7 +13,7 @@ After reading all user input, the program prints the age of the oldest person. Y
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `sebastian,2`<br>2. `lucas,2`<br>3. `lily,1`<br>4. `hanna,5`<br>5. `gabriel,10` | `Age of the oldest: 10` |
+| <pre>1. sebastian,2<br>2. lucas,2<br>3. lily,1<br>4. hanna,5<br>5. gabriel,10</pre> | <pre>Age of the oldest: 10</pre> |
 
 ## Terminal Practice
 

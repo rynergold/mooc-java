@@ -24,7 +24,7 @@ System.out.println(sum(numbers));
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `10`<br>`16` |
+| Program execution | <pre>10<br>16</pre> |
 
 ## Terminal Practice
 

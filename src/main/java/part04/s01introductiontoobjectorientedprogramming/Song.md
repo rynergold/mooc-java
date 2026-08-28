@@ -18,7 +18,7 @@ System.out.println("The song " + garden.name() + " has a length of " + garden.le
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `The song In The Garden has a length of 10910 seconds.` |
+| Program execution | <pre>The song In The Garden has a length of 10910 seconds.</pre> |
 
 ## Terminal Practice
 

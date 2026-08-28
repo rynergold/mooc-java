@@ -14,9 +14,9 @@ Mary was found!
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` | *(No output)* |
-| 1. `Mary`<br>2. `Tom`<br>3. `Emma`<br>4. `Alex`<br>5. `Mary` | `Search for?`<br>`Mary was found!` |
-| `Logan` | `Search for?`<br>`Logan was not found!` |
+| <pre>1. Tom<br>2. Emma<br>3. Alex<br>4. Mary</pre> | *(No output)* |
+| <pre>1. Mary<br>2. Tom<br>3. Emma<br>4. Alex<br>5. Mary</pre> | <pre>Search for?<br>Mary was found!</pre> |
+| <pre>Logan</pre> | <pre>Search for?<br>Logan was not found!</pre> |
 
 ## Terminal Practice
 

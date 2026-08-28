@@ -31,7 +31,7 @@ NB! The order of the output may vary. The implementation of a hashmap does not g
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Name: Pride and prejudice (1813)`<br>`Contents: ...`<br>`Name: Sense and Sensibility (1811)`<br>`Contents: ...`<br>`---`<br>`Name: Pride and prejudice (1813)`<br>`Contents: ...` |
+| Program execution | <pre>Name: Pride and prejudice (1813)<br>Contents: ...<br>Name: Sense and Sensibility (1811)<br>Contents: ...<br>---<br>Name: Pride and prejudice (1813)<br>Contents: ...</pre> |
 
 ## Terminal Practice
 

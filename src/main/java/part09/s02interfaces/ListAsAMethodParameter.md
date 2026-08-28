@@ -22,7 +22,7 @@ System.out.println(returnSize(names));
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `3` |
+| Program execution | <pre>3</pre> |
 
 ## Terminal Practice
 

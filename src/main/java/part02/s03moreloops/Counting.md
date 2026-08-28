@@ -19,7 +19,7 @@ Write a program that reads an integer from the user. Next, the program prints nu
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `4`<br>2. `1` | `0`<br>`1`<br>`2`<br>`3`<br>`4`<br>`0`<br>`1` |
+| <pre>1. 4<br>2. 1</pre> | <pre>0<br>1<br>2<br>3<br>4<br>0<br>1</pre> |
 
 ## Terminal Practice
 

@@ -13,8 +13,8 @@ Modify the program so that after reading the numbers it calculates and prints th
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `72`<br>2. `2`<br>3. `8`<br>4. `11`<br>5. `-1` | *(No output)* |
-| Program execution | `Sum: 93` |
+| <pre>1. 72<br>2. 2<br>3. 8<br>4. 11<br>5. -1</pre> | *(No output)* |
+| Program execution | <pre>Sum: 93</pre> |
 
 ## Terminal Practice
 

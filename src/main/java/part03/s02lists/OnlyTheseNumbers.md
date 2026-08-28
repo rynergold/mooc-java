@@ -24,7 +24,7 @@ To where? **2**
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `72`<br>2. `2`<br>3. `8`<br>4. `11`<br>5. `-1`<br>6. `1`<br>7. `2`<br>8. `72`<br>9. `2`<br>10. `8`<br>11. `11`<br>12. `-1`<br>13. `0`<br>14. `2` | `From where?`<br>`To where?`<br>`2`<br>`8`<br>`From where?`<br>`To where?`<br>`72`<br>`2`<br>`8` |
+| <pre>1. 72<br>2. 2<br>3. 8<br>4. 11<br>5. -1<br>6. 1<br>7. 2<br>8. 72<br>9. 2<br>10. 8<br>11. 11<br>12. -1<br>13. 0<br>14. 2</pre> | <pre>From where?<br>To where?<br>2<br>8<br>From where?<br>To where?<br>72<br>2<br>8</pre> |
 
 ## Terminal Practice
 

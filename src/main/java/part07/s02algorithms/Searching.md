@@ -61,7 +61,7 @@ Note that in the case of books, you are examining the values of the books' `id`-
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

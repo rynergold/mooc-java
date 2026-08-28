@@ -23,7 +23,7 @@ The output of the program:
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `In a hole in the ground there lived a method` |
+| Program execution | <pre>In a hole in the ground there lived a method</pre> |
 
 ## Terminal Practice
 

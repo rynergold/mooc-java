@@ -15,7 +15,7 @@ Then the program should print the following:
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `In a`<br>`world` |
+| Program execution | <pre>In a<br>world</pre> |
 
 ## Terminal Practice
 

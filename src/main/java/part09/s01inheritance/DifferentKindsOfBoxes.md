@@ -81,7 +81,7 @@ false
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `true`<br>`true`<br>`false`<br>`true`<br>`false`<br>`false`<br>`false` |
+| Program execution | <pre>true<br>true<br>false<br>true<br>false<br>false<br>false</pre> |
 
 ## Terminal Practice
 

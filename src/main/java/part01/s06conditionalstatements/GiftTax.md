@@ -25,9 +25,9 @@ Write a program that calculates the gift tax for a gift from a close relative or
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `3500` | `Value of the gift?`<br>`No tax!` |
-| `5000` | `Value of the gift?`<br>`Tax: 100.0` |
-| `27500` | `Value of the gift?`<br>`Tax: 1950.0` |
+| <pre>3500</pre> | <pre>Value of the gift?<br>No tax!</pre> |
+| <pre>5000</pre> | <pre>Value of the gift?<br>Tax: 100.0</pre> |
+| <pre>27500</pre> | <pre>Value of the gift?<br>Tax: 1950.0</pre> |
 
 ## Terminal Practice
 

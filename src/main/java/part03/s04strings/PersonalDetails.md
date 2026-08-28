@@ -16,9 +16,9 @@ Average of the birth years: 2014.8
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `sebastian,2017`<br>2. `lucas,2017`<br>3. `lily,2017`<br>4. `hanna,2014`<br>5. `gabriel,2009` | *(No output)* |
-| 1. `sauli,1948`<br>2. `tarja,1943`<br>3. `martti,1936`<br>4. `mauno,1923`<br>5. `urho,1900` | `Longest name: sebastian`<br>`Average of the birth years: 2014.8` |
-| Program execution | `Longest name: martti`<br>`Average of the birth years: 1930.0` |
+| <pre>1. sebastian,2017<br>2. lucas,2017<br>3. lily,2017<br>4. hanna,2014<br>5. gabriel,2009</pre> | *(No output)* |
+| <pre>1. sauli,1948<br>2. tarja,1943<br>3. martti,1936<br>4. mauno,1923<br>5. urho,1900</pre> | <pre>Longest name: sebastian<br>Average of the birth years: 2014.8</pre> |
+| Program execution | <pre>Longest name: martti<br>Average of the birth years: 1930.0</pre> |
 
 ## Terminal Practice
 

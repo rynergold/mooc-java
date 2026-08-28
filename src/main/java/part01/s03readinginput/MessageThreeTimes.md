@@ -11,8 +11,8 @@ Write a program that prompts the user for a string and prints that string three 
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `Hi` | `Write a message:`<br>`Hi`<br>`Hi`<br>`Hi` |
-| `Once upon a time...` | `Write a message:`<br>`Once upon a time...`<br>`Once upon a time...`<br>`Once upon a time...` |
+| <pre>Hi</pre> | <pre>Write a message:<br>Hi<br>Hi<br>Hi</pre> |
+| <pre>Once upon a time...</pre> | <pre>Write a message:<br>Once upon a time...<br>Once upon a time...<br>Once upon a time...</pre> |
 
 ## Terminal Practice
 

@@ -36,7 +36,7 @@ pieces[1] = pieces[1].trim();
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Niger (2015), female, 11.01572`<br>`Mali (2015), female, 22.19578`<br>`Guinea (2015), female, 22.87104`<br>`Afghanistan (2015), female, 23.87385`<br>`Central African Republic (2015), female, 24.35549` |
+| Program execution | <pre>Niger (2015), female, 11.01572<br>Mali (2015), female, 22.19578<br>Guinea (2015), female, 22.87104<br>Afghanistan (2015), female, 23.87385<br>Central African Republic (2015), female, 24.35549</pre> |
 
 ## Terminal Practice
 

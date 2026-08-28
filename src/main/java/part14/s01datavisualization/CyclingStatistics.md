@@ -11,7 +11,7 @@ In the exercise base there is a ready application that illustrates cycling stati
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

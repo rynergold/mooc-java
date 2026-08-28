@@ -11,7 +11,7 @@ Copy the work you did in the Text statistics exercise into the class included in
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

@@ -13,7 +13,7 @@ Below you'll see the interface Saveable and the class Person. Implement the cont
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

@@ -37,7 +37,7 @@ System.out.println();
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `for example more precisely and so on lol` |
+| Program execution | <pre>for example more precisely and so on lol</pre> |
 
 ## Terminal Practice
 

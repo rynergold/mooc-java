@@ -27,8 +27,8 @@ System.out.println(salt);
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `64`<br>`The length of the edge is 4 and the volume 64` |
-| Program execution | `8`<br>`The length of the edge is 2 and the volume 8` |
+| Program execution | <pre>64<br>The length of the edge is 4 and the volume 64</pre> |
+| Program execution | <pre>8<br>The length of the edge is 2 and the volume 8</pre> |
 
 ## Terminal Practice
 

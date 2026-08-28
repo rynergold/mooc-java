@@ -124,8 +124,8 @@ temperature in Helsinki region 5 degrees Celsius
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `10`<br>`-5`<br>`true`<br>`true`<br>`temperature in Kumpula 11 degrees Celsius`<br>`temperature in Helsinki region 8 degrees Celsius`<br>`temperature in Helsinki region -10 degrees Celsius`<br>`temperature in Helsinki region -4 degrees Celsius`<br>`temperature in Helsinki region 5 degrees Celsius` |
-| Program execution | `readings: [-10, -4, 5]` |
+| Program execution | <pre>10<br>-5<br>true<br>true<br>temperature in Kumpula 11 degrees Celsius<br>temperature in Helsinki region 8 degrees Celsius<br>temperature in Helsinki region -10 degrees Celsius<br>temperature in Helsinki region -4 degrees Celsius<br>temperature in Helsinki region 5 degrees Celsius</pre> |
+| Program execution | <pre>readings: [-10, -4, 5]</pre> |
 
 ## Terminal Practice
 

@@ -16,9 +16,9 @@ Mary
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` | *(No output)* |
-| 1. `Juno`<br>2. `Elizabeth`<br>3. `Mason`<br>4. `Irene`<br>5. `Olivia`<br>6. `Liam`<br>7. `Ida`<br>8. `Christopher`<br>9. `Mark`<br>10. `Sylvester`<br>11. `Oscar` | `Tom`<br>`Mary` |
-| Program execution | `Juno`<br>`Oscar` |
+| <pre>1. Tom<br>2. Emma<br>3. Alex<br>4. Mary</pre> | *(No output)* |
+| <pre>1. Juno<br>2. Elizabeth<br>3. Mason<br>4. Irene<br>5. Olivia<br>6. Liam<br>7. Ida<br>8. Christopher<br>9. Mark<br>10. Sylvester<br>11. Oscar</pre> | <pre>Tom<br>Mary</pre> |
+| Program execution | <pre>Juno<br>Oscar</pre> |
 
 ## Terminal Practice
 

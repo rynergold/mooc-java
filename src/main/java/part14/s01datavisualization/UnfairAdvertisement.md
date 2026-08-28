@@ -17,7 +17,7 @@ This exercise has no automatic tests or model answer, so you can define the comp
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

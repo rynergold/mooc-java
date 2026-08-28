@@ -22,7 +22,7 @@ System.out.println("Longest: " + j.longest());
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Longest: null`<br>`Longest: mystique` |
+| Program execution | <pre>Longest: null<br>Longest: mystique</pre> |
 
 ## Terminal Practice
 

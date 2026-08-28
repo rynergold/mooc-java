@@ -54,7 +54,7 @@ The call `christmasTree(10)` should print:
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `*`<br>`**`<br>`***`<br>``<br>`*`<br>`***`<br>``<br>``<br>`***`<br>`***`<br>`*`<br>`***`<br>``<br>``<br>``<br>``<br>``<br>``<br>``<br>``<br>`***`<br>`***` |
+| Program execution | <pre>*<br>**<br>***<br><br>*<br>***<br><br><br>***<br>***<br>*<br>***<br><br><br><br><br><br><br><br><br>***<br>***</pre> |
 
 ## Terminal Practice
 

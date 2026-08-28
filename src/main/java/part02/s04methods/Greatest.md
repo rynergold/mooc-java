@@ -24,7 +24,7 @@ The output of the program:
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Greatest: 7` |
+| Program execution | <pre>Greatest: 7</pre> |
 
 ## Terminal Practice
 

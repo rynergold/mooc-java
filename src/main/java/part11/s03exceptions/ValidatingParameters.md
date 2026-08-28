@@ -19,7 +19,7 @@ The methods of the `Calculator` class should be as follows: The method `factoria
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

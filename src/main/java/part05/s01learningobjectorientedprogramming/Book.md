@@ -20,7 +20,7 @@ In addition, make a `public String toString()` method for the book that will be 
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `J. K. Rowling, Harry Potter and the Sorcerer's Stone, 223 pages` |
+| Program execution | <pre>J. K. Rowling, Harry Potter and the Sorcerer's Stone, 223 pages</pre> |
 
 ## Terminal Practice
 

@@ -21,9 +21,9 @@ The Name of the Wind, 662 pages, 2007
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `To Kill a Mockingbird`<br>2. `281`<br>3. `1960`<br>4. `A Brief History of Time`<br>5. `256`<br>6. `1988`<br>7. `Beautiful Code`<br>8. `593`<br>9. `2007`<br>10. `The Name of the Wind`<br>11. `662`<br>12. `2007` | `Title:`<br>`Pages:`<br>`Publication year:`<br>`Title:`<br>`Pages:`<br>`Publication year:`<br>`Title:`<br>`Pages:`<br>`Publication year:`<br>`Title:`<br>`Pages:`<br>`Publication year:`<br>`Title:` |
-| 1. `everything`<br>2. `To Kill a Mockingbird`<br>3. `281`<br>4. `1960`<br>5. `A Brief History of Time`<br>6. `256`<br>7. `1988`<br>8. `Beautiful Code`<br>9. `593`<br>10. `2007`<br>11. `The Name of the Wind`<br>12. `662`<br>13. `2007` | `What information will be printed?`<br>`To Kill a Mockingbird, 281 pages, 1960`<br>`A Brief History of Time, 256 pages, 1988`<br>`Beautiful Code, 593 pages, 2007`<br>`The Name of the Wind, 662 pages, 2007`<br>`Title:`<br>`Pages:`<br>`Publication year:`<br>`Title:`<br>`Pages:`<br>`Publication year:`<br>`Title:`<br>`Pages:`<br>`Publication year:`<br>`Title:`<br>`Pages:`<br>`Publication year:`<br>`Title:` |
-| `name` | `What information will be printed?`<br>`To Kill a Mockingbird`<br>`A Brief History of Time`<br>`Beautiful Code`<br>`The Name of the Wind` |
+| <pre>1. To Kill a Mockingbird<br>2. 281<br>3. 1960<br>4. A Brief History of Time<br>5. 256<br>6. 1988<br>7. Beautiful Code<br>8. 593<br>9. 2007<br>10. The Name of the Wind<br>11. 662<br>12. 2007</pre> | <pre>Title:<br>Pages:<br>Publication year:<br>Title:<br>Pages:<br>Publication year:<br>Title:<br>Pages:<br>Publication year:<br>Title:<br>Pages:<br>Publication year:<br>Title:</pre> |
+| <pre>1. everything<br>2. To Kill a Mockingbird<br>3. 281<br>4. 1960<br>5. A Brief History of Time<br>6. 256<br>7. 1988<br>8. Beautiful Code<br>9. 593<br>10. 2007<br>11. The Name of the Wind<br>12. 662<br>13. 2007</pre> | <pre>What information will be printed?<br>To Kill a Mockingbird, 281 pages, 1960<br>A Brief History of Time, 256 pages, 1988<br>Beautiful Code, 593 pages, 2007<br>The Name of the Wind, 662 pages, 2007<br>Title:<br>Pages:<br>Publication year:<br>Title:<br>Pages:<br>Publication year:<br>Title:<br>Pages:<br>Publication year:<br>Title:<br>Pages:<br>Publication year:<br>Title:</pre> |
+| <pre>name</pre> | <pre>What information will be printed?<br>To Kill a Mockingbird<br>A Brief History of Time<br>Beautiful Code<br>The Name of the Wind</pre> |
 
 ## Terminal Practice
 

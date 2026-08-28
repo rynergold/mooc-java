@@ -27,7 +27,7 @@ printNumbersInRange(numbers, 3, 10);
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `The numbers in the range [0, 5]`<br>`3`<br>`2`<br>`5`<br>`1`<br>`The numbers in the range [3, 10]`<br>`3`<br>`6`<br>`5` |
+| Program execution | <pre>The numbers in the range [0, 5]<br>3<br>2<br>5<br>1<br>The numbers in the range [3, 10]<br>3<br>6<br>5</pre> |
 
 ## Terminal Practice
 

@@ -23,8 +23,8 @@ And this one calculated 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `3` | `Last number?`<br>`The sum is 6` |
-| `7` | `Last number?`<br>`The sum is 28` |
+| <pre>3</pre> | <pre>Last number?<br>The sum is 6</pre> |
+| <pre>7</pre> | <pre>Last number?<br>The sum is 28</pre> |
 
 ## Terminal Practice
 

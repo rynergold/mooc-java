@@ -69,7 +69,7 @@ Create a method called `printTriangle(int size)` that prints a triangle by using
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | ``<br>`***`<br>``<br>``<br>``<br>``<br>``<br>``<br>``<br>``<br>`*`<br>`**`<br>`***`<br>`` |
+| Program execution | <pre><br>***<br><br><br><br><br><br><br><br><br>*<br>**<br>***<br></pre> |
 
 ## Terminal Practice
 

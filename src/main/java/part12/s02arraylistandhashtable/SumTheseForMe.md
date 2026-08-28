@@ -23,7 +23,7 @@ System.out.println(sum(numbers, -1, 999, -10, 10));
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `0`<br>`0`<br>`3`<br>`3`<br>`14` |
+| Program execution | <pre>0<br>0<br>3<br>3<br>14</pre> |
 
 ## Terminal Practice
 

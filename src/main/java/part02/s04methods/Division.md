@@ -17,7 +17,7 @@ public static void main(String[] args) {
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `0.6` |
+| Program execution | <pre>0.6</pre> |
 
 ## Terminal Practice
 

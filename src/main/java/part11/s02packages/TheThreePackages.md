@@ -11,7 +11,7 @@ Within the exercise base, create three packages: `a`, `b`, and `c`. Create class
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

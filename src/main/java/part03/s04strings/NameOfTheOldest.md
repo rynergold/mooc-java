@@ -13,8 +13,8 @@ After reading all user input, the program prints the name of the oldest person. 
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `sebastian,2`<br>2. `lucas,2`<br>3. `lily,1`<br>4. `hanna,5`<br>5. `gabriel,10` | *(No output)* |
-| Program execution | `Name of the oldest: gabriel` |
+| <pre>1. sebastian,2<br>2. lucas,2<br>3. lily,1<br>4. hanna,5<br>5. gabriel,10</pre> | *(No output)* |
+| Program execution | <pre>Name of the oldest: gabriel</pre> |
 
 ## Terminal Practice
 

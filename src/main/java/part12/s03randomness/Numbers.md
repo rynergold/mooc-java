@@ -11,8 +11,8 @@ Write a program that prompts the user for how many random numbers should be gene
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `4` | `How many random numbers should be printed?`<br>`9`<br>`1`<br>`4`<br>`3` |
-| `8` | `How many random numbers should be printed?`<br>`9`<br>`6`<br>`0`<br>`9`<br>`10`<br>`7`<br>`3`<br>`3` |
+| <pre>4</pre> | <pre>How many random numbers should be printed?<br>9<br>1<br>4<br>3</pre> |
+| <pre>8</pre> | <pre>How many random numbers should be printed?<br>9<br>6<br>0<br>9<br>10<br>7<br>3<br>3</pre> |
 
 ## Terminal Practice
 

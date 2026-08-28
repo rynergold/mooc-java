@@ -31,7 +31,7 @@ Write a program that creates an account with a balance of 100.0, deposits 20.0 i
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

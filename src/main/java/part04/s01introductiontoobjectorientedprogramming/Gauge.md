@@ -32,7 +32,7 @@ System.out.println("Not full! Value: " + g.value());
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Not full! Value: 0`<br>`Not full! Value: 1`<br>`Not full! Value: 2`<br>`Not full! Value: 3`<br>`Not full! Value: 4`<br>`Full! Value: 5`<br>`Not full! Value: 4` |
+| Program execution | <pre>Not full! Value: 0<br>Not full! Value: 1<br>Not full! Value: 2<br>Not full! Value: 3<br>Not full! Value: 4<br>Full! Value: 5<br>Not full! Value: 4</pre> |
 
 ## Terminal Practice
 

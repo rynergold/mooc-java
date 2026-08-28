@@ -28,9 +28,9 @@ alicia
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `guestlist.txt` | `Name of the file:` |
-| 1. `Chuck Norris`<br>2. `Jack Baluer`<br>3. `Jack Bauer`<br>4. `Jack Bower` | `Enter names, an empty line quits.`<br>`The name is not on the list.`<br>`The name is not on the list.`<br>`The name is on the list.`<br>`The name is on the list.` |
-| Program execution | `Thank you!` |
+| <pre>guestlist.txt</pre> | <pre>Name of the file:</pre> |
+| <pre>1. Chuck Norris<br>2. Jack Baluer<br>3. Jack Bauer<br>4. Jack Bower</pre> | <pre>Enter names, an empty line quits.<br>The name is not on the list.<br>The name is not on the list.<br>The name is on the list.<br>The name is on the list.</pre> |
+| Program execution | <pre>Thank you!</pre> |
 
 ## Terminal Practice
 

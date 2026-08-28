@@ -72,7 +72,7 @@ System.out.println(bangorThreeBedroomApt.moreExpensiveThan(atlantaTwoBedroomApt)
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

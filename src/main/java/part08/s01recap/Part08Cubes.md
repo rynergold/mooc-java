@@ -15,7 +15,7 @@ Write a program that reads strings from the user until the user inputs the strin
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `3`<br>2. `-1`<br>3. `11`<br>4. `end`<br>5. `end` | `27`<br>`-1`<br>`1331` |
+| <pre>1. 3<br>2. -1<br>3. 11<br>4. end<br>5. end</pre> | <pre>27<br>-1<br>1331</pre> |
 
 ## Terminal Practice
 

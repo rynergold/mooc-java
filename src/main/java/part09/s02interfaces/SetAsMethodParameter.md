@@ -27,7 +27,7 @@ Prints:
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `2` |
+| Program execution | <pre>2</pre> |
 
 ## Terminal Practice
 

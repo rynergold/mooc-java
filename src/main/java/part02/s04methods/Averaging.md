@@ -33,7 +33,7 @@ Make sure to remember how to convert an integer (`int`) into a decimal number (`
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Average: 3.5` |
+| Program execution | <pre>Average: 3.5</pre> |
 
 ## Terminal Practice
 

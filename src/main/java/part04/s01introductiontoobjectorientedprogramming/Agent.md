@@ -35,7 +35,7 @@ My name is Bond, Ionic Bond
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `My name is Bond, James Bond`<br>`My name is Bond, James Bond`<br>`My name is Bond, Ionic Bond` |
+| Program execution | <pre>My name is Bond, James Bond<br>My name is Bond, James Bond<br>My name is Bond, Ionic Bond</pre> |
 
 ## Terminal Practice
 

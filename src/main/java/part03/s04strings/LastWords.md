@@ -23,7 +23,7 @@ Number of parts: 3
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `one two three four`<br>2. `this is a very important message` | `four`<br>`message`<br>`Number of parts: 3` |
+| <pre>1. one two three four<br>2. this is a very important message</pre> | <pre>four<br>message<br>Number of parts: 3</pre> |
 
 ## Terminal Practice
 

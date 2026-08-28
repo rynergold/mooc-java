@@ -91,7 +91,7 @@ Implement in the class `MagicSquareFactory` the method `createMagicSquare`. It s
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

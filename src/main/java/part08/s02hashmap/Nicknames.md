@@ -19,7 +19,7 @@ There is no automated tests for this exercise. Just submit the exercise when you
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

@@ -32,7 +32,7 @@ NB! The order of the output can vary, because the implementation of hashmaps doe
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `f.e`<br>`etc.`<br>`i.e`<br>`---`<br>`i.e`<br>`---`<br>`for example`<br>`more precisely` |
+| Program execution | <pre>f.e<br>etc.<br>i.e<br>---<br>i.e<br>---<br>for example<br>more precisely</pre> |
 
 ## Terminal Practice
 

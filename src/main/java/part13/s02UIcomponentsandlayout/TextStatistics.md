@@ -11,7 +11,7 @@ Create an applicaton in the class provided in the exercise template. Use the Bor
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

@@ -56,13 +56,13 @@ Second: 0/100
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `remove 10` | `0/100`<br>`50/100`<br>`50`<br>`0/100`<br>`100/100`<br>`First: 0/100`<br>`Second: 0/100` |
-| `add 20` | `First: 0/100`<br>`Second: 0/100` |
-| `remove 5` | `First: 20/100`<br>`Second: 0/100` |
-| `move 15` | `First: 20/100`<br>`Second: 0/100` |
-| `remove 5` | `First: 5/100`<br>`Second: 15/100` |
-| `remove 20` | `First: 5/100`<br>`Second: 10/100` |
-| `quit` | `First: 5/100`<br>`Second: 0/100` |
+| <pre>remove 10</pre> | <pre>0/100<br>50/100<br>50<br>0/100<br>100/100<br>First: 0/100<br>Second: 0/100</pre> |
+| <pre>add 20</pre> | <pre>First: 0/100<br>Second: 0/100</pre> |
+| <pre>remove 5</pre> | <pre>First: 20/100<br>Second: 0/100</pre> |
+| <pre>move 15</pre> | <pre>First: 20/100<br>Second: 0/100</pre> |
+| <pre>remove 5</pre> | <pre>First: 5/100<br>Second: 15/100</pre> |
+| <pre>remove 20</pre> | <pre>First: 5/100<br>Second: 10/100</pre> |
+| <pre>quit</pre> | <pre>First: 5/100<br>Second: 0/100</pre> |
 
 ## Terminal Practice
 

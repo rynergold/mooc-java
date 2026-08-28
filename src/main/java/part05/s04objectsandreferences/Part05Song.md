@@ -24,7 +24,7 @@ if (jackSparrow.equals("Another object")) {
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Songs are equal` |
+| Program execution | <pre>Songs are equal</pre> |
 
 ## Terminal Practice
 

@@ -19,7 +19,7 @@ Tip! You can find out the length of the string using the `length()` method assoc
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

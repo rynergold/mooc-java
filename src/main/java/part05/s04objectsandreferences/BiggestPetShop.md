@@ -18,7 +18,7 @@ System.out.println(leo);
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Leo, has a friend called Lucy (golden retriever)` |
+| Program execution | <pre>Leo, has a friend called Lucy (golden retriever)</pre> |
 
 ## Terminal Practice
 

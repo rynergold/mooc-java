@@ -43,7 +43,7 @@ public class Main {
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Application logic is working`<br>`Updating UI`<br>`Application logic is working`<br>`Updating UI`<br>`Application logic is working`<br>`Updating UI` |
+| Program execution | <pre>Application logic is working<br>Updating UI<br>Application logic is working<br>Updating UI<br>Application logic is working<br>Updating UI</pre> |
 
 ## Terminal Practice
 

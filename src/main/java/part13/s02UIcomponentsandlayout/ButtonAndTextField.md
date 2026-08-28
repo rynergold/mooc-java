@@ -13,7 +13,7 @@ Create a graphical user interface in the class that is supplied with the exercis
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

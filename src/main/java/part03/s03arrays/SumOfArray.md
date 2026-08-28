@@ -18,7 +18,7 @@ sumOfNumbersInArray(numbers);
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `15` |
+| Program execution | <pre>15</pre> |
 
 ## Terminal Practice
 

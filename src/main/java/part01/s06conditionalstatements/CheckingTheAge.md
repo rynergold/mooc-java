@@ -11,10 +11,10 @@ Write a program that prompts the user to input their age and checks whether or n
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `10` | `How old are you?`<br>`OK` |
-| `55` | `How old are you?`<br>`OK` |
-| `-3` | `How old are you?`<br>`Impossible!` |
-| `150` | `How old are you?`<br>`Impossible!` |
+| <pre>10</pre> | <pre>How old are you?<br>OK</pre> |
+| <pre>55</pre> | <pre>How old are you?<br>OK</pre> |
+| <pre>-3</pre> | <pre>How old are you?<br>Impossible!</pre> |
+| <pre>150</pre> | <pre>How old are you?<br>Impossible!</pre> |
 
 ## Terminal Practice
 

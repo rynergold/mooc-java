@@ -13,7 +13,7 @@ Create a file called `file.txt` in the root folder (the folder containing the fo
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

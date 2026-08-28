@@ -48,7 +48,7 @@ System.out.println(mattsIOU.howMuchDoIOweTo("Arthur"));
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `51.5`<br>`30.0`<br>`10.5` |
+| Program execution | <pre>51.5<br>30.0<br>10.5</pre> |
 
 ## Terminal Practice
 

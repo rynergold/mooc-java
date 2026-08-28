@@ -59,8 +59,8 @@ Points:
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `82`<br>2. `83`<br>3. `96`<br>4. `51`<br>5. `48`<br>6. `56`<br>7. `61` | `4.75`<br>`92.0`<br>`Points:`<br>`Points:`<br>`Points:`<br>`Points:`<br>`Points:`<br>`Points:`<br>`Points:`<br>`Points:` |
-| Program execution | `5: \*`<br>`4: \*\*`<br>`3:`<br>`2: \*`<br>`1: \*\*`<br>`0: \*`<br>`The average of points: 68.14285714285714`<br>`The average of grades: 2.4285714285714284` |
+| <pre>1. 82<br>2. 83<br>3. 96<br>4. 51<br>5. 48<br>6. 56<br>7. 61</pre> | <pre>4.75<br>92.0<br>Points:<br>Points:<br>Points:<br>Points:<br>Points:<br>Points:<br>Points:<br>Points:</pre> |
+| Program execution | <pre>5: \*<br>4: \*\*<br>3:<br>2: \*<br>1: \*\*<br>0: \*<br>The average of points: 68.14285714285714<br>The average of grades: 2.4285714285714284</pre> |
 
 ## Terminal Practice
 

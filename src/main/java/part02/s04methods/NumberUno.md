@@ -11,7 +11,7 @@ Write a method `public static int numberUno()` that returns the value 1.
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

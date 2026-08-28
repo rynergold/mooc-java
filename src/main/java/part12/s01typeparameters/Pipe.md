@@ -54,7 +54,7 @@ null
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `dibi`<br>`dab`<br>`dab`<br>`daa`<br>`6`<br>`null` |
+| Program execution | <pre>dibi<br>dab<br>dab<br>daa<br>6<br>null</pre> |
 
 ## Terminal Practice
 

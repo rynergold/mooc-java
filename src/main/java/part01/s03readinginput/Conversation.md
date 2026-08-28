@@ -16,8 +16,8 @@ Write a program that conducts the following conversation with the user:
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Good thank you!`<br>2. `Well, there's really nothing to tell.` | `Greetings! How are you doing?`<br>`Oh, how interesting. Tell me more!`<br>`Thanks for sharing!` |
-| 1. `Nice and dandy like cotton candy!`<br>2. `Just went shopping.` | `Greetings! How are you doing?`<br>`Oh, how interesting. Tell me more!`<br>`Thanks for sharing!` |
+| <pre>1. Good thank you!<br>2. Well, there's really nothing to tell.</pre> | <pre>Greetings! How are you doing?<br>Oh, how interesting. Tell me more!<br>Thanks for sharing!</pre> |
+| <pre>1. Nice and dandy like cotton candy!<br>2. Just went shopping.</pre> | <pre>Greetings! How are you doing?<br>Oh, how interesting. Tell me more!<br>Thanks for sharing!</pre> |
 
 ## Terminal Practice
 

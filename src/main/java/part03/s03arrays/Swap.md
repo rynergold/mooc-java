@@ -20,11 +20,11 @@ Tip! You'll need an additional variable to store one of the values for a little 
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `1`<br>`3`<br>`5`<br>`7`<br>`9` |
-| 1. `2`<br>2. `4` | `Give two indices to swap:` |
-| Program execution | `1`<br>`3`<br>`9`<br>`7`<br>`5`<br>`1`<br>`3`<br>`5`<br>`7`<br>`9` |
-| 1. `0`<br>2. `1` | `Give two indices to swap:` |
-| Program execution | `3`<br>`1`<br>`5`<br>`7`<br>`9` |
+| Program execution | <pre>1<br>3<br>5<br>7<br>9</pre> |
+| <pre>1. 2<br>2. 4</pre> | <pre>Give two indices to swap:</pre> |
+| Program execution | <pre>1<br>3<br>9<br>7<br>5<br>1<br>3<br>5<br>7<br>9</pre> |
+| <pre>1. 0<br>2. 1</pre> | <pre>Give two indices to swap:</pre> |
+| Program execution | <pre>3<br>1<br>5<br>7<br>9</pre> |
 
 ## Terminal Practice
 

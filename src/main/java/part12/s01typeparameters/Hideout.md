@@ -57,7 +57,7 @@ false
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `false`<br>`true`<br>`peekaboo`<br>`false`<br>`true`<br>`heelloo`<br>`false`<br>`false`<br>`true`<br>`true`<br>`1`<br>`false` |
+| Program execution | <pre>false<br>true<br>peekaboo<br>false<br>true<br>heelloo<br>false<br>false<br>true<br>true<br>1<br>false</pre> |
 
 ## Terminal Practice
 

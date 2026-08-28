@@ -20,7 +20,7 @@ The 0th element of the array is 5, so the first line has 5 stars. The next one h
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | ``<br>`*`<br>`***`<br>``<br>`**` |
+| Program execution | <pre><br>*<br>***<br><br>**</pre> |
 
 ## Terminal Practice
 

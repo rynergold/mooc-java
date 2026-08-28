@@ -16,7 +16,7 @@ Write a program that reads an integer from the user. If the number is less than 
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `-3`<br>2. `2`<br>3. `-5` | `3`<br>`2`<br>`5` |
+| <pre>1. -3<br>2. 2<br>3. -5</pre> | <pre>3<br>2<br>5</pre> |
 
 ## Terminal Practice
 

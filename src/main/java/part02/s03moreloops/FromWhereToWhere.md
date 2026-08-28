@@ -45,7 +45,7 @@ Where from? **16**
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `3`<br>2. `5`<br>3. `8`<br>4. `5`<br>5. `12`<br>6. `16` | `Where to?`<br>`1`<br>`2`<br>`3`<br>`Where to?`<br>`1`<br>`2`<br>`3`<br>`4`<br>`5`<br>`Where to?`<br>`Where from?`<br>`5`<br>`6`<br>`7`<br>`8`<br>`Where to?`<br>`Where from?` |
+| <pre>1. 3<br>2. 5<br>3. 8<br>4. 5<br>5. 12<br>6. 16</pre> | <pre>Where to?<br>1<br>2<br>3<br>Where to?<br>1<br>2<br>3<br>4<br>5<br>Where to?<br>Where from?<br>5<br>6<br>7<br>8<br>Where to?<br>Where from?</pre> |
 
 ## Terminal Practice
 

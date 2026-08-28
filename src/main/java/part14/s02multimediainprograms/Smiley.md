@@ -13,7 +13,7 @@ The tests in this exercise only check that you draw into the window. Before retu
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

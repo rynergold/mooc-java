@@ -52,11 +52,11 @@ Odd: 1
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `5`<br>2. `2`<br>3. `4`<br>4. `-1` | `Give numbers:`<br>`Thx! Bye!` |
-| 1. `5`<br>2. `2`<br>3. `4`<br>4. `-1` | `Give numbers:`<br>`Thx! Bye!`<br>`Sum: 11` |
-| 1. `5`<br>2. `2`<br>3. `4`<br>4. `-1` | `Give numbers:`<br>`Thx! Bye!`<br>`Sum: 11`<br>`Numbers: 3` |
-| 1. `5`<br>2. `2`<br>3. `4`<br>4. `-1` | `Give numbers:`<br>`Thx! Bye!`<br>`Sum: 11`<br>`Numbers: 3`<br>`Average: 3.666666666666` |
-| 1. `5`<br>2. `2`<br>3. `4`<br>4. `-1` | `Give numbers:`<br>`Thx! Bye!`<br>`Sum: 11`<br>`Numbers: 3`<br>`Average: 3.666666666666`<br>`Even: 2`<br>`Odd: 1` |
+| <pre>1. 5<br>2. 2<br>3. 4<br>4. -1</pre> | <pre>Give numbers:<br>Thx! Bye!</pre> |
+| <pre>1. 5<br>2. 2<br>3. 4<br>4. -1</pre> | <pre>Give numbers:<br>Thx! Bye!<br>Sum: 11</pre> |
+| <pre>1. 5<br>2. 2<br>3. 4<br>4. -1</pre> | <pre>Give numbers:<br>Thx! Bye!<br>Sum: 11<br>Numbers: 3</pre> |
+| <pre>1. 5<br>2. 2<br>3. 4<br>4. -1</pre> | <pre>Give numbers:<br>Thx! Bye!<br>Sum: 11<br>Numbers: 3<br>Average: 3.666666666666</pre> |
+| <pre>1. 5<br>2. 2<br>3. 4<br>4. -1</pre> | <pre>Give numbers:<br>Thx! Bye!<br>Sum: 11<br>Numbers: 3<br>Average: 3.666666666666<br>Even: 2<br>Odd: 1</pre> |
 
 ## Terminal Practice
 

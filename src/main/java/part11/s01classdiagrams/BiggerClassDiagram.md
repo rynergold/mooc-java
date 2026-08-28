@@ -13,7 +13,7 @@ Below you'll see a somewhat larger class diagram. In it are the classes A, B, C,
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `(see spec)` |
+| Program execution | <pre>(see spec)</pre> |
 
 ## Terminal Practice
 

@@ -29,7 +29,7 @@ while (percentage
 
 | Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `Target 50.0% of maximum: 122.48500000000001`<br>`Target 60.0% of maximum: 134.98200000000003`<br>`Target 70.0% of maximum: 147.479`<br>`Target 80.0% of maximum: 159,976`<br>`Target 89.99999999999999% of maximum: 172.473`<br>`Target 99.99999999999999% of maximum: 184.97000000000003` |
+| Program execution | <pre>Target 50.0% of maximum: 122.48500000000001<br>Target 60.0% of maximum: 134.98200000000003<br>Target 70.0% of maximum: 147.479<br>Target 80.0% of maximum: 159,976<br>Target 89.99999999999999% of maximum: 172.473<br>Target 99.99999999999999% of maximum: 184.97000000000003</pre> |
 
 ## Terminal Practice
 

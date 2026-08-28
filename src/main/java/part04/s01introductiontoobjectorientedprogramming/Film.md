@@ -29,8 +29,8 @@ if (age >= chipmunks.ageRating()) {
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `7` | `How old are you?` |
-| Program execution | `You may watch the film Alvin and the Chipmunks: The Squeakquel` |
+| <pre>7</pre> | <pre>How old are you?</pre> |
+| Program execution | <pre>You may watch the film Alvin and the Chipmunks: The Squeakquel</pre> |
 
 ## Terminal Practice
 
