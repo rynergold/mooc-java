@@ -16,7 +16,7 @@ sumOfNumbersInArray(numbers);
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `15` |
 

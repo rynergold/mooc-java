@@ -73,7 +73,7 @@ Garfield purrs
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Dog barks`<br>`Dog eats`<br>`Fido barks`<br>`Cat purrs`<br>`Cat eats`<br>`Garfield purrs`<br>`Dog barks`<br>`Garfield purrs`<br>`Garfield purrs` |
 

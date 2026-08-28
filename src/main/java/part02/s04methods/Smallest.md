@@ -25,7 +25,7 @@ The output of the program:
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Smallest: 2` |
 

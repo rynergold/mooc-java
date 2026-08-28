@@ -47,7 +47,7 @@ C
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `A`<br>`B`<br>`C`<br>`A`<br>`B`<br>`C` |
 

@@ -37,7 +37,6 @@ Implement the functionality to add liquid to the first container. The user inter
 
 First: 100/100
 Second: 0/100
-**quit**
 
 Moving
 
@@ -45,21 +44,17 @@ Implement the functionality to move liquid from the first container to the secon
 
 First: 0/100
 Second: 0/100
-**add 1000**
 
 First: 0/100
 Second: 100/100
-**quit**
 
 Second example:
 
 First: 0/100
 Second: 0/100
-**move 30**
 
 First: 0/100
 Second: 10/100
-**quit**
 
 Removing
 
@@ -67,7 +62,6 @@ Implement the functionality to remove liquid from the second container. The user
 
 First: 0/100
 Second: 0/100
-**remove 10**
 
 ## Examples
 

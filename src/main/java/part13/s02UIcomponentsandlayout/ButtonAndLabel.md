@@ -10,7 +10,7 @@ The Label must be either on top or on the left side of the Button.
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

@@ -13,7 +13,7 @@ An example of how the program should work:
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

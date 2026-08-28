@@ -17,7 +17,7 @@ When first started, the program should display the first view.
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

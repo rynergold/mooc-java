@@ -11,7 +11,7 @@ The tests in this exercise only check that you draw into the window. Before retu
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

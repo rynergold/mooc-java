@@ -9,7 +9,7 @@ The class diagram below depicts the classes Book and Plane. Implement the classe
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

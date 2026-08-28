@@ -17,7 +17,7 @@ The methods of the `Calculator` class should be as follows: The method `factoria
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

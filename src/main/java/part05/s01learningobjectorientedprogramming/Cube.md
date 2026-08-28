@@ -25,7 +25,7 @@ System.out.println(salt);
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `64`<br>`The length of the edge is 4 and the volume 64` |
 | Program execution | `8`<br>`The length of the edge is 2 and the volume 8` |

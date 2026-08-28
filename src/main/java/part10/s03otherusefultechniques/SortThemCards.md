@@ -212,7 +212,7 @@ SPADE A
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `DIAMOND 2`<br>`SPADE A`<br>`HEART Q`<br>`DIAMOND 2`<br>`SPADE A`<br>`HEART Q`<br>`SPADE 2`<br>`DIAMOND 2`<br>`SPADE 2`<br>`HEART Q`<br>`SPADE A`<br>`better hand is`<br>`DIAMOND J`<br>`SPADE J`<br>`HEART J`<br>`DIAMOND 2`<br>`HEART Q`<br>`SPADE 3`<br>`SPADE A`<br>`SPADE 2`<br>`DIAMOND 2`<br>`HEART 7`<br>`HEART Q`<br>`SPADE 2`<br>`SPADE 4`<br>`SPADE A` |
 

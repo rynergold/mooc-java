@@ -99,15 +99,12 @@ Commands:
 2 - draw a joke
 3 - list jokes
 X - stop
-**1**
 Write the joke to be added:
-**Did you hear about the claustrophobic astronaut? -- He just needed a little space.**
 Commands:
 1 - add a joke
 2 - draw a joke
 3 - list jokes
 X - stop
-**3**
 Printing the jokes.
 Did you hear about the claustrophobic astronaut? -- He just needed a little space.
 Commands:
@@ -115,7 +112,6 @@ Commands:
 2 - draw a joke
 3 - list jokes
 X - stop
-**X**
 
 ## Examples
 

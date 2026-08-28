@@ -30,7 +30,7 @@ NB! The order of the output can vary, because the implementation of hashmaps doe
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `f.e`<br>`etc.`<br>`i.e`<br>`---`<br>`i.e`<br>`---`<br>`for example`<br>`more precisely` |
 

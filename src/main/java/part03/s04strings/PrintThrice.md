@@ -13,7 +13,7 @@ NB! The program should ask for only one string. Don't use a loop here.
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `cake` | Give a word: |
+| `cake` | `Give a word:` |
 | Program execution | `cakecakecake` |
 
 ## Terminal Practice

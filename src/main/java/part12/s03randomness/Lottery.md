@@ -77,7 +77,7 @@ Here are a few possible outputs of the program:
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Lottery numbers:`<br>`3 5 10 14 15 27 37` |
 | Program execution | `Lottery numbers:`<br>`2 9 11 18 23 32 34` |

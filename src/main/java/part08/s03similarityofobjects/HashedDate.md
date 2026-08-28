@@ -11,7 +11,7 @@ Create a method `public int hashCode()` for the `SimpleDate` class, which calcul
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

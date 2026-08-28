@@ -11,7 +11,7 @@ Create a file called `file.txt` in the root folder (the folder containing the fo
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

@@ -41,7 +41,7 @@ public class Main {
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Application logic is working`<br>`Updating UI`<br>`Application logic is working`<br>`Updating UI`<br>`Application logic is working`<br>`Updating UI` |
 

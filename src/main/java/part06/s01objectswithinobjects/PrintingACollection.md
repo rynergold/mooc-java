@@ -58,7 +58,7 @@ The collection characters is empty.
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `The collection alphabet is empty.` |
 | Program execution | `The collection alphabet has 1 element:`<br>`a` |

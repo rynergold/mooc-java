@@ -38,7 +38,7 @@ System.out.println(arrayAsString(matrix));
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `050`<br>`307`<br>`3276`<br>`2410`<br>`3210` |
 

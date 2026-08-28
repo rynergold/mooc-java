@@ -41,7 +41,7 @@ In the chart we see the compound interest of our savings, although with a very o
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

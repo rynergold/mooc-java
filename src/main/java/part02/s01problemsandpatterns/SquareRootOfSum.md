@@ -17,16 +17,10 @@ System.out.println(squareRoot);
 
 Here are a few examples:
 
-**1**
-**0**
 1
 
-**5**
-**4**
 3
 
-**1**
-**35**
 6
 
 ## Examples

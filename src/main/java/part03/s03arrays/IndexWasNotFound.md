@@ -20,9 +20,9 @@ Search for? **22**
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `3` | Search for?<br>`3 is at index 4.` |
-| `7` | Search for?<br>`7 is at index 7.` |
-| `22` | Search for?<br>`22 was not found.` |
+| `3` | `Search for?`<br>`3 is at index 4.` |
+| `7` | `Search for?`<br>`7 is at index 7.` |
+| `22` | `Search for?`<br>`22 was not found.` |
 
 ## Terminal Practice
 

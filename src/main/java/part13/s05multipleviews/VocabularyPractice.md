@@ -15,7 +15,7 @@ There are no automatic tests in this project -- return your solution when the pr
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

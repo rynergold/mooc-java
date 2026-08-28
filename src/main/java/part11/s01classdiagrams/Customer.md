@@ -9,7 +9,7 @@ The class diagram below shows the class Customer. Implement the class in the exe
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

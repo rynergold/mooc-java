@@ -98,7 +98,7 @@ Meatballs with mustard sauce
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Tofu ratatouille`<br>`Chilli coconut chicken`<br>`Meatballs with mustard sauce` |
 | Program execution | `Tomato and mozzarella salad`<br>`Tofu ratatouille`<br>`Chilli Coconut Chicken`<br>`Meatballs with mustard sauce`<br>`Tofu ratatouille`<br>`Chilli Coconut Chicken`<br>`Meatballs with mustard sauce` |

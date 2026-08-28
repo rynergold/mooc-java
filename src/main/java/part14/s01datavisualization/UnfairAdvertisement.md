@@ -15,7 +15,7 @@ This exercise has no automatic tests or model answer, so you can define the comp
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

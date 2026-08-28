@@ -11,7 +11,7 @@ In the root folder of the exercise base there is a file called `Applause-Yannick
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

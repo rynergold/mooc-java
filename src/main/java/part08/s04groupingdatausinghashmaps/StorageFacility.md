@@ -72,7 +72,7 @@ The order of the storage units in the output may be different from this example.
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `[ice skates, ice hockey stick, ice skates]`<br>`[rollerblades, rollerblades]`<br>`[rollerblades]`<br>`[a14, g63]` |
 

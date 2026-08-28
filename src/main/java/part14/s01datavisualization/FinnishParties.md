@@ -32,7 +32,7 @@ The visualization created by the application should look something like this:
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `KOK`<br>`16.1`<br>`18.1`<br>`20.9` |
 

@@ -160,7 +160,7 @@ Mark how the array becomes sorted little by little starting from the beginning a
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Smallest: 5`<br>`Index of the smallest number: 1`<br>`0`<br>`1`<br>`3`<br>`[3, 2, 5, 4, 8]`<br>`[2, 3, 5, 4, 8]`<br>`[4, 3, 5, 2, 8]`<br>`[8, 3, 7, 9, 1, 2, 4]`<br>`[1, 3, 7, 9, 8, 2, 4]`<br>`[1, 2, 7, 9, 8, 3, 4]`<br>`[1, 2, 3, 9, 8, 7, 4]`<br>`[1, 2, 3, 4, 8, 7, 9]`<br>`[1, 2, 3, 4, 7, 8, 9]`<br>`[1, 2, 3, 4, 7, 8, 9]` |
 

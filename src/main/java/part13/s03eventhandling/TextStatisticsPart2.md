@@ -9,7 +9,7 @@ Copy the work you did in the Text statistics exercise into the class included in
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

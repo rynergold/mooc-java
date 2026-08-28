@@ -21,7 +21,7 @@ System.out.println(sum(numbers, -1, 999, -10, 10));
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `0`<br>`0`<br>`3`<br>`3`<br>`14` |
 

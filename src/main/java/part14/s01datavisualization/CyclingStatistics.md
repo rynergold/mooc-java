@@ -9,7 +9,7 @@ In the exercise base there is a ready application that illustrates cycling stati
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

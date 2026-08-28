@@ -9,7 +9,7 @@ Create a GUI app with the title "My first application". The app should start whe
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

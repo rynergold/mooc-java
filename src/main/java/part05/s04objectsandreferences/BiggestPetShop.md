@@ -16,7 +16,7 @@ System.out.println(leo);
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Leo, has a friend called Lucy (golden retriever)` |
 

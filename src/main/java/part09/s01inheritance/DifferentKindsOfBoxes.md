@@ -79,7 +79,7 @@ false
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `true`<br>`true`<br>`false`<br>`true`<br>`false`<br>`false`<br>`false` |
 

@@ -11,7 +11,7 @@ Below you'll see the interface Saveable and the class Person. Implement the cont
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

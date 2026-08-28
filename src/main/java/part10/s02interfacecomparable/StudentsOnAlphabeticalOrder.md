@@ -11,7 +11,7 @@ The exercise template includes the class `Student`, which has a name. Implement 
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

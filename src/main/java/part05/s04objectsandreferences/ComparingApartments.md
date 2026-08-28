@@ -70,7 +70,7 @@ System.out.println(bangorThreeBedroomApt.moreExpensiveThan(atlantaTwoBedroomApt)
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

@@ -22,7 +22,7 @@ System.out.println(sum(numbers));
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `10`<br>`16` |
 

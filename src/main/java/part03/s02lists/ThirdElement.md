@@ -11,15 +11,13 @@ Your assignment is to modify the program so that instead of the first value, the
 
 Alex
 
-**Emma**
-**Alex**
 ****
 
 ## Examples
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` |  |
+| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` | *(No output)* |
 | 1. `Emma`<br>2. `Alex`<br>3. `Mary` | `Alex` |
 | Program execution | `Mary` |
 

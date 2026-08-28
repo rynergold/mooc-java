@@ -86,7 +86,7 @@ Useful tip! In the printOwners method, you can create a list used for rememberin
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Finnish: [FI ABC-123, FI UXE-465]` |
 | Program execution | `owners:`<br>`Arto`<br>`Jürgen` |

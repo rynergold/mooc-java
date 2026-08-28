@@ -52,7 +52,7 @@ null
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `dibi`<br>`dab`<br>`dab`<br>`daa`<br>`6`<br>`null` |
 

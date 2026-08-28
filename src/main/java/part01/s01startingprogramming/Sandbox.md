@@ -26,7 +26,7 @@ You should use this sandbox exercise to try out different things later on. When 
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

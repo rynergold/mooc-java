@@ -25,7 +25,7 @@ public static void main(String[] args) {
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `3`<br>`2`<br>`-5` |
 

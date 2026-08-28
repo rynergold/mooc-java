@@ -18,7 +18,7 @@ alexander.knock();
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Who's there?` |
 | Program execution | `Who's there?` |

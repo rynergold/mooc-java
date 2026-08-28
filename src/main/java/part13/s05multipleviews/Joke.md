@@ -11,7 +11,7 @@ By default (when it starts) the program should show a joke-related question. Use
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

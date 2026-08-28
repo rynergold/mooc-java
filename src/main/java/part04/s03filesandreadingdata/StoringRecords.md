@@ -18,7 +18,7 @@ The exercise template has a `main` method that you can use to test how your prog
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

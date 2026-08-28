@@ -36,7 +36,7 @@ The tests of this exercise are not the most detailed ones. Try to create the pro
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

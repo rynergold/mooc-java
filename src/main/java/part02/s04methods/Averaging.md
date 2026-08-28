@@ -31,7 +31,7 @@ Make sure to remember how to convert an integer (`int`) into a decimal number (`
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Average: 3.5` |
 

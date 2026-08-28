@@ -35,7 +35,7 @@ System.out.println();
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `for example more precisely and so on lol` |
 

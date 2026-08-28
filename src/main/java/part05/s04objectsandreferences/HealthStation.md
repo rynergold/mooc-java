@@ -115,7 +115,7 @@ weighings performed: 6
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Ethan's weight: 7 kilos`<br>`Peter's weight: 85 kilos`<br>`Ethan weight: 7 kilos`<br>`Peter weight: 85 kilos` |
 | Program execution | `Ethan weight: 10 kilos`<br>`Peter weight: 85 kilos`<br>`weighings performed: 0`<br>`weighings performed: 2`<br>`weighings performed: 6` |

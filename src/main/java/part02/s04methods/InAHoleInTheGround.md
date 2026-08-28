@@ -21,7 +21,7 @@ The output of the program:
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `In a hole in the ground there lived a method` |
 

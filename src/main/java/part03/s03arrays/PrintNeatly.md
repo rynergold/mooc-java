@@ -18,7 +18,7 @@ printNeatly(array);
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `5, 1, 3, 4, 2` |
 

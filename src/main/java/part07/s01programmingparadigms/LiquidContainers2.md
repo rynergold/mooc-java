@@ -51,7 +51,6 @@ Below is some sample output. The user interface should work as follows:
 
 First: 0/100
 Second: 0/100
-**remove 10**
 
 ## Examples
 

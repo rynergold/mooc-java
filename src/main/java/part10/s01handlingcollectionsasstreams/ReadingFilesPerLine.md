@@ -9,7 +9,7 @@ Implement the static method `public static List read(String file)`, which reads 
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

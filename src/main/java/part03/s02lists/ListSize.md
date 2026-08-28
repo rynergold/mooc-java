@@ -9,25 +9,13 @@ In the exercise template is a program that reads input from the user. Modify its
 
 In total: 4
 
-**Juno**
-**Elizabeth**
-**Mason**
-**Irene**
-**Olivia**
-**Liam**
-**Ida**
-**Christopher**
-**Mark**
-**Sylvester**
-**Oscar**
-
 **NB!** Be sure to use the `size` method of the list.
 
 ## Examples
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` |  |
+| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` | *(No output)* |
 | 1. `Juno`<br>2. `Elizabeth`<br>3. `Mason`<br>4. `Irene`<br>5. `Olivia`<br>6. `Liam`<br>7. `Ida`<br>8. `Christopher`<br>9. `Mark`<br>10. `Sylvester`<br>11. `Oscar` | `In total: 4` |
 | Program execution | `In total: 11` |
 

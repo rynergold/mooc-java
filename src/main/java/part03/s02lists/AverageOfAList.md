@@ -13,7 +13,7 @@ When reading ends, calculate the average of the numbers in it, and then print th
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `72`<br>2. `2`<br>3. `8`<br>4. `11`<br>5. `-1` |  |
+| 1. `72`<br>2. `2`<br>3. `8`<br>4. `11`<br>5. `-1` | *(No output)* |
 | Program execution | `Average: 23.25` |
 
 ## Terminal Practice

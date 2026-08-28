@@ -9,7 +9,7 @@ Two classes, Student and University, are depicted below, as well as the connecti
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

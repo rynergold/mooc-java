@@ -11,7 +11,7 @@ Write a program that reads the user's input as strings. When the user inputs an 
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `first`<br>2. `second`<br>3. `war is peace: 1984` |  |
+| 1. `first`<br>2. `second`<br>3. `war is peace: 1984` | *(No output)* |
 | Program execution | `first`<br>`second`<br>`war is peace: 1984` |
 
 ## Terminal Practice

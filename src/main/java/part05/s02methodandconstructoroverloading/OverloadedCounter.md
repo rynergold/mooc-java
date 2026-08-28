@@ -29,7 +29,7 @@ Implement versions which are given one parameter of the methods `increase` and `
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

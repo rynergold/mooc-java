@@ -9,16 +9,10 @@ Write a program that reads two integers from the user. If the first number is gr
 
 A few examples of the expected behaviour:
 
-**8**
-**4**
 8 is greater than 4.
 
-**-3**
-**5**
 -3 is smaller than 5.
 
-**1**
-**1**
 1 is equal to 1.
 
 ## Examples

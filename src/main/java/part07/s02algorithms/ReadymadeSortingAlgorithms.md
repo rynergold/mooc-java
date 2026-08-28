@@ -19,7 +19,7 @@ Be sure to use the ready-made Java libraries in your implementation.
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

@@ -12,24 +12,12 @@ If no positive number is inputted, the program prints "Cannot calculate the aver
 
 Below a few examples of the program's output
 
-**3**
-**5**
-**1**
-**-3**
-**0**
 3.0
 
-**0**
 Cannot calculate the average
 
-**-3**
-**1**
-**0**
 1.0
 
-**1**
-**1**
-**0**
 1.0
 
 ## Examples

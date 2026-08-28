@@ -11,7 +11,6 @@ Day of week
 
 Use regular expressions to create the method `public boolean isDayOfWeek(String string)`, which returns `true` if the parameter string is an abbreviation of a day of the week (mon, tue, wed, thu, fri, sat, sun)
 
-
 Enter a string: **tue**
 The form is correct.
 
@@ -23,7 +22,6 @@ Vowel check
 **NB**. For simplicity's sake, in this exercises **the letters that are considered vowels are: a, e, i, o, and u**.
 
 Create the method `public boolean allVowels(String string)` that uses a regular expression to check whether all the characters in the parameter string are vowels.
-
 
 Enter a string: **oi**
 The form is correct.
@@ -39,7 +37,6 @@ Create the method `public boolean timeOfDay(String string)`. It should use a reg
 
 **NB. In this exercise we use the 24-hour clock**. So the acceptable values are between 00:00:00 and 23:59:59.
 
-
 Enter a string: **17:23:05**
 The form is correct.
 
@@ -53,13 +50,13 @@ The form is incorrect.
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `tue` | Enter a string:<br>`The form is correct.` |
-| `abc` | Enter a string:<br>`The form is incorrect.` |
-| `oi` | Enter a string:<br>`The form is correct.` |
-| `queue` | Enter a string:<br>`The form is incorrect.` |
-| `17:23:05` | Enter a string:<br>`The form is correct.` |
-| `abc` | Enter a string:<br>`The form is incorrect.` |
-| `33:33:33` | Enter a string:<br>`The form is incorrect.` |
+| `tue` | `Enter a string:`<br>`The form is correct.` |
+| `abc` | `Enter a string:`<br>`The form is incorrect.` |
+| `oi` | `Enter a string:`<br>`The form is correct.` |
+| `queue` | `Enter a string:`<br>`The form is incorrect.` |
+| `17:23:05` | `Enter a string:`<br>`The form is correct.` |
+| `abc` | `Enter a string:`<br>`The form is incorrect.` |
+| `33:33:33` | `Enter a string:`<br>`The form is incorrect.` |
 
 ## Terminal Practice
 

@@ -13,7 +13,7 @@ Then the program should print the following:
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `In a`<br>`world` |
 

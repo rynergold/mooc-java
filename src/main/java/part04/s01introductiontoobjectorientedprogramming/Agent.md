@@ -33,7 +33,7 @@ My name is Bond, Ionic Bond
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `My name is Bond, James Bond`<br>`My name is Bond, James Bond`<br>`My name is Bond, Ionic Bond` |
 

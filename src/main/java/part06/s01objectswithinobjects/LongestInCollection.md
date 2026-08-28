@@ -20,7 +20,7 @@ System.out.println("Longest: " + j.longest());
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Longest: null`<br>`Longest: mystique` |
 

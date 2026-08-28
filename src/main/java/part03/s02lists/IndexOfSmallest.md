@@ -10,20 +10,13 @@ Write a program that reads numbers from the user. When number 9999 is entered, t
 Smallest number: 2
 Found at index: 1
 
-**72**
-**44**
-**8**
-**8**
-**11**
-**9999**
-
 Hint: combine the programs you wrote for the exercises "Greatest number in the list" and "Index of the requested number". First find the smallest number, and then find the index of that number.
 
 ## Examples
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `72`<br>2. `2`<br>3. `8`<br>4. `8`<br>5. `11`<br>6. `9999` |  |
+| 1. `72`<br>2. `2`<br>3. `8`<br>4. `8`<br>5. `11`<br>6. `9999` | *(No output)* |
 | 1. `72`<br>2. `44`<br>3. `8`<br>4. `8`<br>5. `11`<br>6. `9999` | `Smallest number: 2`<br>`Found at index: 1` |
 | Program execution | `Smallest number: 8`<br>`Found at index: 2`<br>`Found at index: 3` |
 

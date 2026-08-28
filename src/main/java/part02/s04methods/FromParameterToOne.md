@@ -32,7 +32,7 @@ public static void main(String[] args) {
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `5`<br>`4`<br>`3`<br>`2`<br>`1`<br>`2`<br>`1` |
 

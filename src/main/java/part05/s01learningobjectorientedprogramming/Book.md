@@ -18,7 +18,7 @@ In addition, make a `public String toString()` method for the book that will be 
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `J. K. Rowling, Harry Potter and the Sorcerer's Stone, 223 pages` |
 

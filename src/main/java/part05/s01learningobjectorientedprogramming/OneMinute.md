@@ -36,7 +36,7 @@ NB! The program above will never stop running by itself. Press the red square to
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

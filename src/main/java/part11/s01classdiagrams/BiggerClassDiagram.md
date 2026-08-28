@@ -11,7 +11,7 @@ Below you'll see a somewhat larger class diagram. In it are the classes A, B, C,
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

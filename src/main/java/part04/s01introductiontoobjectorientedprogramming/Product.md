@@ -16,7 +16,7 @@ The output above is based on the product being assigned the name `banana`, with 
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Banana, price 1.1, 13 pcs` |
 

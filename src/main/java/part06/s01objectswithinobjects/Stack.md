@@ -81,7 +81,7 @@ Tip! When a value is added to an ArrayList, it goes to the end of the list. As s
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `true`<br>`[]`<br>`false`<br>`[Value]`<br>`true`<br>`[]`<br>`false`<br>`[Value]`<br>`true`<br>`[]`<br>`Value`<br>`5`<br>`4`<br>`3`<br>`2`<br>`1` |
 

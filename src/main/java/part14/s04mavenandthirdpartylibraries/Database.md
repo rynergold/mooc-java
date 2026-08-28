@@ -146,7 +146,7 @@ The text user interface in this exercise does not differ in any essential way fr
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

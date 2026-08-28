@@ -59,7 +59,7 @@ Note that in the case of books, you are examining the values of the books' `id`-
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

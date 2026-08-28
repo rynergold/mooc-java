@@ -46,7 +46,7 @@ System.out.println(mattsIOU.howMuchDoIOweTo("Arthur"));
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `51.5`<br>`30.0`<br>`10.5` |
 

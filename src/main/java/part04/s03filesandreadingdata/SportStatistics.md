@@ -25,15 +25,11 @@ Games Played
 Implement the ability to output the number of games played by any given team. We're using the above-mentioned **data.csv** file.
 
 File:
-**data.csv**
 Team:
-**FURIA**
 Games: 2
 
 File:
-**data.csv**
 Team:
-**ENCE**
 Games: 6
 
 Wins and Losses
@@ -43,17 +39,13 @@ Extend the program so that it has the ability to print the number of wins and lo
 You may assume that the games cannot be tied. Below, we're using the above-mentioned **data.csv** file.
 
 File:
-**data.csv**
 Team:
-**FURIA**
 Games: 2
 Wins: 1
 Losses: 1
 
 File:
-**data.csv**
 Name:
-**ENCE**
 Games: 6
 Wins: 3
 Losses: 3

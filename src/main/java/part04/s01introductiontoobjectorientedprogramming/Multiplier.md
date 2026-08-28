@@ -30,7 +30,7 @@ Output
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `multiplyByThree.multiply(2): 6`<br>`multiplyByFour.multiply(2): 8`<br>`multiplyByThree.multiply(1): 3`<br>`multiplyByFour.multiply(1): 4` |
 

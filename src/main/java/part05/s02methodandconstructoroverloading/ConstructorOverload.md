@@ -29,7 +29,7 @@ System.out.println(tyre);
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Tape measure (1 kg) can be found from the shelf`<br>`Plaster (1 kg) can be found from the home improvement section`<br>`Tyre (5 kg) can be found from the shelf` |
 

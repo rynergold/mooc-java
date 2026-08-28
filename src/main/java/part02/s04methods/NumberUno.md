@@ -9,7 +9,7 @@ Write a method `public static int numberUno()` that returns the value 1.
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

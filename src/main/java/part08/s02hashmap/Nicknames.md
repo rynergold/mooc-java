@@ -17,7 +17,7 @@ There is no automated tests for this exercise. Just submit the exercise when you
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

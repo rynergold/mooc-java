@@ -33,7 +33,7 @@ Once you get the program to work, try out the previous example with the interest
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `120000.0`<br>`121200.0`<br>`147887.0328416936` |
 

@@ -9,7 +9,7 @@ The exercise template includes the probably familiar project "Cargo hold". Howev
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

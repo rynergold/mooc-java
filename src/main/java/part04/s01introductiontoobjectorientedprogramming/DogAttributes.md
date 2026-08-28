@@ -17,7 +17,7 @@ The class doesn't do much yet. However, practicing this step is valuable for wha
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

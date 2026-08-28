@@ -32,7 +32,7 @@ System.out.println(dictionary.translate("bow"));
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `[maata, valehdella]`<br>`[]` |
 

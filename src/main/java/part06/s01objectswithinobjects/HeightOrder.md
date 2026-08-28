@@ -118,7 +118,7 @@ Auli (186 cm)
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Empty room? true`<br>`Empty room? false` |
 | Program execution | `Lea (183 cm)`<br>`Kenya (182 cm)`<br>`Auli (186 cm)`<br>`Nina (172 cm)`<br>`Terhi (185 cm)`<br>`Shortest: null`<br>`Empty room? true`<br>`Empty room? false` |

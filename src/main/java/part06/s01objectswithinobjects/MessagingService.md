@@ -17,7 +17,7 @@ Tip! You can find out the length of the string using the `length()` method assoc
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

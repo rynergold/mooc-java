@@ -11,7 +11,7 @@ Create a graphical user interface in the class that is supplied with the exercis
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

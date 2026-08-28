@@ -15,8 +15,8 @@ After this the user is queried for a maximum duration. Once the maximum is given
 
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Rick and Morty`<br>2. `25`<br>3. `Two and a Half Men`<br>4. `30`<br>5. `Love it or list it`<br>6. `60`<br>7. `House`<br>8. `60` | Name:<br>Duration:<br>Name:<br>Duration:<br>Name:<br>Duration:<br>Name:<br>Duration: |
-| `30` | Program's maximum duration?<br>`Rick and Morty, 25 minutes`<br>`Two and a Half Men, 30 minutes` |
+| 1. `Rick and Morty`<br>2. `25`<br>3. `Two and a Half Men`<br>4. `30`<br>5. `Love it or list it`<br>6. `60`<br>7. `House`<br>8. `60` | `Name:`<br>`Duration:`<br>`Name:`<br>`Duration:`<br>`Name:`<br>`Duration:`<br>`Name:`<br>`Duration:` |
+| `30` | `Program's maximum duration?`<br>`Rick and Morty, 25 minutes`<br>`Two and a Half Men, 30 minutes` |
 
 ## Terminal Practice
 

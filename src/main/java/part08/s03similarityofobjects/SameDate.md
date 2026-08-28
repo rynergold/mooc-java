@@ -20,7 +20,7 @@ System.out.println(d.equals(new SimpleDate(1, 2, 2000)));
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `false`<br>`false`<br>`true` |
 

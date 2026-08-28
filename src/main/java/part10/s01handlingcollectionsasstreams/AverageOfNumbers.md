@@ -10,17 +10,9 @@ Implement a program, which reads user input. If the user input is "end", the pro
 Implement calculating the average using a stream!
 
 Input numbers, type "end" to stop.
-**2**
-**4**
-**6**
-**end**
 average of the numbers: 4.0
 
 Input numbers, type "end" to stop.
-**-1**
-**1**
-**2**
-**end**
 average of the numbers: 0.6666666666666666
 
 ## Examples

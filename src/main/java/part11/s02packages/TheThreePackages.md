@@ -9,7 +9,7 @@ Within the exercise base, create three packages: `a`, `b`, and `c`. Create class
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 

@@ -12,7 +12,6 @@ Then user is asked if the program should print the average of all the positive n
 Use streams to calculate the average and filter the numbers!
 
 Print the average of the negative numbers or the positive numbers? (n/p)
-**n**
 Average of the negative numbers: -1.0
 
 ## Examples

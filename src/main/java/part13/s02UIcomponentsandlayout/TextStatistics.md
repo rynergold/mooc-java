@@ -9,7 +9,7 @@ Create an applicaton in the class provided in the exercise template. Use the Bor
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `(see spec)` |
 
