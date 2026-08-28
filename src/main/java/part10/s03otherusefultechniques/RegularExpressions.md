@@ -51,9 +51,15 @@ The form is incorrect.
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `tue`<br>2. `abc`<br>3. `oi`<br>4. `queue`<br>5. `17:23:05`<br>6. `abc`<br>7. `33:33:33` | Enter a string: **`tue`**<br>`The form is correct.`<br>Enter a string: **`abc`**<br>`The form is incorrect.`<br>Enter a string: **`oi`**<br>`The form is correct.`<br>Enter a string: **`queue`**<br>`The form is incorrect.`<br>Enter a string: **`17:23:05`**<br>`The form is correct.`<br>Enter a string: **`abc`**<br>`The form is incorrect.`<br>Enter a string: **`33:33:33`**<br>`The form is incorrect.` |
+| `tue` | Enter a string:<br>`The form is correct.` |
+| `abc` | Enter a string:<br>`The form is incorrect.` |
+| `oi` | Enter a string:<br>`The form is correct.` |
+| `queue` | Enter a string:<br>`The form is incorrect.` |
+| `17:23:05` | Enter a string:<br>`The form is correct.` |
+| `abc` | Enter a string:<br>`The form is incorrect.` |
+| `33:33:33` | Enter a string:<br>`The form is incorrect.` |
 
 ## Terminal Practice
 

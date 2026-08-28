@@ -11,9 +11,9 @@ Modify the program so that after reading the numbers it calculates and prints th
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `72`<br>2. `2`<br>3. `8`<br>4. `11`<br>5. `-1` | **`72`**<br>**`2`**<br>**`8`**<br>**`11`**<br>**`-1`** |
+| 1. `72`<br>2. `2`<br>3. `8`<br>4. `11`<br>5. `-1` |  |
 | Program execution | `Sum: 93` |
 
 ## Terminal Practice

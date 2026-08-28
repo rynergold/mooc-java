@@ -25,9 +25,10 @@ _Additional info_: Factorials are used especially in probability calculus when e
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `3`<br>2. `10` | Give a number: **`3`**<br>`Factorial: 6`<br>Give a number: **`10`**<br>`Factorial: 3628800` |
+| `3` | Give a number:<br>`Factorial: 6` |
+| `10` | Give a number:<br>`Factorial: 3628800` |
 
 ## Terminal Practice
 

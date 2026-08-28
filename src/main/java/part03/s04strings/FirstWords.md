@@ -9,9 +9,9 @@ Write a program that reads user input until an empty line is entered. For each n
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `one two three four`<br>2. `this is a very important message` | **`one two three four`**<br>`one`<br>**`this is a very important message`**<br>`this` |
+| 1. `one two three four`<br>2. `this is a very important message` | `one`<br>`this` |
 
 ## Terminal Practice
 

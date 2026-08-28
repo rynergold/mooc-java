@@ -19,9 +19,9 @@ Write a program that reads an integer from the user. Next, the program prints nu
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `4`<br>2. `1` | **`4`**<br>`0`<br>`1`<br>`2`<br>`3`<br>`4`<br>**`1`**<br>`0`<br>`1` |
+| 1. `4`<br>2. `1` | `0`<br>`1`<br>`2`<br>`3`<br>`4`<br>`0`<br>`1` |
 
 ## Terminal Practice
 

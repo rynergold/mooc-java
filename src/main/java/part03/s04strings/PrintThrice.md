@@ -11,9 +11,9 @@ NB! The program should ask for only one string. Don't use a loop here.
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `cake` | Give a word: **`cake`** |
+| `cake` | Give a word: |
 | Program execution | `cakecakecake` |
 
 ## Terminal Practice

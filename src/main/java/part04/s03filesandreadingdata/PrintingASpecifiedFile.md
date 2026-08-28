@@ -11,9 +11,9 @@ The exercise template contains the files "data.txt" and "song.txt", which you ma
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `song.txt` | `Which file should have its contents printed?`<br>**`song.txt`**<br>`No option for duality`<br>`The old is where we come`<br>`Clockspeed is fast, but we'll survive`<br>`The new will overcome`<br>`We are challengers, not followers`<br>`We take the ball to build`<br>`Easy safe services`<br>`Are here to stay` |
+| `song.txt` | `Which file should have its contents printed?`<br>`No option for duality`<br>`The old is where we come`<br>`Clockspeed is fast, but we'll survive`<br>`The new will overcome`<br>`We are challengers, not followers`<br>`We take the ball to build`<br>`Easy safe services`<br>`Are here to stay` |
 | Program execution | `Value for society`<br>`Value for life`<br>`For you and me`<br>`Tieto is here allright!` |
 
 ## Terminal Practice

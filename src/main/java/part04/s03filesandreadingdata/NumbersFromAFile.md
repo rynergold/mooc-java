@@ -39,9 +39,9 @@ numbers-2.txt:
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `numbers-1.txt`<br>2. `15`<br>3. `20`<br>4. `numbers-1.txt`<br>5. `0`<br>6. `300` | File? **`numbers-1.txt`**<br>Lower bound? **`15`**<br>Upper bound? **`20`**<br>`Numbers: 2`<br>File? **`numbers-1.txt`**<br>Lower bound? **`0`**<br>Upper bound? **`300`**<br>`Numbers: 4` |
+| 1. `numbers-1.txt`<br>2. `15`<br>3. `20`<br>4. `numbers-1.txt`<br>5. `0`<br>6. `300` | File?<br>Lower bound?<br>Upper bound?<br>`Numbers: 2`<br>File?<br>Lower bound?<br>Upper bound?<br>`Numbers: 4` |
 
 ## Terminal Practice
 

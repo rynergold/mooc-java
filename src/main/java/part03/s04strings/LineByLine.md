@@ -9,9 +9,9 @@ Write a program that reads strings from the user. If the input is empty, the pro
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `once upon a time`<br>2. `a little program`<br>3. `halted` | **`once upon a time`**<br>`once`<br>`upon`<br>`a`<br>`time`<br>**`a little program`**<br>`a`<br>`little`<br>`program`<br>**`halted`**<br>`halted` |
+| 1. `once upon a time`<br>2. `a little program`<br>3. `halted` | `once`<br>`upon`<br>`a`<br>`time`<br>`a`<br>`little`<br>`program`<br>`halted` |
 
 ## Terminal Practice
 

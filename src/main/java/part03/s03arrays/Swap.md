@@ -18,12 +18,12 @@ Tip! You'll need an additional variable to store one of the values for a little 
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `1`<br>`3`<br>`5`<br>`7`<br>`9` |
-| 1. `2`<br>2. `4` | `Give two indices to swap:`<br>**`2`**<br>**`4`** |
+| 1. `2`<br>2. `4` | `Give two indices to swap:` |
 | Program execution | `1`<br>`3`<br>`9`<br>`7`<br>`5`<br>`1`<br>`3`<br>`5`<br>`7`<br>`9` |
-| 1. `0`<br>2. `1` | `Give two indices to swap:`<br>**`0`**<br>**`1`** |
+| 1. `0`<br>2. `1` | `Give two indices to swap:` |
 | Program execution | `3`<br>`1`<br>`5`<br>`7`<br>`9` |
 
 ## Terminal Practice

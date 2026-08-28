@@ -9,10 +9,10 @@ Write a program that asks the user to write a string. When the user provides a s
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `Bye` | `Write a message:`<br>**`Bye`**<br>`Bye` |
-| `Once upon a time...` | `Write a message:`<br>**`Once upon a time...`**<br>`Once upon a time...` |
+| `Bye` | `Write a message:`<br>`Bye` |
+| `Once upon a time...` | `Write a message:`<br>`Once upon a time...` |
 
 ## Terminal Practice
 

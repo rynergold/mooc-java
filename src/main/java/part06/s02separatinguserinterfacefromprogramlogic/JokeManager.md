@@ -119,10 +119,10 @@ X - stop
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Drawing jokes:`<br>`What is blue and smells of red paint? - Blue paint.`<br>`What is red and smells of blue paint? - Red paint.`<br>`What is blue and smells of red paint? - Blue paint.`<br>`What is blue and smells of red paint? - Blue paint.`<br>`What is blue and smells of red paint? - Blue paint.` |
-| 1. `1`<br>2. `Did you hear about the claustrophobic astronaut? -- He just needed a little space.`<br>3. `3`<br>4. `X` | `Printing jokes:`<br>`What is red and smells of blue paint? - Red paint.`<br>`What is blue and smells of red paint? - Blue paint.`<br>`Commands:`<br>`1 - add a joke`<br>`2 - draw a joke`<br>`3 - list jokes`<br>`X - stop`<br>**`1`**<br>`Write the joke to be added:`<br>**`Did you hear about the claustrophobic astronaut? -- He just needed a little space.`**<br>`Commands:`<br>`1 - add a joke`<br>`2 - draw a joke`<br>`3 - list jokes`<br>`X - stop`<br>**`3`**<br>`Printing the jokes.`<br>`Did you hear about the claustrophobic astronaut? -- He just needed a little space.`<br>`Commands:`<br>`1 - add a joke`<br>`2 - draw a joke`<br>`3 - list jokes`<br>`X - stop`<br>**`X`** |
+| 1. `1`<br>2. `Did you hear about the claustrophobic astronaut? -- He just needed a little space.`<br>3. `3`<br>4. `X` | `Printing jokes:`<br>`What is red and smells of blue paint? - Red paint.`<br>`What is blue and smells of red paint? - Blue paint.`<br>`Commands:`<br>`1 - add a joke`<br>`2 - draw a joke`<br>`3 - list jokes`<br>`X - stop`<br>`Write the joke to be added:`<br>`Commands:`<br>`1 - add a joke`<br>`2 - draw a joke`<br>`3 - list jokes`<br>`X - stop`<br>`Printing the jokes.`<br>`Did you hear about the claustrophobic astronaut? -- He just needed a little space.`<br>`Commands:`<br>`1 - add a joke`<br>`2 - draw a joke`<br>`3 - list jokes`<br>`X - stop` |
 
 ## Terminal Practice
 

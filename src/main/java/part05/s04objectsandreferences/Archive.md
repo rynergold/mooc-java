@@ -35,10 +35,10 @@ Hint! It is probably smart to add each item to the list at most once -- compare 
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `B07H8ND8HH`<br>2. `He-Man figure`<br>3. `B07H8ND8HH`<br>4. `He-Man`<br>5. `B07NQFMZYG`<br>6. `He-Man figure`<br>7. `B07NQFMZYG`<br>8. `He-Man figure` | `Identifier? (empty will stop)`<br>**`B07H8ND8HH`**<br>`Name? (empty will stop)`<br>**`He-Man figure`**<br>`Identifier? (empty will stop)`<br>**`B07H8ND8HH`**<br>`Name? (empty will stop)`<br>**`He-Man`**<br>`Identifier? (empty will stop)`<br>**`B07NQFMZYG`**<br>`Name? (empty will stop)`<br>**`He-Man figure`**<br>`Identifier? (empty will stop)`<br>**`B07NQFMZYG`**<br>`Name? (empty will stop)`<br>**`He-Man figure`**<br>`Identifier? (empty will stop)` |
-| 1. `B07H8ND8HH`<br>2. `He-Man figure`<br>3. `B07H8ND8HH`<br>4. `He-Man`<br>5. `B07NQFMZYG`<br>6. `He-Man figure`<br>7. `B07NQFMZYG`<br>8. `He-Man figure` | `==Items==`<br>`B07H8ND8HH: He-Man figure`<br>`B07H8ND8HH: He-Man`<br>`B07NQFMZYG: He-Man figure`<br>`B07NQFMZYG: He-Man figure`<br>`Identifier? (empty will stop)`<br>**`B07H8ND8HH`**<br>`Name? (empty will stop)`<br>**`He-Man figure`**<br>`Identifier? (empty will stop)`<br>**`B07H8ND8HH`**<br>`Name? (empty will stop)`<br>**`He-Man`**<br>`Identifier? (empty will stop)`<br>**`B07NQFMZYG`**<br>`Name? (empty will stop)`<br>**`He-Man figure`**<br>`Identifier? (empty will stop)`<br>**`B07NQFMZYG`**<br>`Name? (empty will stop)`<br>**`He-Man figure`**<br>`Identifier? (empty will stop)` |
+| 1. `B07H8ND8HH`<br>2. `He-Man figure`<br>3. `B07H8ND8HH`<br>4. `He-Man`<br>5. `B07NQFMZYG`<br>6. `He-Man figure`<br>7. `B07NQFMZYG`<br>8. `He-Man figure` | `Identifier? (empty will stop)`<br>`Name? (empty will stop)`<br>`Identifier? (empty will stop)`<br>`Name? (empty will stop)`<br>`Identifier? (empty will stop)`<br>`Name? (empty will stop)`<br>`Identifier? (empty will stop)`<br>`Name? (empty will stop)`<br>`Identifier? (empty will stop)` |
+| 1. `B07H8ND8HH`<br>2. `He-Man figure`<br>3. `B07H8ND8HH`<br>4. `He-Man`<br>5. `B07NQFMZYG`<br>6. `He-Man figure`<br>7. `B07NQFMZYG`<br>8. `He-Man figure` | `==Items==`<br>`B07H8ND8HH: He-Man figure`<br>`B07H8ND8HH: He-Man`<br>`B07NQFMZYG: He-Man figure`<br>`B07NQFMZYG: He-Man figure`<br>`Identifier? (empty will stop)`<br>`Name? (empty will stop)`<br>`Identifier? (empty will stop)`<br>`Name? (empty will stop)`<br>`Identifier? (empty will stop)`<br>`Name? (empty will stop)`<br>`Identifier? (empty will stop)`<br>`Name? (empty will stop)`<br>`Identifier? (empty will stop)` |
 | Program execution | `==Items==`<br>`B07H8ND8HH: He-Man figure`<br>`B07NQFMZYG: He-Man figure` |
 
 ## Terminal Practice

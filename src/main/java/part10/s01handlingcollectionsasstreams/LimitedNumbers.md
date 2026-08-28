@@ -9,9 +9,9 @@ Write a program that reads user input. When the user gives a negative number as 
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `7`<br>2. `14`<br>3. `4`<br>4. `5`<br>5. `4`<br>6. `-1` | **`7`**<br>**`14`**<br>**`4`**<br>**`5`**<br>**`4`**<br>**`-1`**<br>`4`<br>`5`<br>`4` |
+| 1. `7`<br>2. `14`<br>3. `4`<br>4. `5`<br>5. `4`<br>6. `-1` | `4`<br>`5`<br>`4` |
 
 ## Terminal Practice
 

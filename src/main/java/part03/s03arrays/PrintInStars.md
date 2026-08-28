@@ -18,9 +18,9 @@ The 0th element of the array is 5, so the first line has 5 stars. The next one h
 
 ## Examples
 
-| Scenario / State | Expected Console Output (stdout) |
+| Scenario / State | Expected Program Output (stdout) |
 | :--- | :--- |
-| Program execution | `*****`<br>`*`<br>`***`<br>`****`<br>`**` |
+| Program execution | ``<br>`*`<br>`***`<br>``<br>`**` |
 
 ## Terminal Practice
 

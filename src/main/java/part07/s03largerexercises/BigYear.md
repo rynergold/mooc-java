@@ -28,9 +28,9 @@ The following is an example of the program functionality:
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Add`<br>2. `Crow`<br>3. `Corvus Corvus`<br>4. `Add`<br>5. `Hawk`<br>6. `Dorkus Dorkus`<br>7. `Observation`<br>8. `Hawk`<br>9. `Observation`<br>10. `Lion`<br>11. `Observation`<br>12. `Hawk`<br>13. `All`<br>14. `One`<br>15. `Hawk`<br>16. `Quit` | ? **`Add`**<br>Name: **`Crow`**<br>Name in Latin: **`Corvus Corvus`**<br>? **`Add`**<br>Name: **`Hawk`**<br>Name in Latin: **`Dorkus Dorkus`**<br>? **`Observation`**<br>Bird? **`Hawk`**<br>? **`Observation`**<br>Bird? **`Lion`**<br>`Not a bird!`<br>? **`Observation`**<br>Bird? **`Hawk`**<br>? **`All`**<br>`Hawk (Dorkus Dorkus): 2 observations`<br>`Crow (Corvus Corvus): 0 observations`<br>? **`One`**<br>Bird? **`Hawk`**<br>`Hawk (Dorkus Dorkus): 2 observations`<br>? **`Quit`** |
+| 1. `Add`<br>2. `Crow`<br>3. `Corvus Corvus`<br>4. `Add`<br>5. `Hawk`<br>6. `Dorkus Dorkus`<br>7. `Observation`<br>8. `Hawk`<br>9. `Observation`<br>10. `Lion`<br>11. `Observation`<br>12. `Hawk`<br>13. `All`<br>14. `One`<br>15. `Hawk`<br>16. `Quit` | ?<br>Name:<br>Name in Latin:<br>?<br>Name:<br>Name in Latin:<br>?<br>Bird?<br>?<br>Bird?<br>`Not a bird!`<br>?<br>Bird?<br>?<br>`Hawk (Dorkus Dorkus): 2 observations`<br>`Crow (Corvus Corvus): 0 observations`<br>?<br>Bird?<br>`Hawk (Dorkus Dorkus): 2 observations`<br>? |
 
 ## Terminal Practice
 

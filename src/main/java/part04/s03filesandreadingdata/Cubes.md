@@ -19,9 +19,9 @@ Write a program that reads strings from the user until the user inputs the strin
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `3`<br>2. `-1`<br>3. `11`<br>4. `end`<br>5. `end` | **`3`**<br>`27`<br>**`-1`**<br>`-1`<br>**`11`**<br>`1331`<br>**`end`**<br>**`end`** |
+| 1. `3`<br>2. `-1`<br>3. `11`<br>4. `end`<br>5. `end` | `27`<br>`-1`<br>`1331` |
 
 ## Terminal Practice
 

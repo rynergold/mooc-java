@@ -15,9 +15,9 @@ An example of the working program is given below:
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Hammer`<br>2. `Collar` | Name: **`Hammer`**<br>Name: **`Collar`**<br>`Name:` |
+| 1. `Hammer`<br>2. `Collar` | Name:<br>Name:<br>`Name:` |
 | Program execution | `Hammer (created at: 06.07.2018 12:34:56)`<br>`Collar (created at: 06.07.2018 12:34:57)` |
 
 ## Terminal Practice

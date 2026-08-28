@@ -20,10 +20,10 @@ Average of the birth years: 2014.8
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `sebastian,2017`<br>2. `lucas,2017`<br>3. `lily,2017`<br>4. `hanna,2014`<br>5. `gabriel,2009` | **`sebastian,2017`**<br>**`lucas,2017`**<br>**`lily,2017`**<br>**`hanna,2014`**<br>**`gabriel,2009`** |
-| 1. `sauli,1948`<br>2. `tarja,1943`<br>3. `martti,1936`<br>4. `mauno,1923`<br>5. `urho,1900` | `Longest name: sebastian`<br>`Average of the birth years: 2014.8`<br>**`sauli,1948`**<br>**`tarja,1943`**<br>**`martti,1936`**<br>**`mauno,1923`**<br>**`urho,1900`** |
+| 1. `sebastian,2017`<br>2. `lucas,2017`<br>3. `lily,2017`<br>4. `hanna,2014`<br>5. `gabriel,2009` |  |
+| 1. `sauli,1948`<br>2. `tarja,1943`<br>3. `martti,1936`<br>4. `mauno,1923`<br>5. `urho,1900` | `Longest name: sebastian`<br>`Average of the birth years: 2014.8` |
 | Program execution | `Longest name: martti`<br>`Average of the birth years: 1930.0` |
 
 ## Terminal Practice

@@ -32,9 +32,9 @@ Incorrect username or password!
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `alex`<br>2. `sunshine`<br>3. `emma`<br>4. `haskell`<br>5. `alex`<br>6. `thunderstorm` | Enter username: **`alex`**<br>Enter password: **`sunshine`**<br>`You have successfully logged in!`<br>Enter username: **`emma`**<br>Enter password: **`haskell`**<br>`You have successfully logged in!`<br>Enter username: **`alex`**<br>Enter password: **`thunderstorm`**<br>`Incorrect username or password!` |
+| 1. `alex`<br>2. `sunshine`<br>3. `emma`<br>4. `haskell`<br>5. `alex`<br>6. `thunderstorm` | Enter username:<br>Enter password:<br>`You have successfully logged in!`<br>Enter username:<br>Enter password:<br>`You have successfully logged in!`<br>Enter username:<br>Enter password:<br>`Incorrect username or password!` |
 
 ## Terminal Practice
 

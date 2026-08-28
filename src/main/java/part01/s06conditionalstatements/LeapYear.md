@@ -53,9 +53,9 @@ if (number % 4 != 0) {
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `2011`<br>2. `2012`<br>3. `1800`<br>4. `2000` | Give a year: **`2011`**<br>`The year is not a leap year.`<br>Give a year: **`2012`**<br>`The year is a leap year.`<br>Give a year: **`1800`**<br>`The year is not a leap year.`<br>Give a year: **`2000`**<br>`The year is a leap year.`<br>`The number is divisible by five!`<br>`The number is not divisible by six!` |
+| 1. `2011`<br>2. `2012`<br>3. `1800`<br>4. `2000` | Give a year:<br>`The year is not a leap year.`<br>Give a year:<br>`The year is a leap year.`<br>Give a year:<br>`The year is not a leap year.`<br>Give a year:<br>`The year is a leap year.`<br>`The number is divisible by five!`<br>`The number is not divisible by six!` |
 
 ## Terminal Practice
 

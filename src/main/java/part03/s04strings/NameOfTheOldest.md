@@ -11,9 +11,9 @@ After reading all user input, the program prints the name of the oldest person. 
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `sebastian,2`<br>2. `lucas,2`<br>3. `lily,1`<br>4. `hanna,5`<br>5. `gabriel,10` | **`sebastian,2`**<br>**`lucas,2`**<br>**`lily,1`**<br>**`hanna,5`**<br>**`gabriel,10`** |
+| 1. `sebastian,2`<br>2. `lucas,2`<br>3. `lily,1`<br>4. `hanna,5`<br>5. `gabriel,10` |  |
 | Program execution | `Name of the oldest: gabriel` |
 
 ## Terminal Practice

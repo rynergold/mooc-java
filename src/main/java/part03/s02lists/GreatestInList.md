@@ -26,9 +26,9 @@ System.out.println("The smallest number: " + smallest);
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `72`<br>2. `2`<br>3. `8`<br>4. `93`<br>5. `11`<br>6. `-1` | **`72`**<br>**`2`**<br>**`8`**<br>**`93`**<br>**`11`**<br>**`-1`** |
+| 1. `72`<br>2. `2`<br>3. `8`<br>4. `93`<br>5. `11`<br>6. `-1` |  |
 | Program execution | `The greatest number: 93` |
 
 ## Terminal Practice

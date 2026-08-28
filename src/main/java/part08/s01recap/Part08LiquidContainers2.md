@@ -57,15 +57,15 @@ Second: 0/100
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `remove 10` | `0/100`<br>`50/100`<br>`50`<br>`0/100`<br>`100/100`<br>`First: 0/100`<br>`Second: 0/100`<br>**`remove 10`** |
-| `add 20` | `First: 0/100`<br>`Second: 0/100`<br>**`add 20`** |
-| `remove 5` | `First: 20/100`<br>`Second: 0/100`<br>**`remove 5`** |
-| `move 15` | `First: 20/100`<br>`Second: 0/100`<br>**`move 15`** |
-| `remove 5` | `First: 5/100`<br>`Second: 15/100`<br>**`remove 5`** |
-| `remove 20` | `First: 5/100`<br>`Second: 10/100`<br>**`remove 20`** |
-| `quit` | `First: 5/100`<br>`Second: 0/100`<br>**`quit`** |
+| `remove 10` | `0/100`<br>`50/100`<br>`50`<br>`0/100`<br>`100/100`<br>`First: 0/100`<br>`Second: 0/100` |
+| `add 20` | `First: 0/100`<br>`Second: 0/100` |
+| `remove 5` | `First: 20/100`<br>`Second: 0/100` |
+| `move 15` | `First: 20/100`<br>`Second: 0/100` |
+| `remove 5` | `First: 5/100`<br>`Second: 15/100` |
+| `remove 20` | `First: 5/100`<br>`Second: 10/100` |
+| `quit` | `First: 5/100`<br>`Second: 0/100` |
 
 ## Terminal Practice
 

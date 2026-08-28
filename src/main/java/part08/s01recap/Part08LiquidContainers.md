@@ -71,29 +71,29 @@ Second: 0/100
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `add 5` | `First: 0/100`<br>`Second: 0/100`<br>**`add 5`** |
-| `add 25` | `First: 5/100`<br>`Second: 0/100`<br>**`add 25`** |
-| `add 60` | `First: 30/100`<br>`Second: 0/100`<br>**`add 60`** |
-| `add 1000` | `First: 90/100`<br>`Second: 0/100`<br>**`add 1000`** |
-| `add -5` | `First: 100/100`<br>`Second: 0/100`<br>**`add -5`** |
-| 1. `quit`<br>2. `add 1000` | `First: 100/100`<br>`Second: 0/100`<br>**`quit`**<br>`First: 0/100`<br>`Second: 0/100`<br>**`add 1000`** |
-| `move 50` | `First: 100/100`<br>`Second: 0/100`<br>**`move 50`** |
-| `add 100` | `First: 50/100`<br>`Second: 50/100`<br>**`add 100`** |
-| `move 100` | `First: 100/100`<br>`Second: 50/100`<br>**`move 100`** |
-| 1. `quit`<br>2. `move 30` | `First: 0/100`<br>`Second: 100/100`<br>**`quit`**<br>`First: 0/100`<br>`Second: 0/100`<br>**`move 30`** |
-| `add 10` | `First: 0/100`<br>`Second: 0/100`<br>**`add 10`** |
-| `move -5` | `First: 10/100`<br>`Second: 0/100`<br>**`move -5`** |
-| `move 20` | `First: 10/100`<br>`Second: 0/100`<br>**`move 20`** |
-| `move 10` | `First: 0/100`<br>`Second: 10/100`<br>**`move 10`** |
-| 1. `quit`<br>2. `remove 10` | `First: 0/100`<br>`Second: 10/100`<br>**`quit`**<br>`First: 0/100`<br>`Second: 0/100`<br>**`remove 10`** |
-| `add 20` | `First: 0/100`<br>`Second: 0/100`<br>**`add 20`** |
-| `remove 5` | `First: 20/100`<br>`Second: 0/100`<br>**`remove 5`** |
-| `move 15` | `First: 20/100`<br>`Second: 0/100`<br>**`move 15`** |
-| `remove 5` | `First: 5/100`<br>`Second: 15/100`<br>**`remove 5`** |
-| `remove 20` | `First: 5/100`<br>`Second: 10/100`<br>**`remove 20`** |
-| `quit` | `First: 5/100`<br>`Second: 0/100`<br>**`quit`** |
+| `add 5` | `First: 0/100`<br>`Second: 0/100` |
+| `add 25` | `First: 5/100`<br>`Second: 0/100` |
+| `add 60` | `First: 30/100`<br>`Second: 0/100` |
+| `add 1000` | `First: 90/100`<br>`Second: 0/100` |
+| `add -5` | `First: 100/100`<br>`Second: 0/100` |
+| 1. `quit`<br>2. `add 1000` | `First: 100/100`<br>`Second: 0/100`<br>`First: 0/100`<br>`Second: 0/100` |
+| `move 50` | `First: 100/100`<br>`Second: 0/100` |
+| `add 100` | `First: 50/100`<br>`Second: 50/100` |
+| `move 100` | `First: 100/100`<br>`Second: 50/100` |
+| 1. `quit`<br>2. `move 30` | `First: 0/100`<br>`Second: 100/100`<br>`First: 0/100`<br>`Second: 0/100` |
+| `add 10` | `First: 0/100`<br>`Second: 0/100` |
+| `move -5` | `First: 10/100`<br>`Second: 0/100` |
+| `move 20` | `First: 10/100`<br>`Second: 0/100` |
+| `move 10` | `First: 0/100`<br>`Second: 10/100` |
+| 1. `quit`<br>2. `remove 10` | `First: 0/100`<br>`Second: 10/100`<br>`First: 0/100`<br>`Second: 0/100` |
+| `add 20` | `First: 0/100`<br>`Second: 0/100` |
+| `remove 5` | `First: 20/100`<br>`Second: 0/100` |
+| `move 15` | `First: 20/100`<br>`Second: 0/100` |
+| `remove 5` | `First: 5/100`<br>`Second: 15/100` |
+| `remove 20` | `First: 5/100`<br>`Second: 10/100` |
+| `quit` | `First: 5/100`<br>`Second: 0/100` |
 
 ## Terminal Practice
 

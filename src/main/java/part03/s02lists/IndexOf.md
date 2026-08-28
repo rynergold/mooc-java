@@ -14,11 +14,11 @@ Search for? **2**
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `72`<br>2. `2`<br>3. `8`<br>4. `8`<br>5. `11`<br>6. `-1` | **`72`**<br>**`2`**<br>**`8`**<br>**`8`**<br>**`11`**<br>**`-1`** |
-| 1. `2`<br>2. `72`<br>3. `2`<br>4. `8`<br>5. `8`<br>6. `11`<br>7. `-1` | Search for? **`2`**<br>`2 is at index 1`<br>**`72`**<br>**`2`**<br>**`8`**<br>**`8`**<br>**`11`**<br>**`-1`** |
-| `8` | Search for? **`8`**<br>`8 is at index 2`<br>`8 is at index 3` |
+| 1. `72`<br>2. `2`<br>3. `8`<br>4. `8`<br>5. `11`<br>6. `-1` |  |
+| 1. `2`<br>2. `72`<br>3. `2`<br>4. `8`<br>5. `8`<br>6. `11`<br>7. `-1` | Search for?<br>`2 is at index 1` |
+| `8` | Search for?<br>`8 is at index 2`<br>`8 is at index 3` |
 
 ## Terminal Practice
 

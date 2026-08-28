@@ -134,11 +134,11 @@ The program should work as follows:
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
 | Program execution | `Count: 4`<br>`Count: 4`<br>`Sum: 11`<br>`Average: 2.75` |
-| 1. `4`<br>2. `2`<br>3. `5`<br>4. `4`<br>5. `-1` | `Enter numbers:`<br>**`4`**<br>**`2`**<br>**`5`**<br>**`4`**<br>**`-1`**<br>`Sum: 15` |
-| 1. `4`<br>2. `2`<br>3. `5`<br>4. `2`<br>5. `-1` | `Enter numbers:`<br>**`4`**<br>**`2`**<br>**`5`**<br>**`2`**<br>**`-1`**<br>`Sum: 13`<br>`Sum of even numbers: 8`<br>`Sum of odd numbers: 5` |
+| 1. `4`<br>2. `2`<br>3. `5`<br>4. `4`<br>5. `-1` | `Enter numbers:`<br>`Sum: 15` |
+| 1. `4`<br>2. `2`<br>3. `5`<br>4. `2`<br>5. `-1` | `Enter numbers:`<br>`Sum: 13`<br>`Sum of even numbers: 8`<br>`Sum of odd numbers: 5` |
 
 ## Terminal Practice
 

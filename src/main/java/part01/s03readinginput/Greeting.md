@@ -9,10 +9,10 @@ Write a program that prompts the user with `"What's your name?"`. When the user 
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `Ada` | `What's your name?`<br>**`Ada`**<br>`Hi Ada` |
-| `Lily` | `What's your name?`<br>**`Lily`**<br>`Hi Lily` |
+| `Ada` | `What's your name?`<br>`Hi Ada` |
+| `Lily` | `What's your name?`<br>`Hi Lily` |
 
 ## Terminal Practice
 

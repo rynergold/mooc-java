@@ -23,9 +23,9 @@ Number of parts: 3
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `one two three four`<br>2. `this is a very important message` | **`one two three four`**<br>`four`<br>**`this is a very important message`**<br>`message`<br>`Number of parts: 3` |
+| 1. `one two three four`<br>2. `this is a very important message` | `four`<br>`message`<br>`Number of parts: 3` |
 
 ## Terminal Practice
 

@@ -32,9 +32,9 @@ To where? **2**
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `72`<br>2. `2`<br>3. `8`<br>4. `11`<br>5. `-1`<br>6. `1`<br>7. `2`<br>8. `72`<br>9. `2`<br>10. `8`<br>11. `11`<br>12. `-1`<br>13. `0`<br>14. `2` | **`72`**<br>**`2`**<br>**`8`**<br>**`11`**<br>**`-1`**<br>From where? **`1`**<br>To where? **`2`**<br>`2`<br>`8`<br>**`72`**<br>**`2`**<br>**`8`**<br>**`11`**<br>**`-1`**<br>From where? **`0`**<br>To where? **`2`**<br>`72`<br>`2`<br>`8` |
+| 1. `72`<br>2. `2`<br>3. `8`<br>4. `11`<br>5. `-1`<br>6. `1`<br>7. `2`<br>8. `72`<br>9. `2`<br>10. `8`<br>11. `11`<br>12. `-1`<br>13. `0`<br>14. `2` | From where?<br>To where?<br>`2`<br>`8`<br>From where?<br>To where?<br>`72`<br>`2`<br>`8` |
 
 ## Terminal Practice
 

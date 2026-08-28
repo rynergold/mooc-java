@@ -23,11 +23,11 @@ Write a program that calculates the gift tax for a gift from a close relative or
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `3500` | `Value of the gift?`<br>**`3500`**<br>`No tax!` |
-| `5000` | `Value of the gift?`<br>**`5000`**<br>`Tax: 100.0` |
-| `27500` | `Value of the gift?`<br>**`27500`**<br>`Tax: 1950.0` |
+| `3500` | `Value of the gift?`<br>`No tax!` |
+| `5000` | `Value of the gift?`<br>`Tax: 100.0` |
+| `27500` | `Value of the gift?`<br>`Tax: 1950.0` |
 
 ## Terminal Practice
 

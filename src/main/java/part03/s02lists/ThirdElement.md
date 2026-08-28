@@ -17,10 +17,10 @@ Alex
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` | **`Tom`**<br>**`Emma`**<br>**`Alex`**<br>**`Mary`** |
-| 1. `Emma`<br>2. `Alex`<br>3. `Mary` | `Alex`<br>**`Emma`**<br>**`Alex`**<br>**`Mary`** |
+| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` |  |
+| 1. `Emma`<br>2. `Alex`<br>3. `Mary` | `Alex` |
 | Program execution | `Mary` |
 
 ## Terminal Practice

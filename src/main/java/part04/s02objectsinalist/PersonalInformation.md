@@ -13,9 +13,9 @@ Then print the collected personal information so that each entered object is pri
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Jean`<br>2. `Bartik`<br>3. `271224`<br>4. `Betty`<br>5. `Holberton`<br>6. `070317` | First name: **`Jean`**<br>Last name: **`Bartik`**<br>Identification number: **`271224`**<br>First name: **`Betty`**<br>Last name: **`Holberton`**<br>Identification number: **`070317`**<br>`First name:` |
+| 1. `Jean`<br>2. `Bartik`<br>3. `271224`<br>4. `Betty`<br>5. `Holberton`<br>6. `070317` | First name:<br>Last name:<br>Identification number:<br>First name:<br>Last name:<br>Identification number:<br>`First name:` |
 | Program execution | `Jean Bartik`<br>`Betty Holberton` |
 
 ## Terminal Practice

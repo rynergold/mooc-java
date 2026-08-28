@@ -25,9 +25,9 @@ And now the internal calculation was 2 + 3 + 4 + 5 + 6 + 7 + 8 = 35
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `3`<br>2. `5`<br>3. `2`<br>4. `8` | First number? **`3`**<br>Last number? **`5`**<br>`The sum is 12`<br>First number? **`2`**<br>Last number? **`8`**<br>`The sum is: 35` |
+| 1. `3`<br>2. `5`<br>3. `2`<br>4. `8` | First number?<br>Last number?<br>`The sum is 12`<br>First number?<br>Last number?<br>`The sum is: 35` |
 
 ## Terminal Practice
 

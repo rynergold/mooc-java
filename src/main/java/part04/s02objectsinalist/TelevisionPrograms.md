@@ -13,10 +13,10 @@ After this the user is queried for a maximum duration. Once the maximum is given
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Rick and Morty`<br>2. `25`<br>3. `Two and a Half Men`<br>4. `30`<br>5. `Love it or list it`<br>6. `60`<br>7. `House`<br>8. `60` | Name: **`Rick and Morty`**<br>Duration: **`25`**<br>Name: **`Two and a Half Men`**<br>Duration: **`30`**<br>Name: **`Love it or list it`**<br>Duration: **`60`**<br>Name: **`House`**<br>Duration: **`60`** |
-| `30` | Program's maximum duration? **`30`**<br>`Rick and Morty, 25 minutes`<br>`Two and a Half Men, 30 minutes` |
+| 1. `Rick and Morty`<br>2. `25`<br>3. `Two and a Half Men`<br>4. `30`<br>5. `Love it or list it`<br>6. `60`<br>7. `House`<br>8. `60` | Name:<br>Duration:<br>Name:<br>Duration:<br>Name:<br>Duration:<br>Name:<br>Duration: |
+| `30` | Program's maximum duration?<br>`Rick and Morty, 25 minutes`<br>`Two and a Half Men, 30 minutes` |
 
 ## Terminal Practice
 

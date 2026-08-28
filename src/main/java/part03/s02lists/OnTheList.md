@@ -12,11 +12,11 @@ Mary was found!
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` | **`Tom`**<br>**`Emma`**<br>**`Alex`**<br>**`Mary`** |
-| 1. `Mary`<br>2. `Tom`<br>3. `Emma`<br>4. `Alex`<br>5. `Mary` | Search for? **`Mary`**<br>`Mary was found!`<br>**`Tom`**<br>**`Emma`**<br>**`Alex`**<br>**`Mary`** |
-| `Logan` | Search for? **`Logan`**<br>`Logan was not found!` |
+| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` |  |
+| 1. `Mary`<br>2. `Tom`<br>3. `Emma`<br>4. `Alex`<br>5. `Mary` | Search for?<br>`Mary was found!` |
+| `Logan` | Search for?<br>`Logan was not found!` |
 
 ## Terminal Practice
 

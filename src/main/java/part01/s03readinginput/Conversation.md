@@ -14,10 +14,10 @@ Write a program that conducts the following conversation with the user:
 
 ## Examples
 
-| User Inputs (stdin) | Expected Console Output (stdout) |
+| User Inputs (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `Good thank you!`<br>2. `Well, there's really nothing to tell.` | `Greetings! How are you doing?`<br>**`Good thank you!`**<br>`Oh, how interesting. Tell me more!`<br>**`Well, there's really nothing to tell.`**<br>`Thanks for sharing!` |
-| 1. `Nice and dandy like cotton candy!`<br>2. `Just went shopping.` | `Greetings! How are you doing?`<br>**`Nice and dandy like cotton candy!`**<br>`Oh, how interesting. Tell me more!`<br>**`Just went shopping.`**<br>`Thanks for sharing!` |
+| 1. `Good thank you!`<br>2. `Well, there's really nothing to tell.` | `Greetings! How are you doing?`<br>`Oh, how interesting. Tell me more!`<br>`Thanks for sharing!` |
+| 1. `Nice and dandy like cotton candy!`<br>2. `Just went shopping.` | `Greetings! How are you doing?`<br>`Oh, how interesting. Tell me more!`<br>`Thanks for sharing!` |
 
 ## Terminal Practice
 

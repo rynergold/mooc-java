@@ -21,9 +21,10 @@ And this one calculated 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `3`<br>2. `7` | Last number? **`3`**<br>`The sum is 6`<br>Last number? **`7`**<br>`The sum is 28` |
+| `3` | Last number?<br>`The sum is 6` |
+| `7` | Last number?<br>`The sum is 28` |
 
 ## Terminal Practice
 

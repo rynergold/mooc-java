@@ -35,24 +35,24 @@ Expand your program, so that it sorts the books with the same age recommendation
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `The Ringing Lullaby Book`<br>2. `0` | Input the name of the book, empty stops: **`The Ringing Lullaby Book`**<br>Input the age recommendation: **`0`** |
-| 1. `The Exiting Transpotation Vehicles`<br>2. `0` | Input the name of the book, empty stops: **`The Exiting Transpotation Vehicles`**<br>Input the age recommendation: **`0`** |
-| 1. `The Snowy Forest Calls`<br>2. `12` | Input the name of the book, empty stops: **`The Snowy Forest Calls`**<br>Input the age recommendation: **`12`** |
-| 1. `Litmanen 10`<br>2. `10` | Input the name of the book, empty stops: **`Litmanen 10`**<br>Input the age recommendation: **`10`** |
+| 1. `The Ringing Lullaby Book`<br>2. `0` | Input the name of the book, empty stops:<br>Input the age recommendation: |
+| 1. `The Exiting Transpotation Vehicles`<br>2. `0` | Input the name of the book, empty stops:<br>Input the age recommendation: |
+| 1. `The Snowy Forest Calls`<br>2. `12` | Input the name of the book, empty stops:<br>Input the age recommendation: |
+| 1. `Litmanen 10`<br>2. `10` | Input the name of the book, empty stops:<br>Input the age recommendation: |
 | Program execution | `Input the name of the book, empty stops:` |
 | Program execution | `4 books in total.` |
-| 1. `The Ringing Lullaby Book`<br>2. `0` | `Books:`<br>`The Ringing Lullaby Book (recommended for 0 year-olds or older)`<br>`The Exiting Transpotation Vehicles (recommended for 0 year-olds or older)`<br>`The Snowy Forest Calls (recommended for 12 year-olds or older)`<br>`Litmanen 10 (recommended for 10 year-olds or older)`<br>Input the name of the book, empty stops: **`The Ringing Lullaby Book`**<br>Input the age recommendation: **`0`** |
-| 1. `The Exiting Transpotation Vehicles`<br>2. `0` | Input the name of the book, empty stops: **`The Exiting Transpotation Vehicles`**<br>Input the age recommendation: **`0`** |
-| 1. `The Snowy Forest Calls`<br>2. `12` | Input the name of the book, empty stops: **`The Snowy Forest Calls`**<br>Input the age recommendation: **`12`** |
-| 1. `Litmanen 10`<br>2. `10` | Input the name of the book, empty stops: **`Litmanen 10`**<br>Input the age recommendation: **`10`** |
+| 1. `The Ringing Lullaby Book`<br>2. `0` | `Books:`<br>`The Ringing Lullaby Book (recommended for 0 year-olds or older)`<br>`The Exiting Transpotation Vehicles (recommended for 0 year-olds or older)`<br>`The Snowy Forest Calls (recommended for 12 year-olds or older)`<br>`Litmanen 10 (recommended for 10 year-olds or older)`<br>Input the name of the book, empty stops:<br>Input the age recommendation: |
+| 1. `The Exiting Transpotation Vehicles`<br>2. `0` | Input the name of the book, empty stops:<br>Input the age recommendation: |
+| 1. `The Snowy Forest Calls`<br>2. `12` | Input the name of the book, empty stops:<br>Input the age recommendation: |
+| 1. `Litmanen 10`<br>2. `10` | Input the name of the book, empty stops:<br>Input the age recommendation: |
 | Program execution | `Input the name of the book, empty stops:` |
 | Program execution | `4 books in total.` |
-| 1. `The Ringing Lullaby Book`<br>2. `0` | `Books:`<br>`The Ringing Lullaby Book (recommended for 0 year-olds or older)`<br>`The Exiting Transpotation Vehicles (recommended for 0 year-olds or older)`<br>`Litmanen 10 (recommended for 10 year-olds or older)`<br>`The Snowy Forest Calls (recommended for 12 year-olds or older)`<br>Input the name of the book, empty stops: **`The Ringing Lullaby Book`**<br>Input the age recommendation: **`0`** |
-| 1. `The Exiting Transpotation Vehicles`<br>2. `0` | Input the name of the book, empty stops: **`The Exiting Transpotation Vehicles`**<br>Input the age recommendation: **`0`** |
-| 1. `The Snowy Forest Calls`<br>2. `12` | Input the name of the book, empty stops: **`The Snowy Forest Calls`**<br>Input the age recommendation: **`12`** |
-| 1. `Litmanen 10`<br>2. `10` | Input the name of the book, empty stops: **`Litmanen 10`**<br>Input the age recommendation: **`10`** |
+| 1. `The Ringing Lullaby Book`<br>2. `0` | `Books:`<br>`The Ringing Lullaby Book (recommended for 0 year-olds or older)`<br>`The Exiting Transpotation Vehicles (recommended for 0 year-olds or older)`<br>`Litmanen 10 (recommended for 10 year-olds or older)`<br>`The Snowy Forest Calls (recommended for 12 year-olds or older)`<br>Input the name of the book, empty stops:<br>Input the age recommendation: |
+| 1. `The Exiting Transpotation Vehicles`<br>2. `0` | Input the name of the book, empty stops:<br>Input the age recommendation: |
+| 1. `The Snowy Forest Calls`<br>2. `12` | Input the name of the book, empty stops:<br>Input the age recommendation: |
+| 1. `Litmanen 10`<br>2. `10` | Input the name of the book, empty stops:<br>Input the age recommendation: |
 | Program execution | `Input the name of the book, empty stops:` |
 | Program execution | `4 books in total.` |
 | Program execution | `Books:`<br>`The Exiting Transpotation Vehicles (recommended for 0 year-olds or older)`<br>`The Ringing Lullaby Book (recommended for 0 year-olds or older)`<br>`Litmanen 10 (recommended for 10 year-olds or older)`<br>`The Snowy Forest Calls (recommended for 12 year-olds or older)` |

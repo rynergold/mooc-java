@@ -17,11 +17,11 @@ Average of the negative numbers: -1.0
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `-1`<br>2. `1`<br>3. `2`<br>4. `end` | `Input numbers, type "end" to stop.`<br>**`-1`**<br>**`1`**<br>**`2`**<br>**`end`** |
-| 1. `n`<br>2. `-1`<br>3. `1`<br>4. `2`<br>5. `end` | `Print the average of the negative numbers or the positive numbers? (n/p)`<br>**`n`**<br>`Average of the negative numbers: -1.0`<br>`Input numbers, type "end" to stop.`<br>**`-1`**<br>**`1`**<br>**`2`**<br>**`end`** |
-| `p` | `Print the average of the negative numbers or the positive numbers? (n/p)`<br>**`p`**<br>`Average of the positive numbers: 1.5` |
+| 1. `-1`<br>2. `1`<br>3. `2`<br>4. `end` | `Input numbers, type "end" to stop.` |
+| 1. `n`<br>2. `-1`<br>3. `1`<br>4. `2`<br>5. `end` | `Print the average of the negative numbers or the positive numbers? (n/p)`<br>`Average of the negative numbers: -1.0`<br>`Input numbers, type "end" to stop.` |
+| `p` | `Print the average of the negative numbers or the positive numbers? (n/p)`<br>`Average of the positive numbers: 1.5` |
 
 ## Terminal Practice
 

@@ -15,9 +15,10 @@ Try again!
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| 1. `true`<br>2. `trueish` | Give a string: **`true`**<br>`You got it right!`<br>Give a string: **`trueish`**<br>`Try again!` |
+| `true` | Give a string:<br>`You got it right!` |
+| `trueish` | Give a string:<br>`Try again!` |
 
 ## Terminal Practice
 

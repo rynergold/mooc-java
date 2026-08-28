@@ -24,9 +24,9 @@ Sample output:
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `7` | `How many times?`<br>**`7`**<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method` |
+| `7` | `How many times?`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method` |
 
 ## Terminal Practice
 

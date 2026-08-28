@@ -18,9 +18,9 @@ Your task is to write a program that first prompts the user for the name of the 
 
 ## Examples
 
-| User Input (stdin) | Expected Console Output (stdout) |
+| User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
-| `data.txt` | `Name of the file:`<br>**`data.txt`**<br>`lily, age: 3 years`<br>`anton, age: 5 years`<br>`levi, age: 4 years`<br>`amy, age: 1 year` |
+| `data.txt` | `Name of the file:`<br>`lily, age: 3 years`<br>`anton, age: 5 years`<br>`levi, age: 4 years`<br>`amy, age: 1 year` |
 
 ## Terminal Practice
 
