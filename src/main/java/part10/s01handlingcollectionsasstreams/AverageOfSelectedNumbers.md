@@ -1,7 +1,7 @@
 # Average of selected numbers
 
 **Exercise:** `part10-Part10_02.AverageOfSelectedNumbers`
-**Package:** `part10.01handlingcollectionsasstreams`
+**Package:** `part10.s01handlingcollectionsasstreams`
 
 ## Spec
 
@@ -52,4 +52,12 @@ Input numbers, type "end" to stop.
 Print the average of the negative numbers or the positive numbers? (n/p)
 **p**
 Average of the positive numbers: 1.5
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part10.s01handlingcollectionsasstreams.AverageOfSelectedNumbersTest"
 ```

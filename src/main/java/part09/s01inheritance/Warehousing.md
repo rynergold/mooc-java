@@ -1,7 +1,7 @@
 # Warehousing (7 parts)
 
 **Exercise:** `part09-Part09_03.Warehousing`
-**Package:** `part09.01inheritance`
+**Package:** `part09.s01inheritance`
 
 ## Spec
 
@@ -191,4 +191,12 @@ History: [1000.0, 988.7, 989.7]
 Largest amount of product: 1000.0
 Smallest amount of product: 988.7
 Average: 992.8
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part09.s01inheritance.WarehousingTest"
 ```

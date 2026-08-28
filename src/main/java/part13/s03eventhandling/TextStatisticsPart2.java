@@ -1,4 +1,4 @@
-package src.main.java.part13.s03eventhandling;
+package part13.s03eventhandling;
 
 // Text statistics, part II — see TextStatisticsPart2.md for full spec
 // Expected output:

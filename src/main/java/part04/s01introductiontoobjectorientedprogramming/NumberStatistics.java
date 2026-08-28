@@ -1,4 +1,4 @@
-package src.main.java.part04.s01introductiontoobjectorientedprogramming;
+package part04.s01introductiontoobjectorientedprogramming;
 
 // Statistics (4 parts) — see NumberStatistics.md for full spec
 // Expected output:

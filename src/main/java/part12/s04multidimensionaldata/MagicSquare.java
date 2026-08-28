@@ -1,4 +1,4 @@
-package src.main.java.part12.s04multidimensionaldata;
+package part12.s04multidimensionaldata;
 
 // Magic square (4 parts) — see MagicSquare.md for full spec
 // Expected output:

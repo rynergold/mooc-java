@@ -1,4 +1,4 @@
-package src.main.java.part03.s02lists;
+package part03.s02lists;
 
 // Print in range — see PrintInRange.md for full spec
 // Expected output:

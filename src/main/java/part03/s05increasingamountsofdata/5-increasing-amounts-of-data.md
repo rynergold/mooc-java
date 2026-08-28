@@ -10,8 +10,5 @@ Very often programs handle data. This data must be stored somewhere for the dura
 In this part we have taken the first steps towards effective data management: by using lists and arrays we can store almost unlimited amounts of data for the duration of program execution.
 We have also practiced string handling and splitting strings into smaller substrings.
 
-
 Please take a moment to answer the survey below.
 
-
-<quiz id="d1fdec6b-ee56-5f60-87e0-835f9f92b2ce"></quiz>

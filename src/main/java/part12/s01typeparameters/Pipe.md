@@ -1,11 +1,11 @@
 # Pipe
 
 **Exercise:** `part12-Part12_02.Pipe`
-**Package:** `part12.01typeparameters`
+**Package:** `part12.s01typeparameters`
 
 ## Spec
 
-Implement a class called Pipe, which has a single generic parameter type. The pipe works, such that we can add values into it and values can be taken out. Adding to the pipe happens from one end, and taking out from the other end. In other words, we always remove the value which has been inside the pipe the longest and add to it the newest value. The class should provide a parameterless constructor as well as the following three methods:
+Implement a class called Pipe, which has a single generic parameter type. The pipe works, such that we can add values into it and values can be taken out. Adding to the pipe happens from one end, and taking out from the other end. We always remove the value which has been inside the pipe the longest and add to it the newest value. The class should provide a parameterless constructor as well as the following three methods:
 
 - `public void putIntoPipe(T value)` puts an object with a type in accordance with the type parameter given to the the class into the pipe.
 
@@ -59,4 +59,12 @@ dab
 daa
 6
 null
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part12.s01typeparameters.PipeTest"
 ```

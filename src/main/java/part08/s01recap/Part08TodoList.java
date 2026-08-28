@@ -1,4 +1,4 @@
-package src.main.java.part08.s01recap;
+package part08.s01recap;
 
 // To do list (2 parts) — see Part08TodoList.md for full spec
 // Expected output:

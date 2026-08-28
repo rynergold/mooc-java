@@ -1,13 +1,13 @@
 # Dog attributes
 
 **Exercise:** `part04-Part04_03.DogAttributes`
-**Package:** `part04.01introductiontoobjectorientedprogramming`
+**Package:** `part04.s01introductiontoobjectorientedprogramming`
 
 ## Spec
 
 In this exercise, you'll practice creating a class.
 
-A new class can be added in NetBeans the following way: On the left side of the screen is the Projects list. Right-click on the project's name, which for this exercise is `Part04_03.DogAttributes`. From the drop-down menu, select _New_ and _Java Class_. NetBeans will then ask for the class name.
+A new class can be added in your IDE (like IntelliJ or VS Code) the following way: On the left side of the screen is the Projects list. Right-click on the project's name, which for this exercise is `Part04_03.DogAttributes`. From the drop-down menu, select _New_ and _Java Class_. your IDE (like IntelliJ or VS Code) will then ask for the class name.
 
 Name the class `Dog` in this exercise, and press the finish button.
 
@@ -19,4 +19,12 @@ The class doesn't do much yet. However, practicing this step is valuable for wha
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s01introductiontoobjectorientedprogramming.DogAttributesTest"
 ```

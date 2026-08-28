@@ -1,7 +1,7 @@
 # Swap
 
 **Exercise:** `part03-Part03_18.Swap`
-**Package:** `part03.03arrays`
+**Package:** `part03.s03arrays`
 
 ## Spec
 
@@ -51,7 +51,6 @@ Tip! You'll need an additional variable to store one of the values for a little 
 7
 9
 
-
 Give two indices to swap:
 **2**
 **4**
@@ -67,7 +66,6 @@ Give two indices to swap:
 7
 9
 
-
 Give two indices to swap:
 **0**
 **1**
@@ -77,4 +75,12 @@ Give two indices to swap:
 5
 7
 9
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s03arrays.SwapTest"
 ```

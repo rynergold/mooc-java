@@ -1,4 +1,4 @@
-package src.main.java.part05.s04objectsandreferences;
+package part05.s04objectsandreferences;
 
 // NullPointerException — see NullPointerException.md for full spec
 // Expected output:

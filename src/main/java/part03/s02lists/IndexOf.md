@@ -1,7 +1,7 @@
 # Index of
 
 **Exercise:** `part03-Part03_10.IndexOf`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -52,4 +52,12 @@ Search for? **2**
 Search for? **8**
 8 is at index 2
 8 is at index 3
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.IndexOfTest"
 ```

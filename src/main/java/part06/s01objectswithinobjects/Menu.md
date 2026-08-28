@@ -1,7 +1,7 @@
 # Menu (3 parts)
 
 **Exercise:** `part06-Part06_01.Menu`
-**Package:** `part06.01objectswithinobjects`
+**Package:** `part06.s01objectswithinobjects`
 
 ## Spec
 
@@ -79,7 +79,7 @@ Meatballs with mustard sauce
 
 Clearing the Food List
 
-Implement the `public void clearMenu()` method, which clears the menu. The `ArrayList` class has a method which is useful here. NetBeans can hint at the available methods when you type the object name an a dot. Try to write `meals.` inside the method frame and see what happens.
+Implement the `public void clearMenu()` method, which clears the menu. The `ArrayList` class has a method which is useful here. your IDE (like IntelliJ or VS Code) can hint at the available methods when you type the object name an a dot. Try to write `meals.` inside the method frame and see what happens.
 
 Once the menu is ready, try it with the following example code.
 
@@ -120,4 +120,12 @@ Chilli Coconut Chicken
 Meatballs with mustard sauce
 
 Tomato and mozzarella salad
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part06.s01objectswithinobjects.MenuTest"
 ```

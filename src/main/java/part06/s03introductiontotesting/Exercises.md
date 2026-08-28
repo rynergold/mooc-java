@@ -1,7 +1,7 @@
 # Exercises (2 parts)
 
 **Exercise:** `part06-Part06_13.Exercises`
-**Package:** `part06.03introductiontotesting`
+**Package:** `part06.s03introductiontotesting`
 
 ## Spec
 
@@ -11,7 +11,7 @@ The exercise is in two parts:
 
 1. Follow the steps of the example up until it's time to refactor the program and to create the class 'Exercise'. Create the classes `ExerciseManagementTest` and `ExerciseManagement`, and complete them with what the example instructs.
 
-2. Follow the example all the way to the end. In other words, refactor the program as instructed.
+2. Follow the example all the way to the end. Refactor the program as instructed.
 
 Update the `partsCompleted` class method of the MainProgram to return the highest part that you have completed. You can return the exercise even if you don't complete the second part, in which case you will receive the point for the first one. Returning 2 means you have completed both.
 
@@ -21,4 +21,12 @@ If you desire to develop the program further (not awarded with points), you can 
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part06.s03introductiontotesting.ExercisesTest"
 ```

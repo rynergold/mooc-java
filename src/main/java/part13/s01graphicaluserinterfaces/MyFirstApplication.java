@@ -1,4 +1,4 @@
-package src.main.java.part13.s01graphicaluserinterfaces;
+package part13.s01graphicaluserinterfaces;
 
 // My first application — see MyFirstApplication.md for full spec
 // Expected output:

@@ -1,7 +1,7 @@
 # Vehicle Registry (3 parts)
 
 **Exercise:** `part08-Part08_13.VehicleRegistry`
-**Package:** `part08.03similarityofobjects`
+**Package:** `part08.s03similarityofobjects`
 
 ## Spec
 
@@ -96,4 +96,12 @@ Finnish: [FI ABC-123, FI UXE-465]
 owners:
 Arto
 Jürgen
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part08.s03similarityofobjects.VehicleRegistryTest"
 ```

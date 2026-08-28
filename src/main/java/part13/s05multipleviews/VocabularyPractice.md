@@ -1,7 +1,7 @@
 # Vocabulary practice
 
 **Exercise:** `part13-Part13_12.VocabularyPractice`
-**Package:** `part13.05multipleviews`
+**Package:** `part13.s05multipleviews`
 
 ## Spec
 
@@ -17,4 +17,12 @@ There are no automatic tests in this project -- return your solution when the pr
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part13.s05multipleviews.VocabularyPracticeTest"
 ```

@@ -1,7 +1,7 @@
 # Stack (2 parts)
 
 **Exercise:** `part06-Part06_02.Stack`
-**Package:** `part06.01objectswithinobjects`
+**Package:** `part06.s01objectswithinobjects`
 
 ## Spec
 
@@ -98,4 +98,12 @@ Value
 3
 2
 1
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part06.s01objectswithinobjects.StackTest"
 ```

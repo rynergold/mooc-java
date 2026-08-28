@@ -1,7 +1,7 @@
 # Show and ticket
 
 **Exercise:** `part11-Part11_03.ShowAndTicket`
-**Package:** `part11.01classdiagrams`
+**Package:** `part11.s01classdiagrams`
 
 ## Spec
 
@@ -13,4 +13,12 @@ Implement the classes in the diagram in the exercise base.
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part11.s01classdiagrams.ShowAndTicketTest"
 ```

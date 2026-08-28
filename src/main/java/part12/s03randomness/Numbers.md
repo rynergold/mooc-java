@@ -1,7 +1,7 @@
 # Numbers
 
 **Exercise:** `part12-Part12_06.Numbers`
-**Package:** `part12.03randomness`
+**Package:** `part12.s03randomness`
 
 ## Spec
 
@@ -44,4 +44,12 @@ How many random numbers should be printed?
 7
 3
 3
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part12.s03randomness.NumbersTest"
 ```

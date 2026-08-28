@@ -1,4 +1,4 @@
-package src.main.java.part05.s04objectsandreferences;
+package part05.s04objectsandreferences;
 
 // Money (3 parts) — see Money.md for full spec
 // Expected output:

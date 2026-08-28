@@ -1,7 +1,7 @@
 # Print in range
 
 **Exercise:** `part03-Part03_15.PrintInRange`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -45,4 +45,12 @@ The numbers in the range [3, 10]
 3
 6
 5
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.PrintInRangeTest"
 ```

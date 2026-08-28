@@ -1,7 +1,7 @@
 # Gauge
 
 **Exercise:** `part04-Part04_12.Gauge`
-**Package:** `part04.01introductiontoobjectorientedprogramming`
+**Package:** `part04.s01introductiontoobjectorientedprogramming`
 
 ## Spec
 
@@ -46,4 +46,12 @@ Not full! Value: 3
 Not full! Value: 4
 Full! Value: 5
 Not full! Value: 4
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s01introductiontoobjectorientedprogramming.GaugeTest"
 ```

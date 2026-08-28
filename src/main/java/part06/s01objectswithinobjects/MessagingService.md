@@ -1,7 +1,7 @@
 # MessagingService
 
 **Exercise:** `part06-Part06_03.MessagingService`
-**Package:** `part06.01objectswithinobjects`
+**Package:** `part06.s01objectswithinobjects`
 
 ## Spec
 
@@ -19,4 +19,12 @@ Tip! You can find out the length of the string using the `length()` method assoc
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part06.s01objectswithinobjects.MessagingServiceTest"
 ```

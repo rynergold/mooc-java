@@ -1,4 +1,4 @@
-package src.main.java.part10.s01handlingcollectionsasstreams;
+package part10.s01handlingcollectionsasstreams;
 
 // Reading Files Per Line — see ReadingFilesPerLine.md for full spec
 // Expected output:

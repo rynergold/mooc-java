@@ -1,4 +1,4 @@
-package src.main.java.part03.s02lists;
+package part03.s02lists;
 
 // Second plus third — see SecondPlusThird.md for full spec
 // Expected output:

@@ -1,4 +1,4 @@
-package src.main.java.part09.s01inheritance;
+package part09.s01inheritance;
 
 // ABC (2 parts) — see ABC.md for full spec
 // Expected output:

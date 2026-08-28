@@ -1,7 +1,7 @@
 # First words
 
 **Exercise:** `part03-Part03_28.FirstWords`
-**Package:** `part03.04strings`
+**Package:** `part03.s04strings`
 
 ## Spec
 
@@ -19,4 +19,12 @@ this
 one
 **this is a very important message**
 this
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s04strings.FirstWordsTest"
 ```

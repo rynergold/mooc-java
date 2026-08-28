@@ -1,4 +1,4 @@
-package src.main.java.part10.s02interfacecomparable;
+package part10.s02interfacecomparable;
 
 // Literature (3 parts) — see Literature.md for full spec
 // Expected output:

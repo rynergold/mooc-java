@@ -1,7 +1,7 @@
 # Finnish parties
 
 **Exercise:** `part14-Part14_02.FinnishParties`
-**Package:** `part14.01datavisualization`
+**Package:** `part14.s01datavisualization`
 
 ## Spec
 
@@ -42,4 +42,12 @@ KOK
 16.1
 18.1
 20.9
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part14.s01datavisualization.FinnishPartiesTest"
 ```

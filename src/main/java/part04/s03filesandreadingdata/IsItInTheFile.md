@@ -1,7 +1,7 @@
 # Is it in the file?
 
 **Exercise:** `part04-Part04_27.IsItInTheFile`
-**Package:** `part04.03filesandreadingdata`
+**Package:** `part04.s03filesandreadingdata`
 
 ## Spec
 
@@ -45,4 +45,12 @@ Name of the file:
 Search for:
 **test**
 Reading the file nonexistent.txt failed.
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s03filesandreadingdata.IsItInTheFileTest"
 ```

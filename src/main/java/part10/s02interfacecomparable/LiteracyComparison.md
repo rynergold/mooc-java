@@ -1,7 +1,7 @@
 # Literacy comparison (2 parts)
 
 **Exercise:** `part10-Part10_13.LiteracyComparison`
-**Package:** `part10.02interfacecomparable`
+**Package:** `part10.s02interfacecomparable`
 
 ## Spec
 
@@ -46,4 +46,12 @@ Mali (2015), female, 22.19578
 Guinea (2015), female, 22.87104
 Afghanistan (2015), female, 23.87385
 Central African Republic (2015), female, 24.35549
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part10.s02interfacecomparable.LiteracyComparisonTest"
 ```

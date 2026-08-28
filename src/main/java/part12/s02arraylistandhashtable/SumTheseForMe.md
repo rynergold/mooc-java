@@ -1,7 +1,7 @@
 # Sum these for me
 
 **Exercise:** `part12-Part12_03.SumTheseForMe`
-**Package:** `part12.02arraylistandhashtable`
+**Package:** `part12.s02arraylistandhashtable`
 
 ## Spec
 
@@ -33,4 +33,12 @@ System.out.println(sum(numbers, -1, 999, -10, 10));
 3
 3
 14
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part12.s02arraylistandhashtable.SumTheseForMeTest"
 ```

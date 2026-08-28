@@ -1,7 +1,7 @@
 # Sport Statistics
 
 **Exercise:** `part04-Part04_31.SportStatistics`
-**Package:** `part04.03filesandreadingdata`
+**Package:** `part04.s03filesandreadingdata`
 
 ## Spec
 
@@ -85,4 +85,12 @@ Name:
 Games: 6
 Wins: 3
 Losses: 3
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s03filesandreadingdata.SportStatisticsTest"
 ```

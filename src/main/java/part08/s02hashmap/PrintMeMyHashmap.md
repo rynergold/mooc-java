@@ -1,7 +1,7 @@
 # Print me my hash map
 
 **Exercise:** `part08-Part08_08.PrintMeMyHashmap`
-**Package:** `part08.02hashmap`
+**Package:** `part08.s02hashmap`
 
 ## Spec
 
@@ -48,4 +48,12 @@ i.e
 ---
 for example
 more precisely
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part08.s02hashmap.PrintMeMyHashmapTest"
 ```

@@ -1,7 +1,7 @@
 # Notifier
 
 **Exercise:** `part13-Part13_06.Notifier`
-**Package:** `part13.03eventhandling`
+**Package:** `part13.s03eventhandling`
 
 ## Spec
 
@@ -13,4 +13,12 @@ Then add functionality to the application, where pressing the button leads to th
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part13.s03eventhandling.NotifierTest"
 ```

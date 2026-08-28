@@ -1,4 +1,4 @@
-package src.main.java.part14.s02multimediainprograms;
+package part14.s02multimediainprograms;
 
 // Smiley — see Smiley.md for full spec
 // Expected output:

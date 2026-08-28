@@ -1,7 +1,7 @@
 # Smallest
 
 **Exercise:** `part02-Part02_30.Smallest`
-**Package:** `part02.04methods`
+**Package:** `part02.s04methods`
 
 ## Spec
 
@@ -29,4 +29,12 @@ Smallest: 2
 
 ```
 Smallest: 2
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s04methods.SmallestTest"
 ```

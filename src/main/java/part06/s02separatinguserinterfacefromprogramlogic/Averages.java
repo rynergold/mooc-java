@@ -1,4 +1,4 @@
-package src.main.java.part06.s02separatinguserinterfacefromprogramlogic;
+package part06.s02separatinguserinterfacefromprogramlogic;
 
 // Averages (3 parts) — see Averages.md for full spec
 // Expected output:

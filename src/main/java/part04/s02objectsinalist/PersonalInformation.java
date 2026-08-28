@@ -1,4 +1,4 @@
-package src.main.java.part04.s02objectsinalist;
+package part04.s02objectsinalist;
 
 // Personal information — see PersonalInformation.md for full spec
 // Expected output:

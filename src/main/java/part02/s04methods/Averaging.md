@@ -1,7 +1,7 @@
 # Averaging
 
 **Exercise:** `part02-Part02_32.Averaging`
-**Package:** `part02.04methods`
+**Package:** `part02.s04methods`
 
 ## Spec
 
@@ -35,4 +35,12 @@ Make sure to remember how to convert an integer (`int`) into a decimal number (`
 
 ```
 Average: 3.5
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s04methods.AveragingTest"
 ```

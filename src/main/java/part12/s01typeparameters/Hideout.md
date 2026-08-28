@@ -1,7 +1,7 @@
 # Hideout
 
 **Exercise:** `part12-Part12_01.Hideout`
-**Package:** `part12.01typeparameters`
+**Package:** `part12.s01typeparameters`
 
 ## Spec
 
@@ -68,4 +68,12 @@ true
 true
 1
 false
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part12.s01typeparameters.HideoutTest"
 ```

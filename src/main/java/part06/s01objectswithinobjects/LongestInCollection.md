@@ -1,7 +1,7 @@
 # Longest in collection
 
 **Exercise:** `part06-Part06_06.LongestInCollection`
-**Package:** `part06.01objectswithinobjects`
+**Package:** `part06.s01objectswithinobjects`
 
 ## Spec
 
@@ -26,4 +26,12 @@ Longest: mystique
 ```
 Longest: null
 Longest: mystique
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part06.s01objectswithinobjects.LongestInCollectionTest"
 ```

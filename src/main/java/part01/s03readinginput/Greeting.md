@@ -1,7 +1,7 @@
 # Greeting
 
 **Exercise:** `part01-Part01_08.Greeting`
-**Package:** `part01.03readinginput`
+**Package:** `part01.s03readinginput`
 
 ## Spec
 
@@ -43,4 +43,12 @@ Hi Ada
 What's your name?
 **Lily**
 Hi Lily
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part01.s03readinginput.GreetingTest"
 ```

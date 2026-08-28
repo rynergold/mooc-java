@@ -1,7 +1,7 @@
 # Story
 
 **Exercise:** `part01-Part01_10.Story`
-**Package:** `part01.03readinginput`
+**Package:** `part01.s03readinginput`
 
 ## Spec
 
@@ -69,4 +69,12 @@ Here is the story:
 Once upon a time there was Ada, who was a Data scientist.
 On the way to work, Ada reflected on life.
 Perhaps Ada will not be a Data scientist forever.
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part01.s03readinginput.StoryTest"
 ```

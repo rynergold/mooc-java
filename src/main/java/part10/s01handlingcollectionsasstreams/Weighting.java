@@ -1,4 +1,4 @@
-package src.main.java.part10.s01handlingcollectionsasstreams;
+package part10.s01handlingcollectionsasstreams;
 
 // Weighting (2 parts) — see Weighting.md for full spec
 // Expected output:

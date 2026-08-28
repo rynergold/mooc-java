@@ -1,7 +1,7 @@
 # Conversation
 
 **Exercise:** `part01-Part01_09.Conversation`
-**Package:** `part01.03readinginput`
+**Package:** `part01.s03readinginput`
 
 ## Spec
 
@@ -47,4 +47,12 @@ Greetings! How are you doing?
 Oh, how interesting. Tell me more!
 **Just went shopping.**
 Thanks for sharing!
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part01.s03readinginput.ConversationTest"
 ```

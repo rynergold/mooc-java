@@ -1,4 +1,4 @@
-package src.main.java.part14.s01datavisualization;
+package part14.s01datavisualization;
 
 // Unfair Advertisement — see UnfairAdvertisement.md for full spec
 // Expected output:

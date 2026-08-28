@@ -1,7 +1,7 @@
 # Fitbyte
 
 **Exercise:** `part05-Part05_04.FitByte`
-**Package:** `part05.01learningobjectorientedprogramming`
+**Package:** `part05.s01learningobjectorientedprogramming`
 
 ## Spec
 
@@ -41,4 +41,12 @@ Target 70.0% of maximum: 147.479
 Target 80.0% of maximum: 159,976
 Target 89.99999999999999% of maximum: 172.473
 Target 99.99999999999999% of maximum: 184.97000000000003
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s01learningobjectorientedprogramming.FitByteTest"
 ```

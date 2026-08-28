@@ -1,7 +1,7 @@
 # Television programs
 
 **Exercise:** `part04-Part04_19.TelevisionPrograms`
-**Package:** `part04.02objectsinalist`
+**Package:** `part04.s02objectsinalist`
 
 ## Spec
 
@@ -39,4 +39,12 @@ Duration: **60**
 Program's maximum duration? **30**
 Rick and Morty, 25 minutes
 Two and a Half Men, 30 minutes
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s02objectsinalist.TelevisionProgramsTest"
 ```

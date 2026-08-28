@@ -1,7 +1,7 @@
 # Joke
 
 **Exercise:** `part13-Part13_11.Joke`
-**Package:** `part13.05multipleviews`
+**Package:** `part13.s05multipleviews`
 
 ## Spec
 
@@ -13,4 +13,12 @@ By default (when it starts) the program should show a joke-related question. Use
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part13.s05multipleviews.JokeTest"
 ```

@@ -1,7 +1,7 @@
 # Only these numbers
 
 **Exercise:** `part03-Part03_08.OnlyTheseNumbers`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -52,4 +52,12 @@ To where? **2**
 72
 2
 8
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.OnlyTheseNumbersTest"
 ```

@@ -1,7 +1,7 @@
 # Card payments (4 sections)
 
 **Exercise:** `part05-Part05_10.CardPayments`
-**Package:** `part05.04objectsandreferences`
+**Package:** `part05.s04objectsandreferences`
 
 ## Spec
 
@@ -249,4 +249,12 @@ there was enough money: false
 there was enough money: true
 amount of money on the card is 97.7 euros
 money: 1100.0, number of sold afforable meals: 0, number of sold hearty meals: 1
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s04objectsandreferences.CardPaymentsTest"
 ```

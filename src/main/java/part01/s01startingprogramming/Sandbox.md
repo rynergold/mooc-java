@@ -1,7 +1,7 @@
 # Sandbox
 
 **Exercise:** `part01-Part01_01.Sandbox`
-**Package:** `part01.01startingprogramming`
+**Package:** `part01.s01startingprogramming`
 
 ## Spec
 
@@ -18,7 +18,7 @@ public class Sandbox {
 
 The line "// Write your program here" is a _line comment_, and the computer will ignore it when executing the program.
 
-First, submit the exercise template to be checked on the server without changing anything. In this way, you practice submitting an exercise. You can submit an exercise by selecting the TMC menu within TMC, and then "Submit".
+First, submit the exercise template to be checked on the server without changing anything. In this way, you practice submitting an exercise. You can submit an exercise by selecting the top menu within TMC, and then "Submit".
 
 Once you have submitted the exercise, try following the video above to add a print command to the program and to execute the program (by pressing the play - button). When you've been able to get your program to print some text (this text can be anything), submit the exercise to the server once more.
 
@@ -28,4 +28,12 @@ You should use this sandbox exercise to try out different things later on. When 
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part01.s01startingprogramming.SandboxTest"
 ```

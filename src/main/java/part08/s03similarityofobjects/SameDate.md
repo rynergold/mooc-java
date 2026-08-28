@@ -1,7 +1,7 @@
 # Same date
 
 **Exercise:** `part08-Part08_11.SameDate`
-**Package:** `part08.03similarityofobjects`
+**Package:** `part08.s03similarityofobjects`
 
 ## Spec
 
@@ -28,4 +28,12 @@ true
 false
 false
 true
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part08.s03similarityofobjects.SameDateTest"
 ```

@@ -2,39 +2,65 @@
 path: "/part-1/1-starting-programming"
 title: "Getting started with programming"
 ---
-
-# You made it.
-
-Seriously — you showed up. That's already more than most people do.
-
-The goal: **Senior Software Engineer by August 2027.** Not because AI carried you there, but because *you* earned it. Independent, confident, dangerous with Java.
-
-This course is 14 parts. You'll go from `System.out.println` to data structures, OOP, algorithms, and beyond. It won't always be easy. Some exercises will make you want to close the laptop. Do them anyway.
-
-By the end of this, Easy LeetCode problems will feel like warm-ups.
-
-Let's get to work.
-
----
-
 ## Programmers Write Source Code
 
-Programming is designing and implementing software. The functionality is implemented based on the wishes and requirements of the users and the customers. Programs are typically implemented (i.e., written or "coded") in a programming language meant to be written and read by humans.
+Programming is about designing and implementing software to solve problems. We do this by writing instructions in a **programming language**—a syntax designed to be readable by humans but executable by machines.
 
-There are hundreds of programming languages out there, and this course focuses on one of them. The language used in this course is [Java](https://en.wikipedia.org/wiki/Java_(programming_language)), which is one of the most commonly-used programming languages in the world. Learning Java also makes it easier to pick up other programming languages.
+There are hundreds of languages, but we are using **[Java](https://en.wikipedia.org/wiki/Java_(programming_language))**. It's strongly typed, object-oriented, and powers everything from Android apps to enterprise financial systems. Mastering Java gives you a rock-solid foundation for picking up almost any other language later.
 
-Programming languages, such as Java, have many commands built-in that a programmer uses when developing software. This makes programming easier as you don't need to implement everything from scratch. A large part of programming is making use of available functions and tools in solving problems — this, however, requires programming experience, which you only gain by programming.
+The text you write is called **source code**. Source code is made up of statements and expressions that the computer reads sequentially (top-to-bottom, left-to-right). 
 
-The "code" you write is called **source code**. Source code consists of statements and expressions, which are read line by line from top to bottom, and from left to right. For example, to print "Hello world", you can use the pre-defined Java command `System.out.println()`, to which you need to provide the text inside the parentheses:
+For example, to print "Hello World", you use a built-in Java command:
 
 ```java
 System.out.println("Hello World");
 ```
 
-The above statement is pre-built into Java, and it's used for printing a string. The statement tells the computer to output the string placed between the quotation marks. The statement ends with a semicolon `;`.
+### Key Takeaways:
+- **`System.out.println()`**: A built-in statement used to print a string of text to the console.
+- **Strings**: Text data must be wrapped in double quotation marks (`"Like this"`).
+- **Semicolons (`;`)**: Every statement in Java must end with a semicolon. Think of it as a period at the end of a sentence.
+- **Boilerplate**: Java requires a structural "frame" (classes and methods) around your code to run. We'll cover this soon—for now, just know it's mandatory scaffolding.
 
-Java programs require a certain frame around the code to work. Don't worry if it appears intimidating — it'll become second nature fast.
+---
+
+## Conceptual Check
+
+**Q1: Will the following program compile? Why or why not?**
+```java
+public class Welcome {
+    public static void main(String[] args) {
+        System.out.println("Welcome to Java!")
+    }
+}
+```
+<details>
+<summary><strong>View Answer</strong></summary>
+
+No. It is missing a semicolon `;` closing the print statement. The Java compiler is unforgiving and will halt with a syntax error.
+</details>
+
+**Q2: In the command `System.out.println("Ada Lovelace");`, what is the technical term for the string `"Ada Lovelace"`?**
+<details>
+<summary><strong>View Answer</strong></summary>
+
+A **parameter**. (e.g., "I passed the string \'Ada Lovelace\' as a parameter to the println command.")
+</details>
+
+**Q3: When you run a Java program, what happens to your human-readable source code?**
+<details>
+<summary><strong>View Answer</strong></summary>
+
+The source code is compiled into **bytecode**. Then, the **Java Interpreter** (part of the JVM - Java Virtual Machine) reads the bytecode and converts it into the exact machine code for the specific OS on the fly. This enables "Write Once, Run Anywhere" (WORA).
+</details>
 
 ---
 
 *Next up: `02printing/` — your first exercises.*
+
+## Navigating Java Documentation
+
+As you learn Java, you will often need to look up how built-in tools work. Knowing where to look is half the battle.
+
+* **The Defacto Standard:** [Oracle's Java SE API Documentation](https://docs.oracle.com/en/java/javase/21/docs/api/index.html). This is the official manual. It is written like a technical specification for engineers, so it can be dense and confusing for beginners. However, it is the absolute source of truth.
+* **The Learning Alternative:** The industry standard for *understandable* Java tutorials is a site called [Baeldung](https://www.baeldung.com/). If Oracle gives you the strict technical rules, Baeldung gives you the clear, readable examples of how to actually use the code in the real world. Keep it bookmarked as an essential supplement to this course.

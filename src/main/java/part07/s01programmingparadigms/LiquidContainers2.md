@@ -1,7 +1,7 @@
 # Liquid Containers 2.0 (2 parts)
 
 **Exercise:** `part07-Part07_02.LiquidContainers2`
-**Package:** `part07.01programmingparadigms`
+**Package:** `part07.s01programmingparadigms`
 
 ## Spec
 
@@ -112,4 +112,12 @@ Second: 10/100
 First: 5/100
 Second: 0/100
 **quit**
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part07.s01programmingparadigms.LiquidContainers2Test"
 ```

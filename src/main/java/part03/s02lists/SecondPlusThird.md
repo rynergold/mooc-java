@@ -1,7 +1,7 @@
 # Second plus third
 
 **Exercise:** `part03-Part03_02.SecondPlusThird`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -36,4 +36,12 @@ Modify the program so that instead of the first value, the program prints the su
 **4**
 **0**
 7
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.SecondPlusThirdTest"
 ```

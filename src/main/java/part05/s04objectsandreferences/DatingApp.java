@@ -1,4 +1,4 @@
-package src.main.java.part05.s04objectsandreferences;
+package part05.s04objectsandreferences;
 
 // Dating app (3 parts) — see DatingApp.md for full spec
 // Expected output:

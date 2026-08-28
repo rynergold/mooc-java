@@ -1,7 +1,7 @@
 # Multiplier
 
 **Exercise:** `part04-Part04_14.Multiplier`
-**Package:** `part04.01introductiontoobjectorientedprogramming`
+**Package:** `part04.s01introductiontoobjectorientedprogramming`
 
 ## Spec
 
@@ -40,4 +40,12 @@ multiplyByThree.multiply(2): 6
 multiplyByFour.multiply(2): 8
 multiplyByThree.multiply(1): 3
 multiplyByFour.multiply(1): 4
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s01introductiontoobjectorientedprogramming.MultiplierTest"
 ```

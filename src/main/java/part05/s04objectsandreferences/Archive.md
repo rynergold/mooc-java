@@ -1,7 +1,7 @@
 # Archive (2 parts)
 
 **Exercise:** `part05-Part05_15.Archive`
-**Package:** `part05.04objectsandreferences`
+**Package:** `part05.s04objectsandreferences`
 
 ## Spec
 
@@ -120,4 +120,12 @@ Identifier? (empty will stop)
 ==Items==
 B07H8ND8HH: He-Man figure
 B07NQFMZYG: He-Man figure
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s04objectsandreferences.ArchiveTest"
 ```

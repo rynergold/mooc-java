@@ -1,7 +1,7 @@
 # Debt
 
 **Exercise:** `part04-Part04_09.Debt`
-**Package:** `part04.01introductiontoobjectorientedprogramming`
+**Package:** `part04.s01introductiontoobjectorientedprogramming`
 
 ## Spec
 
@@ -41,4 +41,12 @@ Once you get the program to work, try out the previous example with the interest
 120000.0
 121200.0
 147887.0328416936
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s01introductiontoobjectorientedprogramming.DebtTest"
 ```

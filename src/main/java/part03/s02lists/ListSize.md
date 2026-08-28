@@ -1,7 +1,7 @@
 # List size
 
 **Exercise:** `part03-Part03_04.ListSize`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -52,4 +52,12 @@ In total: 4
 **Oscar**
 
 In total: 11
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.ListSizeTest"
 ```

@@ -1,7 +1,7 @@
 # Overloaded Counter (2 parts)
 
 **Exercise:** `part05-Part05_06.OverloadedCounter`
-**Package:** `part05.02methodandconstructoroverloading`
+**Package:** `part05.s02methodandconstructoroverloading`
 
 ## Spec
 
@@ -31,4 +31,12 @@ Implement versions which are given one parameter of the methods `increase` and `
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s02methodandconstructoroverloading.OverloadedCounterTest"
 ```

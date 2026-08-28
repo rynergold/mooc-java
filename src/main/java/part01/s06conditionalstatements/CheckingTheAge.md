@@ -1,7 +1,7 @@
 # Checking the age
 
 **Exercise:** `part01-Part01_35.CheckingTheAge`
-**Package:** `part01.06conditionalstatements`
+**Package:** `part01.s06conditionalstatements`
 
 ## Spec
 
@@ -30,4 +30,12 @@ How old are you? **-3**
 Impossible!
 How old are you? **150**
 Impossible!
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part01.s06conditionalstatements.CheckingTheAgeTest"
 ```

@@ -1,7 +1,7 @@
 # Sum of a sequence - the sequel
 
 **Exercise:** `part02-Part02_18.SumOfASequenceTheSequel`
-**Package:** `part02.03moreloops`
+**Package:** `part02.s03moreloops`
 
 ## Spec
 
@@ -32,4 +32,12 @@ The sum is 12
 First number? **2**
 Last number? **8**
 The sum is: 35
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s03moreloops.SumOfASequenceTheSequelTest"
 ```

@@ -1,7 +1,7 @@
 # Items
 
 **Exercise:** `part04-Part04_17.Items`
-**Package:** `part04.02objectsinalist`
+**Package:** `part04.s02objectsinalist`
 
 ## Spec
 
@@ -29,4 +29,12 @@ Name:
 
 Hammer (created at: 06.07.2018 12:34:56)
 Collar (created at: 06.07.2018 12:34:57)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s02objectsinalist.ItemsTest"
 ```

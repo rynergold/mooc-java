@@ -1,7 +1,7 @@
 # NullPointerException
 
 **Exercise:** `part05-Part05_07.NullPointerException`
-**Package:** `part05.04objectsandreferences`
+**Package:** `part05.s04objectsandreferences`
 
 ## Spec
 
@@ -11,4 +11,12 @@ Implement a program that causes the NullPointerException error. The error should
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s04objectsandreferences.NullPointerExceptionTest"
 ```

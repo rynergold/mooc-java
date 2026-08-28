@@ -1,7 +1,7 @@
 # Is it true
 
 **Exercise:** `part03-Part03_24.IsItTrue`
-**Package:** `part03.04strings`
+**Package:** `part03.s04strings`
 
 ## Spec
 
@@ -20,4 +20,12 @@ Give a string: **true**
 You got it right!
 Give a string: **trueish**
 Try again!
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s04strings.IsItTrueTest"
 ```

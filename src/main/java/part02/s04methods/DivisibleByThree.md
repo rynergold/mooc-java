@@ -1,7 +1,7 @@
 # Divisible by three
 
 **Exercise:** `part02-Part02_26.DivisibleByThree`
-**Package:** `part02.04methods`
+**Package:** `part02.s04methods`
 
 ## Spec
 
@@ -36,4 +36,12 @@ public static void main(String[] args) {
 3
 6
 9
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s04methods.DivisibleByThreeTest"
 ```

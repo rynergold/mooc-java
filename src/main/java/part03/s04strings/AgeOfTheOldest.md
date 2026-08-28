@@ -1,7 +1,7 @@
 # Age of the oldest
 
 **Exercise:** `part03-Part03_30.AgeOfTheOldest`
-**Package:** `part03.04strings`
+**Package:** `part03.s04strings`
 
 ## Spec
 
@@ -25,4 +25,12 @@ Age of the oldest: 10
 **hanna,5**
 **gabriel,10**
 Age of the oldest: 10
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s04strings.AgeOfTheOldestTest"
 ```

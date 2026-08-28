@@ -1,4 +1,4 @@
-package src.main.java.part02.s02repeating;
+package part02.s02repeating;
 
 // Average of positive numbers — see AverageOfPositiveNumbers.md for full spec
 // Expected output:

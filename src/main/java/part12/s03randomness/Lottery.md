@@ -1,11 +1,11 @@
 # Lottery
 
 **Exercise:** `part12-Part12_08.Lottery`
-**Package:** `part12.03randomness`
+**Package:** `part12.s03randomness`
 
 ## Spec
 
-Your assignment is to complete the class `LotteryRow`, which is used to draw the week's winning numbers. The numbers are in range 1--40, and 7 numbers will be drawn in total. In other words, a lottery row consists of seven different numbers that are all in range 1--40.
+Your assignment is to complete the class `LotteryRow`, which is used to draw the week's winning numbers. The numbers are in range 1--40, and 7 numbers will be drawn in total. A lottery row consists of seven different numbers that are all in range 1--40.
 
 We wish to implement the following functions in the class:
 
@@ -88,4 +88,12 @@ Lottery numbers:
 3 5 10 14 15 27 37
 Lottery numbers:
 2 9 11 18 23 32 34
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part12.s03randomness.LotteryTest"
 ```

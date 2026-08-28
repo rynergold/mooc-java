@@ -1,4 +1,4 @@
-package src.main.java.part14.s04mavenandthirdpartylibraries;
+package part14.s04mavenandthirdpartylibraries;
 
 // Database — see Database.md for full spec
 // Expected output:

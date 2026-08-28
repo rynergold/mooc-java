@@ -1,7 +1,7 @@
 # Dictionary of many translations
 
 **Exercise:** `part08Part08_14.DictionaryOfManyTranslations`
-**Package:** `part08.04groupingdatausinghashmaps`
+**Package:** `part08.s04groupingdatausinghashmaps`
 
 ## Spec
 
@@ -38,4 +38,12 @@ System.out.println(dictionary.translate("bow"));
 ```
 [maata, valehdella]
 []
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part08.s04groupingdatausinghashmaps.DictionaryOfManyTranslationsTest"
 ```

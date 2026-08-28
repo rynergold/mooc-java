@@ -1,7 +1,7 @@
 # Print neatly
 
 **Exercise:** `part03-Part03_21.PrintNeatly`
-**Package:** `part03.03arrays`
+**Package:** `part03.s03arrays`
 
 ## Spec
 
@@ -22,4 +22,12 @@ printNeatly(array);
 
 ```
 5, 1, 3, 4, 2
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s03arrays.PrintNeatlyTest"
 ```

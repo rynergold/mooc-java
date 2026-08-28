@@ -1,4 +1,4 @@
-package src.main.java.part07.s03largerexercises;
+package part07.s03largerexercises;
 
 // Recipe search (4 parts) — see RecipeSearch.md for full spec
 // Expected output:

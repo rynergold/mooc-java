@@ -1,4 +1,4 @@
-package src.main.java.part10.s02interfacecomparable;
+package part10.s02interfacecomparable;
 
 // Literacy comparison (2 parts) — see LiteracyComparison.md for full spec
 // Expected output:

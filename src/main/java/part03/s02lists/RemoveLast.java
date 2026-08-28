@@ -1,4 +1,4 @@
-package src.main.java.part03.s02lists;
+package part03.s02lists;
 
 // Remove last — see RemoveLast.md for full spec
 // Expected output:

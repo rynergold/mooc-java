@@ -1,4 +1,4 @@
-package src.main.java.part02.s03moreloops;
+package part02.s03moreloops;
 
 // Repeating, breaking and remembering (5 parts) — see RepeatingBreakingAndRemembering.md for full spec
 // Expected output:

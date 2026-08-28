@@ -1,4 +1,4 @@
-package src.main.java.part04.s02objectsinalist;
+package part04.s02objectsinalist;
 
 // Items — see Items.md for full spec
 // Expected output:

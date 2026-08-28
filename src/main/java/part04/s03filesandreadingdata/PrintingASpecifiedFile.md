@@ -1,7 +1,7 @@
 # Printing a Specified File
 
 **Exercise:** `part04-Part04_25.PrintingASpecifiedFile`
-**Package:** `part04.03filesandreadingdata`
+**Package:** `part04.s03filesandreadingdata`
 
 ## Spec
 
@@ -43,4 +43,12 @@ Value for society
 Value for life
 For you and me
 Tieto is here allright!
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s03filesandreadingdata.PrintingASpecifiedFileTest"
 ```

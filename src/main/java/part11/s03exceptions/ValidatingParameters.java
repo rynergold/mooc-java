@@ -1,4 +1,4 @@
-package src.main.java.part11.s03exceptions;
+package part11.s03exceptions;
 
 // Validating parameters (2 parts) — see ValidatingParameters.md for full spec
 // Expected output:

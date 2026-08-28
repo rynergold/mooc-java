@@ -1,7 +1,7 @@
 # I owe you
 
 **Exercise:** `part08-Part08_10.IOweYou`
-**Package:** `part08.02hashmap`
+**Package:** `part08.s02hashmap`
 
 ## Spec
 
@@ -50,4 +50,12 @@ System.out.println(mattsIOU.howMuchDoIOweTo("Arthur"));
 51.5
 30.0
 10.5
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part08.s02hashmap.IOweYouTest"
 ```

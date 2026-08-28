@@ -1,7 +1,7 @@
 # Cycling statistics
 
 **Exercise:** `part14-Part14_05.CyclingStatistics`
-**Package:** `part14.01datavisualization`
+**Package:** `part14.s01datavisualization`
 
 ## Spec
 
@@ -11,4 +11,12 @@ In the exercise base there is a ready application that illustrates cycling stati
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part14.s01datavisualization.CyclingStatisticsTest"
 ```

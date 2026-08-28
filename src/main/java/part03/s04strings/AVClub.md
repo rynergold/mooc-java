@@ -1,7 +1,7 @@
 # AV Club
 
 **Exercise:** `part03-Part03_27.AVClub`
-**Package:** `part03.04strings`
+**Package:** `part03.s04strings`
 
 ## Spec
 
@@ -49,4 +49,12 @@ flavor
 **was it a cat?**
 can was found
 tin wasn't found
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s04strings.AVClubTest"
 ```

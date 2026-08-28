@@ -1,7 +1,7 @@
 # Limited numbers
 
 **Exercise:** `part10-Part10_06.LimitedNumbers`
-**Package:** `part10.01handlingcollectionsasstreams`
+**Package:** `part10.s01handlingcollectionsasstreams`
 
 ## Spec
 
@@ -29,4 +29,12 @@ Write a program that reads user input. When the user gives a negative number as 
 4
 5
 4
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part10.s01handlingcollectionsasstreams.LimitedNumbersTest"
 ```

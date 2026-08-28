@@ -1,4 +1,4 @@
-package src.main.java.part07.s03largerexercises;
+package part07.s03largerexercises;
 
 // Big year (3 parts) — see BigYear.md for full spec
 // Expected output:

@@ -1,4 +1,4 @@
-package src.main.java.part10.s03otherusefultechniques;
+package part10.s03otherusefultechniques;
 
 // Regular expressions (3 parts) — see RegularExpressions.md for full spec
 // Expected output:

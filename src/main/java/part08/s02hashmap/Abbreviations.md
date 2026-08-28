@@ -1,7 +1,7 @@
 # Abbreviations
 
 **Exercise:** `part08-Part08_07.Abbreviations`
-**Package:** `part08.02hashmap`
+**Package:** `part08.s02hashmap`
 
 ## Spec
 
@@ -39,4 +39,12 @@ for example more precisely and so on lol
 
 ```
 for example more precisely and so on lol
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part08.s02hashmap.AbbreviationsTest"
 ```

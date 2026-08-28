@@ -1,7 +1,7 @@
 # Joke Manager (2 parts)
 
 **Exercise:** `part06-Part06_12.JokeManager`
-**Package:** `part06.02separatinguserinterfacefromprogramlogic`
+**Package:** `part06.s02separatinguserinterfacefromprogramlogic`
 
 ## Spec
 
@@ -159,4 +159,12 @@ Commands:
 3 - list jokes
 X - stop
 **X**
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part06.s02separatinguserinterfacefromprogramlogic.JokeManagerTest"
 ```

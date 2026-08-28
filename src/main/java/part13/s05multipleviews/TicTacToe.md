@@ -1,7 +1,7 @@
 # Tic-tac-toe (3 parts)
 
 **Exercise:** `part13-Part13_13.TicTacToe`
-**Package:** `part13.05multipleviews`
+**Package:** `part13.s05multipleviews`
 
 ## Spec
 
@@ -38,4 +38,12 @@ The tests of this exercise are not the most detailed ones. Try to create the pro
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part13.s05multipleviews.TicTacToeTest"
 ```

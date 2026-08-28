@@ -1,7 +1,7 @@
 # Remember these numbers
 
 **Exercise:** `part03-Part03_07.RememberTheseNumbers`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -31,4 +31,12 @@ Expand the functionality of the program so that after reading the numbers, it pr
 2
 8
 11
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.RememberTheseNumbersTest"
 ```

@@ -1,7 +1,7 @@
 # Simple Dictionary (4 parts)
 
 **Exercise:** `part06-Part06_09.SimpleDictionary`
-**Package:** `part06.02separatinguserinterfacefromprogramlogic`
+**Package:** `part06.s02separatinguserinterfacefromprogramlogic`
 
 ## Spec
 
@@ -183,4 +183,12 @@ To be translated: **carrot**
 Word carrot was not found
 Command: **end**
 Bye bye!
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part06.s02separatinguserinterfacefromprogramlogic.SimpleDictionaryTest"
 ```

@@ -1,7 +1,7 @@
 # Square root of sum
 
 **Exercise:** `part02-Part02_02.SquareRootOfSum`
-**Package:** `part02.01problemsandpatterns`
+**Package:** `part02.s01problemsandpatterns`
 
 ## Spec
 
@@ -41,4 +41,12 @@ Here are a few examples:
 **1**
 **35**
 6
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s01problemsandpatterns.SquareRootOfSumTest"
 ```

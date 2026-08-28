@@ -1,7 +1,7 @@
 # Ada Lovelace
 
 **Exercise:** `part01-Part01_02.AdaLovelace`
-**Package:** `part01.02printing`
+**Package:** `part01.s02printing`
 
 ## Spec
 
@@ -20,10 +20,18 @@ The line "// Write your program here" is a _line comment_, and the computer will
 
 Ada Lovelace
 
-Once you've finished the exercise and see that it prints the correct string, return the exercise to the TMC server. After that, you can read more about [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace), who was one of the first programmers.
+Once you've finished the exercise and see that it prints the correct string, return the exercise to the the next task. After that, you can read more about [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace), who was one of the first programmers.
 
 ## Expected Output
 
 ```
 Ada Lovelace
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part01.s02printing.AdaLovelaceTest"
 ```

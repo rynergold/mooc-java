@@ -1,7 +1,7 @@
 # Personal details
 
 **Exercise:** `part03-Part03_32.PersonalDetails`
-**Package:** `part03.04strings`
+**Package:** `part03.s04strings`
 
 ## Spec
 
@@ -36,7 +36,6 @@ Average of the birth years: 1930.0
 **hanna,2014**
 **gabriel,2009**
 
-
 Longest name: sebastian
 Average of the birth years: 2014.8
 **sauli,1948**
@@ -45,7 +44,14 @@ Average of the birth years: 2014.8
 **mauno,1923**
 **urho,1900**
 
-
 Longest name: martti
 Average of the birth years: 1930.0
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s04strings.PersonalDetailsTest"
 ```

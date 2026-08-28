@@ -1,7 +1,7 @@
 # Printing a Collection
 
 **Exercise:** `part06-Part06_04.PrintingACollection`
-**Package:** `part06.01objectswithinobjects`
+**Package:** `part06.s01objectswithinobjects`
 
 ## Spec
 
@@ -106,4 +106,12 @@ The collection characters has 3 elements:
 magneto
 mystique
 phoenix
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part06.s01objectswithinobjects.PrintingACollectionTest"
 ```

@@ -1,4 +1,4 @@
-package src.main.java.part04.s01introductiontoobjectorientedprogramming;
+package part04.s01introductiontoobjectorientedprogramming;
 
 // Debt — see Debt.md for full spec
 // Expected output:

@@ -1,4 +1,4 @@
-package src.main.java.part03.s03arrays;
+package part03.s03arrays;
 
 // Print in stars — see PrintInStars.md for full spec
 // Expected output:

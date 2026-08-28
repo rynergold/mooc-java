@@ -1,4 +1,4 @@
-package src.main.java.part02.s03moreloops;
+package part02.s03moreloops;
 
 // Factorial — see Factorial.md for full spec
 // Expected output:

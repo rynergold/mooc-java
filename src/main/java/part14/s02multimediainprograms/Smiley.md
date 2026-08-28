@@ -1,7 +1,7 @@
 # Smiley
 
 **Exercise:** `part14-Part14_06.Smiley`
-**Package:** `part14.02multimediainprograms`
+**Package:** `part14.s02multimediainprograms`
 
 ## Spec
 
@@ -13,4 +13,12 @@ The tests in this exercise only check that you draw into the window. Before retu
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part14.s02multimediainprograms.SmileyTest"
 ```

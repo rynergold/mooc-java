@@ -1,7 +1,7 @@
 # In a hole in the ground
 
 **Exercise:** `part02-Part02_21.InAHoleInTheGround`
-**Package:** `part02.04methods`
+**Package:** `part02.s04methods`
 
 ## Spec
 
@@ -25,4 +25,12 @@ In a hole in the ground there lived a method
 
 ```
 In a hole in the ground there lived a method
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s04methods.InAHoleInTheGroundTest"
 ```

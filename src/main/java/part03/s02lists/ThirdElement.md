@@ -1,7 +1,7 @@
 # Third element
 
 **Exercise:** `part03-Part03_01.ThirdElement`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -36,4 +36,12 @@ Alex
 **Mary**
 
 Mary
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.ThirdElementTest"
 ```

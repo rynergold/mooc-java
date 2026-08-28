@@ -1,7 +1,7 @@
 # Statistics (4 parts)
 
 **Exercise:** `part04-Part04_15.NumberStatistics`
-**Package:** `part04.01introductiontoobjectorientedprogramming`
+**Package:** `part04.s01introductiontoobjectorientedprogramming`
 
 ## Spec
 
@@ -173,4 +173,12 @@ Enter numbers:
 Sum: 13
 Sum of even numbers: 8
 Sum of odd numbers: 5
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s01introductiontoobjectorientedprogramming.NumberStatisticsTest"
 ```

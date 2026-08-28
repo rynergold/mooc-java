@@ -1,7 +1,7 @@
 # Leap year
 
 **Exercise:** `part01-Part01_36.LeapYear`
-**Package:** `part01.06conditionalstatements`
+**Package:** `part01.s06conditionalstatements`
 
 ## Spec
 
@@ -64,4 +64,12 @@ Give a year: **2000**
 The year is a leap year.
 The number is divisible by five!
 The number is not divisible by six!
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part01.s06conditionalstatements.LeapYearTest"
 ```

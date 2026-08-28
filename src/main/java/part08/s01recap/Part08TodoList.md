@@ -1,7 +1,7 @@
 # To do list (2 parts)
 
 **Exercise:** `part08-Part08_05.TodoList`
-**Package:** `part08.01recap`
+**Package:** `part08.s01recap`
 
 ## Spec
 
@@ -176,4 +176,12 @@ To add: **stop**
 Command: **list**
 1: stop
 Command: **stop**
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part08.s01recap.Part08TodoListTest"
 ```

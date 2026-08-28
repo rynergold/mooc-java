@@ -1,4 +1,4 @@
-package src.main.java.part06.s02separatinguserinterfacefromprogramlogic;
+package part06.s02separatinguserinterfacefromprogramlogic;
 
 // To do list (2 parts) — see TodoList.md for full spec
 // Expected output:

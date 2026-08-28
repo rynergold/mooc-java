@@ -1,7 +1,7 @@
 # Film
 
 **Exercise:** `part04-Part04_11.Film`
-**Package:** `part04.01introductiontoobjectorientedprogramming`
+**Package:** `part04.s01introductiontoobjectorientedprogramming`
 
 ## Spec
 
@@ -37,4 +37,12 @@ How old are you?
 **7**
 
 You may watch the film Alvin and the Chipmunks: The Squeakquel
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s01introductiontoobjectorientedprogramming.FilmTest"
 ```

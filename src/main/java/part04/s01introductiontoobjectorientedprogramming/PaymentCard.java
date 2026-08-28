@@ -1,4 +1,4 @@
-package src.main.java.part04.s01introductiontoobjectorientedprogramming;
+package part04.s01introductiontoobjectorientedprogramming;
 
 // Payment Card (6 parts) — see PaymentCard.md for full spec
 // Expected output:

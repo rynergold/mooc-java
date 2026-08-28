@@ -1,7 +1,7 @@
 # Die
 
 **Exercise:** `part12-Part12_07.Die`
-**Package:** `part12.03randomness`
+**Package:** `part12.s03randomness`
 
 ## Spec
 
@@ -61,4 +61,12 @@ public class Program {
 2
 6
 1
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part12.s03randomness.DieTest"
 ```

@@ -1,7 +1,7 @@
 # Hi Ada Lovelace!
 
 **Exercise:** `part01-Part01_06.HiAdaLovelace`
-**Package:** `part01.03readinginput`
+**Package:** `part01.s03readinginput`
 
 ## Spec
 
@@ -27,4 +27,12 @@ NB! When using the `System.out.println` command, do not pass in the string "Ada 
 
 ```
 Hi Ada Lovelace!
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part01.s03readinginput.HiAdaLovelaceTest"
 ```

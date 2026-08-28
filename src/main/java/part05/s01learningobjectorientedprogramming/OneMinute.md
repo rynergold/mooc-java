@@ -1,7 +1,7 @@
 # One Minute
 
 **Exercise:** `part05-Part05_01.OneMinute`
-**Package:** `part05.01learningobjectorientedprogramming`
+**Package:** `part05.s01learningobjectorientedprogramming`
 
 ## Spec
 
@@ -38,4 +38,12 @@ NB! The program above will never stop running by itself. Press the red square to
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s01learningobjectorientedprogramming.OneMinuteTest"
 ```

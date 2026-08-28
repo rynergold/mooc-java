@@ -1,7 +1,7 @@
 # Searching
 
 **Exercise:** `part07-Part07_05.Searching`
-**Package:** `part07.02algorithms`
+**Package:** `part07.s02algorithms`
 
 ## Spec
 
@@ -61,4 +61,12 @@ Note that in the case of books, you are examining the values of the books' `id`-
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part07.s02algorithms.SearchingTest"
 ```

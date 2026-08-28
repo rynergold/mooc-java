@@ -1,4 +1,4 @@
-package src.main.java.part07.s02algorithms;
+package part07.s02algorithms;
 
 // Ready-made Sorting Algorithms — see ReadymadeSortingAlgorithms.md for full spec
 // Expected output:

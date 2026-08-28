@@ -1,7 +1,7 @@
 # Index of smallest
 
 **Exercise:** `part03-Part03_11.IndexOfSmallest`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -52,4 +52,12 @@ Found at index: 1
 Smallest number: 8
 Found at index: 2
 Found at index: 3
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.IndexOfSmallestTest"
 ```

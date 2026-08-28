@@ -1,7 +1,7 @@
 # Sensors and temperature (4 parts)
 
 **Exercise:** `part11-Part11_12.SensorsAndTemperature`
-**Package:** `part11.03exceptions`
+**Package:** `part11.s03exceptions`
 
 ## Spec
 
@@ -136,4 +136,12 @@ temperature in Helsinki region -4 degrees Celsius
 temperature in Helsinki region 5 degrees Celsius
 
 readings: [-10, -4, 5]
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part11.s03exceptions.SensorsAndTemperatureTest"
 ```

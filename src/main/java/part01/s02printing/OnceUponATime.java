@@ -1,4 +1,4 @@
-package src.main.java.part01.s02printing;
+package part01.s02printing;
 
 // Once Upon a Time — see OnceUponATime.md for full spec
 // Expected output:
@@ -9,6 +9,10 @@ package src.main.java.part01.s02printing;
 public class OnceUponATime {
     public static void main(String[] args) {
         // Write your program here
+      
+      System.out.println("Once upon a time");
+      System.out.println("there was");
+      System.out.println("a program");
 
     }
 }

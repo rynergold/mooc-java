@@ -1,7 +1,7 @@
 # Records From a File
 
 **Exercise:** `part04-Part04_29.RecordsFromAFile`
-**Package:** `part04.03filesandreadingdata`
+**Package:** `part04.s03filesandreadingdata`
 
 ## Spec
 
@@ -32,4 +32,12 @@ lily, age: 3 years
 anton, age: 5 years
 levi, age: 4 years
 amy, age: 1 year
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s03filesandreadingdata.RecordsFromAFileTest"
 ```

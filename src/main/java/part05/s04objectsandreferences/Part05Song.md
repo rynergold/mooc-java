@@ -1,7 +1,7 @@
 # Song
 
 **Exercise:** `part05-Part05_12.Song`
-**Package:** `part05.04objectsandreferences`
+**Package:** `part05.s04objectsandreferences`
 
 ## Spec
 
@@ -26,4 +26,12 @@ Songs are equal
 
 ```
 Songs are equal
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s04objectsandreferences.Part05SongTest"
 ```

@@ -1,7 +1,7 @@
 # Storing Records
 
 **Exercise:** `part04-Part04_30.StoringRecords`
-**Package:** `part04.03filesandreadingdata`
+**Package:** `part04.s03filesandreadingdata`
 
 ## Spec
 
@@ -20,4 +20,12 @@ The exercise template has a `main` method that you can use to test how your prog
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s03filesandreadingdata.StoringRecordsTest"
 ```

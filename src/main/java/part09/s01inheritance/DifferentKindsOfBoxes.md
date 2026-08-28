@@ -1,7 +1,7 @@
 # DifferentKindsOfBoxes (3 parts)
 
 **Exercise:** `part09-Part09_04.DifferentKindsOfBoxes`
-**Package:** `part09.01inheritance`
+**Package:** `part09.s01inheritance`
 
 ## Spec
 
@@ -87,4 +87,12 @@ true
 false
 false
 false
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part09.s01inheritance.DifferentKindsOfBoxesTest"
 ```

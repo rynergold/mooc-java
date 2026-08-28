@@ -1,7 +1,7 @@
 # Remove last
 
 **Exercise:** `part03-Part03_17.RemoveLast`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -30,4 +30,12 @@ System.out.println(strings);
 ```
 [First, Second, Third]
 [First]
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.RemoveLastTest"
 ```

@@ -1,7 +1,7 @@
 # Text statistics
 
 **Exercise:** `part13-Part13_05.TextStatistics`
-**Package:** `part13.02UIcomponentsandlayout`
+**Package:** `part13.s02UIcomponentsandlayout`
 
 ## Spec
 
@@ -11,4 +11,12 @@ Create an applicaton in the class provided in the exercise template. Use the Bor
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part13.s02UIcomponentsandlayout.TextStatisticsTest"
 ```

@@ -1,7 +1,7 @@
 # Printing User Input
 
 **Exercise:** `part10-Part10_05.PrintingUserInput`
-**Package:** `part10.01handlingcollectionsasstreams`
+**Package:** `part10.s01handlingcollectionsasstreams`
 
 ## Spec
 
@@ -25,4 +25,12 @@ war is peace: 1984
 first
 second
 war is peace: 1984
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part10.s01handlingcollectionsasstreams.PrintingUserInputTest"
 ```

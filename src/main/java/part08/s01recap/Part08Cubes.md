@@ -1,7 +1,7 @@
 # Cubes
 
 **Exercise:** `part08-Part08_01.Cubes`
-**Package:** `part08.01recap`
+**Package:** `part08.s01recap`
 
 ## Spec
 
@@ -28,4 +28,12 @@ Write a program that reads strings from the user until the user inputs the strin
 1331
 **end**
 **end**
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part08.s01recap.Part08CubesTest"
 ```

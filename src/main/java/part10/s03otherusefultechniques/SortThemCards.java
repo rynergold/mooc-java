@@ -1,4 +1,4 @@
-package src.main.java.part10.s03otherusefultechniques;
+package part10.s03otherusefultechniques;
 
 // Sort them cards! (6 parts) — see SortThemCards.md for full spec
 // Expected output:

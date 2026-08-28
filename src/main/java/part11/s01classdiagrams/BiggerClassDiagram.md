@@ -1,7 +1,7 @@
 # Bigger class diagram
 
 **Exercise:** `part11-Part11_07.BiggerClassDiagram`
-**Package:** `part11.01classdiagrams`
+**Package:** `part11.s01classdiagrams`
 
 ## Spec
 
@@ -13,4 +13,12 @@ Below you'll see a somewhat larger class diagram. In it are the classes A, B, C,
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part11.s01classdiagrams.BiggerClassDiagramTest"
 ```

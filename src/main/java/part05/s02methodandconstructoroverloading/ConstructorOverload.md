@@ -1,7 +1,7 @@
 # Constructor Overload
 
 **Exercise:** `part05-Part05_05.ConstructorOverload`
-**Package:** `part05.02methodandconstructoroverloading`
+**Package:** `part05.s02methodandconstructoroverloading`
 
 ## Spec
 
@@ -37,4 +37,12 @@ Tyre (5 kg) can be found from the shelf
 Tape measure (1 kg) can be found from the shelf
 Plaster (1 kg) can be found from the home improvement section
 Tyre (5 kg) can be found from the shelf
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s02methodandconstructoroverloading.ConstructorOverloadTest"
 ```

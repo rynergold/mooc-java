@@ -1,4 +1,4 @@
-package src.main.java.part04.s01introductiontoobjectorientedprogramming;
+package part04.s01introductiontoobjectorientedprogramming;
 
 // Your first bank transfer — see YourFirstBankTransfer.md for full spec
 // Expected output:

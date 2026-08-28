@@ -1,7 +1,7 @@
 # Product
 
 **Exercise:** `part04-Part04_07.Product`
-**Package:** `part04.01introductiontoobjectorientedprogramming`
+**Package:** `part04.s01introductiontoobjectorientedprogramming`
 
 ## Spec
 
@@ -20,4 +20,12 @@ The output above is based on the product being assigned the name `banana`, with 
 
 ```
 Banana, price 1.1, 13 pcs
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s01introductiontoobjectorientedprogramming.ProductTest"
 ```

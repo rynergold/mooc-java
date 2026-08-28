@@ -1,7 +1,7 @@
 # Nicknames
 
 **Exercise:** `part08-Part08_06.Nicknames`
-**Package:** `part08.02hashmap`
+**Package:** `part08.s02hashmap`
 
 ## Spec
 
@@ -19,4 +19,12 @@ There is no automated tests for this exercise. Just submit the exercise when you
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part08.s02hashmap.NicknamesTest"
 ```

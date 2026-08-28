@@ -1,7 +1,7 @@
 # Wage order
 
 **Exercise:** `part10-Part10_11.WageOrder`
-**Package:** `part10.02interfacecomparable`
+**Package:** `part10.s02interfacecomparable`
 
 ## Spec
 
@@ -11,4 +11,12 @@ You are provided with the class Human. A human has a name and wage information. 
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part10.s02interfacecomparable.WageOrderTest"
 ```

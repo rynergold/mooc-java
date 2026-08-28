@@ -1,7 +1,7 @@
 # Your first account
 
 **Exercise:** `part04-Part04_01.YourFirstAccount`
-**Package:** `part04.01introductiontoobjectorientedprogramming`
+**Package:** `part04.s01introductiontoobjectorientedprogramming`
 
 ## Spec
 
@@ -31,4 +31,12 @@ Write a program that creates an account with a balance of 100.0, deposits 20.0 i
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s01introductiontoobjectorientedprogramming.YourFirstAccountTest"
 ```

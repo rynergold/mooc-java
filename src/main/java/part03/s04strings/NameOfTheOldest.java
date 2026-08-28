@@ -1,4 +1,4 @@
-package src.main.java.part03.s04strings;
+package part03.s04strings;
 
 // Name of the oldest — see NameOfTheOldest.md for full spec
 // Expected output:

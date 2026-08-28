@@ -1,7 +1,7 @@
 # Collage (3 parts)
 
 **Exercise:** `part14-Part14_07.Collage`
-**Package:** `part14.02multimediainprograms`
+**Package:** `part14.s02multimediainprograms`
 
 ## Spec
 
@@ -31,4 +31,12 @@ You've come this far, and now you can display a grid of four small images. Next,
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part14.s02multimediainprograms.CollageTest"
 ```

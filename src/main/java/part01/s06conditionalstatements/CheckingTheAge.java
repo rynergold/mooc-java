@@ -1,4 +1,4 @@
-package src.main.java.part01.s06conditionalstatements;
+package part01.s06conditionalstatements;
 
 // Checking the age — see CheckingTheAge.md for full spec
 // Expected output:

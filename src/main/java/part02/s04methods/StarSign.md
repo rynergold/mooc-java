@@ -1,7 +1,7 @@
 # Star sign (4 parts)
 
 **Exercise:** `part02-Part02_33.StarSign`
-**Package:** `part02.04methods`
+**Package:** `part02.s04methods`
 
 ## Spec
 
@@ -82,4 +82,12 @@ Create a method called `printTriangle(int size)` that prints a triangle by using
 **
 ***
 ****
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s04methods.StarSignTest"
 ```

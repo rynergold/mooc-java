@@ -1,7 +1,7 @@
 # Sum of a list
 
 **Exercise:** `part03-Part03_12.SumOfAList`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -27,4 +27,12 @@ Sum: 93
 **-1**
 
 Sum: 93
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.SumOfAListTest"
 ```

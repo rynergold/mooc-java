@@ -1,7 +1,7 @@
 # Sum
 
 **Exercise:** `part03-Part03_16.Sum`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -28,4 +28,12 @@ System.out.println(sum(numbers));
 ```
 10
 16
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.SumTest"
 ```

@@ -1,7 +1,7 @@
 # Shanghai
 
 **Exercise:** `part14-Part14_01.Shanghai`
-**Package:** `part14.01datavisualization`
+**Package:** `part14.s01datavisualization`
 
 ## Spec
 
@@ -27,4 +27,12 @@ The result drawn by the application could like the following example:
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part14.s01datavisualization.ShanghaiTest"
 ```

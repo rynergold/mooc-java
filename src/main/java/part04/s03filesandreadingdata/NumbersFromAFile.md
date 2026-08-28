@@ -1,7 +1,7 @@
 # Numbers From a File
 
 **Exercise:** `part04-Part04_28.NumbersFromAFile`
-**Package:** `part04.03filesandreadingdata`
+**Package:** `part04.s03filesandreadingdata`
 
 ## Spec
 
@@ -48,4 +48,12 @@ File? **numbers-1.txt**
 Lower bound? **0**
 Upper bound? **300**
 Numbers: 4
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s03filesandreadingdata.NumbersFromAFileTest"
 ```

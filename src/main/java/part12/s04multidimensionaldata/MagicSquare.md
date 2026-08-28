@@ -1,7 +1,7 @@
 # Magic square (4 parts)
 
 **Exercise:** `part12-Part12_10.MagicSquare`
-**Package:** `part12.04multidimensionaldata`
+**Package:** `part12.s04multidimensionaldata`
 
 ## Spec
 
@@ -79,7 +79,7 @@ The Siamese method algorithm works in the following manner. You set number one t
 
 Two rules govern the number placements:
 
-1. If the transition would leave us outside the bounds of the magic square, we jump to the opposite edge. In other words, if we go "over the right edge" we continue from the left edge, and if we go "over the top edge" we continue from the bottom.
+1. If the transition would leave us outside the bounds of the magic square, we jump to the opposite edge. If we go "over the right edge" we continue from the left edge, and if we go "over the top edge" we continue from the bottom.
 
 2. If the place already contains a number, we don't go up and right. Instead we take one step downwards.
 
@@ -91,4 +91,12 @@ Implement in the class `MagicSquareFactory` the method `createMagicSquare`. It s
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part12.s04multidimensionaldata.MagicSquareTest"
 ```

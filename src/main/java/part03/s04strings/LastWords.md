@@ -1,7 +1,7 @@
 # LastWords
 
 **Exercise:** `part03-Part03_29.LastWords`
-**Package:** `part03.04strings`
+**Package:** `part03.s04strings`
 
 ## Spec
 
@@ -29,4 +29,12 @@ four
 **this is a very important message**
 message
 Number of parts: 3
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s04strings.LastWordsTest"
 ```

@@ -1,4 +1,4 @@
-package src.main.java.part14.s01datavisualization;
+package part14.s01datavisualization;
 
 // Finnish parties — see FinnishParties.md for full spec
 // Expected output:

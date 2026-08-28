@@ -1,7 +1,7 @@
 # From parameter to one
 
 **Exercise:** `part02-Part02_24.FromParameterToOne`
-**Package:** `part02.04methods`
+**Package:** `part02.s04methods`
 
 ## Spec
 
@@ -40,4 +40,12 @@ public static void main(String[] args) {
 1
 2
 1
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s04methods.FromParameterToOneTest"
 ```

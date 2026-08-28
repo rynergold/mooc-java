@@ -1,7 +1,7 @@
 # Guest List From a File
 
 **Exercise:** `part04-Part04_26.GuestListFromAFile`
-**Package:** `part04.03filesandreadingdata`
+**Package:** `part04.s03filesandreadingdata`
 
 ## Spec
 
@@ -56,4 +56,12 @@ The name is on the list.
 The name is on the list.
 
 Thank you!
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s03filesandreadingdata.GuestListFromAFileTest"
 ```

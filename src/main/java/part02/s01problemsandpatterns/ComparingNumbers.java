@@ -1,4 +1,4 @@
-package src.main.java.part02.s01problemsandpatterns;
+package part02.s01problemsandpatterns;
 
 // Comparing Numbers — see ComparingNumbers.md for full spec
 // Expected output:

@@ -1,7 +1,7 @@
 # ABC (2 parts)
 
 **Exercise:** `part09-Part09_01.ABC`
-**Package:** `part09.01inheritance`
+**Package:** `part09.s01inheritance`
 
 ## Spec
 
@@ -31,7 +31,7 @@ C
 
 Class inheritance
 
-Modify the classes so that class B inherits class A, and class C inherits class B. In other words, class A will be a superclass for class B, and class B will be a superclass for class C.
+Modify the classes so that class B inherits class A, and class C inherits class B. Class A will be a superclass for class B, and class B will be a superclass for class C.
 
 ```java
 C c = new C();
@@ -54,4 +54,12 @@ C
 A
 B
 C
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part09.s01inheritance.ABCTest"
 ```

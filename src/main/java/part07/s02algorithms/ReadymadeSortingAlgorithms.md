@@ -1,7 +1,7 @@
 # Ready-made Sorting Algorithms
 
 **Exercise:** `part07-Part07_04.ReadymadeSortingAlgorithms`
-**Package:** `part07.02algorithms`
+**Package:** `part07.s02algorithms`
 
 ## Spec
 
@@ -21,4 +21,12 @@ Be sure to use the ready-made Java libraries in your implementation.
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part07.s02algorithms.ReadymadeSortingAlgorithmsTest"
 ```

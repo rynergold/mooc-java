@@ -1,7 +1,7 @@
 # Greeter
 
 **Exercise:** `part13-Part13_10.Greeter`
-**Package:** `part13.05multipleviews`
+**Package:** `part13.s05multipleviews`
 
 ## Spec
 
@@ -15,4 +15,12 @@ An example of how the program should work:
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part13.s05multipleviews.GreeterTest"
 ```

@@ -1,7 +1,7 @@
 # Liquid containers (3 parts)
 
 **Exercise:** `part08-Part08_03.LiquidContainers`
-**Package:** `part08.01recap`
+**Package:** `part08.s01recap`
 
 ## Spec
 
@@ -236,4 +236,12 @@ Second: 10/100
 First: 5/100
 Second: 0/100
 **quit**
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part08.s01recap.Part08LiquidContainersTest"
 ```

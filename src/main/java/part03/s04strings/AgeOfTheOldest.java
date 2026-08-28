@@ -1,4 +1,4 @@
-package src.main.java.part03.s04strings;
+package part03.s04strings;
 
 // Age of the oldest — see AgeOfTheOldest.md for full spec
 // Expected output:

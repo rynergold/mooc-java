@@ -1,7 +1,7 @@
 # Animals (4 parts)
 
 **Exercise:** `part09-Part09_12.Animals`
-**Package:** `part09.03objectpolymorphism`
+**Package:** `part09.s03objectpolymorphism`
 
 ## Spec
 
@@ -83,4 +83,12 @@ Garfield purrs
 Dog barks
 Garfield purrs
 Garfield purrs
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part09.s03objectpolymorphism.AnimalsTest"
 ```

@@ -1,4 +1,4 @@
-package src.main.java.part14.s01datavisualization;
+package part14.s01datavisualization;
 
 // Cycling statistics — see CyclingStatistics.md for full spec
 // Expected output:

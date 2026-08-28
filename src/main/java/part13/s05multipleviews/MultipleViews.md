@@ -1,7 +1,7 @@
 # Multiple views
 
 **Exercise:** `part13-Part13_09.MultipleViews`
-**Package:** `part13.05multipleviews`
+**Package:** `part13.s05multipleviews`
 
 ## Spec
 
@@ -19,4 +19,12 @@ When first started, the program should display the first view.
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part13.s05multipleviews.MultipleViewsTest"
 ```

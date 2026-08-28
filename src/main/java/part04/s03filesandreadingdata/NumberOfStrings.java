@@ -1,4 +1,4 @@
-package src.main.java.part04.s03filesandreadingdata;
+package part04.s03filesandreadingdata;
 
 // Number of Strings — see NumberOfStrings.md for full spec
 // Expected output:

@@ -1,7 +1,7 @@
 # Counting
 
 **Exercise:** `part02-Part02_14.Counting`
-**Package:** `part02.03moreloops`
+**Package:** `part02.s03moreloops`
 
 ## Spec
 
@@ -30,4 +30,12 @@ Write a program that reads an integer from the user. Next, the program prints nu
 **1**
 0
 1
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s03moreloops.CountingTest"
 ```

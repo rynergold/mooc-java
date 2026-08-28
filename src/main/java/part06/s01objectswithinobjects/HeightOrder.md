@@ -1,7 +1,7 @@
 # Height Order (3 parts)
 
 **Exercise:** `part06-Part06_07.HeightOrder`
-**Package:** `part06.01objectswithinobjects`
+**Package:** `part06.s01objectswithinobjects`
 
 ## Spec
 
@@ -194,4 +194,12 @@ Kenya (182 cm)
 Lea (183 cm)
 Terhi (185 cm)
 Auli (186 cm)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part06.s01objectswithinobjects.HeightOrderTest"
 ```

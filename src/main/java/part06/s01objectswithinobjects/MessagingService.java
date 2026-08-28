@@ -1,4 +1,4 @@
-package src.main.java.part06.s01objectswithinobjects;
+package part06.s01objectswithinobjects;
 
 // MessagingService — see MessagingService.md for full spec
 // Expected output:

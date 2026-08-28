@@ -1,7 +1,7 @@
 # TacoBoxes (2 parts)
 
 **Exercise:** `part09-Part09_05.TacoBoxes`
-**Package:** `part09.02interfaces`
+**Package:** `part09.s02interfaces`
 
 ## Spec
 
@@ -30,4 +30,12 @@ Implement the class `CustomTacoBox`, that implements the `TacoBox` interface. `C
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part09.s02interfaces.TacoBoxesTest"
 ```

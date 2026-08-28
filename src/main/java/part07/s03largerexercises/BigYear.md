@@ -1,7 +1,7 @@
 # Big year (3 parts)
 
 **Exercise:** `part07-Part07_08.BigYear`
-**Package:** `part07.03largerexercises`
+**Package:** `part07.s03largerexercises`
 
 ## Spec
 
@@ -70,4 +70,12 @@ Crow (Corvus Corvus): 0 observations
 Bird? **Hawk**
 Hawk (Dorkus Dorkus): 2 observations
 ? **Quit**
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part07.s03largerexercises.BigYearTest"
 ```

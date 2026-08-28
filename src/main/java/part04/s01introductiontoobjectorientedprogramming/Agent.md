@@ -1,7 +1,7 @@
 # Agent
 
 **Exercise:** `part04-Part04_13.Agent`
-**Package:** `part04.01introductiontoobjectorientedprogramming`
+**Package:** `part04.s01introductiontoobjectorientedprogramming`
 
 ## Spec
 
@@ -37,4 +37,12 @@ My name is Bond, Ionic Bond
 My name is Bond, James Bond
 My name is Bond, James Bond
 My name is Bond, Ionic Bond
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s01introductiontoobjectorientedprogramming.AgentTest"
 ```

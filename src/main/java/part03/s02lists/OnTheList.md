@@ -1,7 +1,7 @@
 # On the list?
 
 **Exercise:** `part03-Part03_14.OnTheList`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -40,4 +40,12 @@ Mary was found!
 
 Search for? **Logan**
 Logan was not found!
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.OnTheListTest"
 ```

@@ -1,7 +1,7 @@
 # Savings calculator (3 parts)
 
 **Exercise:** `part14-Part14_03.SavingsCalculator`
-**Package:** `part14.01datavisualization`
+**Package:** `part14.s01datavisualization`
 
 ## Spec
 
@@ -43,4 +43,12 @@ In the chart we see the compound interest of our savings, although with a very o
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part14.s01datavisualization.SavingsCalculatorTest"
 ```

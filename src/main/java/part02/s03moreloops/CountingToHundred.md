@@ -1,7 +1,7 @@
 # Counting to hundred
 
 **Exercise:** `part02-Part02_15.CountingToHundred`
-**Package:** `part02.03moreloops`
+**Package:** `part02.s03moreloops`
 
 ## Spec
 
@@ -42,4 +42,12 @@ Write a program, which reads an integer from the user. Then the program prints n
 98
 99
 100
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s03moreloops.CountingToHundredTest"
 ```

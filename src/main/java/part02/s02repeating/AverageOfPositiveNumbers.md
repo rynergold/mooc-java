@@ -1,7 +1,7 @@
 # Average of positive numbers
 
 **Exercise:** `part02-Part02_13.AverageOfPositiveNumbers`
-**Package:** `part02.02repeating`
+**Package:** `part02.s02repeating`
 
 ## Spec
 
@@ -51,4 +51,12 @@ Cannot calculate the average
 **1**
 **0**
 1.0
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s02repeating.AverageOfPositiveNumbersTest"
 ```

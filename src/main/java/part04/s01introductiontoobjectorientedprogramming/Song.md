@@ -1,7 +1,7 @@
 # Song
 
 **Exercise:** `part04-Part04_10.Song`
-**Package:** `part04.01introductiontoobjectorientedprogramming`
+**Package:** `part04.s01introductiontoobjectorientedprogramming`
 
 ## Spec
 
@@ -20,4 +20,12 @@ The song In The Garden has a length of 10910 seconds.
 
 ```
 The song In The Garden has a length of 10910 seconds.
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s01introductiontoobjectorientedprogramming.SongTest"
 ```

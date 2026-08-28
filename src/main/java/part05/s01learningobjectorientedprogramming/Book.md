@@ -1,7 +1,7 @@
 # Book
 
 **Exercise:** `part05-Part05_02.Book`
-**Package:** `part05.01learningobjectorientedprogramming`
+**Package:** `part05.s01learningobjectorientedprogramming`
 
 ## Spec
 
@@ -22,4 +22,12 @@ J. K. Rowling, Harry Potter and the Sorcerer's Stone, 223 pages
 
 ```
 J. K. Rowling, Harry Potter and the Sorcerer's Stone, 223 pages
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s01learningobjectorientedprogramming.BookTest"
 ```

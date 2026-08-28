@@ -1,7 +1,7 @@
 # Index was not found
 
 **Exercise:** `part03-Part03_19.IndexWasNotFound`
-**Package:** `part03.03arrays`
+**Package:** `part03.s03arrays`
 
 ## Spec
 
@@ -25,4 +25,12 @@ Search for? **7**
 7 is at index 7.
 Search for? **22**
 22 was not found.
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s03arrays.IndexWasNotFoundTest"
 ```

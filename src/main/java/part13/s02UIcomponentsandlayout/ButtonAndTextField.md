@@ -1,7 +1,7 @@
 # Button and TextField
 
 **Exercise:** `part13-Part13_03.ButtonAndTextField`
-**Package:** `part13.02UIcomponentsandlayout`
+**Package:** `part13.s02UIcomponentsandlayout`
 
 ## Spec
 
@@ -13,4 +13,12 @@ Create a graphical user interface in the class that is supplied with the exercis
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part13.s02UIcomponentsandlayout.ButtonAndTextFieldTest"
 ```

@@ -1,7 +1,7 @@
 # Comparing Numbers
 
 **Exercise:** `part02-Part02_04.ComparingNumbers`
-**Package:** `part02.01problemsandpatterns`
+**Package:** `part02.s01problemsandpatterns`
 
 ## Spec
 
@@ -33,4 +33,12 @@ A few examples of the expected behaviour:
 **1**
 **1**
 1 is equal to 1.
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s01problemsandpatterns.ComparingNumbersTest"
 ```

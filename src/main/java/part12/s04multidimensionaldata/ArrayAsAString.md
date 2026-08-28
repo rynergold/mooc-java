@@ -1,7 +1,7 @@
 # Array as a string
 
 **Exercise:** `part12-Part12_09.ArrayAsAString`
-**Package:** `part12.04multidimensionaldata`
+**Package:** `part12.s04multidimensionaldata`
 
 ## Spec
 
@@ -44,4 +44,12 @@ System.out.println(arrayAsString(matrix));
 3276
 2410
 3210
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part12.s04multidimensionaldata.ArrayAsAStringTest"
 ```

@@ -1,4 +1,4 @@
-package src.main.java.part13.s05multipleviews;
+package part13.s05multipleviews;
 
 // Joke — see Joke.md for full spec
 // Expected output:

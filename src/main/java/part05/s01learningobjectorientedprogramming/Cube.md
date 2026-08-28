@@ -1,7 +1,7 @@
 # Cube
 
 **Exercise:** `part05-Part05_03.Cube`
-**Package:** `part05.01learningobjectorientedprogramming`
+**Package:** `part05.s01learningobjectorientedprogramming`
 
 ## Spec
 
@@ -37,4 +37,12 @@ The length of the edge is 4 and the volume 64
 
 8
 The length of the edge is 2 and the volume 8
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s01learningobjectorientedprogramming.CubeTest"
 ```

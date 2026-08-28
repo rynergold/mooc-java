@@ -1,7 +1,7 @@
 # Positive Numbers
 
 **Exercise:** `part10-Part10_03.PositiveNumbers`
-**Package:** `part10.01handlingcollectionsasstreams`
+**Package:** `part10.s01handlingcollectionsasstreams`
 
 ## Spec
 
@@ -13,4 +13,12 @@ Implement the method using stream! For collecting the numbers try the command `C
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part10.s01handlingcollectionsasstreams.PositiveNumbersTest"
 ```

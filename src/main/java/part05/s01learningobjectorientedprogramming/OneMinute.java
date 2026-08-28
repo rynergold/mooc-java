@@ -1,4 +1,4 @@
-package src.main.java.part05.s01learningobjectorientedprogramming;
+package part05.s01learningobjectorientedprogramming;
 
 // One Minute — see OneMinute.md for full spec
 // Expected output:

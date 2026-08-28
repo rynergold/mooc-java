@@ -1,7 +1,7 @@
 # Sort them cards! (6 parts)
 
 **Exercise:** `part10-Part10_17.SortThemCards`
-**Package:** `part10.03otherusefultechniques`
+**Package:** `part10.s03otherusefultechniques`
 
 ## Spec
 
@@ -239,4 +239,12 @@ HEART Q
 SPADE 2
 SPADE 4
 SPADE A
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part10.s03otherusefultechniques.SortThemCardsTest"
 ```

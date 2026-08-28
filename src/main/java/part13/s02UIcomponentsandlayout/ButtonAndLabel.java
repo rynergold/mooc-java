@@ -1,4 +1,4 @@
-package src.main.java.part13.s02UIcomponentsandlayout;
+package part13.s02UIcomponentsandlayout;
 
 // Button and label — see ButtonAndLabel.md for full spec
 // Expected output:

@@ -1,7 +1,7 @@
 # Literature (3 parts)
 
 **Exercise:** `part10-Part10_14.Literature`
-**Package:** `part10.02interfacecomparable`
+**Package:** `part10.s02interfacecomparable`
 
 ## Spec
 
@@ -153,4 +153,12 @@ The Exiting Transpotation Vehicles (recommended for 0 year-olds or older)
 The Ringing Lullaby Book (recommended for 0 year-olds or older)
 Litmanen 10 (recommended for 10 year-olds or older)
 The Snowy Forest Calls (recommended for 12 year-olds or older)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part10.s02interfacecomparable.LiteratureTest"
 ```

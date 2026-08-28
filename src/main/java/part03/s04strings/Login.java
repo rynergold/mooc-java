@@ -1,4 +1,4 @@
-package src.main.java.part03.s04strings;
+package part03.s04strings;
 
 // Login — see Login.md for full spec
 // Expected output:

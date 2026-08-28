@@ -1,4 +1,4 @@
-package src.main.java.part09.s02interfaces;
+package part09.s02interfaces;
 
 // Map as a method parameter — see MapAsAMethodParameter.md for full spec
 // Expected output:

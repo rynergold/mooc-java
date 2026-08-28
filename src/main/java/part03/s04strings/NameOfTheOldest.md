@@ -1,7 +1,7 @@
 # Name of the oldest
 
 **Exercise:** `part03-Part03_31.NameOfTheOldest`
-**Package:** `part03.04strings`
+**Package:** `part03.s04strings`
 
 ## Spec
 
@@ -27,4 +27,12 @@ Name of the oldest: gabriel
 **gabriel,10**
 
 Name of the oldest: gabriel
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s04strings.NameOfTheOldestTest"
 ```

@@ -1,7 +1,7 @@
 # Factorial
 
 **Exercise:** `part02-Part02_19.Factorial`
-**Package:** `part02.03moreloops`
+**Package:** `part02.s03moreloops`
 
 ## Spec
 
@@ -30,4 +30,12 @@ Give a number: **3**
 Factorial: 6
 Give a number: **10**
 Factorial: 3628800
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s03moreloops.FactorialTest"
 ```

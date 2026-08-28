@@ -1,7 +1,7 @@
 # Hurray
 
 **Exercise:** `part14-Part14_08.Hurray`
-**Package:** `part14.02multimediainprograms`
+**Package:** `part14.s02multimediainprograms`
 
 ## Spec
 
@@ -13,4 +13,12 @@ In the root folder of the exercise base there is a file called `Applause-Yannick
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part14.s02multimediainprograms.HurrayTest"
 ```

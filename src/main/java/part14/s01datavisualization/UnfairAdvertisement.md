@@ -1,7 +1,7 @@
 # Unfair Advertisement
 
 **Exercise:** `part14-Part14_04.UnfairAdvertisement`
-**Package:** `part14.01datavisualization`
+**Package:** `part14.s01datavisualization`
 
 ## Spec
 
@@ -17,4 +17,12 @@ This exercise has no automatic tests or model answer, so you can define the comp
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part14.s01datavisualization.UnfairAdvertisementTest"
 ```

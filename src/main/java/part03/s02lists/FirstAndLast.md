@@ -1,7 +1,7 @@
 # First and last
 
 **Exercise:** `part03-Part03_06.FirstAndLast`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -56,4 +56,12 @@ Mary
 
 Juno
 Oscar
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.FirstAndLastTest"
 ```

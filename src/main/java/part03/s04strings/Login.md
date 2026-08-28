@@ -1,7 +1,7 @@
 # Login
 
 **Exercise:** `part03-Part03_25.Login`
-**Package:** `part03.04strings`
+**Package:** `part03.s04strings`
 
 ## Spec
 
@@ -42,4 +42,12 @@ You have successfully logged in!
 Enter username: **alex**
 Enter password: **thunderstorm**
 Incorrect username or password!
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s04strings.LoginTest"
 ```

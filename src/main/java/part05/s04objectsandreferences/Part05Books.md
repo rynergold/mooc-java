@@ -1,7 +1,7 @@
 # Books
 
 **Exercise:** `part05-Part05_14.Books`
-**Package:** `part05.04objectsandreferences`
+**Package:** `part05.s04objectsandreferences`
 
 ## Spec
 
@@ -47,4 +47,12 @@ The book is already on the list. Let's not add the same book again.
 Name (empty will stop):
 
 Thank you! Books added: 2
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s04objectsandreferences.Part05BooksTest"
 ```

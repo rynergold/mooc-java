@@ -1,7 +1,7 @@
 # Sum of array
 
 **Exercise:** `part03-Part03_20.SumOfArray`
-**Package:** `part03.03arrays`
+**Package:** `part03.s03arrays`
 
 ## Spec
 
@@ -20,4 +20,12 @@ sumOfNumbersInArray(numbers);
 
 ```
 15
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s03arrays.SumOfArrayTest"
 ```

@@ -1,7 +1,7 @@
 # Hash for date
 
 **Exercise:** `part08-Part08_12.HashedDate`
-**Package:** `part08.03similarityofobjects`
+**Package:** `part08.s03similarityofobjects`
 
 ## Spec
 
@@ -13,4 +13,12 @@ Create a method `public int hashCode()` for the `SimpleDate` class, which calcul
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part08.s03similarityofobjects.HashedDateTest"
 ```

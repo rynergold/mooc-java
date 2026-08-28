@@ -1,7 +1,7 @@
 # Text statistics, part II
 
 **Exercise:** `part13-Part13_07.TextStatisticsPart2`
-**Package:** `part13.03eventhandling`
+**Package:** `part13.s03eventhandling`
 
 ## Spec
 
@@ -11,4 +11,12 @@ Copy the work you did in the Text statistics exercise into the class included in
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part13.s03eventhandling.TextStatisticsPart2Test"
 ```

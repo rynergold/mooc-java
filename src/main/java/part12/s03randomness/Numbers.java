@@ -1,4 +1,4 @@
-package src.main.java.part12.s03randomness;
+package part12.s03randomness;
 
 // Numbers — see Numbers.md for full spec
 // Expected output:

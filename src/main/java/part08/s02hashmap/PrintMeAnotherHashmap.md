@@ -1,7 +1,7 @@
 # Print me another hash map
 
 **Exercise:** `part08-Part08_09.PrintMeAnotherHashmap`
-**Package:** `part08.02hashmap`
+**Package:** `part08.s02hashmap`
 
 ## Spec
 
@@ -45,4 +45,12 @@ Contents: ...
 ---
 Name: Pride and prejudice (1813)
 Contents: ...
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part08.s02hashmap.PrintMeAnotherHashmapTest"
 ```

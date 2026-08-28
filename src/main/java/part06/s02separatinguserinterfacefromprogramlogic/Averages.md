@@ -1,7 +1,7 @@
 # Averages (3 parts)
 
 **Exercise:** `part06-Part06_11.Averages`
-**Package:** `part06.02separatinguserinterfacefromprogramlogic`
+**Package:** `part06.s02separatinguserinterfacefromprogramlogic`
 
 ## Spec
 
@@ -86,4 +86,12 @@ Points:
 0: \*
 The average of points: 68.14285714285714
 The average of grades: 2.4285714285714284
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part06.s02separatinguserinterfacefromprogramlogic.AveragesTest"
 ```

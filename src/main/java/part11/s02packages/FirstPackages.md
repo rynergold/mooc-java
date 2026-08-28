@@ -1,7 +1,7 @@
 # First packages (3 parts)
 
 **Exercise:** `part11-Part11_08.FirstPackages`
-**Package:** `part11.02packages`
+**Package:** `part11.s02packages`
 
 ## Spec
 
@@ -55,4 +55,12 @@ Application logic is working
 Updating UI
 Application logic is working
 Updating UI
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part11.s02packages.FirstPackagesTest"
 ```

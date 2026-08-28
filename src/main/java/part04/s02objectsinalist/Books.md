@@ -1,7 +1,7 @@
 # Books
 
 **Exercise:** `part04-Part04_20.Books`
-**Package:** `part04.02objectsinalist`
+**Package:** `part04.s02objectsinalist`
 
 ## Spec
 
@@ -92,4 +92,12 @@ To Kill a Mockingbird
 A Brief History of Time
 Beautiful Code
 The Name of the Wind
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s02objectsinalist.BooksTest"
 ```

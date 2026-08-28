@@ -1,7 +1,7 @@
 # IndexOutOfBoundsException
 
 **Exercise:** `part03-Part03_03.IndexOutOfBoundsException`
-**Package:** `part03.02lists`
+**Package:** `part03.s02lists`
 
 ## Spec
 
@@ -15,4 +15,12 @@ You can also see a means for going through the values of a list -- we will retur
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s02lists.IndexOutOfBoundsExceptionTest"
 ```

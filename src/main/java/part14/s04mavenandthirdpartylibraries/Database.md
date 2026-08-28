@@ -1,7 +1,7 @@
 # Database
 
 **Exercise:** `part14-Part14_10.Database`
-**Package:** `part14.04mavenandthirdpartylibraries`
+**Package:** `part14.s04mavenandthirdpartylibraries`
 
 ## Spec
 
@@ -148,4 +148,12 @@ The text user interface in this exercise does not differ in any essential way fr
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part14.s04mavenandthirdpartylibraries.DatabaseTest"
 ```

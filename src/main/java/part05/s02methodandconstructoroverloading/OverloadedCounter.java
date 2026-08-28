@@ -1,4 +1,4 @@
-package src.main.java.part05.s02methodandconstructoroverloading;
+package part05.s02methodandconstructoroverloading;
 
 // Overloaded Counter (2 parts) — see OverloadedCounter.md for full spec
 // Expected output:

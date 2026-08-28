@@ -1,4 +1,4 @@
-package src.main.java.part10.s01handlingcollectionsasstreams;
+package part10.s01handlingcollectionsasstreams;
 
 // Limited numbers — see LimitedNumbers.md for full spec
 // Expected output:

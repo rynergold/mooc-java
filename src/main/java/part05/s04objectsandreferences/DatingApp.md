@@ -1,7 +1,7 @@
 # Dating app (3 parts)
 
 **Exercise:** `part05-Part05_16.DatingApp`
-**Package:** `part05.04objectsandreferences`
+**Package:** `part05.s04objectsandreferences`
 
 ## Spec
 
@@ -102,4 +102,12 @@ Friday after 7 weeks is 2.4.2015
 The date after 790 days from the examined Friday is ... try it out yourself!
 Now: 20.2.2015
 After one week: 20.2.2015
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s04objectsandreferences.DatingAppTest"
 ```

@@ -1,7 +1,7 @@
 # Decreasing counter (3 parts)
 
 **Exercise:** `part04-Part04_08.DecreasingCounter`
-**Package:** `part04.01introductiontoobjectorientedprogramming`
+**Package:** `part04.s01introductiontoobjectorientedprogramming`
 
 ## Spec
 
@@ -127,4 +127,12 @@ value: 0
 value: 100
 value: 0
 value: 0
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s01introductiontoobjectorientedprogramming.DecreasingCounterTest"
 ```

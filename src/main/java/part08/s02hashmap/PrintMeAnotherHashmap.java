@@ -1,4 +1,4 @@
-package src.main.java.part08.s02hashmap;
+package part08.s02hashmap;
 
 // Print me another hash map — see PrintMeAnotherHashmap.md for full spec
 // Expected output:

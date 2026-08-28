@@ -1,7 +1,7 @@
 # Absolute Value
 
 **Exercise:** `part02-Part02_03.AbsoluteValue`
-**Package:** `part02.01problemsandpatterns`
+**Package:** `part02.s01problemsandpatterns`
 
 ## Spec
 
@@ -25,4 +25,12 @@ Write a program that reads an integer from the user. If the number is less than 
 2
 **-5**
 5
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s01problemsandpatterns.AbsoluteValueTest"
 ```

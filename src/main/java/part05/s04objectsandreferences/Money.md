@@ -1,7 +1,7 @@
 # Money (3 parts)
 
 **Exercise:** `part05-Part05_17.Money`
-**Package:** `part05.04objectsandreferences`
+**Package:** `part05.s04objectsandreferences`
 
 ## Spec
 
@@ -104,4 +104,12 @@ System.out.println(c);  // 0.00e
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s04objectsandreferences.MoneyTest"
 ```

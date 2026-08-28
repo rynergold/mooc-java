@@ -1,7 +1,7 @@
 # Dinosaur
 
 **Exercise:** `part01-Part01_04.Dinosaur`
-**Package:** `part01.02printing`
+**Package:** `part01.s02printing`
 
 ## Spec
 
@@ -27,4 +27,12 @@ a dinosaur
 Once upon a time
 there was
 a dinosaur
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part01.s02printing.DinosaurTest"
 ```

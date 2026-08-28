@@ -1,4 +1,4 @@
-package src.main.java.part02.s03moreloops;
+package part02.s03moreloops;
 
 // Counting to hundred — see CountingToHundred.md for full spec
 // Expected output:

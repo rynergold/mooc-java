@@ -1,7 +1,7 @@
 # Reading Files Per Line
 
 **Exercise:** `part10-Part10_09.ReadingFilesPerLine`
-**Package:** `part10.01handlingcollectionsasstreams`
+**Package:** `part10.s01handlingcollectionsasstreams`
 
 ## Spec
 
@@ -11,4 +11,12 @@ Implement the static method `public static List read(String file)`, which reads 
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part10.s01handlingcollectionsasstreams.ReadingFilesPerLineTest"
 ```

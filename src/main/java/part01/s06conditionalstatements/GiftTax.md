@@ -1,7 +1,7 @@
 # Gift tax
 
 **Exercise:** `part01-Part01_37.GiftTax`
-**Package:** `part01.06conditionalstatements`
+**Package:** `part01.s06conditionalstatements`
 
 ## Spec
 
@@ -46,4 +46,12 @@ Tax: 100.0
 Value of the gift?
 **27500**
 Tax: 1950.0
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part01.s06conditionalstatements.GiftTaxTest"
 ```

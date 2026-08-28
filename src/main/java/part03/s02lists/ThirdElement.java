@@ -1,4 +1,4 @@
-package src.main.java.part03.s02lists;
+package part03.s02lists;
 
 // Third element — see ThirdElement.md for full spec
 // Expected output:

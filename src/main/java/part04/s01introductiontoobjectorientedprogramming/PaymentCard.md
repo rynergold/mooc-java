@@ -1,7 +1,7 @@
 # Payment Card (6 parts)
 
 **Exercise:** `part04-Part04_16.PaymentCard`
-**Package:** `part04.01introductiontoobjectorientedprogramming`
+**Package:** `part04.s01introductiontoobjectorientedprogramming`
 
 ## Spec
 
@@ -241,4 +241,12 @@ Paul: The card has a balance of 35.4 euros
 Matt: The card has a balance of 22.799999999999997 euros
 Paul: The card has a balance of 30.199999999999996 euros
 Matt: The card has a balance of 72.8 euros
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s01introductiontoobjectorientedprogramming.PaymentCardTest"
 ```

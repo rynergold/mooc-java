@@ -1,4 +1,4 @@
-package src.main.java.part06.s01objectswithinobjects;
+package part06.s01objectswithinobjects;
 
 // Longest in collection — see LongestInCollection.md for full spec
 // Expected output:

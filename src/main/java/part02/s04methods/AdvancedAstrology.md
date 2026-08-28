@@ -1,7 +1,7 @@
 # Advanced astrology (3 parts)
 
 **Exercise:** `part02-Part02_34.AdvancedAstrology`
-**Package:** `part02.04methods`
+**Package:** `part02.s04methods`
 
 ## Spec
 
@@ -75,4 +75,12 @@ The call `christmasTree(10)` should print:
 *******************
         ***
         ***
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s04methods.AdvancedAstrologyTest"
 ```

@@ -1,7 +1,7 @@
 # FlightControl (2 parts)
 
 **Exercise:** `part11-Part11_10.FlightControl`
-**Package:** `part11.02packages`
+**Package:** `part11.s02packages`
 
 ## Spec
 
@@ -187,4 +187,12 @@ Choose an action:
 [3] Print airplane details
 [x] Quit
 &gt; **x**
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part11.s02packages.FlightControlTest"
 ```

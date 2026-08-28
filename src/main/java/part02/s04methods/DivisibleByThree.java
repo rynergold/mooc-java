@@ -1,4 +1,4 @@
-package src.main.java.part02.s04methods;
+package part02.s04methods;
 
 // Divisible by three — see DivisibleByThree.md for full spec
 // Expected output:

@@ -1,7 +1,7 @@
 # Storage facility (2 parts)
 
 **Exercise:** `part08-Part08_15.StorageFacility`
-**Package:** `part08.04groupingdatausinghashmaps`
+**Package:** `part08.s04groupingdatausinghashmaps`
 
 ## Spec
 
@@ -77,4 +77,12 @@ The order of the storage units in the output may be different from this example.
 [rollerblades, rollerblades]
 [rollerblades]
 [a14, g63]
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part08.s04groupingdatausinghashmaps.StorageFacilityTest"
 ```

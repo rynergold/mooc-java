@@ -1,7 +1,7 @@
 # Students on alphabetical order
 
 **Exercise:** `part10-Part10_12.StudentsOnAlphabeticalOrder`
-**Package:** `part10.02interfacecomparable`
+**Package:** `part10.s02interfacecomparable`
 
 ## Spec
 
@@ -13,4 +13,12 @@ The exercise template includes the class `Student`, which has a name. Implement 
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part10.s02interfacecomparable.StudentsOnAlphabeticalOrderTest"
 ```

@@ -1,4 +1,4 @@
-package src.main.java.part14.s02multimediainprograms;
+package part14.s02multimediainprograms;
 
 // Collage (3 parts) — see Collage.md for full spec
 // Expected output:

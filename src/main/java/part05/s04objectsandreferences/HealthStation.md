@@ -1,7 +1,7 @@
 # Health station (3 parts)
 
 **Exercise:** `part05-Part05_09.HealthStation`
-**Package:** `part05.04objectsandreferences`
+**Package:** `part05.s04objectsandreferences`
 
 ## Spec
 
@@ -126,4 +126,12 @@ Peter weight: 85 kilos
 weighings performed: 0
 weighings performed: 2
 weighings performed: 6
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part05.s04objectsandreferences.HealthStationTest"
 ```

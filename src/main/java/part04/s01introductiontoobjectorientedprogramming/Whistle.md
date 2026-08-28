@@ -1,7 +1,7 @@
 # Whistle
 
 **Exercise:** `part04-Part04_05.Whistle`
-**Package:** `part04.01introductiontoobjectorientedprogramming`
+**Package:** `part04.s01introductiontoobjectorientedprogramming`
 
 ## Spec
 
@@ -28,4 +28,12 @@ Kvaak
 Kvaak
 Peef
 Kvaak
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part04.s01introductiontoobjectorientedprogramming.WhistleTest"
 ```

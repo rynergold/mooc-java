@@ -1,7 +1,7 @@
 # Print in stars
 
 **Exercise:** `part03-Part03_22.PrintInStars`
-**Package:** `part03.03arrays`
+**Package:** `part03.s03arrays`
 
 ## Spec
 
@@ -30,4 +30,12 @@ The 0th element of the array is 5, so the first line has 5 stars. The next one h
 ***
 ****
 **
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part03.s03arrays.PrintInStarsTest"
 ```

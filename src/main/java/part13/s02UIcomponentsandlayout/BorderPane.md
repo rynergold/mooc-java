@@ -1,7 +1,7 @@
 # BorderPane
 
 **Exercise:** `part13-Part13_04.BorderPane`
-**Package:** `part13.02UIcomponentsandlayout`
+**Package:** `part13.s02UIcomponentsandlayout`
 
 ## Spec
 
@@ -11,4 +11,12 @@ Create a graphical user interface in the class provided in the exercise template
 
 ```
 (see spec)
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part13.s02UIcomponentsandlayout.BorderPaneTest"
 ```

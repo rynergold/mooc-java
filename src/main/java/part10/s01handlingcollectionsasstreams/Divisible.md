@@ -1,7 +1,7 @@
 # Divisible
 
 **Exercise:** `part10-Part10_04.Divisible`
-**Package:** `part10.01handlingcollectionsasstreams`
+**Package:** `part10.s01handlingcollectionsasstreams`
 
 ## Spec
 
@@ -33,4 +33,12 @@ public static void main(String[] args) {
 3
 2
 -5
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part10.s01handlingcollectionsasstreams.DivisibleTest"
 ```

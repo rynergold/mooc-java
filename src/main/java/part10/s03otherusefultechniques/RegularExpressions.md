@@ -1,7 +1,7 @@
 # Regular expressions (3 parts)
 
 **Exercise:** `part10-Part10_15.RegularExpressions`
-**Package:** `part10.03otherusefultechniques`
+**Package:** `part10.s03otherusefultechniques`
 
 ## Spec
 
@@ -69,4 +69,12 @@ Enter a string: **abc**
 The form is incorrect.
 Enter a string: **33:33:33**
 The form is incorrect.
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part10.s03otherusefultechniques.RegularExpressionsTest"
 ```

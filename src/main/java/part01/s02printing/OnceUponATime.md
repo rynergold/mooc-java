@@ -1,7 +1,7 @@
 # Once Upon a Time
 
 **Exercise:** `part01-Part01_03.OnceUponATime`
-**Package:** `part01.02printing`
+**Package:** `part01.s02printing`
 
 ## Spec
 
@@ -28,4 +28,12 @@ a program
 Once upon a time
 there was
 a program
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part01.s02printing.OnceUponATimeTest"
 ```

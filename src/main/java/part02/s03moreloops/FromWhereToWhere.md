@@ -1,7 +1,7 @@
 # From where to where? (2 parts)
 
 **Exercise:** `part02-Part02_16.FromWhereToWhere`
-**Package:** `part02.03moreloops`
+**Package:** `part02.s03moreloops`
 
 ## Spec
 
@@ -62,4 +62,12 @@ Where from? **5**
 8
 Where to? **12**
 Where from? **16**
+```
+
+
+## Terminal Practice
+
+To build terminal fluency, run this specific test directly from your command line:
+```bash
+./gradlew test --tests "part02.s03moreloops.FromWhereToWhereTest"
 ```
