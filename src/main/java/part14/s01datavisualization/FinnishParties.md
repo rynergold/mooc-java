@@ -22,11 +22,6 @@ System.out.println(pieces[2]);
 System.out.println(pieces[3]);
 ```
 
-KOK
-16.1
-18.1
-20.9
-
 To create a floating point number of a string that contains a floating point number, you can use the valueOf method of the Double class. So for instance `Double.valueOf("16.1");`
 
 The visualization created by the application should look something like this:
@@ -35,15 +30,11 @@ The visualization created by the application should look something like this:
 
 *Data for similar charts can be found in the [PX-Web databases](https://pxnet2.stat.fi/PXWeb/pxweb/fi/StatFin/) of Statistics Finland*
 
-## Expected Output
+## Examples
 
-```
-KOK
-16.1
-18.1
-20.9
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `KOK`<br>`16.1`<br>`18.1`<br>`20.9` |
 
 ## Terminal Practice
 

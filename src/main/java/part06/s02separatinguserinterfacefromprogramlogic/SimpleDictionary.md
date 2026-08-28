@@ -132,59 +132,11 @@ Word carrot was not found
 Command: **end**
 Bye bye!
 
-## Expected Output
+## Examples
 
-```
-yksi
-kaksi
-null
-Command: **something**
-Unknown command
-Command: **add**
-Unknown command
-Command: **end**
-Bye bye!
-Command: **something**
-Unknown command
-Command: **add**
-Word: **pike**
-Translation: **hauki**
-Command: **change**
-Unknown command
-Command: **end**
-Bye bye!
-Command: **something**
-Unknown command
-Command: **add**
-Word: **pike**
-Translation: **hauki**
-Command: **change**
-Unknown command
-Command: **search**
-To be translated: **pike**
-Translation: hauki
-Command: **search**
-To be translated: **carrot**
-Translation: null
-Command: **end**
-Bye bye!
-Command: **something**
-Unknown command
-Command: **add**
-Word: **pike**
-Translation: **hauki**
-Command: **change**
-Unknown command
-Command: **search**
-To be translated: **pike**
-Translation: hauki
-Command: **search**
-To be translated: **carrot**
-Word carrot was not found
-Command: **end**
-Bye bye!
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `something`<br>2. `add`<br>3. `end`<br>4. `something`<br>5. `add`<br>6. `pike`<br>7. `hauki`<br>8. `change`<br>9. `end`<br>10. `something`<br>11. `add`<br>12. `pike`<br>13. `hauki`<br>14. `change`<br>15. `search`<br>16. `pike`<br>17. `search`<br>18. `carrot`<br>19. `end`<br>20. `something`<br>21. `add`<br>22. `pike`<br>23. `hauki`<br>24. `change`<br>25. `search`<br>26. `pike`<br>27. `search`<br>28. `carrot`<br>29. `end` | `yksi`<br>`kaksi`<br>`null`<br>Command: **`something`**<br>`Unknown command`<br>Command: **`add`**<br>`Unknown command`<br>Command: **`end`**<br>`Bye bye!`<br>Command: **`something`**<br>`Unknown command`<br>Command: **`add`**<br>Word: **`pike`**<br>Translation: **`hauki`**<br>Command: **`change`**<br>`Unknown command`<br>Command: **`end`**<br>`Bye bye!`<br>Command: **`something`**<br>`Unknown command`<br>Command: **`add`**<br>Word: **`pike`**<br>Translation: **`hauki`**<br>Command: **`change`**<br>`Unknown command`<br>Command: **`search`**<br>To be translated: **`pike`**<br>`Translation: hauki`<br>Command: **`search`**<br>To be translated: **`carrot`**<br>`Translation: null`<br>Command: **`end`**<br>`Bye bye!`<br>Command: **`something`**<br>`Unknown command`<br>Command: **`add`**<br>Word: **`pike`**<br>Translation: **`hauki`**<br>Command: **`change`**<br>`Unknown command`<br>Command: **`search`**<br>To be translated: **`pike`**<br>`Translation: hauki`<br>Command: **`search`**<br>To be translated: **`carrot`**<br>`Word carrot was not found`<br>Command: **`end`**<br>`Bye bye!` |
 
 ## Terminal Practice
 

@@ -18,18 +18,11 @@ roosterWhistle.sound();
 duckWhistle.sound();
 ```
 
-Kvaak
-Peef
-Kvaak
+## Examples
 
-## Expected Output
-
-```
-Kvaak
-Peef
-Kvaak
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Kvaak`<br>`Peef`<br>`Kvaak` |
 
 ## Terminal Practice
 

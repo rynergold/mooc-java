@@ -210,37 +210,11 @@ SPADE 2
 SPADE 4
 SPADE A
 
-## Expected Output
+## Examples
 
-```
-DIAMOND 2
-SPADE A
-HEART Q
-DIAMOND 2
-SPADE A
-HEART Q
-SPADE 2
-DIAMOND 2
-SPADE 2
-HEART Q
-SPADE A
-better hand is
-DIAMOND J
-SPADE J
-HEART J
-DIAMOND 2
-HEART Q
-SPADE 3
-SPADE A
-SPADE 2
-DIAMOND 2
-HEART 7
-HEART Q
-SPADE 2
-SPADE 4
-SPADE A
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `DIAMOND 2`<br>`SPADE A`<br>`HEART Q`<br>`DIAMOND 2`<br>`SPADE A`<br>`HEART Q`<br>`SPADE 2`<br>`DIAMOND 2`<br>`SPADE 2`<br>`HEART Q`<br>`SPADE A`<br>`better hand is`<br>`DIAMOND J`<br>`SPADE J`<br>`HEART J`<br>`DIAMOND 2`<br>`HEART Q`<br>`SPADE 3`<br>`SPADE A`<br>`SPADE 2`<br>`DIAMOND 2`<br>`HEART 7`<br>`HEART Q`<br>`SPADE 2`<br>`SPADE 4`<br>`SPADE A` |
 
 ## Terminal Practice
 

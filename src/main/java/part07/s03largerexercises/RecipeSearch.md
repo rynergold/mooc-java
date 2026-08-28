@@ -9,20 +9,6 @@ In this exercise we are going to create a program that allows for searching for 
 
 Each recipe consists of three or more rows in a recipe file. The first row is for the name of the recipe, the second the cooking time (an integer), and the third and possibly following rows list the ingredients used in the recipe. An empty row follows the last ingredient row. There can be many recipes in a single file. Below, an example file containing recipes is described.
 
-Pancake dough
-60
-milk
-egg
-flour
-salt
-butter
-
-Meatballs
-20
-ground meat
-egg
-breadcrumbs
-
 Tofu rolls
 30
 tofu
@@ -45,44 +31,13 @@ First create the functionality to read and list recipes. The user interface of t
 
 File to read: **recipes.txt**
 
-Commands:
-list - lists the recipes
-stop - stops the program
-
-Enter command: **list**
-
-Recipes:
-Pancake dough, cooking time: 60
-Meatballs, cooking time: 20
-Tofu rolls, cooking time: 30
-
-Enter command:  **stop**
-
 Finding recipes by name
 
 Make it possible to find recipes by their names. Finding by name is done with the command `find name`, after which the user is asked for the name that is used to search. The search should print all the recipes whose names contain the string given by the user.
 
 File to read: **recipes.txt**
 
-Commands:
-list - lists the recipes
-stop - stops the program
 find name - searches recipes by name
-
-Enter command: **list**
-
-Recipes:
-Pancake dough, cooking time: 60
-Meatballs, cooking time: 20
-Tofu rolls, cooking time: 30
-
-Enter command: **find name**
-Searched word: **roll**
-
-Recipes:
-Tofu rolls, cooking time: 30
-
-Enter command:  **stop**
 
 Searching for recipes by cooking time
 
@@ -90,31 +45,8 @@ Next, implement the possibility to find recipes based on their cooking time. Thi
 
 File to read: **recipes.txt**
 
-Commands:
-list - lists the recipes
-stop - stops the program
 find name - searches recipes by name
 find cooking time - searches recipes by cooking time
-
-Enter command: **find cooking time**
-Max cooking time: **30**
-
-Recipes:
-Meatballs, cooking time: 20
-Tofu rolls, cooking time: 30
-
-Enter command: **find cooking time**
-Max cooking time: **15**
-
-Recipes:
-
-Enter command: **find name**
-Searched word: **roll**
-
-Recipes:
-Tofu rolls, cooking time: 30
-
-Enter command:  **stop**
 
 Finding recipes based on their ingredients
 
@@ -122,165 +54,50 @@ Finally, add the functionality to search for recipes based on their ingredients.
 
 File to read: **recipes.txt**
 
-Commands:
-list - lists the recipes
-stop - stops the program
 find name - searches recipes by name
 find cooking time - searches recipes by cooking time
 find ingredient - searches recipes by ingredient
 
-Enter command: **find cooking time**
-Max cooking time: **30**
-
-Recipes:
-Meatballs, cooking time: 20
-Tofu rolls, cooking time: 30
-
-Enter command: **find ingredient**
-Ingredient: **sugar**
-
-Recipes:
 Pancake dough, cooking time: 60
 
-Enter command: **find ingredient**
-Ingredient: **egg**
-
-Recipes:
 Pancake dough, cooking time: 60
 Meatballs, cooking time: 20
 
-Enter command: **find ingredient**
-Ingredient: **gg**
+## Examples
 
-Recipes:
-
-Enter command:  **stop**
-
-## Expected Output
-
-```
-Pancake dough
-60
-milk
-egg
-flour
-salt
-butter
-
-Meatballs
-20
-ground meat
-egg
-breadcrumbs
-
-Tofu rolls
-30
-tofu
-rice
-water
-carrot
-cucumber
-avocado
-wasabi
-File to read: **recipes.txt**
-
-Commands:
-list - lists the recipes
-stop - stops the program
-
-Enter command: **list**
-
-Recipes:
-Pancake dough, cooking time: 60
-Meatballs, cooking time: 20
-Tofu rolls, cooking time: 30
-
-Enter command:  **stop**
-File to read: **recipes.txt**
-
-Commands:
-list - lists the recipes
-stop - stops the program
-find name - searches recipes by name
-
-Enter command: **list**
-
-Recipes:
-Pancake dough, cooking time: 60
-Meatballs, cooking time: 20
-Tofu rolls, cooking time: 30
-
-Enter command: **find name**
-Searched word: **roll**
-
-Recipes:
-Tofu rolls, cooking time: 30
-
-Enter command:  **stop**
-File to read: **recipes.txt**
-
-Commands:
-list - lists the recipes
-stop - stops the program
-find name - searches recipes by name
-find cooking time - searches recipes by cooking time
-
-Enter command: **find cooking time**
-Max cooking time: **30**
-
-Recipes:
-Meatballs, cooking time: 20
-Tofu rolls, cooking time: 30
-
-Enter command: **find cooking time**
-Max cooking time: **15**
-
-Recipes:
-
-Enter command: **find name**
-Searched word: **roll**
-
-Recipes:
-Tofu rolls, cooking time: 30
-
-Enter command:  **stop**
-File to read: **recipes.txt**
-
-Commands:
-list - lists the recipes
-stop - stops the program
-find name - searches recipes by name
-find cooking time - searches recipes by cooking time
-find ingredient - searches recipes by ingredient
-
-Enter command: **find cooking time**
-Max cooking time: **30**
-
-Recipes:
-Meatballs, cooking time: 20
-Tofu rolls, cooking time: 30
-
-Enter command: **find ingredient**
-Ingredient: **sugar**
-
-Recipes:
-Pancake dough, cooking time: 60
-
-Enter command: **find ingredient**
-Ingredient: **egg**
-
-Recipes:
-Pancake dough, cooking time: 60
-Meatballs, cooking time: 20
-
-Enter command: **find ingredient**
-Ingredient: **gg**
-
-Recipes:
-
-Enter command:  **stop**
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Pancake dough`<br>`60`<br>`milk`<br>`egg`<br>`flour`<br>`salt`<br>`butter` |
+| Program execution | `Meatballs`<br>`20`<br>`ground meat`<br>`egg`<br>`breadcrumbs` |
+| `recipes.txt` | `Tofu rolls`<br>`30`<br>`tofu`<br>`rice`<br>`water`<br>`carrot`<br>`cucumber`<br>`avocado`<br>`wasabi`<br>File to read: **`recipes.txt`** |
+| Program execution | `Commands:`<br>`list - lists the recipes`<br>`stop - stops the program` |
+| `list` | Enter command: **`list`** |
+| Program execution | `Recipes:`<br>`Pancake dough, cooking time: 60`<br>`Meatballs, cooking time: 20`<br>`Tofu rolls, cooking time: 30` |
+| 1. `stop`<br>2. `recipes.txt` | Enter command:  **`stop`**<br>File to read: **`recipes.txt`** |
+| Program execution | `Commands:`<br>`list - lists the recipes`<br>`stop - stops the program`<br>`find name - searches recipes by name` |
+| `list` | Enter command: **`list`** |
+| Program execution | `Recipes:`<br>`Pancake dough, cooking time: 60`<br>`Meatballs, cooking time: 20`<br>`Tofu rolls, cooking time: 30` |
+| 1. `find name`<br>2. `roll` | Enter command: **`find name`**<br>Searched word: **`roll`** |
+| Program execution | `Recipes:`<br>`Tofu rolls, cooking time: 30` |
+| 1. `stop`<br>2. `recipes.txt` | Enter command:  **`stop`**<br>File to read: **`recipes.txt`** |
+| Program execution | `Commands:`<br>`list - lists the recipes`<br>`stop - stops the program`<br>`find name - searches recipes by name`<br>`find cooking time - searches recipes by cooking time` |
+| 1. `find cooking time`<br>2. `30` | Enter command: **`find cooking time`**<br>Max cooking time: **`30`** |
+| Program execution | `Recipes:`<br>`Meatballs, cooking time: 20`<br>`Tofu rolls, cooking time: 30` |
+| 1. `find cooking time`<br>2. `15` | Enter command: **`find cooking time`**<br>Max cooking time: **`15`** |
+| Program execution | `Recipes:` |
+| 1. `find name`<br>2. `roll` | Enter command: **`find name`**<br>Searched word: **`roll`** |
+| Program execution | `Recipes:`<br>`Tofu rolls, cooking time: 30` |
+| 1. `stop`<br>2. `recipes.txt` | Enter command:  **`stop`**<br>File to read: **`recipes.txt`** |
+| Program execution | `Commands:`<br>`list - lists the recipes`<br>`stop - stops the program`<br>`find name - searches recipes by name`<br>`find cooking time - searches recipes by cooking time`<br>`find ingredient - searches recipes by ingredient` |
+| 1. `find cooking time`<br>2. `30` | Enter command: **`find cooking time`**<br>Max cooking time: **`30`** |
+| Program execution | `Recipes:`<br>`Meatballs, cooking time: 20`<br>`Tofu rolls, cooking time: 30` |
+| 1. `find ingredient`<br>2. `sugar` | Enter command: **`find ingredient`**<br>Ingredient: **`sugar`** |
+| Program execution | `Recipes:`<br>`Pancake dough, cooking time: 60` |
+| 1. `find ingredient`<br>2. `egg` | Enter command: **`find ingredient`**<br>Ingredient: **`egg`** |
+| Program execution | `Recipes:`<br>`Pancake dough, cooking time: 60`<br>`Meatballs, cooking time: 20` |
+| 1. `find ingredient`<br>2. `gg` | Enter command: **`find ingredient`**<br>Ingredient: **`gg`** |
+| Program execution | `Recipes:` |
+| `stop` | Enter command:  **`stop`** |
 
 ## Terminal Practice
 

@@ -9,12 +9,11 @@ Use the class JokeApplication that is provided with the exercise template to cre
 
 By default (when it starts) the program should show a joke-related question. Use the following string as the question: "What do you call a bear with no teeth?". The answer should be "A gummy bear." You can come up with a suitable explanation by yourself.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

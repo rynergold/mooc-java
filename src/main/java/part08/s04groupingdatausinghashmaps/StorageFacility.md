@@ -70,15 +70,11 @@ System.out.println(facility.storageUnits());
 
 The order of the storage units in the output may be different from this example.
 
-## Expected Output
+## Examples
 
-```
-[ice skates, ice hockey stick, ice skates]
-[rollerblades, rollerblades]
-[rollerblades]
-[a14, g63]
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `[ice skates, ice hockey stick, ice skates]`<br>`[rollerblades, rollerblades]`<br>`[rollerblades]`<br>`[a14, g63]` |
 
 ## Terminal Practice
 

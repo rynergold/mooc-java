@@ -23,14 +23,11 @@ public static void main(String[] args) {
 
 The output of the program:
 
-Smallest: 2
+## Examples
 
-## Expected Output
-
-```
-Smallest: 2
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Smallest: 2` |
 
 ## Terminal Practice
 

@@ -9,35 +9,19 @@ The exercise contains a base that asks the user for strings and adds them to a l
 
 Your assignment is to modify the program so that instead of the first value, the third value on the list is printed. Remember that programmers start counting from zero! The program is allowed to malfunction if there are fewer than three entries on the list, so you don't need to prepare for such an event at all.
 
-**Tom**
-**Emma**
-**Alex**
-**Mary**
-
 Alex
 
 **Emma**
 **Alex**
-**Mary**
+****
 
-Mary
+## Examples
 
-## Expected Output
-
-```
-**Tom**
-**Emma**
-**Alex**
-**Mary**
-
-Alex
-**Emma**
-**Alex**
-**Mary**
-
-Mary
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` | **`Tom`**<br>**`Emma`**<br>**`Alex`**<br>**`Mary`** |
+| 1. `Emma`<br>2. `Alex`<br>3. `Mary` | `Alex`<br>**`Emma`**<br>**`Alex`**<br>**`Mary`** |
+| Program execution | `Mary` |
 
 ## Terminal Practice
 

@@ -23,14 +23,11 @@ System.out.println(returnSize(names));
 
 Prints:
 
-2
+## Examples
 
-## Expected Output
-
-```
-2
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `2` |
 
 ## Terminal Practice
 

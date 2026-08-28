@@ -7,30 +7,11 @@
 
 Write a program that reads user input. When the user gives a negative number as an input, the input reading will be stopped. After this, print all the numbers the user has given as input that are between 1 and 5.
 
-**7**
-**14**
-**4**
-**5**
-**4**
-**-1**
-4
-5
-4
+## Examples
 
-## Expected Output
-
-```
-**7**
-**14**
-**4**
-**5**
-**4**
-**-1**
-4
-5
-4
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `7`<br>2. `14`<br>3. `4`<br>4. `5`<br>5. `4`<br>6. `-1` | **`7`**<br>**`14`**<br>**`4`**<br>**`5`**<br>**`4`**<br>**`-1`**<br>`4`<br>`5`<br>`4` |
 
 ## Terminal Practice
 

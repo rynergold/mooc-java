@@ -29,15 +29,6 @@ s.add("c");
 System.out.println(s);
 ```
 
-The collection alphabet is empty.
-
-The collection alphabet has 1 element:
-a
-
-The collection alphabet has 2 elements:
-a
-b
-
 The collection alphabet has 3 elements:
 a
 b
@@ -65,49 +56,17 @@ System.out.println(s);
 
 The collection characters is empty.
 
-The collection characters has 1 element:
-magneto
+## Examples
 
-The collection characters has 2 elements:
-magneto
-mystique
-
-The collection characters has 3 elements:
-magneto
-mystique
-phoenix
-
-## Expected Output
-
-```
-The collection alphabet is empty.
-
-The collection alphabet has 1 element:
-a
-
-The collection alphabet has 2 elements:
-a
-b
-
-The collection alphabet has 3 elements:
-a
-b
-c
-The collection characters is empty.
-
-The collection characters has 1 element:
-magneto
-
-The collection characters has 2 elements:
-magneto
-mystique
-
-The collection characters has 3 elements:
-magneto
-mystique
-phoenix
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `The collection alphabet is empty.` |
+| Program execution | `The collection alphabet has 1 element:`<br>`a` |
+| Program execution | `The collection alphabet has 2 elements:`<br>`a`<br>`b` |
+| Program execution | `The collection alphabet has 3 elements:`<br>`a`<br>`b`<br>`c`<br>`The collection characters is empty.` |
+| Program execution | `The collection characters has 1 element:`<br>`magneto` |
+| Program execution | `The collection characters has 2 elements:`<br>`magneto`<br>`mystique` |
+| Program execution | `The collection characters has 3 elements:`<br>`magneto`<br>`mystique`<br>`phoenix` |
 
 ## Terminal Practice
 

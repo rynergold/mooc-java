@@ -23,22 +23,12 @@ System.out.println(salt.volume());
 System.out.println(salt);
 ```
 
-64
-The length of the edge is 4 and the volume 64
+## Examples
 
-8
-The length of the edge is 2 and the volume 8
-
-## Expected Output
-
-```
-64
-The length of the edge is 4 and the volume 64
-
-8
-The length of the edge is 2 and the volume 8
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `64`<br>`The length of the edge is 4 and the volume 64` |
+| Program execution | `8`<br>`The length of the edge is 2 and the volume 8` |
 
 ## Terminal Practice
 

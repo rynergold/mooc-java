@@ -144,12 +144,11 @@ Thank you!
 
 The text user interface in this exercise does not differ in any essential way from the earlier text UIs we have created. The difference is that the data is being stored in a database: *the stored data will be available for the program when it is started the next time.*
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

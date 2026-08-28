@@ -15,12 +15,11 @@ Write a program that:
 4. Deposits 100.0 to "my account"
 5. Prints both the accounts
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

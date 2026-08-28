@@ -121,63 +121,12 @@ Command: **stop**
 
 NB! The user interface is to use the TodoList and Scanner that are passed as parameters to the constructor.
 
-## Expected Output
+## Examples
 
-```
-Command: **add**
-Task: **go to the store**
-Command: **add**
-Task: **vacuum clean**
-Command: **list**
-1: go to the store
-2: vacuum clean
-Command: **completed**
-Which task was completed? **2**
-Task go to the store tehty
-Command: **list**
-1: go to the store
-Command: **add**
-Task: **program**
-Command: **list**
-1: go to the store
-2: program
-Command: **stop**
-1: read the course material
-2: watch the latest fool us
-3: take it easy
-
-1: read the course material
-2: take it easy
-1: read the course material
-2: watch the latest fool us
-3: take it easy
-1: read the course material
-2: take it easy
-1: read the course material
-2: take it easy
-3: buy raisins
-1: buy raisins
-Command: **add**
-To add: **write an essay**
-Command: **add**
-To add: **read a book**
-Command: **list**
-1: write an essay
-2: read a book
-Command: **remove**
-Which one is removed? **1**
-Command: **list**
-1: read a book
-Command: **remove**
-Which one is removed? **1**
-Command: **list**
-Command: **add**
-To add: **stop**
-Command: **list**
-1: stop
-Command: **stop**
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `add`<br>2. `go to the store`<br>3. `add`<br>4. `vacuum clean`<br>5. `list`<br>6. `completed`<br>7. `2`<br>8. `list`<br>9. `add`<br>10. `program`<br>11. `list`<br>12. `stop` | Command: **`add`**<br>Task: **`go to the store`**<br>Command: **`add`**<br>Task: **`vacuum clean`**<br>Command: **`list`**<br>`1: go to the store`<br>`2: vacuum clean`<br>Command: **`completed`**<br>Which task was completed? **`2`**<br>`Task go to the store tehty`<br>Command: **`list`**<br>`1: go to the store`<br>Command: **`add`**<br>Task: **`program`**<br>Command: **`list`**<br>`1: go to the store`<br>`2: program`<br>Command: **`stop`**<br>`1: read the course material`<br>`2: watch the latest fool us`<br>`3: take it easy` |
+| 1. `add`<br>2. `write an essay`<br>3. `add`<br>4. `read a book`<br>5. `list`<br>6. `remove`<br>7. `1`<br>8. `list`<br>9. `remove`<br>10. `1`<br>11. `list`<br>12. `add`<br>13. `stop`<br>14. `list`<br>15. `stop` | `1: read the course material`<br>`2: take it easy`<br>`1: read the course material`<br>`2: watch the latest fool us`<br>`3: take it easy`<br>`1: read the course material`<br>`2: take it easy`<br>`1: read the course material`<br>`2: take it easy`<br>`3: buy raisins`<br>`1: buy raisins`<br>Command: **`add`**<br>To add: **`write an essay`**<br>Command: **`add`**<br>To add: **`read a book`**<br>Command: **`list`**<br>`1: write an essay`<br>`2: read a book`<br>Command: **`remove`**<br>Which one is removed? **`1`**<br>Command: **`list`**<br>`1: read a book`<br>Command: **`remove`**<br>Which one is removed? **`1`**<br>Command: **`list`**<br>Command: **`add`**<br>To add: **`stop`**<br>Command: **`list`**<br>`1: stop`<br>Command: **`stop`** |
 
 ## Terminal Practice
 

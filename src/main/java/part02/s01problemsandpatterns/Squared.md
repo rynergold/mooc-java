@@ -16,17 +16,11 @@ Write a program that reads an integer from the user and prints the square of the
 **5**
 25
 
-## Expected Output
+## Examples
 
-```
-**4**
-16
-**-3**
-9
-**5**
-25
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `4`<br>2. `-3`<br>3. `5` | **`4`**<br>`16`<br>**`-3`**<br>`9`<br>**`5`**<br>`25` |
 
 ## Terminal Practice
 

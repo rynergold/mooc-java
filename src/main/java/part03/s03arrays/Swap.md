@@ -9,74 +9,22 @@ The exercise template already contains a program, that creates an array and prin
 
 1
 3
-5
-7
-9
-
-Give two indices to swap:
-**2**
-**4**
-
-1
-3
 9
 7
 5
-
-1
-3
-5
-7
-9
-
-Give two indices to swap:
-**0**
-**1**
-
-3
-1
-5
-7
-9
 
 You can assume that the array contains the given indices.
 Tip! You'll need an additional variable to store one of the values for a little while.
 
-## Expected Output
+## Examples
 
-```
-1
-3
-5
-7
-9
-
-Give two indices to swap:
-**2**
-**4**
-
-1
-3
-9
-7
-5
-1
-3
-5
-7
-9
-
-Give two indices to swap:
-**0**
-**1**
-
-3
-1
-5
-7
-9
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `1`<br>`3`<br>`5`<br>`7`<br>`9` |
+| 1. `2`<br>2. `4` | `Give two indices to swap:`<br>**`2`**<br>**`4`** |
+| Program execution | `1`<br>`3`<br>`9`<br>`7`<br>`5`<br>`1`<br>`3`<br>`5`<br>`7`<br>`9` |
+| 1. `0`<br>2. `1` | `Give two indices to swap:`<br>**`0`**<br>**`1`** |
+| Program execution | `3`<br>`1`<br>`5`<br>`7`<br>`9` |
 
 ## Terminal Practice
 

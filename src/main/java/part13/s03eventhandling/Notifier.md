@@ -9,12 +9,11 @@ Create a user interface in the class included in the exercise template. It shoul
 
 Then add functionality to the application, where pressing the button leads to the text in the text field being copied as the value of the text component. In the example below we have written the message "hello world!" into the text field, after which we have pressed the button.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

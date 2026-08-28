@@ -23,16 +23,13 @@ public static void main(String[] args) {
 
 The output of the program:
 
-Sum: 14
-
 **NB:** when an exercise describes a method that should _return_ something, this means that the type of the return value must be declared in the method definition, and that the method contains a `return` command that returns the wanted data. The method itself will print nothing (i.e. will not use the command `System.out.println`) - that task is left to the method caller, which in this case is the main program.
 
-## Expected Output
+## Examples
 
-```
-Sum: 14
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Sum: 14` |
 
 ## Terminal Practice
 

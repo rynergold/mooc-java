@@ -64,11 +64,6 @@ public static void main(String[] args) {
 
 Implement the methods `equals` and `hashCode`. When they are implemented correctly the example program above will print:
 
-Finnish: [FI ABC-123, FI UXE-465]
-owners:
-Arto
-Jürgen
-
 Pairing plates with owners
 
 Implement the class `VehicleRegistry`, which has the following methods:
@@ -89,15 +84,12 @@ Add the following methods to the `VehicleRegistry`:
 
 Useful tip! In the printOwners method, you can create a list used for remembering the owners that were already printed. If an owner is not on the list, their name is printed and they are added to the list; conversely, if an owner is on the list, their name isn't printed.
 
-## Expected Output
+## Examples
 
-```
-Finnish: [FI ABC-123, FI UXE-465]
-owners:
-Arto
-Jürgen
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Finnish: [FI ABC-123, FI UXE-465]` |
+| Program execution | `owners:`<br>`Arto`<br>`Jürgen` |
 
 ## Terminal Practice
 

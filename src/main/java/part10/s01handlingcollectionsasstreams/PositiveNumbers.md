@@ -9,12 +9,11 @@ In the exercise template, implement the class method `public static List positiv
 
 Implement the method using stream! For collecting the numbers try the command `Collectors.toList()` in addition to the `Collectors.toCollection(ArrayList::new)` command.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

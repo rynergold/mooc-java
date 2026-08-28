@@ -27,16 +27,13 @@ public static void main(String[] args) {
 
 The output of the program:
 
-Average: 3.5
-
 Make sure to remember how to convert an integer (`int`) into a decimal number (`double`)!
 
-## Expected Output
+## Examples
 
-```
-Average: 3.5
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Average: 3.5` |
 
 ## Terminal Practice
 

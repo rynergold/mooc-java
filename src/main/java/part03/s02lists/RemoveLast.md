@@ -22,16 +22,11 @@ removeLast(strings);
 System.out.println(strings);
 ```
 
-[First, Second, Third]
-[First]
+## Examples
 
-## Expected Output
-
-```
-[First, Second, Third]
-[First]
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `[First, Second, Third]`<br>`[First]` |
 
 ## Terminal Practice
 

@@ -13,14 +13,11 @@ public static void main(String[] args) {
 }
 ```
 
-0.6
+## Examples
 
-## Expected Output
-
-```
-0.6
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `0.6` |
 
 ## Terminal Practice
 

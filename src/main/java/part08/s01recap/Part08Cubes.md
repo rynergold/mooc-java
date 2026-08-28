@@ -17,19 +17,11 @@ Write a program that reads strings from the user until the user inputs the strin
 
 **end**
 
-## Expected Output
+## Examples
 
-```
-**3**
-27
-**-1**
--1
-**11**
-1331
-**end**
-**end**
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `3`<br>2. `-1`<br>3. `11`<br>4. `end`<br>5. `end` | **`3`**<br>`27`<br>**`-1`**<br>`-1`<br>**`11`**<br>`1331`<br>**`end`**<br>**`end`** |
 
 ## Terminal Practice
 

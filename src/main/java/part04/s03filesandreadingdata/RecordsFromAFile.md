@@ -14,26 +14,13 @@ amy,1
 
 Your task is to write a program that first prompts the user for the name of the file they want to read. The program then prints the content of the file in the following way (we're assuming below that the output is from the above-mentioned file):
 
-Name of the file:
-**data.txt**
-lily, age: 3 years
-anton, age: 5 years
-levi, age: 4 years
-amy, age: 1 year
-
 **NB**! The word "year" should be formatted based on the age.
 
-## Expected Output
+## Examples
 
-```
-Name of the file:
-**data.txt**
-lily, age: 3 years
-anton, age: 5 years
-levi, age: 4 years
-amy, age: 1 year
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| `data.txt` | `Name of the file:`<br>**`data.txt`**<br>`lily, age: 3 years`<br>`anton, age: 5 years`<br>`levi, age: 4 years`<br>`amy, age: 1 year` |
 
 ## Terminal Practice
 

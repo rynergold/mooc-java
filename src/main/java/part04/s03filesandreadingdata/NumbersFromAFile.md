@@ -37,19 +37,11 @@ numbers-2.txt:
 -300
 1902
 
-## Expected Output
+## Examples
 
-```
-File? **numbers-1.txt**
-Lower bound? **15**
-Upper bound? **20**
-Numbers: 2
-File? **numbers-1.txt**
-Lower bound? **0**
-Upper bound? **300**
-Numbers: 4
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `numbers-1.txt`<br>2. `15`<br>3. `20`<br>4. `numbers-1.txt`<br>5. `0`<br>6. `300` | File? **`numbers-1.txt`**<br>Lower bound? **`15`**<br>Upper bound? **`20`**<br>`Numbers: 2`<br>File? **`numbers-1.txt`**<br>Lower bound? **`0`**<br>Upper bound? **`300`**<br>`Numbers: 4` |
 
 ## Terminal Practice
 

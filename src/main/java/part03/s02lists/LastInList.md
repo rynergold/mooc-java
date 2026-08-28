@@ -9,11 +9,6 @@ In the exercise template there is a program that reads inputs from the user and 
 
 Your task is to modify the method to print the last read value after it stops reading. Print the value that was read last from the list. Use the method that tells the size of a list to help you.
 
-**Tom**
-**Emma**
-**Alex**
-**Mary**
-
 Mary
 
 **Juno**
@@ -26,34 +21,15 @@ Mary
 **Christopher**
 **Mark**
 **Sylvester**
-**Oscar**
+****
 
-Oscar
+## Examples
 
-## Expected Output
-
-```
-**Tom**
-**Emma**
-**Alex**
-**Mary**
-
-Mary
-**Juno**
-**Elizabeth**
-**Mason**
-**Irene**
-**Olivia**
-**Liam**
-**Ida**
-**Christopher**
-**Mark**
-**Sylvester**
-**Oscar**
-
-Oscar
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` | **`Tom`**<br>**`Emma`**<br>**`Alex`**<br>**`Mary`** |
+| 1. `Juno`<br>2. `Elizabeth`<br>3. `Mason`<br>4. `Irene`<br>5. `Olivia`<br>6. `Liam`<br>7. `Ida`<br>8. `Christopher`<br>9. `Mark`<br>10. `Sylvester`<br>11. `Oscar` | `Mary`<br>**`Juno`**<br>**`Elizabeth`**<br>**`Mason`**<br>**`Irene`**<br>**`Olivia`**<br>**`Liam`**<br>**`Ida`**<br>**`Christopher`**<br>**`Mark`**<br>**`Sylvester`**<br>**`Oscar`** |
+| Program execution | `Oscar` |
 
 ## Terminal Practice
 

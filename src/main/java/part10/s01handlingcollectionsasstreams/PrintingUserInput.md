@@ -7,26 +7,12 @@
 
 Write a program that reads the user's input as strings. When the user inputs an empty string (only presses enter), the input reading will be stopped and the program will print all the user inputs.
 
-**first**
-**second**
-**war is peace: 1984**
+## Examples
 
-first
-second
-war is peace: 1984
-
-## Expected Output
-
-```
-**first**
-**second**
-**war is peace: 1984**
-
-first
-second
-war is peace: 1984
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `first`<br>2. `second`<br>3. `war is peace: 1984` | **`first`**<br>**`second`**<br>**`war is peace: 1984`** |
+| Program execution | `first`<br>`second`<br>`war is peace: 1984` |
 
 ## Terminal Practice
 

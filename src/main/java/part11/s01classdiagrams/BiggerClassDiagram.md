@@ -9,12 +9,11 @@ Below you'll see a somewhat larger class diagram. In it are the classes A, B, C,
 
 >;IA][>;IB][>;IC][A]-.-^[>;IA][B]-.-^[>;IB][C]-.-^[>;IC][D]->[>;IA][E]*-*[C][C]-^[B][B]-^[A]">
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

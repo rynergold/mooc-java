@@ -16,14 +16,11 @@ Make the class a:
 
 In addition, make a `public String toString()` method for the book that will be used to print the book object. For example, the method call should produce the following output:
 
-J. K. Rowling, Harry Potter and the Sorcerer's Stone, 223 pages
+## Examples
 
-## Expected Output
-
-```
-J. K. Rowling, Harry Potter and the Sorcerer's Stone, 223 pages
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `J. K. Rowling, Harry Potter and the Sorcerer's Stone, 223 pages` |
 
 ## Terminal Practice
 

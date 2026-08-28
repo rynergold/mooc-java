@@ -53,23 +53,11 @@ true
 1
 false
 
-## Expected Output
+## Examples
 
-```
-false
-true
-peekaboo
-false
-true
-heelloo
-false
-false
-true
-true
-1
-false
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `false`<br>`true`<br>`peekaboo`<br>`false`<br>`true`<br>`heelloo`<br>`false`<br>`false`<br>`true`<br>`true`<br>`1`<br>`false` |
 
 ## Terminal Practice
 

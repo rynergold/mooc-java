@@ -28,26 +28,11 @@ System.out.println("Not full! Value: " + g.value());
 
 ```
 
-Not full! Value: 0
-Not full! Value: 1
-Not full! Value: 2
-Not full! Value: 3
-Not full! Value: 4
-Full! Value: 5
-Not full! Value: 4
+## Examples
 
-## Expected Output
-
-```
-Not full! Value: 0
-Not full! Value: 1
-Not full! Value: 2
-Not full! Value: 3
-Not full! Value: 4
-Full! Value: 5
-Not full! Value: 4
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Not full! Value: 0`<br>`Not full! Value: 1`<br>`Not full! Value: 2`<br>`Not full! Value: 3`<br>`Not full! Value: 4`<br>`Full! Value: 5`<br>`Not full! Value: 4` |
 
 ## Terminal Practice
 

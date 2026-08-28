@@ -11,36 +11,12 @@ Implement a program that begins by reading television programs from the user. Wh
 
 After this the user is queried for a maximum duration. Once the maximum is given, the program proceeds to list all the programs whose duration is smaller or equal to the specified maximum duration.
 
-Name: **Rick and Morty**
-Duration: **25**
-Name: **Two and a Half Men**
-Duration: **30**
-Name: **Love it or list it**
-Duration: **60**
-Name: **House**
-Duration: **60**
+## Examples
 
-Program's maximum duration? **30**
-Rick and Morty, 25 minutes
-Two and a Half Men, 30 minutes
-
-## Expected Output
-
-```
-Name: **Rick and Morty**
-Duration: **25**
-Name: **Two and a Half Men**
-Duration: **30**
-Name: **Love it or list it**
-Duration: **60**
-Name: **House**
-Duration: **60**
-
-Program's maximum duration? **30**
-Rick and Morty, 25 minutes
-Two and a Half Men, 30 minutes
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `Rick and Morty`<br>2. `25`<br>3. `Two and a Half Men`<br>4. `30`<br>5. `Love it or list it`<br>6. `60`<br>7. `House`<br>8. `60` | Name: **`Rick and Morty`**<br>Duration: **`25`**<br>Name: **`Two and a Half Men`**<br>Duration: **`30`**<br>Name: **`Love it or list it`**<br>Duration: **`60`**<br>Name: **`House`**<br>Duration: **`60`** |
+| `30` | Program's maximum duration? **`30`**<br>`Rick and Morty, 25 minutes`<br>`Two and a Half Men, 30 minutes` |
 
 ## Terminal Practice
 

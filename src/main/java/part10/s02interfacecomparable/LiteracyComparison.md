@@ -17,12 +17,6 @@ Adult literacy rate, population 15+ years, male (%),Angola,2014,82.15105
 
 Create a program that first reads the file `literacy.csv` and then prints the contents from the lowest to the highest ranked on the literacy rate. The output must be exactly as in the following example. The example shows the first five  of the expected rows.
 
-Niger (2015), female, 11.01572
-Mali (2015), female, 22.19578
-Guinea (2015), female, 22.87104
-Afghanistan (2015), female, 23.87385
-Central African Republic (2015), female, 24.35549
-
 This exercise is worth two points.
 
 Tip! Here's how to split a string into an array by each comma.
@@ -38,16 +32,11 @@ String[] pieces = string.split(",");
 pieces[1] = pieces[1].trim();
 ```
 
-## Expected Output
+## Examples
 
-```
-Niger (2015), female, 11.01572
-Mali (2015), female, 22.19578
-Guinea (2015), female, 22.87104
-Afghanistan (2015), female, 23.87385
-Central African Republic (2015), female, 24.35549
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Niger (2015), female, 11.01572`<br>`Mali (2015), female, 22.19578`<br>`Guinea (2015), female, 22.87104`<br>`Afghanistan (2015), female, 23.87385`<br>`Central African Republic (2015), female, 24.35549` |
 
 ## Terminal Practice
 

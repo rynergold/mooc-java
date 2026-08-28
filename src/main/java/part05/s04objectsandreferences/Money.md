@@ -100,12 +100,11 @@ System.out.println(b);  // 3.50e
 System.out.println(c);  // 0.00e
 ```
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

@@ -27,18 +27,11 @@ System.out.println(plaster);
 System.out.println(tyre);
 ```
 
-Tape measure (1 kg) can be found from the shelf
-Plaster (1 kg) can be found from the home improvement section
-Tyre (5 kg) can be found from the shelf
+## Examples
 
-## Expected Output
-
-```
-Tape measure (1 kg) can be found from the shelf
-Plaster (1 kg) can be found from the home improvement section
-Tyre (5 kg) can be found from the shelf
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Tape measure (1 kg) can be found from the shelf`<br>`Plaster (1 kg) can be found from the home improvement section`<br>`Tyre (5 kg) can be found from the shelf` |
 
 ## Terminal Practice
 

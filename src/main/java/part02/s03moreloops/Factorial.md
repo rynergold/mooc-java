@@ -23,15 +23,11 @@ And now the internal calculation was 1 * 2 * 3 * ... * 8 * 9 * 10 = 3628800
 
 _Additional info_: Factorials are used especially in probability calculus when examining different possible orders of a set. For example, a group of five people can form 5! different lines, and a pack of 52 cards can be in 52! different orders. Factorial can also be used to calculate combinations; For example it is possible to deal 52! / (5! * (52-5)!) different hands from a 52 card pack, and you can form 40! / (7! * (40 - 7)!) different 7 number lottery lines from 40 numbers.
 
-## Expected Output
+## Examples
 
-```
-Give a number: **3**
-Factorial: 6
-Give a number: **10**
-Factorial: 3628800
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `3`<br>2. `10` | Give a number: **`3`**<br>`Factorial: 6`<br>Give a number: **`10`**<br>`Factorial: 3628800` |
 
 ## Terminal Practice
 

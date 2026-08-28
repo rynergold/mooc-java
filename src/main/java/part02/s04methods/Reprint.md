@@ -20,32 +20,13 @@ public static void printText() {
 
 Sample output:
 
-How many times?
-**7**
-In a hole in the ground there lived a method
-In a hole in the ground there lived a method
-In a hole in the ground there lived a method
-In a hole in the ground there lived a method
-In a hole in the ground there lived a method
-In a hole in the ground there lived a method
-In a hole in the ground there lived a method
-
 **NB:** print the prompt `How many times?` on its own separate line!
 
-## Expected Output
+## Examples
 
-```
-How many times?
-**7**
-In a hole in the ground there lived a method
-In a hole in the ground there lived a method
-In a hole in the ground there lived a method
-In a hole in the ground there lived a method
-In a hole in the ground there lived a method
-In a hole in the ground there lived a method
-In a hole in the ground there lived a method
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| `7` | `How many times?`<br>**`7`**<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method`<br>`In a hole in the ground there lived a method` |
 
 ## Terminal Practice
 

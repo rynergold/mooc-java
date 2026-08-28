@@ -30,20 +30,11 @@ Incorrect username or password!
 
 **NB!** Logins should not be implemented like this in real life! You can become familiar with safer ways to implement logins on courses focusing on web programming.
 
-## Expected Output
+## Examples
 
-```
-Enter username: **alex**
-Enter password: **sunshine**
-You have successfully logged in!
-Enter username: **emma**
-Enter password: **haskell**
-You have successfully logged in!
-Enter username: **alex**
-Enter password: **thunderstorm**
-Incorrect username or password!
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `alex`<br>2. `sunshine`<br>3. `emma`<br>4. `haskell`<br>5. `alex`<br>6. `thunderstorm` | Enter username: **`alex`**<br>Enter password: **`sunshine`**<br>`You have successfully logged in!`<br>Enter username: **`emma`**<br>Enter password: **`haskell`**<br>`You have successfully logged in!`<br>Enter username: **`alex`**<br>Enter password: **`thunderstorm`**<br>`Incorrect username or password!` |
 
 ## Terminal Practice
 

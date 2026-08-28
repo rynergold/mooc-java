@@ -28,16 +28,11 @@ public static void main(String[] args) {
 6
 9
 
-## Expected Output
+## Examples
 
-```
-3
-6
-3
-6
-9
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `3`<br>`6`<br>`3`<br>`6`<br>`9` |
 
 ## Terminal Practice
 

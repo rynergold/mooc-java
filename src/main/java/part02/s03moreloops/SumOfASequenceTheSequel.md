@@ -23,17 +23,11 @@ The sum is: 35
 
 And now the internal calculation was 2 + 3 + 4 + 5 + 6 + 7 + 8 = 35
 
-## Expected Output
+## Examples
 
-```
-First number? **3**
-Last number? **5**
-The sum is 12
-First number? **2**
-Last number? **8**
-The sum is: 35
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `3`<br>2. `5`<br>3. `2`<br>4. `8` | First number? **`3`**<br>Last number? **`5`**<br>`The sum is 12`<br>First number? **`2`**<br>Last number? **`8`**<br>`The sum is: 35` |
 
 ## Terminal Practice
 

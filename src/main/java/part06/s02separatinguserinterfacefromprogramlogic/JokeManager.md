@@ -69,13 +69,6 @@ manager.addJoke("What is blue and smells of red paint? - Blue paint.");
 System.out.println("Drawing jokes:");
 for (int i = 0; i 
 
-Drawing jokes:
-What is blue and smells of red paint? - Blue paint.
-What is red and smells of blue paint? - Red paint.
-What is blue and smells of red paint? - Blue paint.
-What is blue and smells of red paint? - Blue paint.
-What is blue and smells of red paint? - Blue paint.
-
 Printing jokes:
 What is red and smells of blue paint? - Red paint.
 What is blue and smells of red paint? - Blue paint.
@@ -124,43 +117,12 @@ Commands:
 X - stop
 **X**
 
-## Expected Output
+## Examples
 
-```
-Drawing jokes:
-What is blue and smells of red paint? - Blue paint.
-What is red and smells of blue paint? - Red paint.
-What is blue and smells of red paint? - Blue paint.
-What is blue and smells of red paint? - Blue paint.
-What is blue and smells of red paint? - Blue paint.
-
-Printing jokes:
-What is red and smells of blue paint? - Red paint.
-What is blue and smells of red paint? - Blue paint.
-Commands:
-1 - add a joke
-2 - draw a joke
-3 - list jokes
-X - stop
-**1**
-Write the joke to be added:
-**Did you hear about the claustrophobic astronaut? -- He just needed a little space.**
-Commands:
-1 - add a joke
-2 - draw a joke
-3 - list jokes
-X - stop
-**3**
-Printing the jokes.
-Did you hear about the claustrophobic astronaut? -- He just needed a little space.
-Commands:
-1 - add a joke
-2 - draw a joke
-3 - list jokes
-X - stop
-**X**
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Drawing jokes:`<br>`What is blue and smells of red paint? - Blue paint.`<br>`What is red and smells of blue paint? - Red paint.`<br>`What is blue and smells of red paint? - Blue paint.`<br>`What is blue and smells of red paint? - Blue paint.`<br>`What is blue and smells of red paint? - Blue paint.` |
+| 1. `1`<br>2. `Did you hear about the claustrophobic astronaut? -- He just needed a little space.`<br>3. `3`<br>4. `X` | `Printing jokes:`<br>`What is red and smells of blue paint? - Red paint.`<br>`What is blue and smells of red paint? - Blue paint.`<br>`Commands:`<br>`1 - add a joke`<br>`2 - draw a joke`<br>`3 - list jokes`<br>`X - stop`<br>**`1`**<br>`Write the joke to be added:`<br>**`Did you hear about the claustrophobic astronaut? -- He just needed a little space.`**<br>`Commands:`<br>`1 - add a joke`<br>`2 - draw a joke`<br>`3 - list jokes`<br>`X - stop`<br>**`3`**<br>`Printing the jokes.`<br>`Did you hear about the claustrophobic astronaut? -- He just needed a little space.`<br>`Commands:`<br>`1 - add a joke`<br>`2 - draw a joke`<br>`3 - list jokes`<br>`X - stop`<br>**`X`** |
 
 ## Terminal Practice
 

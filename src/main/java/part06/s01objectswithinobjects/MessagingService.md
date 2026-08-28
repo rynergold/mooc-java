@@ -15,12 +15,11 @@ Implement the `MessagingService` class. The class must have a parameterless cons
 
 Tip! You can find out the length of the string using the `length()` method associated with the string.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

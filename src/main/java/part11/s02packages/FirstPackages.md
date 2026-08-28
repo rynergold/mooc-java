@@ -39,24 +39,11 @@ public class Main {
 }
 ```
 
-Application logic is working
-Updating UI
-Application logic is working
-Updating UI
-Application logic is working
-Updating UI
+## Examples
 
-## Expected Output
-
-```
-Application logic is working
-Updating UI
-Application logic is working
-Updating UI
-Application logic is working
-Updating UI
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Application logic is working`<br>`Updating UI`<br>`Application logic is working`<br>`Updating UI`<br>`Application logic is working`<br>`Updating UI` |
 
 ## Terminal Practice
 

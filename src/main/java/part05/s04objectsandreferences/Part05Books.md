@@ -11,44 +11,12 @@ Modify the program so that books that are already on the list are not added to i
 
 Example print
 
-Name (empty will stop):
-**Bossypants**
-Publication year:
-**2013**
-Name (empty will stop):
-**Seriously...I'm Kidding**
-Publication year:
-**2012**
-Name (empty will stop):
-**Seriously...I'm Kidding**
-Publication year:
-**2012**
-The book is already on the list. Let's not add the same book again.
-Name (empty will stop):
+## Examples
 
-Thank you! Books added: 2
-
-## Expected Output
-
-```
-Name (empty will stop):
-**Bossypants**
-Publication year:
-**2013**
-Name (empty will stop):
-**Seriously...I'm Kidding**
-Publication year:
-**2012**
-Name (empty will stop):
-**Seriously...I'm Kidding**
-Publication year:
-**2012**
-The book is already on the list. Let's not add the same book again.
-Name (empty will stop):
-
-Thank you! Books added: 2
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `Bossypants`<br>2. `2013`<br>3. `Seriously...I'm Kidding`<br>4. `2012`<br>5. `Seriously...I'm Kidding`<br>6. `2012` | `Name (empty will stop):`<br>**`Bossypants`**<br>`Publication year:`<br>**`2013`**<br>`Name (empty will stop):`<br>**`Seriously...I'm Kidding`**<br>`Publication year:`<br>**`2012`**<br>`Name (empty will stop):`<br>**`Seriously...I'm Kidding`**<br>`Publication year:`<br>**`2012`**<br>`The book is already on the list. Let's not add the same book again.`<br>`Name (empty will stop):` |
+| Program execution | `Thank you! Books added: 2` |
 
 ## Terminal Practice
 

@@ -9,21 +9,6 @@ The exercise template comes ready with functionality for the guest list applicat
 
 However, the program is missing the functionality needed for reading the guest list. Modify the program so that the names on the guest list are read from the file.
 
-Name of the file:
-**guestlist.txt**
-
-Enter names, an empty line quits.
-**Chuck Norris**
-The name is not on the list.
-**Jack Baluer**
-The name is not on the list.
-**Jack Bauer**
-The name is on the list.
-**Jack Bower**
-The name is on the list.
-
-Thank you!
-
 **NB!** The exercise template comes with two files, `names.txt` and `other-names.txt`, which have the following contents. Do not change the contents of the files!
 
 names.txt:
@@ -39,25 +24,13 @@ leo
 jarmo
 alicia
 
-## Expected Output
+## Examples
 
-```
-Name of the file:
-**guestlist.txt**
-
-Enter names, an empty line quits.
-**Chuck Norris**
-The name is not on the list.
-**Jack Baluer**
-The name is not on the list.
-**Jack Bauer**
-The name is on the list.
-**Jack Bower**
-The name is on the list.
-
-Thank you!
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| `guestlist.txt` | `Name of the file:`<br>**`guestlist.txt`** |
+| 1. `Chuck Norris`<br>2. `Jack Baluer`<br>3. `Jack Bauer`<br>4. `Jack Bower` | `Enter names, an empty line quits.`<br>**`Chuck Norris`**<br>`The name is not on the list.`<br>**`Jack Baluer`**<br>`The name is not on the list.`<br>**`Jack Bauer`**<br>`The name is on the list.`<br>**`Jack Bower`**<br>`The name is on the list.` |
+| Program execution | `Thank you!` |
 
 ## Terminal Practice
 

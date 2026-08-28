@@ -32,27 +32,11 @@ Cannot calculate the average
 **0**
 1.0
 
-## Expected Output
+## Examples
 
-```
-**3**
-**5**
-**1**
-**-3**
-**0**
-3.0
-**0**
-Cannot calculate the average
-**-3**
-**1**
-**0**
-1.0
-**1**
-**1**
-**0**
-1.0
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `3`<br>2. `5`<br>3. `1`<br>4. `-3`<br>5. `0`<br>6. `0`<br>7. `-3`<br>8. `1`<br>9. `0`<br>10. `1`<br>11. `1`<br>12. `0` | **`3`**<br>**`5`**<br>**`1`**<br>**`-3`**<br>**`0`**<br>`3.0`<br>**`0`**<br>`Cannot calculate the average`<br>**`-3`**<br>**`1`**<br>**`0`**<br>`1.0`<br>**`1`**<br>**`1`**<br>**`0`**<br>`1.0` |
 
 ## Terminal Practice
 

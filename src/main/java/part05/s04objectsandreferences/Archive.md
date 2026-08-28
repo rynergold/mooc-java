@@ -15,24 +15,6 @@ For each item, its identifier and name should be read. If the identifier or name
 
 Example print:
 
-Identifier? (empty will stop)
-**B07H8ND8HH**
-Name? (empty will stop)
-**He-Man figure**
-Identifier? (empty will stop)
-**B07H8ND8HH**
-Name? (empty will stop)
-**He-Man**
-Identifier? (empty will stop)
-**B07NQFMZYG**
-Name? (empty will stop)
-**He-Man figure**
-Identifier? (empty will stop)
-**B07NQFMZYG**
-Name? (empty will stop)
-**He-Man figure**
-Identifier? (empty will stop)
-
 ==Items==
 B07H8ND8HH: He-Man figure
 B07H8ND8HH: He-Man
@@ -49,79 +31,15 @@ Modify the program so that after entering the items, each item is printed at mos
 
 If the user enters the same item multiple times, the print uses the item that was added first.
 
-Identifier? (empty will stop)
-**B07H8ND8HH**
-Name? (empty will stop)
-**He-Man figure**
-Identifier? (empty will stop)
-**B07H8ND8HH**
-Name? (empty will stop)
-**He-Man**
-Identifier? (empty will stop)
-**B07NQFMZYG**
-Name? (empty will stop)
-**He-Man figure**
-Identifier? (empty will stop)
-**B07NQFMZYG**
-Name? (empty will stop)
-**He-Man figure**
-Identifier? (empty will stop)
-
-==Items==
-B07H8ND8HH: He-Man figure
-B07NQFMZYG: He-Man figure
-
 Hint! It is probably smart to add each item to the list at most once -- compare the equality of the objects based on their identifiers.
 
-## Expected Output
+## Examples
 
-```
-Identifier? (empty will stop)
-**B07H8ND8HH**
-Name? (empty will stop)
-**He-Man figure**
-Identifier? (empty will stop)
-**B07H8ND8HH**
-Name? (empty will stop)
-**He-Man**
-Identifier? (empty will stop)
-**B07NQFMZYG**
-Name? (empty will stop)
-**He-Man figure**
-Identifier? (empty will stop)
-**B07NQFMZYG**
-Name? (empty will stop)
-**He-Man figure**
-Identifier? (empty will stop)
-
-==Items==
-B07H8ND8HH: He-Man figure
-B07H8ND8HH: He-Man
-B07NQFMZYG: He-Man figure
-B07NQFMZYG: He-Man figure
-Identifier? (empty will stop)
-**B07H8ND8HH**
-Name? (empty will stop)
-**He-Man figure**
-Identifier? (empty will stop)
-**B07H8ND8HH**
-Name? (empty will stop)
-**He-Man**
-Identifier? (empty will stop)
-**B07NQFMZYG**
-Name? (empty will stop)
-**He-Man figure**
-Identifier? (empty will stop)
-**B07NQFMZYG**
-Name? (empty will stop)
-**He-Man figure**
-Identifier? (empty will stop)
-
-==Items==
-B07H8ND8HH: He-Man figure
-B07NQFMZYG: He-Man figure
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `B07H8ND8HH`<br>2. `He-Man figure`<br>3. `B07H8ND8HH`<br>4. `He-Man`<br>5. `B07NQFMZYG`<br>6. `He-Man figure`<br>7. `B07NQFMZYG`<br>8. `He-Man figure` | `Identifier? (empty will stop)`<br>**`B07H8ND8HH`**<br>`Name? (empty will stop)`<br>**`He-Man figure`**<br>`Identifier? (empty will stop)`<br>**`B07H8ND8HH`**<br>`Name? (empty will stop)`<br>**`He-Man`**<br>`Identifier? (empty will stop)`<br>**`B07NQFMZYG`**<br>`Name? (empty will stop)`<br>**`He-Man figure`**<br>`Identifier? (empty will stop)`<br>**`B07NQFMZYG`**<br>`Name? (empty will stop)`<br>**`He-Man figure`**<br>`Identifier? (empty will stop)` |
+| 1. `B07H8ND8HH`<br>2. `He-Man figure`<br>3. `B07H8ND8HH`<br>4. `He-Man`<br>5. `B07NQFMZYG`<br>6. `He-Man figure`<br>7. `B07NQFMZYG`<br>8. `He-Man figure` | `==Items==`<br>`B07H8ND8HH: He-Man figure`<br>`B07H8ND8HH: He-Man`<br>`B07NQFMZYG: He-Man figure`<br>`B07NQFMZYG: He-Man figure`<br>`Identifier? (empty will stop)`<br>**`B07H8ND8HH`**<br>`Name? (empty will stop)`<br>**`He-Man figure`**<br>`Identifier? (empty will stop)`<br>**`B07H8ND8HH`**<br>`Name? (empty will stop)`<br>**`He-Man`**<br>`Identifier? (empty will stop)`<br>**`B07NQFMZYG`**<br>`Name? (empty will stop)`<br>**`He-Man figure`**<br>`Identifier? (empty will stop)`<br>**`B07NQFMZYG`**<br>`Name? (empty will stop)`<br>**`He-Man figure`**<br>`Identifier? (empty will stop)` |
+| Program execution | `==Items==`<br>`B07H8ND8HH: He-Man figure`<br>`B07NQFMZYG: He-Man figure` |
 
 ## Terminal Practice
 

@@ -36,16 +36,11 @@ System.out.println(arrayAsString(matrix));
 2410
 3210
 
-## Expected Output
+## Examples
 
-```
-050
-307
-3276
-2410
-3210
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `050`<br>`307`<br>`3276`<br>`2410`<br>`3210` |
 
 ## Terminal Practice
 

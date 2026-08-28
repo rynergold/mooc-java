@@ -34,12 +34,11 @@ Add the possibility to finish the game to the program. The game ends if one play
 
 The tests of this exercise are not the most detailed ones. Try to create the program without relying on the tests too much.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

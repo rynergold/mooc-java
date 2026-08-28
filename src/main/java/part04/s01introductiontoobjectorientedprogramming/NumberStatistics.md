@@ -120,14 +120,6 @@ The program should use a `Statistics` object to calculate the sum.
 
 **NOTE:** Do not modify the Statistics class in this part. Instead, implement the program for calculating the sum by making use of it.
 
-Enter numbers:
-**4**
-**2**
-**5**
-**4**
-**-1**
-Sum: 15
-
 Multiple sums
 
 Change the previous program so that it also calculates the sum of even and odd numbers.
@@ -140,41 +132,13 @@ Change the previous program so that it also calculates the sum of even and odd n
 
 The program should work as follows:
 
-Enter numbers:
-**4**
-**2**
-**5**
-**2**
-**-1**
-Sum: 13
-Sum of even numbers: 8
-Sum of odd numbers: 5
+## Examples
 
-## Expected Output
-
-```
-Count: 4
-Count: 4
-Sum: 11
-Average: 2.75
-Enter numbers:
-**4**
-**2**
-**5**
-**4**
-**-1**
-Sum: 15
-Enter numbers:
-**4**
-**2**
-**5**
-**2**
-**-1**
-Sum: 13
-Sum of even numbers: 8
-Sum of odd numbers: 5
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Count: 4`<br>`Count: 4`<br>`Sum: 11`<br>`Average: 2.75` |
+| 1. `4`<br>2. `2`<br>3. `5`<br>4. `4`<br>5. `-1` | `Enter numbers:`<br>**`4`**<br>**`2`**<br>**`5`**<br>**`4`**<br>**`-1`**<br>`Sum: 15` |
+| 1. `4`<br>2. `2`<br>3. `5`<br>4. `2`<br>5. `-1` | `Enter numbers:`<br>**`4`**<br>**`2`**<br>**`5`**<br>**`2`**<br>**`-1`**<br>`Sum: 13`<br>`Sum of even numbers: 8`<br>`Sum of odd numbers: 5` |
 
 ## Terminal Practice
 

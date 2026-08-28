@@ -29,20 +29,11 @@ Here are a few examples:
 **35**
 6
 
-## Expected Output
+## Examples
 
-```
-**1**
-**0**
-1
-**5**
-**4**
-3
-**1**
-**35**
-6
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `1`<br>2. `0`<br>3. `5`<br>4. `4`<br>5. `1`<br>6. `35` | **`1`**<br>**`0`**<br>`1`<br>**`5`**<br>**`4`**<br>`3`<br>**`1`**<br>**`35`**<br>`6` |
 
 ## Terminal Practice
 

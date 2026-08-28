@@ -27,22 +27,15 @@ public class MainProgram {
 
         while (years 
 
-120000.0
-121200.0
-147887.0328416936
-
 When you've managed to get the program to work, check the previous example with the early 1900s recession interest rates as well.
 
 Once you get the program to work, try out the previous example with the interest rates of the early 1990s recession when the interest rates were as high as 15-20% - try swapping the interest rate in the example above with `1.20` and see what happens.
 
-## Expected Output
+## Examples
 
-```
-120000.0
-121200.0
-147887.0328416936
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `120000.0`<br>`121200.0`<br>`147887.0328416936` |
 
 ## Terminal Practice
 

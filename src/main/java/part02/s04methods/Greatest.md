@@ -20,14 +20,11 @@ public static void main(String[] args) {
 
 The output of the program:
 
-Greatest: 7
+## Examples
 
-## Expected Output
-
-```
-Greatest: 7
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Greatest: 7` |
 
 ## Terminal Practice
 

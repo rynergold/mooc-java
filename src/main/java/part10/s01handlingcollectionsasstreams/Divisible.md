@@ -23,18 +23,11 @@ public static void main(String[] args) {
     }
 ```
 
-3
-2
--5
+## Examples
 
-## Expected Output
-
-```
-3
-2
--5
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `3`<br>`2`<br>`-5` |
 
 ## Terminal Practice
 

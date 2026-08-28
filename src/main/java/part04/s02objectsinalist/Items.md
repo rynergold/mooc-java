@@ -13,24 +13,12 @@ Having read all the names, print all the items by using the `toString` method of
 
 An example of the working program is given below:
 
-Name: **Hammer**
-Name: **Collar**
-Name:
+## Examples
 
-Hammer (created at: 06.07.2018 12:34:56)
-Collar (created at: 06.07.2018 12:34:57)
-
-## Expected Output
-
-```
-Name: **Hammer**
-Name: **Collar**
-Name:
-
-Hammer (created at: 06.07.2018 12:34:56)
-Collar (created at: 06.07.2018 12:34:57)
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `Hammer`<br>2. `Collar` | Name: **`Hammer`**<br>Name: **`Collar`**<br>`Name:` |
+| Program execution | `Hammer (created at: 06.07.2018 12:34:56)`<br>`Collar (created at: 06.07.2018 12:34:57)` |
 
 ## Terminal Practice
 

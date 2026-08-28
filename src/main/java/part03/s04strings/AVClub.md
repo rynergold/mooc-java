@@ -35,22 +35,11 @@ if (!text.contains("tin")) {
 can was found
 tin wasn't found
 
-## Expected Output
+## Examples
 
-```
-**java is a programming language**
-java
-**navy blue shirt**
-navy
-**Do you have a favorite flavor**
-have
-favorite
-flavor
-**was it a cat?**
-can was found
-tin wasn't found
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `java is a programming language`<br>2. `navy blue shirt`<br>3. `Do you have a favorite flavor`<br>4. `was it a cat?` | **`java is a programming language`**<br>`java`<br>**`navy blue shirt`**<br>`navy`<br>**`Do you have a favorite flavor`**<br>`have`<br>`favorite`<br>`flavor`<br>**`was it a cat?`**<br>`can was found`<br>`tin wasn't found` |
 
 ## Terminal Practice
 

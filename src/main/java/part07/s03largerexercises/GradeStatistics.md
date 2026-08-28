@@ -147,82 +147,11 @@ Grade distribution:
 1:
 0: **
 
-## Expected Output
+## Examples
 
-```
-37
-10
-Enter point totals, -1 stops:
-**-42**
-**24**
-**42**
-**72**
-**80**
-**52**
-**-1**
-Point average (all): 54.0
-Enter point totals, -1 stops:
-**50**
-**51**
-**52**
-**-1**
-Point average (all): 51.0
-Enter point totals, -1 stops:
-**-42**
-**24**
-**42**
-**72**
-**80**
-**52**
-**-1**
-Point average (all): 54.0
-Point average (passing): 68.0
-Enter point totals, -1 stops:
-**49**
-**48**
-**47**
-**-1**
-Point average (all): 48.0
-Point average (passing): -
-Enter point totals, -1 stops:
-**49**
-**48**
-**47**
-**-1**
-Point average (all): 48.0
-Point average (passing): -
-Pass percentage: 0.0
-Enter point totals, -1 stops:
-**102**
-**-4**
-**33**
-**77**
-**99**
-**1**
-**-1**
-Point average (all): 52.5
-Point average (passing): 88.0
-Pass percentage: 50.0
-Enter point totals, -1 stops:
-**102**
-**-2**
-**1**
-**33**
-**77**
-**99**
-**-1**
-Point average (all): 52.5
-Point average (passing): 88.0
-Pass percentage: 50.0
-Grade distribution:
-5: *
-4:
-3: *
-2:
-1:
-0: **
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `-42`<br>2. `24`<br>3. `42`<br>4. `72`<br>5. `80`<br>6. `52`<br>7. `-1`<br>8. `50`<br>9. `51`<br>10. `52`<br>11. `-1`<br>12. `-42`<br>13. `24`<br>14. `42`<br>15. `72`<br>16. `80`<br>17. `52`<br>18. `-1`<br>19. `49`<br>20. `48`<br>21. `47`<br>22. `-1`<br>23. `49`<br>24. `48`<br>25. `47`<br>26. `-1`<br>27. `102`<br>28. `-4`<br>29. `33`<br>30. `77`<br>31. `99`<br>32. `1`<br>33. `-1`<br>34. `102`<br>35. `-2`<br>36. `1`<br>37. `33`<br>38. `77`<br>39. `99`<br>40. `-1` | `37`<br>`10`<br>`Enter point totals, -1 stops:`<br>**`-42`**<br>**`24`**<br>**`42`**<br>**`72`**<br>**`80`**<br>**`52`**<br>**`-1`**<br>`Point average (all): 54.0`<br>`Enter point totals, -1 stops:`<br>**`50`**<br>**`51`**<br>**`52`**<br>**`-1`**<br>`Point average (all): 51.0`<br>`Enter point totals, -1 stops:`<br>**`-42`**<br>**`24`**<br>**`42`**<br>**`72`**<br>**`80`**<br>**`52`**<br>**`-1`**<br>`Point average (all): 54.0`<br>`Point average (passing): 68.0`<br>`Enter point totals, -1 stops:`<br>**`49`**<br>**`48`**<br>**`47`**<br>**`-1`**<br>`Point average (all): 48.0`<br>`Point average (passing): -`<br>`Enter point totals, -1 stops:`<br>**`49`**<br>**`48`**<br>**`47`**<br>**`-1`**<br>`Point average (all): 48.0`<br>`Point average (passing): -`<br>`Pass percentage: 0.0`<br>`Enter point totals, -1 stops:`<br>**`102`**<br>**`-4`**<br>**`33`**<br>**`77`**<br>**`99`**<br>**`1`**<br>**`-1`**<br>`Point average (all): 52.5`<br>`Point average (passing): 88.0`<br>`Pass percentage: 50.0`<br>`Enter point totals, -1 stops:`<br>**`102`**<br>**`-2`**<br>**`1`**<br>**`33`**<br>**`77`**<br>**`99`**<br>**`-1`**<br>`Point average (all): 52.5`<br>`Point average (passing): 88.0`<br>`Pass percentage: 50.0`<br>`Grade distribution:`<br>`5: *`<br>`4:`<br>`3: *`<br>`2:`<br>`1:`<br>`0: **` |
 
 ## Terminal Practice
 

@@ -73,23 +73,14 @@ public class Program {
 
 Here are a few possible outputs of the program:
 
-Lottery numbers:
-3 5 10 14 15 27 37
-
-Lottery numbers:
-2 9 11 18 23 32 34
-
 **NB!** The same number can only appear once in a lottery row. The numbers don't need to be ordered.
 
-## Expected Output
+## Examples
 
-```
-Lottery numbers:
-3 5 10 14 15 27 37
-Lottery numbers:
-2 9 11 18 23 32 34
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Lottery numbers:`<br>`3 5 10 14 15 27 37` |
+| Program execution | `Lottery numbers:`<br>`2 9 11 18 23 32 34` |
 
 ## Terminal Practice
 

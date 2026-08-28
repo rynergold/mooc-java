@@ -9,24 +9,11 @@ Write a program that reads names and ages from the user until an empty line is e
 
 After reading all user input, the program prints the age of the oldest person. You can assume that the user enters at least one person, and that one of the users is older than the others.
 
-**sebastian,2**
-**lucas,2**
-**lily,1**
-**hanna,5**
-**gabriel,10**
-Age of the oldest: 10
+## Examples
 
-## Expected Output
-
-```
-**sebastian,2**
-**lucas,2**
-**lily,1**
-**hanna,5**
-**gabriel,10**
-Age of the oldest: 10
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `sebastian,2`<br>2. `lucas,2`<br>3. `lily,1`<br>4. `hanna,5`<br>5. `gabriel,10` | **`sebastian,2`**<br>**`lucas,2`**<br>**`lily,1`**<br>**`hanna,5`**<br>**`gabriel,10`**<br>`Age of the oldest: 10` |
 
 ## Terminal Practice
 

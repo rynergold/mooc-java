@@ -9,26 +9,12 @@ The exercise template contains a base that reads numbers from the user and adds 
 
 When reading ends, calculate the average of the numbers in it, and then print that value.
 
-**72**
-**2**
-**8**
-**11**
-**-1**
+## Examples
 
-Average: 23.25
-
-## Expected Output
-
-```
-**72**
-**2**
-**8**
-**11**
-**-1**
-
-Average: 23.25
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `72`<br>2. `2`<br>3. `8`<br>4. `11`<br>5. `-1` | **`72`**<br>**`2`**<br>**`8`**<br>**`11`**<br>**`-1`** |
+| Program execution | `Average: 23.25` |
 
 ## Terminal Practice
 

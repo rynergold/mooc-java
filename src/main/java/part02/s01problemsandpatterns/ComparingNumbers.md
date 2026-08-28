@@ -21,20 +21,11 @@ A few examples of the expected behaviour:
 **1**
 1 is equal to 1.
 
-## Expected Output
+## Examples
 
-```
-**8**
-**4**
-8 is greater than 4.
-**-3**
-**5**
--3 is smaller than 5.
-**1**
-**1**
-1 is equal to 1.
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `8`<br>2. `4`<br>3. `-3`<br>4. `5`<br>5. `1`<br>6. `1` | **`8`**<br>**`4`**<br>`8 is greater than 4.`<br>**`-3`**<br>**`5`**<br>`-3 is smaller than 5.`<br>**`1`**<br>**`1`**<br>`1 is equal to 1.` |
 
 ## Terminal Practice
 

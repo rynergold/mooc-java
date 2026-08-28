@@ -29,12 +29,11 @@ if (leo.equals(leoWithDifferentWeight)) {
 }
 ```
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

@@ -9,30 +9,11 @@ The exercise template contains a base that reads numbers from the user and adds 
 
 Expand the functionality of the program so that after reading the numbers, it prints all the numbers received from the user. The number used to indicate stopping should not be printed.
 
-**72**
-**2**
-**8**
-**11**
-**-1**
-72
-2
-8
-11
+## Examples
 
-## Expected Output
-
-```
-**72**
-**2**
-**8**
-**11**
-**-1**
-72
-2
-8
-11
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `72`<br>2. `2`<br>3. `8`<br>4. `11`<br>5. `-1` | **`72`**<br>**`2`**<br>**`8`**<br>**`11`**<br>**`-1`**<br>`72`<br>`2`<br>`8`<br>`11` |
 
 ## Terminal Practice
 

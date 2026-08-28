@@ -9,11 +9,6 @@ In the exercise template there is a program that reads inputs from the user and 
 
 Modify the program to print both the first and the last values after the reading ends. You may suppose that at least two values are read into the list.
 
-**Tom**
-**Emma**
-**Alex**
-**Mary**
-
 Tom
 Mary
 
@@ -29,35 +24,13 @@ Mary
 **Sylvester**
 **Oscar**
 
-Juno
-Oscar
+## Examples
 
-## Expected Output
-
-```
-**Tom**
-**Emma**
-**Alex**
-**Mary**
-
-Tom
-Mary
-**Juno**
-**Elizabeth**
-**Mason**
-**Irene**
-**Olivia**
-**Liam**
-**Ida**
-**Christopher**
-**Mark**
-**Sylvester**
-**Oscar**
-
-Juno
-Oscar
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` | **`Tom`**<br>**`Emma`**<br>**`Alex`**<br>**`Mary`** |
+| 1. `Juno`<br>2. `Elizabeth`<br>3. `Mason`<br>4. `Irene`<br>5. `Olivia`<br>6. `Liam`<br>7. `Ida`<br>8. `Christopher`<br>9. `Mark`<br>10. `Sylvester`<br>11. `Oscar` | `Tom`<br>`Mary`<br>**`Juno`**<br>**`Elizabeth`**<br>**`Mason`**<br>**`Irene`**<br>**`Olivia`**<br>**`Liam`**<br>**`Ida`**<br>**`Christopher`**<br>**`Mark`**<br>**`Sylvester`**<br>**`Oscar`** |
+| Program execution | `Juno`<br>`Oscar` |
 
 ## Terminal Practice
 

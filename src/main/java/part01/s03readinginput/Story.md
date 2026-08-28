@@ -1,80 +1,22 @@
 # Story
 
-**Exercise:** `part01-Part01_10.Story`
+**Exercise:** `part01-Part01_10.Story`  
 **Package:** `part01.s03readinginput`
 
 ## Spec
 
-**NB!** The example output might align wrong on narrow displays. If you're using only a limited portion of the browser window, or your display is otherwise very narrow, try to stretch the display horizontally to see if the text aligns differently. The exercise expects the text to align as it does on wider displays.
+Write a program that prompts the user for a character's name and their job, then prints a short 3-line story using those inputs.
 
-Write a program that asks the user for a character's name and their job. The program then prints a short story.
+## Examples
 
-The output must be as shown below -- note, the name and job depend on the user's input.
-
-I will tell you a story, but I need some information first.
-What is the main character called?
-**Bob**
-What is their job?
-**a builder**
-Here is the story:
-Once upon a time there was Bob, who was a builder.
-On the way to work, Bob reflected on life.
-Perhaps Bob will not be a builder forever.
-
-The exercise template already includes the code that creates the `Scanner` tool.
-
-```java
-import java.util.Scanner;
-
-public class Story {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        // Write your program here
-    }
-}
-```
-
-Here's another example output:
-
-I will tell you a story, but I need some information first.
-What is the main character called?
-**Ada**
-What is their job?
-**a Data scientist**
-Here is the story:
-Once upon a time there was Ada, who was a Data scientist.
-On the way to work, Ada reflected on life.
-Perhaps Ada will not be a Data scientist forever.
-
-## Expected Output
-
-```
-I will tell you a story, but I need some information first.
-What is the main character called?
-**Bob**
-What is their job?
-**a builder**
-Here is the story:
-Once upon a time there was Bob, who was a builder.
-On the way to work, Bob reflected on life.
-Perhaps Bob will not be a builder forever.
-I will tell you a story, but I need some information first.
-What is the main character called?
-**Ada**
-What is their job?
-**a Data scientist**
-Here is the story:
-Once upon a time there was Ada, who was a Data scientist.
-On the way to work, Ada reflected on life.
-Perhaps Ada will not be a Data scientist forever.
-```
-
+| User Inputs (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `Bob`<br>2. `a builder` | `I will tell you a story, but I need some information first.`<br>`What is the main character called?`<br>**`Bob`**<br>`What is their job?`<br>**`a builder`**<br>`Here is the story:`<br>`Once upon a time there was Bob, who was a builder.`<br>`On the way to work, Bob reflected on life.`<br>`Perhaps Bob will not be a builder forever.` |
+| 1. `Ada`<br>2. `a Data scientist` | `I will tell you a story, but I need some information first.`<br>`What is the main character called?`<br>**`Ada`**<br>`What is their job?`<br>**`a Data scientist`**<br>`Here is the story:`<br>`Once upon a time there was Ada, who was a Data scientist.`<br>`On the way to work, Ada reflected on life.`<br>`Perhaps Ada will not be a Data scientist forever.` |
 
 ## Terminal Practice
 
-To build terminal fluency, run this specific test directly from your command line:
+Run the test suite from your command line:
 ```bash
 ./gradlew test --tests "part01.s03readinginput.StoryTest"
 ```

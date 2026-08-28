@@ -34,12 +34,11 @@ while (true) {
 
 NB! The program above will never stop running by itself. Press the red square to the left of the program's print window to turn it off.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

@@ -14,14 +14,11 @@ Person leo = new Person("Leo", lucy);
 System.out.println(leo);
 ```
 
-Leo, has a friend called Lucy (golden retriever)
+## Examples
 
-## Expected Output
-
-```
-Leo, has a friend called Lucy (golden retriever)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Leo, has a friend called Lucy (golden retriever)` |
 
 ## Terminal Practice
 

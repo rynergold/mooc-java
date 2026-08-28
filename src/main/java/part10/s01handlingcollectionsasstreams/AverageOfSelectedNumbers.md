@@ -11,49 +11,17 @@ Then user is asked if the program should print the average of all the positive n
 
 Use streams to calculate the average and filter the numbers!
 
-Input numbers, type "end" to stop.
-**-1**
-**1**
-**2**
-**end**
-
 Print the average of the negative numbers or the positive numbers? (n/p)
 **n**
 Average of the negative numbers: -1.0
 
-Input numbers, type "end" to stop.
-**-1**
-**1**
-**2**
-**end**
+## Examples
 
-Print the average of the negative numbers or the positive numbers? (n/p)
-**p**
-Average of the positive numbers: 1.5
-
-## Expected Output
-
-```
-Input numbers, type "end" to stop.
-**-1**
-**1**
-**2**
-**end**
-
-Print the average of the negative numbers or the positive numbers? (n/p)
-**n**
-Average of the negative numbers: -1.0
-Input numbers, type "end" to stop.
-**-1**
-**1**
-**2**
-**end**
-
-Print the average of the negative numbers or the positive numbers? (n/p)
-**p**
-Average of the positive numbers: 1.5
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `-1`<br>2. `1`<br>3. `2`<br>4. `end` | `Input numbers, type "end" to stop.`<br>**`-1`**<br>**`1`**<br>**`2`**<br>**`end`** |
+| 1. `n`<br>2. `-1`<br>3. `1`<br>4. `2`<br>5. `end` | `Print the average of the negative numbers or the positive numbers? (n/p)`<br>**`n`**<br>`Average of the negative numbers: -1.0`<br>`Input numbers, type "end" to stop.`<br>**`-1`**<br>**`1`**<br>**`2`**<br>**`end`** |
+| `p` | `Print the average of the negative numbers or the positive numbers? (n/p)`<br>**`p`**<br>`Average of the positive numbers: 1.5` |
 
 ## Terminal Practice
 

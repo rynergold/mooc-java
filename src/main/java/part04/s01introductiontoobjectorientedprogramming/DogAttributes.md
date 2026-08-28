@@ -15,12 +15,11 @@ You have now created a class called `Dog`. Add the variables `private String nam
 
 The class doesn't do much yet. However, practicing this step is valuable for what is to come.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

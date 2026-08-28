@@ -33,14 +33,11 @@ for (String part: text.split(" ")) {
 System.out.println();
 ```
 
-for example more precisely and so on lol
+## Examples
 
-## Expected Output
-
-```
-for example more precisely and so on lol
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `for example more precisely and so on lol` |
 
 ## Terminal Practice
 

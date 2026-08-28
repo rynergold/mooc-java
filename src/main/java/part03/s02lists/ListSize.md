@@ -7,11 +7,6 @@
 
 In the exercise template is a program that reads input from the user. Modify its working so that when the program quits reading, the program prints the number of values on the list.
 
-**Tom**
-**Emma**
-**Alex**
-**Mary**
-
 In total: 4
 
 **Juno**
@@ -25,35 +20,16 @@ In total: 4
 **Mark**
 **Sylvester**
 **Oscar**
-
-In total: 11
 
 **NB!** Be sure to use the `size` method of the list.
 
-## Expected Output
+## Examples
 
-```
-**Tom**
-**Emma**
-**Alex**
-**Mary**
-
-In total: 4
-**Juno**
-**Elizabeth**
-**Mason**
-**Irene**
-**Olivia**
-**Liam**
-**Ida**
-**Christopher**
-**Mark**
-**Sylvester**
-**Oscar**
-
-In total: 11
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `Tom`<br>2. `Emma`<br>3. `Alex`<br>4. `Mary` | **`Tom`**<br>**`Emma`**<br>**`Alex`**<br>**`Mary`** |
+| 1. `Juno`<br>2. `Elizabeth`<br>3. `Mason`<br>4. `Irene`<br>5. `Olivia`<br>6. `Liam`<br>7. `Ida`<br>8. `Christopher`<br>9. `Mark`<br>10. `Sylvester`<br>11. `Oscar` | `In total: 4`<br>**`Juno`**<br>**`Elizabeth`**<br>**`Mason`**<br>**`Irene`**<br>**`Olivia`**<br>**`Liam`**<br>**`Ida`**<br>**`Christopher`**<br>**`Mark`**<br>**`Sylvester`**<br>**`Oscar`** |
+| Program execution | `In total: 11` |
 
 ## Terminal Practice
 

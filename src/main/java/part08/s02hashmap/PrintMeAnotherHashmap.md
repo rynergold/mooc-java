@@ -25,28 +25,13 @@ System.out.println("---");
 printValueIfNameContains(hashmap, "prejud");
 ```
 
-Name: Pride and prejudice (1813)
-Contents: ...
-Name: Sense and Sensibility (1811)
-Contents: ...
----
-Name: Pride and prejudice (1813)
-Contents: ...
-
 NB! The order of the output may vary. The implementation of a hashmap does not guarantee the order of the objects in it.
 
-## Expected Output
+## Examples
 
-```
-Name: Pride and prejudice (1813)
-Contents: ...
-Name: Sense and Sensibility (1811)
-Contents: ...
----
-Name: Pride and prejudice (1813)
-Contents: ...
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Name: Pride and prejudice (1813)`<br>`Contents: ...`<br>`Name: Sense and Sensibility (1811)`<br>`Contents: ...`<br>`---`<br>`Name: Pride and prejudice (1813)`<br>`Contents: ...` |
 
 ## Terminal Practice
 

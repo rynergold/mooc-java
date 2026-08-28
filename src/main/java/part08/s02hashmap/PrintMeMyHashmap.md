@@ -26,30 +26,13 @@ System.out.println("---");
 printValuesOfKeysWhere(hashmap, ".e");
 ```
 
-f.e
-etc.
-i.e
----
-i.e
----
-for example
-more precisely
-
 NB! The order of the output can vary, because the implementation of hashmaps does not guarantee the order of the objects in it.
 
-## Expected Output
+## Examples
 
-```
-f.e
-etc.
-i.e
----
-i.e
----
-for example
-more precisely
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `f.e`<br>`etc.`<br>`i.e`<br>`---`<br>`i.e`<br>`---`<br>`for example`<br>`more precisely` |
 
 ## Terminal Practice
 

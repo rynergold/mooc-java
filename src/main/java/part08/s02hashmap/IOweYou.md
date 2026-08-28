@@ -44,14 +44,11 @@ System.out.println(mattsIOU.howMuchDoIOweTo("Arthur"));
 
 10.5
 
-## Expected Output
+## Examples
 
-```
-51.5
-30.0
-10.5
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `51.5`<br>`30.0`<br>`10.5` |
 
 ## Terminal Practice
 

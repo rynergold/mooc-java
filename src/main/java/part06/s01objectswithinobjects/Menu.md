@@ -45,15 +45,9 @@ menu.printMeals();
 menu.clearMenu();
 
 System.out.println();
-menu.addMeal("Tomato and mozzarella salad");
+menu.addMeal("");
 menu.printMeals();
 ```
-
-Tofu ratatouille
-Chilli coconut chicken
-Meatballs with mustard sauce
-
-Tomato and mozzarella salad
 
 Adding a Meal
 
@@ -94,7 +88,7 @@ menu.printMeals();
 menu.clearMenu();
 
 System.out.println();
-menu.addMeal("Tomato and mozzarella salad");
+menu.addMeal("");
 menu.printMeals();
 ```
 
@@ -102,26 +96,13 @@ Tofu ratatouille
 Chilli Coconut Chicken
 Meatballs with mustard sauce
 
-Tomato and mozzarella salad
+## Examples
 
-## Expected Output
-
-```
-Tofu ratatouille
-Chilli coconut chicken
-Meatballs with mustard sauce
-
-Tomato and mozzarella salad
-Tofu ratatouille
-Chilli Coconut Chicken
-Meatballs with mustard sauce
-Tofu ratatouille
-Chilli Coconut Chicken
-Meatballs with mustard sauce
-
-Tomato and mozzarella salad
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Tofu ratatouille`<br>`Chilli coconut chicken`<br>`Meatballs with mustard sauce` |
+| Program execution | `Tomato and mozzarella salad`<br>`Tofu ratatouille`<br>`Chilli Coconut Chicken`<br>`Meatballs with mustard sauce`<br>`Tofu ratatouille`<br>`Chilli Coconut Chicken`<br>`Meatballs with mustard sauce` |
+| Program execution | `Tomato and mozzarella salad` |
 
 ## Terminal Practice
 

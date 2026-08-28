@@ -9,12 +9,11 @@ Create a class named `Room`. Add the variables `private String code` and `privat
 
 This class doesn't do much either. However, in the following exercise the object instantiated from our class is already capable of printing text.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

@@ -14,14 +14,11 @@ Song garden = new Song("In The Garden", 10910);
 System.out.println("The song " + garden.name() + " has a length of " + garden.length() + " seconds.");
 ```
 
-The song In The Garden has a length of 10910 seconds.
+## Examples
 
-## Expected Output
-
-```
-The song In The Garden has a length of 10910 seconds.
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `The song In The Garden has a length of 10910 seconds.` |
 
 ## Terminal Practice
 

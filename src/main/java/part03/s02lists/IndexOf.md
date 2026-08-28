@@ -9,51 +9,16 @@ The exercise template contains a base that reads numbers from the user and adds 
 
 Expand the program by adding a functionality that asks the user for a number, and reports that number's index in the list. If the number is not found, the program should not print anything.
 
-**72**
-**2**
-**8**
-**8**
-**11**
-**-1**
-
 Search for? **2**
 2 is at index 1
 
-**72**
-**2**
-**8**
-**8**
-**11**
-**-1**
+## Examples
 
-Search for? **8**
-8 is at index 2
-8 is at index 3
-
-## Expected Output
-
-```
-**72**
-**2**
-**8**
-**8**
-**11**
-**-1**
-
-Search for? **2**
-2 is at index 1
-**72**
-**2**
-**8**
-**8**
-**11**
-**-1**
-
-Search for? **8**
-8 is at index 2
-8 is at index 3
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `72`<br>2. `2`<br>3. `8`<br>4. `8`<br>5. `11`<br>6. `-1` | **`72`**<br>**`2`**<br>**`8`**<br>**`8`**<br>**`11`**<br>**`-1`** |
+| 1. `2`<br>2. `72`<br>3. `2`<br>4. `8`<br>5. `8`<br>6. `11`<br>7. `-1` | Search for? **`2`**<br>`2 is at index 1`<br>**`72`**<br>**`2`**<br>**`8`**<br>**`8`**<br>**`11`**<br>**`-1`** |
+| `8` | Search for? **`8`**<br>`8 is at index 2`<br>`8 is at index 3` |
 
 ## Terminal Practice
 

@@ -1,37 +1,21 @@
 # Ada Lovelace
 
-**Exercise:** `part01-Part01_02.AdaLovelace`
+**Exercise:** `part01-Part01_02.AdaLovelace`  
 **Package:** `part01.s02printing`
 
 ## Spec
 
-The exercise template has the following boilerplate code:
-
-```java
-public class AdaLovelace {
-    public static void main(String[] args) {
-        // Write your program here
-
-    }
-}
-```
-
-The line "// Write your program here" is a _line comment_, and the computer will ignore it when executing the program. Add a new line below the line comment that prints the string "Ada Lovelace" and run the program. The output of the program should be:
-
-Ada Lovelace
-
-Once you've finished the exercise and see that it prints the correct string, return the exercise to the the next task. After that, you can read more about [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace), who was one of the first programmers.
+Add a print command to print the string `"Ada Lovelace"`.
 
 ## Expected Output
 
-```
-Ada Lovelace
-```
-
+| Program Execution | Expected Console Output |
+| :--- | :--- |
+| `main(String[] args)` | `Ada Lovelace` |
 
 ## Terminal Practice
 
-To build terminal fluency, run this specific test directly from your command line:
+Run the test suite from your command line:
 ```bash
 ./gradlew test --tests "part01.s02printing.AdaLovelaceTest"
 ```

@@ -14,14 +14,11 @@ int[] numbers = {5, 1, 3, 4, 2};
 sumOfNumbersInArray(numbers);
 ```
 
-15
+## Examples
 
-## Expected Output
-
-```
-15
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `15` |
 
 ## Terminal Practice
 

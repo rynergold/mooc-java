@@ -41,29 +41,11 @@ Where from? **16**
 
 **NB** remember that the lower and upper limits can be negative!
 
-## Expected Output
+## Examples
 
-```
-Where to? **3**
-1
-2
-3
-Where to? **5**
-1
-2
-3
-4
-5
-Where to? **8**
-Where from? **5**
-5
-6
-7
-8
-Where to? **12**
-Where from? **16**
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `3`<br>2. `5`<br>3. `8`<br>4. `5`<br>5. `12`<br>6. `16` | Where to? **`3`**<br>`1`<br>`2`<br>`3`<br>Where to? **`5`**<br>`1`<br>`2`<br>`3`<br>`4`<br>`5`<br>Where to? **`8`**<br>Where from? **`5`**<br>`5`<br>`6`<br>`7`<br>`8`<br>Where to? **`12`**<br>Where from? **`16`** |
 
 ## Terminal Practice
 

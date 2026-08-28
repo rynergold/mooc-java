@@ -87,12 +87,11 @@ Check the visualization for the described algorithm on the Wikipedia page Siames
 
 Implement in the class `MagicSquareFactory` the method `createMagicSquare`. It should return a magic square whose side has the length that is specified as the parameter. The method only needs to work in cases where the width of the square is an odd integer.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

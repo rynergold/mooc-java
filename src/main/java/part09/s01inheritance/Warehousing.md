@@ -173,26 +173,11 @@ Largest amount of product: 1000.0
 Smallest amount of product: 988.7
 Average: 992.8
 
-## Expected Output
+## Examples
 
-```
-Juice
-balance = 988.7, space left 11.3
-Juice
-Juice: balance = 989.7, space left 10.299999999999955
-Juice
-Juice: balance = 989.7, space left 10.299999999999955
-[1000.0]
-Juice
-Juice: balance = 989.7, space left 10.299999999999955
-[1000.0, 988.7, 989.7]
-Product: Juice
-History: [1000.0, 988.7, 989.7]
-Largest amount of product: 1000.0
-Smallest amount of product: 988.7
-Average: 992.8
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Juice`<br>`balance = 988.7, space left 11.3`<br>`Juice`<br>`Juice: balance = 989.7, space left 10.299999999999955`<br>`Juice`<br>`Juice: balance = 989.7, space left 10.299999999999955`<br>`[1000.0]`<br>`Juice`<br>`Juice: balance = 989.7, space left 10.299999999999955`<br>`[1000.0, 988.7, 989.7]`<br>`Product: Juice`<br>`History: [1000.0, 988.7, 989.7]`<br>`Largest amount of product: 1000.0`<br>`Smallest amount of product: 988.7`<br>`Average: 992.8` |
 
 ## Terminal Practice
 

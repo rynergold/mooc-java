@@ -71,20 +71,11 @@ Dog barks
 Garfield purrs
 Garfield purrs
 
-## Expected Output
+## Examples
 
-```
-Dog barks
-Dog eats
-Fido barks
-Cat purrs
-Cat eats
-Garfield purrs
-Dog barks
-Garfield purrs
-Garfield purrs
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Dog barks`<br>`Dog eats`<br>`Fido barks`<br>`Cat purrs`<br>`Cat eats`<br>`Garfield purrs`<br>`Dog barks`<br>`Garfield purrs`<br>`Garfield purrs` |
 
 ## Terminal Practice
 

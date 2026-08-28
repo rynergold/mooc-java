@@ -31,14 +31,11 @@ System.out.println(ionic);
 My name is Bond, James Bond
 My name is Bond, Ionic Bond
 
-## Expected Output
+## Examples
 
-```
-My name is Bond, James Bond
-My name is Bond, James Bond
-My name is Bond, Ionic Bond
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `My name is Bond, James Bond`<br>`My name is Bond, James Bond`<br>`My name is Bond, Ionic Bond` |
 
 ## Terminal Practice
 

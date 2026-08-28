@@ -9,15 +9,6 @@ The exercise template contains a base that reads numbers from the user and adds 
 
 Continue developing the program so that it finds the greatest number in the list and prints its value after reading all the numbers. The programming should work in the following manner.
 
-**72**
-**2**
-**8**
-**93**
-**11**
-**-1**
-
-The greatest number: 93
-
 You can use the source code below as an example. It is used to find the smallest number.
 
 ```java
@@ -33,19 +24,12 @@ for(int i = 0; i  number) {
 System.out.println("The smallest number: " + smallest);
 ```
 
-## Expected Output
+## Examples
 
-```
-**72**
-**2**
-**8**
-**93**
-**11**
-**-1**
-
-The greatest number: 93
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `72`<br>2. `2`<br>3. `8`<br>4. `93`<br>5. `11`<br>6. `-1` | **`72`**<br>**`2`**<br>**`8`**<br>**`93`**<br>**`11`**<br>**`-1`** |
+| Program execution | `The greatest number: 93` |
 
 ## Terminal Practice
 

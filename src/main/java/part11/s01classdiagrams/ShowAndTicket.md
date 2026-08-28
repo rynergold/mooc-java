@@ -9,12 +9,11 @@ In the class diagram below, the classes Show and Ticket and their connection are
 
 Implement the classes in the diagram in the exercise base.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

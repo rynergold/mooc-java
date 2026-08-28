@@ -50,33 +50,11 @@ The call `christmasTree(10)` should print:
 
 **NB:** heights shorter than 3 don't have to work correctly!
 
-## Expected Output
+## Examples
 
-```
-*
-  **
- ***
-****
-*
-  ***
- *****
-*******
-  ***
-  ***
-*
-        ***
-       *****
-      *******
-     *********
-    ***********
-   *************
-  ***************
- *****************
-*******************
-        ***
-        ***
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `*`<br>`**`<br>`***`<br>`****`<br>`*`<br>`***`<br>`*****`<br>`*******`<br>`***`<br>`***`<br>`*`<br>`***`<br>`*****`<br>`*******`<br>`*********`<br>`***********`<br>`*************`<br>`***************`<br>`*****************`<br>`*******************`<br>`***`<br>`***` |
 
 ## Terminal Practice
 

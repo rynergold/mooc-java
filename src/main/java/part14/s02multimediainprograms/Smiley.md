@@ -9,12 +9,11 @@ Create a graphical user interface into the class that is supplied with the exerc
 
 The tests in this exercise only check that you draw into the window. Before returning, make sure that drawing the smiley works correctly. Notice that the purpose here is NOT to manually draw the smiley with the mouse -- use the methods of the GraphicsContext object so that the picture is already drawn when the program is first started.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

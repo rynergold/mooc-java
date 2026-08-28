@@ -77,18 +77,11 @@ System.out.println(box.isInBox(new Item("Pirkka")));
 false
 false
 
-## Expected Output
+## Examples
 
-```
-true
-true
-false
-true
-false
-false
-false
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `true`<br>`true`<br>`false`<br>`true`<br>`false`<br>`false`<br>`false` |
 
 ## Terminal Practice
 

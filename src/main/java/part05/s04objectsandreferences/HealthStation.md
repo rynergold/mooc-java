@@ -113,21 +113,12 @@ weighings performed: 0
 weighings performed: 2
 weighings performed: 6
 
-## Expected Output
+## Examples
 
-```
-Ethan's weight: 7 kilos
-Peter's weight: 85 kilos
-Ethan weight: 7 kilos
-Peter weight: 85 kilos
-
-Ethan weight: 10 kilos
-Peter weight: 85 kilos
-weighings performed: 0
-weighings performed: 2
-weighings performed: 6
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Ethan's weight: 7 kilos`<br>`Peter's weight: 85 kilos`<br>`Ethan weight: 7 kilos`<br>`Peter weight: 85 kilos` |
+| Program execution | `Ethan weight: 10 kilos`<br>`Peter weight: 85 kilos`<br>`weighings performed: 0`<br>`weighings performed: 2`<br>`weighings performed: 6` |
 
 ## Terminal Practice
 

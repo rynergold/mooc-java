@@ -5,7 +5,7 @@
 
 ## Spec
 
-Create a method called `printText` which prints the phrase "In a hole in the ground there lived a method" and a newline.
+Create a method called `printText` which prints the phrase "" and a newline.
 
 ```java
 public static void main(String[] args) {
@@ -19,14 +19,11 @@ public static void printText() {
 
 The output of the program:
 
-In a hole in the ground there lived a method
+## Examples
 
-## Expected Output
-
-```
-In a hole in the ground there lived a method
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `In a hole in the ground there lived a method` |
 
 ## Terminal Practice
 

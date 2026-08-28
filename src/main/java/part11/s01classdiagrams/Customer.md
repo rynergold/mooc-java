@@ -7,12 +7,11 @@
 
 The class diagram below shows the class Customer. Implement the class in the exercise.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

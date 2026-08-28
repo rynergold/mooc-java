@@ -14,24 +14,13 @@ int[] array = {5, 1, 3, 4, 2};
 printArrayInStars(array);
 ```
 
-*****
-*
-***
-****
-**
-
 The 0th element of the array is 5, so the first line has 5 stars. The next one has 1 etc.
 
-## Expected Output
+## Examples
 
-```
-*****
-*
-***
-****
-**
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `*****`<br>`*`<br>`***`<br>`****`<br>`**` |
 
 ## Terminal Practice
 

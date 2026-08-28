@@ -17,35 +17,16 @@ Reading
 
 Implement a program that asks the user for numbers (the program first prints "Write numbers: ") until the user gives the number -1. When the user writes -1, the program prints "Thx! Bye!" and ends.
 
-Give numbers:
-**5**
-**2**
-**4**
-**-1**
-Thx! Bye!
-
 Sum of numbers
 
 Extend the program so that it prints the sum of the numbers (not including the -1) the user has written.
 
-Give numbers:
-**5**
-**2**
-**4**
-**-1**
-Thx! Bye!
 Sum: 11
 
 Sum and the number of numbers
 
 Extend the program so that it also prints the number of numbers (not including the -1) the user has written.
 
-Give numbers:
-**5**
-**2**
-**4**
-**-1**
-Thx! Bye!
 Sum: 11
 Numbers: 3
 
@@ -53,12 +34,6 @@ Average of numbers
 
 Extend the program so that it prints the mean of the numbers (not including the -1) the user has written.
 
-Give numbers:
-**5**
-**2**
-**4**
-**-1**
-Thx! Bye!
 Sum: 11
 Numbers: 3
 Average: 3.666666666666
@@ -67,64 +42,21 @@ Even and odd numbers
 
 Extend the program so that it prints the number of even and odd numbers (excluding the -1).
 
-Give numbers:
-**5**
-**2**
-**4**
-**-1**
-Thx! Bye!
 Sum: 11
 Numbers: 3
 Average: 3.666666666666
 Even: 2
 Odd: 1
 
-## Expected Output
+## Examples
 
-```
-Give numbers:
-**5**
-**2**
-**4**
-**-1**
-Thx! Bye!
-Give numbers:
-**5**
-**2**
-**4**
-**-1**
-Thx! Bye!
-Sum: 11
-Give numbers:
-**5**
-**2**
-**4**
-**-1**
-Thx! Bye!
-Sum: 11
-Numbers: 3
-Give numbers:
-**5**
-**2**
-**4**
-**-1**
-Thx! Bye!
-Sum: 11
-Numbers: 3
-Average: 3.666666666666
-Give numbers:
-**5**
-**2**
-**4**
-**-1**
-Thx! Bye!
-Sum: 11
-Numbers: 3
-Average: 3.666666666666
-Even: 2
-Odd: 1
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `5`<br>2. `2`<br>3. `4`<br>4. `-1` | `Give numbers:`<br>**`5`**<br>**`2`**<br>**`4`**<br>**`-1`**<br>`Thx! Bye!` |
+| 1. `5`<br>2. `2`<br>3. `4`<br>4. `-1` | `Give numbers:`<br>**`5`**<br>**`2`**<br>**`4`**<br>**`-1`**<br>`Thx! Bye!`<br>`Sum: 11` |
+| 1. `5`<br>2. `2`<br>3. `4`<br>4. `-1` | `Give numbers:`<br>**`5`**<br>**`2`**<br>**`4`**<br>**`-1`**<br>`Thx! Bye!`<br>`Sum: 11`<br>`Numbers: 3` |
+| 1. `5`<br>2. `2`<br>3. `4`<br>4. `-1` | `Give numbers:`<br>**`5`**<br>**`2`**<br>**`4`**<br>**`-1`**<br>`Thx! Bye!`<br>`Sum: 11`<br>`Numbers: 3`<br>`Average: 3.666666666666` |
+| 1. `5`<br>2. `2`<br>3. `4`<br>4. `-1` | `Give numbers:`<br>**`5`**<br>**`2`**<br>**`4`**<br>**`-1`**<br>`Thx! Bye!`<br>`Sum: 11`<br>`Numbers: 3`<br>`Average: 3.666666666666`<br>`Even: 2`<br>`Odd: 1` |
 
 ## Terminal Practice
 

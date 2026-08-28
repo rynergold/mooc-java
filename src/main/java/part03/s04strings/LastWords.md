@@ -21,16 +21,11 @@ System.out.println("Number of parts: " + parts.length);
 
 Number of parts: 3
 
-## Expected Output
+## Examples
 
-```
-**one two three four**
-four
-**this is a very important message**
-message
-Number of parts: 3
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `one two three four`<br>2. `this is a very important message` | **`one two three four`**<br>`four`<br>**`this is a very important message`**<br>`message`<br>`Number of parts: 3` |
 
 ## Terminal Practice
 

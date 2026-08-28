@@ -65,25 +65,11 @@ Create a method called `printTriangle(int size)` that prints a triangle by using
 ***
 ****
 
-## Expected Output
+## Examples
 
-```
-*****
-***
-*********
-****
-****
-****
-****
-*****************
-*****************
-*****************
-*
-**
-***
-****
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `*****`<br>`***`<br>`*********`<br>`****`<br>`****`<br>`****`<br>`****`<br>`*****************`<br>`*****************`<br>`*****************`<br>`*`<br>`**`<br>`***`<br>`****` |
 
 ## Terminal Practice
 

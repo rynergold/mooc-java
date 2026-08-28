@@ -1,58 +1,27 @@
 # Conversation
 
-**Exercise:** `part01-Part01_09.Conversation`
+**Exercise:** `part01-Part01_09.Conversation`  
 **Package:** `part01.s03readinginput`
 
 ## Spec
 
-Write a program that works as follows:
+Write a program that conducts the following conversation with the user:
+1. Prompts: `"Greetings! How are you doing?"`
+2. Reads user input.
+3. Prompts: `"Oh, how interesting. Tell me more!"`
+4. Reads user input.
+5. Prints: `"Thanks for sharing!"`
 
-Greetings! How are you doing?
-**Good thank you!**
-Oh, how interesting. Tell me more!
-**Well, there's really nothing to tell.**
-Thanks for sharing!
+## Examples
 
-Greetings! How are you doing?
-**Nice and dandy like cotton candy!**
-Oh, how interesting. Tell me more!
-**Just went shopping.**
-Thanks for sharing!
-
-The exercise template already includes the code that creates the `Scanner` tool.
-
-```java
-import java.util.Scanner;
-
-public class Conversation {
-
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        //Write your program here
-    }
-}
-```
-
-## Expected Output
-
-```
-Greetings! How are you doing?
-**Good thank you!**
-Oh, how interesting. Tell me more!
-**Well, there's really nothing to tell.**
-Thanks for sharing!
-Greetings! How are you doing?
-**Nice and dandy like cotton candy!**
-Oh, how interesting. Tell me more!
-**Just went shopping.**
-Thanks for sharing!
-```
-
+| User Inputs (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `Good thank you!`<br>2. `Well, there's really nothing to tell.` | `Greetings! How are you doing?`<br>**`Good thank you!`**<br>`Oh, how interesting. Tell me more!`<br>**`Well, there's really nothing to tell.`**<br>`Thanks for sharing!` |
+| 1. `Nice and dandy like cotton candy!`<br>2. `Just went shopping.` | `Greetings! How are you doing?`<br>**`Nice and dandy like cotton candy!`**<br>`Oh, how interesting. Tell me more!`<br>**`Just went shopping.`**<br>`Thanks for sharing!` |
 
 ## Terminal Practice
 
-To build terminal fluency, run this specific test directly from your command line:
+Run the test suite from your command line:
 ```bash
 ./gradlew test --tests "part01.s03readinginput.ConversationTest"
 ```

@@ -7,20 +7,14 @@
 
 Write a program, that reads a string from the user and then prints it three times.
 
-Give a word: **cake**
-
-cakecakecake
-
 NB! The program should ask for only one string. Don't use a loop here.
 
-## Expected Output
+## Examples
 
-```
-Give a word: **cake**
-
-cakecakecake
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| `cake` | Give a word: **`cake`** |
+| Program execution | `cakecakecake` |
 
 ## Terminal Practice
 

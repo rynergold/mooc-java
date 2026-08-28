@@ -17,12 +17,11 @@ Add the following methods to the Main class:
 
 Be sure to use the ready-made Java libraries in your implementation.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

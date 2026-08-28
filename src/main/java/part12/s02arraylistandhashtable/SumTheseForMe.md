@@ -19,22 +19,11 @@ System.out.println(sum(numbers, 0, 1, -10, 10));
 System.out.println(sum(numbers, -1, 999, -10, 10));
 ```
 
-0
-0
-3
-3
-14
+## Examples
 
-## Expected Output
-
-```
-0
-0
-3
-3
-14
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `0`<br>`0`<br>`3`<br>`3`<br>`14` |
 
 ## Terminal Practice
 

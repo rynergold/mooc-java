@@ -7,12 +7,11 @@
 
 The class diagram below depicts the classes Book and Plane. Implement the classes in the exercise.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

@@ -18,14 +18,11 @@ names.add("Third");
 System.out.println(returnSize(names));
 ```
 
-3
+## Examples
 
-## Expected Output
-
-```
-3
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `3` |
 
 ## Terminal Practice
 

@@ -5,7 +5,7 @@
 
 ## Spec
 
-Create a class named `Door`. The door does not have any variables. Create for it a constructor with no parameters (or use the default constructor). After that, create a `public void knock()` method for the door that prints the message "Who's there?" when called.
+Create a class named `Door`. The door does not have any variables. Create for it a constructor with no parameters (or use the default constructor). After that, create a `public void knock()` method for the door that prints the message "" when called.
 
 The door should work as follows.
 
@@ -16,16 +16,12 @@ alexander.knock();
 alexander.knock();
 ```
 
-Who's there?
-Who's there?
+## Examples
 
-## Expected Output
-
-```
-Who's there?
-Who's there?
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Who's there?` |
+| Program execution | `Who's there?` |
 
 ## Terminal Practice
 

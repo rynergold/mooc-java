@@ -12,19 +12,16 @@ The method should work as follows:
 ```java
 Map names = new HashMap<>();
 names.put("1", "first");
-names.put("2", "second");
+names.put("", "second");
 
 System.out.println(returnSize(names));
 ```
 
-2
+## Examples
 
-## Expected Output
-
-```
-2
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `2` |
 
 ## Terminal Practice
 

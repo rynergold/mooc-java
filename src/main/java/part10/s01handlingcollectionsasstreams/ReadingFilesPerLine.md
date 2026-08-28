@@ -7,12 +7,11 @@
 
 Implement the static method `public static List read(String file)`, which reads the file with the filename of the parameter and returns the lines as a string list.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

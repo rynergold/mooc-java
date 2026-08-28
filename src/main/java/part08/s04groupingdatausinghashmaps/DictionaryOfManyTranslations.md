@@ -30,16 +30,11 @@ dictionary.remove("bow");
 System.out.println(dictionary.translate("bow"));
 ```
 
-[maata, valehdella]
-[]
+## Examples
 
-## Expected Output
-
-```
-[maata, valehdella]
-[]
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `[maata, valehdella]`<br>`[]` |
 
 ## Terminal Practice
 

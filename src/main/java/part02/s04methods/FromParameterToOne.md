@@ -30,18 +30,11 @@ public static void main(String[] args) {
 2
 1
 
-## Expected Output
+## Examples
 
-```
-5
-4
-3
-2
-1
-2
-1
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `5`<br>`4`<br>`3`<br>`2`<br>`1`<br>`2`<br>`1` |
 
 ## Terminal Practice
 

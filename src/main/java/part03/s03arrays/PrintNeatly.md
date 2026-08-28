@@ -12,18 +12,15 @@ Print the numbers on one line using `System.out.print`.
 You can try out your printing with this example:
 
 ```java
-int[] array = {5, 1, 3, 4, 2};
+int[] array = {};
 printNeatly(array);
 ```
 
-5, 1, 3, 4, 2
+## Examples
 
-## Expected Output
-
-```
-5, 1, 3, 4, 2
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `5, 1, 3, 4, 2` |
 
 ## Terminal Practice
 

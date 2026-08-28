@@ -55,39 +55,12 @@ Points: **56**
 Points: **61**
 Points:
 
-5: \*
-4: \*\*
-3:
-2: \*
-1: \*\*
-0: \*
-The average of points: 68.14285714285714
-The average of grades: 2.4285714285714284
+## Examples
 
-## Expected Output
-
-```
-4.75
-92.0
-Points: **82**
-Points: **83**
-Points: **96**
-Points: **51**
-Points: **48**
-Points: **56**
-Points: **61**
-Points:
-
-5: \*
-4: \*\*
-3:
-2: \*
-1: \*\*
-0: \*
-The average of points: 68.14285714285714
-The average of grades: 2.4285714285714284
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `82`<br>2. `83`<br>3. `96`<br>4. `51`<br>5. `48`<br>6. `56`<br>7. `61` | `4.75`<br>`92.0`<br>Points: **`82`**<br>Points: **`83`**<br>Points: **`96`**<br>Points: **`51`**<br>Points: **`48`**<br>Points: **`56`**<br>Points: **`61`**<br>`Points:` |
+| Program execution | `5: \*`<br>`4: \*\*`<br>`3:`<br>`2: \*`<br>`1: \*\*`<br>`0: \*`<br>`The average of points: 68.14285714285714`<br>`The average of grades: 2.4285714285714284` |
 
 ## Terminal Practice
 

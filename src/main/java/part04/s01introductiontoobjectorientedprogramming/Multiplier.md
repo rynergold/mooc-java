@@ -28,20 +28,11 @@ System.out.println("multiplyByFour.multiply(1): " + multiplyByFour.multiply(1));
 
 Output
 
-multiplyByThree.multiply(2): 6
-multiplyByFour.multiply(2): 8
-multiplyByThree.multiply(1): 3
-multiplyByFour.multiply(1): 4
+## Examples
 
-## Expected Output
-
-```
-multiplyByThree.multiply(2): 6
-multiplyByFour.multiply(2): 8
-multiplyByThree.multiply(1): 3
-multiplyByFour.multiply(1): 4
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `multiplyByThree.multiply(2): 6`<br>`multiplyByFour.multiply(2): 8`<br>`multiplyByThree.multiply(1): 3`<br>`multiplyByFour.multiply(1): 4` |
 
 ## Terminal Practice
 

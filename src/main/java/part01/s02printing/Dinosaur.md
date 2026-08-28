@@ -1,38 +1,21 @@
 # Dinosaur
 
-**Exercise:** `part01-Part01_04.Dinosaur`
+**Exercise:** `part01-Part01_04.Dinosaur`  
 **Package:** `part01.s02printing`
 
 ## Spec
 
-The exercise comes ready with the following template:
-
-```java
-public class Dinosaur {
-    public static void main(String[] args) {
-        // Write your program here
-    }
-}
-```
-
-Edit the program so that it will print the following text. Use the "sout"-shorthand for writing the print commands.
-
-Once upon a time
-there was
-a dinosaur
+Modify the program to print the following text using separate print statements.
 
 ## Expected Output
 
-```
-Once upon a time
-there was
-a dinosaur
-```
-
+| Program Execution | Expected Console Output |
+| :--- | :--- |
+| `main(String[] args)` | `Once upon a time`<br>`there was`<br>`a dinosaur` |
 
 ## Terminal Practice
 
-To build terminal fluency, run this specific test directly from your command line:
+Run the test suite from your command line:
 ```bash
 ./gradlew test --tests "part01.s02printing.DinosaurTest"
 ```

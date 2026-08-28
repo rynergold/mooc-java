@@ -9,26 +9,12 @@ The exercise template contains a base that reads numbers from the user and adds 
 
 Modify the program so that after reading the numbers it calculates and prints the sum of the numbers in the list.
 
-**72**
-**2**
-**8**
-**11**
-**-1**
+## Examples
 
-Sum: 93
-
-## Expected Output
-
-```
-**72**
-**2**
-**8**
-**11**
-**-1**
-
-Sum: 93
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `72`<br>2. `2`<br>3. `8`<br>4. `11`<br>5. `-1` | **`72`**<br>**`2`**<br>**`8`**<br>**`11`**<br>**`-1`** |
+| Program execution | `Sum: 93` |
 
 ## Terminal Practice
 

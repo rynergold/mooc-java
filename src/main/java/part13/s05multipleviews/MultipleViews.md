@@ -15,12 +15,11 @@ There is a class called MultipleViews in the exercise template. Create in it an 
 
 When first started, the program should display the first view.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

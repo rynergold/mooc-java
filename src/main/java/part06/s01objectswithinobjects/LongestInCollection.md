@@ -18,16 +18,11 @@ j.add("phoenix");
 System.out.println("Longest: " + j.longest());
 ```
 
-Longest: null
-Longest: mystique
+## Examples
 
-## Expected Output
-
-```
-Longest: null
-Longest: mystique
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Longest: null`<br>`Longest: mystique` |
 
 ## Terminal Practice
 

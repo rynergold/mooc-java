@@ -23,30 +23,11 @@ System.out.println("The numbers in the range [3, 10]");
 printNumbersInRange(numbers, 3, 10);
 ```
 
-The numbers in the range [0, 5]
-3
-2
-5
-1
-The numbers in the range [3, 10]
-3
-6
-5
+## Examples
 
-## Expected Output
-
-```
-The numbers in the range [0, 5]
-3
-2
-5
-1
-The numbers in the range [3, 10]
-3
-6
-5
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `The numbers in the range [0, 5]`<br>`3`<br>`2`<br>`5`<br>`1`<br>`The numbers in the range [3, 10]`<br>`3`<br>`6`<br>`5` |
 
 ## Terminal Practice
 

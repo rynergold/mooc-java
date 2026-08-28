@@ -7,12 +7,11 @@
 
 Create a GUI app with the title "My first application". The app should start when the main method is executed.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

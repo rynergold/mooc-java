@@ -45,17 +45,11 @@ A
 B
 C
 
-## Expected Output
+## Examples
 
-```
-A
-B
-C
-A
-B
-C
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `A`<br>`B`<br>`C`<br>`A`<br>`B`<br>`C` |
 
 ## Terminal Practice
 

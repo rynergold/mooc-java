@@ -13,12 +13,11 @@ The comparison however is not really fair, and gives the wrong impression on the
 
 This exercise has no automatic tests or model answer, so you can define the comparison with some freedom.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

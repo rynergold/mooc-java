@@ -35,15 +35,6 @@ for (Person person : room.getPersons()) {
 }
 ```
 
-Empty room? true
-Empty room? false
-
-Lea (183 cm)
-Kenya (182 cm)
-Auli (186 cm)
-Nina (172 cm)
-Terhi (185 cm)
-
 Shortest person
 
 Add a `public Person shortest()` method to the `Room` class, which returns the shortest person added to the room. If the room is empty, a null reference is returned. The method should not remove a person from the room.
@@ -73,22 +64,6 @@ for (Person person : room.getPersons()) {
 ```
 
 Shortest: null
-Empty room? true
-Empty room? false
-
-Lea (183 cm)
-Kenya (182 cm)
-Auli (186 cm)
-Nina (172 cm)
-Terhi (185 cm)
-
-Shortest: Nina (172 cm)
-
-Lea (183 cm)
-Kenya (182 cm)
-Auli (186 cm)
-Nina (172 cm)
-Terhi (185 cm)
 
 Taking from a room
 
@@ -118,14 +93,6 @@ for (Person person : room.getPersons()) {
 Lea (183 cm)
 Kenya (182 cm)
 Auli (186 cm)
-Nina (172 cm)
-Terhi (185 cm)
-
-Shortest: Nina (172 cm)
-
-Lea (183 cm)
-Kenya (182 cm)
-Auli (186 cm)
 Terhi (185 cm)
 
 It's now possible to print the persons in height order.
@@ -149,53 +116,17 @@ Lea (183 cm)
 Terhi (185 cm)
 Auli (186 cm)
 
-## Expected Output
+## Examples
 
-```
-Empty room? true
-Empty room? false
-
-Lea (183 cm)
-Kenya (182 cm)
-Auli (186 cm)
-Nina (172 cm)
-Terhi (185 cm)
-Shortest: null
-Empty room? true
-Empty room? false
-
-Lea (183 cm)
-Kenya (182 cm)
-Auli (186 cm)
-Nina (172 cm)
-Terhi (185 cm)
-
-Shortest: Nina (172 cm)
-
-Lea (183 cm)
-Kenya (182 cm)
-Auli (186 cm)
-Nina (172 cm)
-Terhi (185 cm)
-Lea (183 cm)
-Kenya (182 cm)
-Auli (186 cm)
-Nina (172 cm)
-Terhi (185 cm)
-
-Shortest: Nina (172 cm)
-
-Lea (183 cm)
-Kenya (182 cm)
-Auli (186 cm)
-Terhi (185 cm)
-Nina (172 cm)
-Kenya (182 cm)
-Lea (183 cm)
-Terhi (185 cm)
-Auli (186 cm)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Empty room? true`<br>`Empty room? false` |
+| Program execution | `Lea (183 cm)`<br>`Kenya (182 cm)`<br>`Auli (186 cm)`<br>`Nina (172 cm)`<br>`Terhi (185 cm)`<br>`Shortest: null`<br>`Empty room? true`<br>`Empty room? false` |
+| Program execution | `Lea (183 cm)`<br>`Kenya (182 cm)`<br>`Auli (186 cm)`<br>`Nina (172 cm)`<br>`Terhi (185 cm)` |
+| Program execution | `Shortest: Nina (172 cm)` |
+| Program execution | `Lea (183 cm)`<br>`Kenya (182 cm)`<br>`Auli (186 cm)`<br>`Nina (172 cm)`<br>`Terhi (185 cm)`<br>`Lea (183 cm)`<br>`Kenya (182 cm)`<br>`Auli (186 cm)`<br>`Nina (172 cm)`<br>`Terhi (185 cm)` |
+| Program execution | `Shortest: Nina (172 cm)` |
+| Program execution | `Lea (183 cm)`<br>`Kenya (182 cm)`<br>`Auli (186 cm)`<br>`Terhi (185 cm)`<br>`Nina (172 cm)`<br>`Kenya (182 cm)`<br>`Lea (183 cm)`<br>`Terhi (185 cm)`<br>`Auli (186 cm)` |
 
 ## Terminal Practice
 

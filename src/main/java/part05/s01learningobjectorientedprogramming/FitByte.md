@@ -23,26 +23,13 @@ Fitbyte assistant = new Fitbyte(30, 60);
 
 double percentage = 0.5;
 
-while (percentage 
+while (percentage
 
-Target 50.0% of maximum: 122.48500000000001
-Target 60.0% of maximum: 134.98200000000003
-Target 70.0% of maximum: 147.479
-Target 80.0% of maximum: 159,976
-Target 89.99999999999999% of maximum: 172.473
-Target 99.99999999999999% of maximum: 184.97000000000003
+## Examples
 
-## Expected Output
-
-```
-Target 50.0% of maximum: 122.48500000000001
-Target 60.0% of maximum: 134.98200000000003
-Target 70.0% of maximum: 147.479
-Target 80.0% of maximum: 159,976
-Target 89.99999999999999% of maximum: 172.473
-Target 99.99999999999999% of maximum: 184.97000000000003
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Target 50.0% of maximum: 122.48500000000001`<br>`Target 60.0% of maximum: 134.98200000000003`<br>`Target 70.0% of maximum: 147.479`<br>`Target 80.0% of maximum: 159,976`<br>`Target 89.99999999999999% of maximum: 172.473`<br>`Target 99.99999999999999% of maximum: 184.97000000000003` |
 
 ## Terminal Practice
 

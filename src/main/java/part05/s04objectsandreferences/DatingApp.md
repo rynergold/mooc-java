@@ -81,29 +81,17 @@ System.out.println("Now: " + now);
 System.out.println("After one week: " + afterOneWeek);
 ```
 
-The output of the program should be like this:
 
 Now: 20.2.2015
 After one week: 20.2.2015
 
 This is because a normal assignment only copies the reference to the object. So the objects `now` and `afterOneWeek` in the program now refer to the **one and same** `SimpleDate` object.
 
-## Expected Output
+## Examples
 
-```
-Friday of the examined week is 13.2.2015
-Friday after 1 weeks is 20.2.2015
-Friday after 2 weeks is 27.2.2015
-Friday after 3 weeks is 4.3.2015
-Friday after 4 weeks is 11.3.2015
-Friday after 5 weeks is 18.3.2015
-Friday after 6 weeks is 25.3.2015
-Friday after 7 weeks is 2.4.2015
-The date after 790 days from the examined Friday is ... try it out yourself!
-Now: 20.2.2015
-After one week: 20.2.2015
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `Friday of the examined week is 13.2.2015`<br>`Friday after 1 weeks is 20.2.2015`<br>`Friday after 2 weeks is 27.2.2015`<br>`Friday after 3 weeks is 4.3.2015`<br>`Friday after 4 weeks is 11.3.2015`<br>`Friday after 5 weeks is 18.3.2015`<br>`Friday after 6 weeks is 25.3.2015`<br>`Friday after 7 weeks is 2.4.2015`<br>`The date after 790 days from the examined Friday is ... try it out yourself!`<br>`Now: 20.2.2015`<br>`After one week: 20.2.2015` |
 
 ## Terminal Practice
 

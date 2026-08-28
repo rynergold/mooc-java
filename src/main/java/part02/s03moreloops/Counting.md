@@ -5,8 +5,7 @@
 
 ## Spec
 
-Write a program that reads an integer from the user. Next, the program prints numbers from 0 to the number given by the user. You can assume that the user always gives a positive number. Below are some examples of the expected functionality.
-
+Write a program that reads an integer from the user. Next, the program prints numbers from 0 to the number given by the user. You can assume that the user always gives a positive number. 
 **4**
 0
 1
@@ -18,20 +17,11 @@ Write a program that reads an integer from the user. Next, the program prints nu
 0
 1
 
-## Expected Output
+## Examples
 
-```
-**4**
-0
-1
-2
-3
-4
-**1**
-0
-1
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `4`<br>2. `1` | **`4`**<br>`0`<br>`1`<br>`2`<br>`3`<br>`4`<br>**`1`**<br>`0`<br>`1` |
 
 ## Terminal Practice
 

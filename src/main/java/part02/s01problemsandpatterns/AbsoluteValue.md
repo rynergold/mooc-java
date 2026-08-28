@@ -5,8 +5,7 @@
 
 ## Spec
 
-Write a program that reads an integer from the user. If the number is less than 0, the program prints the given integer multiplied by -1. In all other cases, the program prints the number itself. A few examples of how the program's expected to function are shown below:
-
+Write a program that reads an integer from the user. If the number is less than 0, the program prints the given integer multiplied by -1. In all other cases, the program prints the number itself. 
 **-3**
 3
 
@@ -16,17 +15,11 @@ Write a program that reads an integer from the user. If the number is less than 
 **-5**
 5
 
-## Expected Output
+## Examples
 
-```
-**-3**
-3
-**2**
-2
-**-5**
-5
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `-3`<br>2. `2`<br>3. `-5` | **`-3`**<br>`3`<br>**`2`**<br>`2`<br>**`-5`**<br>`5` |
 
 ## Terminal Practice
 

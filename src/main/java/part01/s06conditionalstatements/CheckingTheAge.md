@@ -19,19 +19,11 @@ Impossible!
 How old are you? **150**
 Impossible!
 
-## Expected Output
+## Examples
 
-```
-How old are you? **10**
-OK
-How old are you? **55**
-OK
-How old are you? **-3**
-Impossible!
-How old are you? **150**
-Impossible!
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `10`<br>2. `55`<br>3. `-3`<br>4. `150` | How old are you? **`10`**<br>`OK`<br>How old are you? **`55`**<br>`OK`<br>How old are you? **`-3`**<br>`Impossible!`<br>How old are you? **`150`**<br>`Impossible!` |
 
 ## Terminal Practice
 

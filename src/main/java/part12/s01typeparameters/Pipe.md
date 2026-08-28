@@ -50,17 +50,11 @@ System.out.println(numberPipe.takeFromPipe());
 6
 null
 
-## Expected Output
+## Examples
 
-```
-dibi
-dab
-dab
-daa
-6
-null
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `dibi`<br>`dab`<br>`dab`<br>`daa`<br>`6`<br>`null` |
 
 ## Terminal Practice
 

@@ -22,22 +22,11 @@ Modify the program so that instead of the first value, the program prints the su
 **0**
 7
 
-## Expected Output
+## Examples
 
-```
-**1**
-**3**
-**5**
-**7**
-**0**
-8
-**2**
-**3**
-**4**
-**0**
-7
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `1`<br>2. `3`<br>3. `5`<br>4. `7`<br>5. `0`<br>6. `2`<br>7. `3`<br>8. `4`<br>9. `0` | **`1`**<br>**`3`**<br>**`5`**<br>**`7`**<br>**`0`**<br>`8`<br>**`2`**<br>**`3`**<br>**`4`**<br>**`0`**<br>`7` |
 
 ## Terminal Practice
 

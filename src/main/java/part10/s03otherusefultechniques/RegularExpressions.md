@@ -11,7 +11,6 @@ Day of week
 
 Use regular expressions to create the method `public boolean isDayOfWeek(String string)`, which returns `true` if the parameter string is an abbreviation of a day of the week (mon, tue, wed, thu, fri, sat, sun)
 
-Example outputs of a program that uses the method:
 
 Enter a string: **tue**
 The form is correct.
@@ -25,7 +24,6 @@ Vowel check
 
 Create the method `public boolean allVowels(String string)` that uses a regular expression to check whether all the characters in the parameter string are vowels.
 
-Example outputs of a program that uses the method:
 
 Enter a string: **oi**
 The form is correct.
@@ -41,7 +39,6 @@ Create the method `public boolean timeOfDay(String string)`. It should use a reg
 
 **NB. In this exercise we use the 24-hour clock**. So the acceptable values are between 00:00:00 and 23:59:59.
 
-Example outputs of a program that uses the method:
 
 Enter a string: **17:23:05**
 The form is correct.
@@ -52,25 +49,11 @@ The form is incorrect.
 Enter a string: **33:33:33**
 The form is incorrect.
 
-## Expected Output
+## Examples
 
-```
-Enter a string: **tue**
-The form is correct.
-Enter a string: **abc**
-The form is incorrect.
-Enter a string: **oi**
-The form is correct.
-Enter a string: **queue**
-The form is incorrect.
-Enter a string: **17:23:05**
-The form is correct.
-Enter a string: **abc**
-The form is incorrect.
-Enter a string: **33:33:33**
-The form is incorrect.
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `tue`<br>2. `abc`<br>3. `oi`<br>4. `queue`<br>5. `17:23:05`<br>6. `abc`<br>7. `33:33:33` | Enter a string: **`tue`**<br>`The form is correct.`<br>Enter a string: **`abc`**<br>`The form is incorrect.`<br>Enter a string: **`oi`**<br>`The form is correct.`<br>Enter a string: **`queue`**<br>`The form is incorrect.`<br>Enter a string: **`17:23:05`**<br>`The form is correct.`<br>Enter a string: **`abc`**<br>`The form is incorrect.`<br>Enter a string: **`33:33:33`**<br>`The form is incorrect.` |
 
 ## Terminal Practice
 

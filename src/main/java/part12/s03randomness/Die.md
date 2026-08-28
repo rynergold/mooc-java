@@ -35,34 +35,13 @@ public class Program {
     public static void main(String[] args) {
         Die die = new Die(6);
 
-        for (int i = 0; i 
+        for (int i = 0; i
 
-1
-6
-3
-5
-3
-3
-2
-2
-6
-1
+## Examples
 
-## Expected Output
-
-```
-1
-6
-3
-5
-3
-3
-2
-2
-6
-1
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `1`<br>`6`<br>`3`<br>`5`<br>`3`<br>`3`<br>`2`<br>`2`<br>`6`<br>`1` |
 
 ## Terminal Practice
 

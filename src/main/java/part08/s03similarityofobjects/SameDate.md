@@ -18,18 +18,11 @@ System.out.println(d.equals(new SimpleDate(5, 2, 2012)));
 System.out.println(d.equals(new SimpleDate(1, 2, 2000)));
 ```
 
-false
-false
-true
+## Examples
 
-## Expected Output
-
-```
-false
-false
-true
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `false`<br>`false`<br>`true` |
 
 ## Terminal Practice
 

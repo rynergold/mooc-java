@@ -58,35 +58,11 @@ Games: 6
 Wins: 3
 Losses: 3
 
-## Expected Output
+## Examples
 
-```
-File:
-**data.csv**
-Team:
-**FURIA**
-Games: 2
-File:
-**data.csv**
-Team:
-**ENCE**
-Games: 6
-File:
-**data.csv**
-Team:
-**FURIA**
-Games: 2
-Wins: 1
-Losses: 1
-File:
-**data.csv**
-Name:
-**ENCE**
-Games: 6
-Wins: 3
-Losses: 3
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `data.csv`<br>2. `FURIA`<br>3. `data.csv`<br>4. `ENCE`<br>5. `data.csv`<br>6. `FURIA`<br>7. `data.csv`<br>8. `ENCE` | `File:`<br>**`data.csv`**<br>`Team:`<br>**`FURIA`**<br>`Games: 2`<br>`File:`<br>**`data.csv`**<br>`Team:`<br>**`ENCE`**<br>`Games: 6`<br>`File:`<br>**`data.csv`**<br>`Team:`<br>**`FURIA`**<br>`Games: 2`<br>`Wins: 1`<br>`Losses: 1`<br>`File:`<br>**`data.csv`**<br>`Name:`<br>**`ENCE`**<br>`Games: 6`<br>`Wins: 3`<br>`Losses: 3` |
 
 ## Terminal Practice
 

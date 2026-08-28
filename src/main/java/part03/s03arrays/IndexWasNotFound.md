@@ -16,17 +16,11 @@ Search for? **7**
 Search for? **22**
 22 was not found.
 
-## Expected Output
+## Examples
 
-```
-Search for? **3**
-3 is at index 4.
-Search for? **7**
-7 is at index 7.
-Search for? **22**
-22 was not found.
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `3`<br>2. `7`<br>3. `22` | Search for? **`3`**<br>`3 is at index 4.`<br>Search for? **`7`**<br>`7 is at index 7.`<br>Search for? **`22`**<br>`22 was not found.` |
 
 ## Terminal Practice
 

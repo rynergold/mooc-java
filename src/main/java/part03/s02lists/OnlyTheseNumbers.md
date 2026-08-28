@@ -30,30 +30,11 @@ To where? **2**
 2
 8
 
-## Expected Output
+## Examples
 
-```
-**72**
-**2**
-**8**
-**11**
-**-1**
-From where? **1**
-To where? **2**
-2
-8
-**72**
-**2**
-**8**
-**11**
-**-1**
-From where? **0**
-To where? **2**
-72
-2
-8
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `72`<br>2. `2`<br>3. `8`<br>4. `11`<br>5. `-1`<br>6. `1`<br>7. `2`<br>8. `72`<br>9. `2`<br>10. `8`<br>11. `11`<br>12. `-1`<br>13. `0`<br>14. `2` | **`72`**<br>**`2`**<br>**`8`**<br>**`11`**<br>**`-1`**<br>From where? **`1`**<br>To where? **`2`**<br>`2`<br>`8`<br>**`72`**<br>**`2`**<br>**`8`**<br>**`11`**<br>**`-1`**<br>From where? **`0`**<br>To where? **`2`**<br>`72`<br>`2`<br>`8` |
 
 ## Terminal Practice
 

@@ -20,16 +20,11 @@ numbers.add(1);
 System.out.println(sum(numbers));
 ```
 
-10
-16
+## Examples
 
-## Expected Output
-
-```
-10
-16
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `10`<br>`16` |
 
 ## Terminal Practice
 

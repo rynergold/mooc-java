@@ -15,12 +15,11 @@ Then get Matthew's nickname from the hashmap, and print it.
 
 There is no automated tests for this exercise. Just submit the exercise when you think it works as it should.
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

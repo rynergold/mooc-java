@@ -68,12 +68,11 @@ System.out.println(manhattanStudioApt.moreExpensiveThan(atlantaTwoBedroomApt)); 
 System.out.println(bangorThreeBedroomApt.moreExpensiveThan(atlantaTwoBedroomApt));   // true
 ```
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

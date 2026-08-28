@@ -20,34 +20,14 @@ When a gift is given by a close relative or a family member, the amount of gift 
 For example 6000€ gift implies 180€ of gift tax (100 + (6000-5000) * 0.08), and 75000€ gift implies 7100€ of gift tax (4700 + (75000-55000) * 0.12).
 
 Write a program that calculates the gift tax for a gift from a close relative or a family member.
-This is how the program should work:
 
-Value of the gift?
-**3500**
-No tax!
+## Examples
 
-Value of the gift?
-**5000**
-Tax: 100.0
-
-Value of the gift?
-**27500**
-Tax: 1950.0
-
-## Expected Output
-
-```
-Value of the gift?
-**3500**
-No tax!
-Value of the gift?
-**5000**
-Tax: 100.0
-Value of the gift?
-**27500**
-Tax: 1950.0
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| `3500` | `Value of the gift?`<br>**`3500`**<br>`No tax!` |
+| `5000` | `Value of the gift?`<br>**`5000`**<br>`Tax: 100.0` |
+| `27500` | `Value of the gift?`<br>**`27500`**<br>`Tax: 1950.0` |
 
 ## Terminal Practice
 

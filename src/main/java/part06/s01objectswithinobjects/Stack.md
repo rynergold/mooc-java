@@ -79,27 +79,11 @@ while (!s.isEmpty()) {
 
 Tip! When a value is added to an ArrayList, it goes to the end of the list. As such, the most recently added value is in the last index of the list - the `size()` method provided by the list is useful for finding the last index. You can remove an element from a particular index using the `remove` method provided by the list.
 
-## Expected Output
+## Examples
 
-```
-true
-[]
-false
-[Value]
-true
-[]
-false
-[Value]
-true
-[]
-Value
-5
-4
-3
-2
-1
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `true`<br>`[]`<br>`false`<br>`[Value]`<br>`true`<br>`[]`<br>`false`<br>`[Value]`<br>`true`<br>`[]`<br>`Value`<br>`5`<br>`4`<br>`3`<br>`2`<br>`1` |
 
 ## Terminal Practice
 

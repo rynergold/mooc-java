@@ -23,12 +23,11 @@ You will find the class `ShangaiApplication` in the exercise base. Create in it 
 
 The result drawn by the application could like the following example:
 
-## Expected Output
+## Examples
 
-```
-(see spec)
-```
-
+| Scenario / State | Expected Console Output (stdout) |
+| :--- | :--- |
+| Program execution | `(see spec)` |
 
 ## Terminal Practice
 

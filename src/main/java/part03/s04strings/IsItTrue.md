@@ -13,15 +13,11 @@ You got it right!
 Give a string: **trueish**
 Try again!
 
-## Expected Output
+## Examples
 
-```
-Give a string: **true**
-You got it right!
-Give a string: **trueish**
-Try again!
-```
-
+| User Input (stdin) | Expected Console Output (stdout) |
+| :--- | :--- |
+| 1. `true`<br>2. `trueish` | Give a string: **`true`**<br>`You got it right!`<br>Give a string: **`trueish`**<br>`Try again!` |
 
 ## Terminal Practice
 
