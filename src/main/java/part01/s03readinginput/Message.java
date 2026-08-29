@@ -8,5 +8,7 @@ public class Message {
       Scanner scan = new Scanner(System.in);
       
       System.out.println("Write a message: ");
+      String result = scan.nextLine();
+      System.out.println(result);
     }
 }
