@@ -19,7 +19,7 @@ Write a program that asks the user for two integers and prints their average.
 | User Input (stdin) | Expected Program Output (stdout) |
 | :--- | :--- |
 | <pre>8<br>2</pre> | <pre>Give the first number:<br>Give the second number:<br>The average is 5.0</pre> |
-| <pre>9<br>2</pre> | <pre>Give the first number:<br>Give the second number:<br>The average is 4.5</pre> |
+| <pre>9<br>2</pre> | <pre>Give the first number:<br>Give the second number:<br>The average is 5.5</pre> |
 
 ## Terminal Practice
 

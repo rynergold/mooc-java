@@ -52,6 +52,6 @@ class AverageOfTwoNumbersTest {
         AverageOfTwoNumbers.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("The average is 4.5"), "Average of 9 and 2 should be 4.5");
+        assertTrue(output.contains("The average is 5.5"), "Average of 9 and 2 should be 5.5");
     }
 }
