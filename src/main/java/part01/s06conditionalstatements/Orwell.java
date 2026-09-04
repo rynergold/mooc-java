@@ -8,5 +8,10 @@ public class Orwell {
         Scanner scanner = new Scanner(System.in);
 
         // Write your program here
+      System.out.println("Give a number:");
+      int num = Integer.parseInt(scanner.nextLine());
+      if (num == 1984 ){
+        System.out.println("Orwell");
+      }
     }
 }
