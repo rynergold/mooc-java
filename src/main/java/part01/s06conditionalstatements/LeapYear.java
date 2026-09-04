@@ -1,8 +1,12 @@
 package part01.s06conditionalstatements;
 
-public class LeapYear {
-    public static void main(String[] args) {
-        // Write your program here
+import java.util.Scanner;
 
+public class LeapYear {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Write your program here
     }
 }

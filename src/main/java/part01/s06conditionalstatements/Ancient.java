@@ -2,7 +2,7 @@ package part01.s06conditionalstatements;
 
 import java.util.Scanner;
 
-public class GiftTax {
+public class Ancient {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
