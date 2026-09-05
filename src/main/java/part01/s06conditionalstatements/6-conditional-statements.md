@@ -44,10 +44,10 @@ A code block is bounded by opening `{` and closing `}` braces. Every nested bloc
 ```java
 public class Example {
     public static void main(String[] args) {
-        int speed = 130;
+        int temperature = 32;
 
-        if (speed > 120) {
-            System.out.println("Speeding ticket!");
+        if (temperature > 30) {
+            System.out.println("It is hot outside!");
         }
     }
 }
@@ -74,10 +74,10 @@ Comparison (relational) operators compare two values and produce a `boolean` res
 | `!=` | Not equal to | `x != 0` | `true` |
 
 ```java
-int year = 1984;
+int score = 100;
 
-if (year == 1984) {
-    System.out.println("Orwell");
+if (score == 100) {
+    System.out.println("Perfect score!");
 }
 ```
 
@@ -94,12 +94,12 @@ if (year == 1984) {
 When a program needs to run one block when a condition holds and another block when it does not, use `else`:
 
 ```java
-int age = 15;
+int waterTemperature = -5;
 
-if (age >= 18) {
-    System.out.println("You are an adult");
+if (waterTemperature <= 0) {
+    System.out.println("Water is frozen.");
 } else {
-    System.out.println("You are not an adult");
+    System.out.println("Water is liquid.");
 }
 ```
 
@@ -167,16 +167,16 @@ if (passed) {
 The `%` operator computes the integer remainder after division. It tests divisibility: a number $n$ is divisible by $d$ if and only if `n % d == 0`.
 
 ```java
-int number = 8;
+int seconds = 120;
 
-if (number % 2 == 0) {
-    System.out.println("Number is even.");
+if (seconds % 60 == 0) {
+    System.out.println("Exact minute mark.");
 } else {
-    System.out.println("Number is odd.");
+    System.out.println("Between minutes.");
 }
 ```
 
-In Java, `%` preserves the sign of the dividend (left operand). For example, `-7 % 2` evaluates to `-1`. Testing `number % 2 == 0` works correctly for both positive and negative even numbers because zero has no sign.
+In Java, `%` preserves the sign of the dividend (left operand). For example, `-7 % 2` evaluates to `-1`. Zero has no sign, so testing `remainder == 0` evaluates consistently across positive and negative values.
 
 👉 **Ready?** Open [OddOrEven.md](./OddOrEven.md) / [OddOrEven.java](./OddOrEven.java)
 
@@ -199,16 +199,16 @@ Stack                        Heap
 
 ```java
 Scanner scanner = new Scanner(System.in);
-String password = scanner.nextLine();
+String passkey = scanner.nextLine();
 
 // Incorrect: compares memory addresses
-if (password == "Caput Draconis") { ... }
+if (passkey == "open sesame") { ... }
 
 // Correct: compares character contents
-if (password.equals("Caput Draconis")) {
-    System.out.println("Welcome!");
+if (passkey.equals("open sesame")) {
+    System.out.println("Door opens!");
 } else {
-    System.out.println("Off with you!");
+    System.out.println("Access denied!");
 }
 ```
 
@@ -230,12 +230,12 @@ Logical operators combine or negate boolean conditions:
 | `!` | Logical NOT | Inverts the boolean value (`!true` is `false`, `!false` is `true`) |
 
 ```java
-int age = 25;
+int hour = 14;
 
-if (age >= 0 && age <= 120) {
-    System.out.println("OK");
+if (hour >= 9 && hour <= 17) {
+    System.out.println("Office is open");
 } else {
-    System.out.println("Impossible!");
+    System.out.println("Office is closed");
 }
 ```
 

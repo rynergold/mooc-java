@@ -8,7 +8,7 @@
 Write a program that asks the user for an integer and prints `"Speeding ticket!"` if the input is greater than 120.
 
 - Prompt: `"Give speed:"`
-- If speed > 120: print `"Speeding ticket!"`
+- If the speed is greater than 120: print `"Speeding ticket!"`
 - Otherwise: do not print anything further.
 
 ## Examples

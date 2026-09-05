@@ -8,7 +8,7 @@
 Write a program that prompts the user for an integer and prints `"Orwell"` if the number is exactly 1984.
 
 - Prompt: `"Give a number:"`
-- If number == 1984: print `"Orwell"`
+- If the number is equal to 1984: print `"Orwell"`
 - Otherwise: do not print anything further.
 
 ## Examples

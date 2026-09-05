@@ -8,8 +8,8 @@
 Write a program that prompts the user for an integer and informs the user whether or not it is positive (greater than zero).
 
 - Prompt: `"Give a number:"`
-- If number > 0: print `"The number is positive."`
-- Else: print `"The number is not positive."`
+- If the number is positive (greater than zero): print `"The number is positive."`
+- Otherwise: print `"The number is not positive."`
 
 ## Examples
 

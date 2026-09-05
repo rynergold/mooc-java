@@ -8,7 +8,7 @@
 Write a program that prompts the user to input their age and checks whether or not it is possible (at least 0 and at most 120).
 
 - Prompt: `"How old are you?"`
-- Condition: If age is between `0` and `120` inclusive (`age >= 0 && age <= 120`), print `"OK"`
+- Condition: If age is at least 0 and at most 120, print `"OK"`
 - Otherwise: print `"Impossible!"`
 - Requirement: Use only a single `if`-statement (with an `else` branch) using logical operators.
 

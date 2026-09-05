@@ -8,7 +8,7 @@
 Write a program that prompts the user for a year. If the user inputs a number that is smaller than 2015, the program prints `"Ancient history!"`.
 
 - Prompt: `"Give a year:"`
-- If year < 2015: print `"Ancient history!"`
+- If the input is smaller than 2015: print `"Ancient history!"`
 - Otherwise: do not print anything further.
 
 ## Examples

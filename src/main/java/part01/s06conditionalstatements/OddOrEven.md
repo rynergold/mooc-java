@@ -11,9 +11,6 @@ Write a program that prompts the user for a number and informs them whether it i
 - If even: print `"Number " + number + " is even."`
 - If odd: print `"Number " + number + " is odd."`
 
-> [!TIP]
-> The remainder operator (`%`) calculates the remainder after integer division. A number is even if `number % 2 == 0`. Note that in Java, `%` preserves the sign of the dividend, but `number % 2 == 0` evaluates correctly for both positive and negative even integers.
-
 ## Examples
 
 | User Input (stdin) | Expected Program Output (stdout) |

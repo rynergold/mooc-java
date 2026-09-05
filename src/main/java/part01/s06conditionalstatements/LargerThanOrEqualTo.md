@@ -9,9 +9,9 @@ Write a program that prompts the user for two integers and prints the larger of 
 
 - First prompt: `"Give the first number:"`
 - Second prompt: `"Give the second number:"`
-- If `first > second`: print `"Greater number is: " + first`
-- Else if `second > first`: print `"Greater number is: " + second`
-- Else: print `"The numbers are equal!"`
+- If the first number is greater than the second: print `"Greater number is: "` followed by the first number.
+- If the second number is greater than the first: print `"Greater number is: "` followed by the second number.
+- If the numbers are equal: print `"The numbers are equal!"`
 
 ## Examples
 

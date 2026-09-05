@@ -8,8 +8,8 @@
 Write a program that prompts the user for their age and tells them whether or not they are an adult (18 years old or older).
 
 - Prompt: `"How old are you?"`
-- If age >= 18: print `"You are an adult"`
-- Else: print `"You are not an adult"`
+- If the age is 18 or older: print `"You are an adult"`
+- Otherwise: print `"You are not an adult"`
 
 ## Examples
 

@@ -13,11 +13,6 @@ Write a program that reads a year from the user and checks whether or not it is 
 - If leap year: print `"The year is a leap year."`
 - Otherwise: print `"The year is not a leap year."`
 
-> [!TIP]
-> A year is a leap year if:
-> `year % 4 == 0 && (year % 100 != 0 || year % 400 == 0)`  
-> Alternatively, you can structure this using an `if - else if - else` decision tree.
-
 ## Examples
 
 | User Input (stdin) | Expected Program Output (stdout) |
