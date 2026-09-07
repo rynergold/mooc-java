@@ -107,19 +107,22 @@ Because `==` compares only what is stored inside the variable box on the stack, 
 To check the characters inside the text, use `.equals()`. It follows the address over to the heap and checks each letter.
 
 > [!NOTE]
-> **Understanding the Stack and Heap in Memory**
-> Both the stack and the heap live in your computer's main memory (**RAM**). When a Java program starts, the Java Virtual Machine reserves a block of RAM and organizes it into dedicated zones:
-> - **The Stack:** An ordered region of RAM that holds active local variables. Variables are allocated when code begins running and cleared immediately when it finishes, making lookups very fast.
-> - **The Heap:** A large, flexible region of RAM where objects (such as text strings) are stored dynamically for as long as the program needs them.
+> **Stack? Heap? What Are Those?**
+> If terms like "stack" and "heap" sound unfamiliar, do not worry. Computer memory architecture is a deep topic, and understanding its low-level mechanics is not required to write good Java code or complete this course. We will explore objects and references in depth when we reach Part 4.
+>
+> If you are curious about what happens behind the scenes:
+> Both the stack and the heap live in your computer's main memory (**RAM**). When your Java program runs, the Java Virtual Machine organizes RAM into dedicated zones:
+> - **The Stack (in RAM):** A fast, temporary workspace that holds active variables while code runs.
+> - **The Heap (in RAM):** A flexible storage pool where objects—like text strings—live for as long as your program needs them.
 >
 > **The Sticky Note and Warehouse Analogy:**
-> Think of your variable on the **stack** as a sticky note on your desk. For a primitive number like `int count = 5;`, the number `5` is written directly on the note.
+> Think of your variable on the **stack** as a sticky note on your desk. For a primitive number like `int count = 5;`, the value `5` is written directly on the note.
 >
 > A `String` can be much larger, like a book. Java keeps the actual text in the warehouse (the **heap**). Your sticky note on the stack only holds the shelf code telling Java where that book sits.
 >
 > When you compare strings with `==`, Java only compares what is written on the sticky notes (the shelf codes). Even if two books contain the exact same words, they sit on different shelves, so `==` gives `false`. The `.equals()` method walks over to the shelves and reads the actual words to see if they match.
 >
-> Memory architecture is a deep topic, so this model is purposefully simplified to provide intuition without overwhelming you with low-level details. We will explore objects and references in depth in Part 4. If you want to explore further, check out [Baeldung: Stack Memory and Heap Space in Java](https://www.baeldung.com/java-stack-heap-memory).
+> If you want to explore further on your own time, check out [Baeldung: Stack Memory and Heap Space in Java](https://www.baeldung.com/java-stack-heap-memory).
 
 ### Example 2: Verifying Text Equality
 
