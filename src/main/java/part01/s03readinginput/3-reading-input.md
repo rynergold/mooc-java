@@ -7,16 +7,16 @@ hidden: false
 > [!NOTE]
 > **Learning Objectives**
 >
-> - Import and initialize the `Scanner` tool for reading user input from standard input (`System.in`).
+> - Import and initialize the `Scanner` tool to read user input from the keyboard (`System.in`).
 > - Read full lines of text into `String` variables with `scanner.nextLine()`.
-> - Combine string variables and literals using the concatenation operator (`+`).
+> - Combine strings and text literals using the concatenation operator (`+`).
 > - Sequence prompts and input reads to build interactive console programs.
 
 ---
 
 ## 1. How Java Reads User Input
 
-Console applications receive user data through standard input (`System.in`). To read input as text, Java provides the `Scanner` utility in the `java.util` package:
+Console applications receive user data through standard input (`System.in`). To read input as text, Java provides the `Scanner` tool in the `java.util` library:
 
 ```java
 import java.util.Scanner;
@@ -25,130 +25,135 @@ public class Echo {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Write a message:");
-        String message = scanner.nextLine();
+        System.out.println("Enter a search term:");
+        String search = scanner.nextLine();
 
-        System.out.println(message);
+        System.out.println("Searching for: " + search);
     }
 }
 ```
 
-### Execution Steps
-1. **Import:** `import java.util.Scanner;` tells the compiler where to find the `Scanner` class.
-2. **Instantiate:** `Scanner scanner = new Scanner(System.in);` creates the input reader connected to your keyboard stream.
-3. **Blocking Read:** When execution reaches `scanner.nextLine()`, the program halts and waits for the user to type text and press <kbd>Enter</kbd>.
-4. **Variable Assignment:** The text is returned as a `String` and stored in the variable `message`.
+### Key Terminology Explained
+
+- **`import java.util.Scanner;`**: Tells the compiler where to find Java's built-in `Scanner` tool.
+- **`Scanner scanner = new Scanner(System.in);`**: Creates an input reader attached to standard input (`System.in`), which represents the keyboard.
+- **`scanner.nextLine()`**: A command that pauses program execution until the user types something into the console and presses <kbd>Enter</kbd>. It returns the typed text as a `String`.
+- **Concatenation (`+`)**: Joining two or more pieces of text together into one continuous string.
+
+> [!TIP]
+> **Modern Java Note: Resource Management**
+> In production Java, readers attached to external files or networks implement `AutoCloseable` and are closed using a `try-with-resources` block. For console applications reading from `System.in`, you do not need to call `scanner.close()`. Closing a scanner attached to `System.in` closes standard input for the entire application, preventing any future input reads.
 
 ---
 
 ## 2. Progressive Input Techniques
 
-### Example 1: Reading and Echoing Input
+### Example 1: Reading and Reusing Input
 
-Reading a single line and printing it back to the console:
+Reading a value from the user and storing it in a variable:
 
 ```java
 Scanner scanner = new Scanner(System.in);
 
-System.out.println("Write a message: ");
-String message = scanner.nextLine();
+System.out.println("Enter your destination city:");
+String destination = scanner.nextLine();
 
-System.out.println(message);
+System.out.println("Destination recorded: " + destination);
 ```
 
-Assigning input to a variable allows you to reference and print the value multiple times without re-reading:
+Because the value is stored in the variable `destination`, you can reuse it in multiple places without asking the user to type it again:
 
 ```java
-System.out.println(message);
-System.out.println(message);
+System.out.println("Boarding pass issued for: " + destination);
+System.out.println("Luggage tag printed for: " + destination);
 ```
 
 #### Practice (✪ 1/7)
 
 - **✪** [Message.md](./exercises/Message.md) / [Message.java](./exercises/Message.java) — Read and echo a single string
-- **✪** [MessageThreeTimes.md](./exercises/MessageThreeTimes.md) / [MessageThreeTimes.java](./exercises/MessageThreeTimes.java) — Reuse input variable across multiple print statements
+- **✪** [MessageThreeTimes.md](./exercises/MessageThreeTimes.md) / [MessageThreeTimes.java](./exercises/MessageThreeTimes.java) — Reuse an input variable across multiple print statements
 
 ---
 
 ### Example 2: String Variables and Concatenation
 
-Strings represent sequences of characters. The `+` operator concatenates (joins) two strings together into one:
+Strings represent sequences of characters. The `+` operator joins two strings together:
 
 ```java
-String greeting = "Hi ";
-String name = "Ada";
-System.out.println(greeting + name); // Output: Hi Ada
+String prefix = "Project-";
+String code = "Apollo";
+System.out.println(prefix + code); // Output: Project-Apollo
 ```
 
-You can combine string variables directly with literal strings:
+You can combine variables directly with literal text:
 
 ```java
 Scanner scanner = new Scanner(System.in);
 
-System.out.println("What is your name?");
-String name = scanner.nextLine();
+System.out.println("Enter your department name:");
+String department = scanner.nextLine();
 
-System.out.println("Hi " + name);
+System.out.println("Welcome to the " + department + " division!");
 ```
 
 #### Practice (✪ 1/7)
 
 - **✪** [HiAdaLovelace.md](./exercises/HiAdaLovelace.md) / [HiAdaLovelace.java](./exercises/HiAdaLovelace.java) — Concatenate literal text with a string variable
-- **✪** [Greeting.md](./exercises/Greeting.md) / [Greeting.java](./exercises/Greeting.java) — Read user name and print custom greeting
+- **✪** [Greeting.md](./exercises/Greeting.md) / [Greeting.java](./exercises/Greeting.java) — Read user name and print a personalized greeting
 
 ---
 
-### Example 3: Sequential Inputs & Multi-Variable Interpolation
+### Example 3: Reading Multiple Values and Combining Strings
 
-Each call to `scanner.nextLine()` reads the next line of input. To collect multiple pieces of information, call `scanner.nextLine()` once for each required value:
+Each call to `scanner.nextLine()` reads one line of input. To collect several pieces of information, call `scanner.nextLine()` once for each required value:
 
 ```java
 Scanner scanner = new Scanner(System.in);
 
-System.out.println("Enter your name:");
-String name = scanner.nextLine();
+System.out.println("Enter package item:");
+String item = scanner.nextLine();
 
-System.out.println("Enter your title:");
-String title = scanner.nextLine();
+System.out.println("Enter destination country:");
+String country = scanner.nextLine();
 
-System.out.println("Character: " + name + ", the " + title);
+System.out.println("Dispatching order: " + item + " to " + country + ".");
 ```
 
 Input:
 ```text
-Bob
-Builder
+Microscope
+Finland
 ```
 
 Output:
 ```text
-Character: Bob, the Builder
+Dispatching order: Microscope to Finland.
 ```
 
-Storing distinct values in separate variables lets you assemble complete multi-line narratives:
+Storing distinct values in separate variables lets you assemble complete multi-line messages:
 
 ```java
-System.out.println("Once upon a time there was " + name + ",");
-System.out.println("who worked as a " + title + ".");
+System.out.println("Notice: Shipment containing " + item + " is confirmed.");
+System.out.println("Customs clearance scheduled upon arrival in " + country + ".");
 ```
 
 #### Practice (✪ 1/7)
 
 - **✪** [Conversation.md](./exercises/Conversation.md) / [Conversation.java](./exercises/Conversation.java) — Two-step interactive conversational prompt sequence
-- **✪** [Story.md](./exercises/Story.md) / [Story.java](./exercises/Story.java) — Sequential inputs interpolated into multi-line narrative
-- **✪** [MadLibs.md](./exercises/MadLibs.md) / [MadLibs.java](./exercises/MadLibs.java) — Multi-token narrative template interpolation
+- **✪** [Story.md](./exercises/Story.md) / [Story.java](./exercises/Story.java) — Sequential inputs assembled into a multi-line story
+- **✪** [MadLibs.md](./exercises/MadLibs.md) / [MadLibs.java](./exercises/MadLibs.java) — Assembling a narrative from multiple user responses
 
 ---
 
 ## 3. Common Input Pitfalls
 
-- **Missing Import Statement:** Omitting `import java.util.Scanner;` produces a compiler error:
+- **Missing Import Statement:** Forgetting `import java.util.Scanner;` produces a compiler error:
   ```
   cannot find symbol: class Scanner
   ```
-- **Quoting Variable Names:** Writing `System.out.println("name")` prints the literal word `"name"`, ignoring the variable's value. To print the variable's contents, omit quotes: `System.out.println(name)`.
-- **Inverted Prompt Order:** Calling `scanner.nextLine()` before `System.out.println("Prompt:")` leaves the user staring at a blank console with no instructions.
-- **Missing Spacing in Concatenation:** Writing `"Hi" + name` results in `"HiAda"`. Include explicit whitespace inside the string literal: `"Hi " + name`.
+- **Quoting Variable Names:** Writing `System.out.println("department")` prints the literal word `"department"`. To print the value stored inside the variable, omit quotes: `System.out.println(department)`.
+- **Inverted Prompt Order:** Calling `scanner.nextLine()` before printing the prompt causes the program to pause with an empty screen, leaving the user unsure what to type.
+- **Missing Spacing in Concatenation:** Writing `"Welcome " + department` needs a space so words do not run together.
 
 ---
 
@@ -160,9 +165,9 @@ System.out.println("who worked as a " + title + ".");
 | **Tier 1** | ✪ | Message Three Times | Variable reuse across print calls | [MessageThreeTimes.md](./exercises/MessageThreeTimes.md) | [MessageThreeTimes.java](./exercises/MessageThreeTimes.java) | `./gradlew test --tests "part01.s03readinginput.exercises.MessageThreeTimesTest"` |
 | **Tier 1** | ✪ | Hi Ada Lovelace | String concatenation with `+` | [HiAdaLovelace.md](./exercises/HiAdaLovelace.md) | [HiAdaLovelace.java](./exercises/HiAdaLovelace.java) | `./gradlew test --tests "part01.s03readinginput.exercises.HiAdaLovelaceTest"` |
 | **Tier 1** | ✪ | Greeting | Input capture with interactive prompt | [Greeting.md](./exercises/Greeting.md) | [Greeting.java](./exercises/Greeting.java) | `./gradlew test --tests "part01.s03readinginput.exercises.GreetingTest"` |
-| **Tier 1** | ✪ | Conversation | Multi-turn prompt/response sequence | [Conversation.md](./exercises/Conversation.md) | [Conversation.java](./exercises/Conversation.java) | `./gradlew test --tests "part01.s03readinginput.exercises.ConversationTest"` |
-| **Tier 1** | ✪ | Story | Multi-variable interpolation | [Story.md](./exercises/Story.md) | [Story.java](./exercises/Story.java) | `./gradlew test --tests "part01.s03readinginput.exercises.StoryTest"` |
-| **Tier 1** | ✪ | Mad Libs | Narrative template composition | [MadLibs.md](./exercises/MadLibs.md) | [MadLibs.java](./exercises/MadLibs.java) | `./gradlew test --tests "part01.s03readinginput.exercises.MadLibsTest"` |
+| **Tier 1** | ✪ | Conversation | Multi-turn prompt and response sequence | [Conversation.md](./exercises/Conversation.md) | [Conversation.java](./exercises/Conversation.java) | `./gradlew test --tests "part01.s03readinginput.exercises.ConversationTest"` |
+| **Tier 1** | ✪ | Story | Combining multiple variables into narrative | [Story.md](./exercises/Story.md) | [Story.java](./exercises/Story.java) | `./gradlew test --tests "part01.s03readinginput.exercises.StoryTest"` |
+| **Tier 1** | ✪ | Mad Libs | Assembling narrative from user inputs | [MadLibs.md](./exercises/MadLibs.md) | [MadLibs.java](./exercises/MadLibs.java) | `./gradlew test --tests "part01.s03readinginput.exercises.MadLibsTest"` |
 
 ---
 
@@ -170,4 +175,4 @@ System.out.println("who worked as a " + title + ".");
 
 - **Scanner Class:** [Oracle Java SE Javadoc (Scanner)](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Scanner.html)
 - **String Class:** [Oracle Java SE Javadoc (String)](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html)
-- **String Concatenation Operator (`+`):** [Oracle Java Language Specification](https://docs.oracle.com/javase/specs/jls/se21/html/jls-15.html#jls-15.18.1)
+- **String Concatenation Operator (`+`):** [Oracle Java Language Specification](https://docs.oracle.com/javase/specs/jls/se21/html/jls-15.html#jls-15.18.1)\n

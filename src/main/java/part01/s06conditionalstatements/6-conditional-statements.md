@@ -7,55 +7,35 @@ hidden: false
 > [!NOTE]
 > **Learning Objectives**
 >
-> - Control execution flow using `if`, `else if`, and `else` branches.
-> - Apply comparison operators (`==`, `!=`, `<`, `>`, `<=`, `>=`) to evaluate boolean expressions.
+> - Control program execution using `if`, `else if`, and `else` branches.
+> - Apply comparison operators (`==`, `!=`, `<`, `>`, `<=`, `>=`) to evaluate boolean conditions.
 > - Distinguish reference equality (`==`) from character content equality (`.equals()`) for strings.
 > - Combine conditions using logical operators (`&&`, `||`, `!`) with short-circuit evaluation.
-> - Test divisibility and parity using the remainder operator (`%`).
-> - Order conditional branches from most restrictive to least restrictive to prevent unreachable logic.
+> - Use the remainder operator (`%`) to test divisibility.
+> - Order conditional branches from most specific to least specific so all conditions can be reached.
 
 ---
 
 ## 1. Branching Logic & Comparison Operators
 
-Java programs execute sequentially from top to bottom unless directed otherwise. A **conditional statement** branches execution by evaluating a boolean expression at runtime.
+Java programs execute sequentially from top to bottom unless directed otherwise. A **conditional statement** allows code to take different paths depending on whether a condition is `true` or `false`.
 
 ```java
-int speed = 125;
+int freezerTemperature = 4;
 
-if (speed > 120) {
-    System.out.println("Speeding ticket!");
+if (freezerTemperature > 0) {
+    System.out.println("Warning: Freezer temperature is above 0 degrees!");
 }
 ```
 
-An `if` statement consists of:
-1. The `if` keyword.
-2. A condition enclosed in parentheses `(...)` evaluating to `true` or `false`.
-3. A code block enclosed in curly brackets `{ ... }` that runs only when the condition is `true`.
+### Key Terminology Explained
 
-If the condition evaluates to `false`, the program skips the block and continues with the next statement after the closing bracket `}`.
-
-### Code Blocks & Indentation
-
-A code block is bounded by opening `{` and closing `}` braces. Every nested block indents four spaces deeper than its enclosing scope.
-
-```java
-public class SpeedCheck {
-    public static void main(String[] args) {
-        int speed = 130;
-
-        if (speed > 120) {
-            System.out.println("Speeding ticket!");
-        }
-    }
-}
-```
-
-Consistent indentation reflects scope hierarchy and prevents logical reading errors.
+- **Conditional Statement (`if`):** A structure that runs a block of code only if its condition evaluates to `true`.
+- **Boolean Expression:** A statement that evaluates to either `true` or `false`.
+- **Code Block (`{ ... }`):** Code enclosed within curly braces that belongs together. In Java, lines inside a block are indented four spaces.
+- **Comparison (Relational) Operators:** Operators that compare two primitive values and return a boolean result (`true` or `false`).
 
 ### Comparison Operators
-
-Comparison (relational) operators compare two primitive values and produce a `boolean` result:
 
 | Operator | Meaning | Example (`x = 5`) | Result |
 | :--- | :--- | :--- | :--- |
@@ -68,25 +48,25 @@ Comparison (relational) operators compare two primitive values and produce a `bo
 
 ### Alternative Execution: `else`
 
-When a program must execute one block when a condition passes and a different block when it fails, append an `else` block:
+When a program needs to do one thing if a condition is met and something else if it is not, add an `else` branch:
 
 ```java
-int age = 16;
+int passCredits = 5;
 
-if (age >= 18) {
-    System.out.println("You are an adult");
+if (passCredits > 0) {
+    System.out.println("Access granted to the workshop.");
 } else {
-    System.out.println("You are not an adult");
+    System.out.println("No credits remaining. Please top up.");
 }
 ```
 
-The `if` and `else` branches are mutually exclusive. Exactly one branch executes.
+The `if` and `else` blocks are mutually exclusive. Exactly one branch executes.
 
 ### Comparing Strings: `.equals()` vs. `==`
 
-Comparing primitive types (`int`, `double`, `boolean`) with `==` checks the raw binary values in memory.
+Variables for primitive types (`int`, `double`, `boolean`) hold values directly in their memory containers. The `==` operator compares the contents of those containers.
 
-Strings in Java are objects stored on the heap. A `String` variable holds a reference (memory address) pointing to the object:
+Strings in Java are objects. A `String` variable holds a reference (memory address) pointing to where the text is stored in memory:
 
 ```
 Stack                           Heap
@@ -94,101 +74,111 @@ Stack                           Heap
 [ passkey ] ---> (0x80F2) ---> "secret"
 ```
 
-- `==` compares references (memory addresses). Two distinct string objects with identical text reside at different addresses, so `input == passkey` evaluates to `false`.
-- `.equals()` inspects the actual characters inside the string objects.
+- `==` compares the memory addresses. Two strings created separately have different memory addresses, so `input == passkey` evaluates to `false` even if the words are identical.
+- `.equals()` looks inside the memory addresses and compares the actual sequence of characters.
 
 ```java
 Scanner scanner = new Scanner(System.in);
-String password = scanner.nextLine();
+System.out.println("Enter operational status code:");
+String status = scanner.nextLine();
 
-// Incorrect: compares heap addresses
-if (password == "Caput Draconis") { ... }
+// Incorrect: compares memory addresses
+if (status == "ACTIVE") { ... }
 
-// Correct: compares character contents
-if (password.equals("Caput Draconis")) {
-    System.out.println("Welcome!");
+// Correct: compares the text characters
+if (status.equals("ACTIVE")) {
+    System.out.println("System is operational.");
 } else {
-    System.out.println("Off with you!");
+    System.out.println("System is offline or in maintenance.");
 }
 ```
 
-Always use `.equals()` to check string equality.
+Always use `.equals()` when comparing text.
 
 ---
 
 ## 2. Progressive Practice: Foundation
 
-### Example 1: Threshold & String Verification
+### Example 1: Threshold and String Verification
 
-Testing a numeric threshold and matching a string passkey:
+Testing a numeric threshold and checking an exact code:
 
 ```java
-int speed = 135;
-String passkey = "open sesame";
+int stockCount = 150;
+String departmentCode = "ENG-42";
 
-if (speed > 120) {
-    System.out.println("Speeding ticket!");
+if (stockCount > 100) {
+    System.out.println("Storage is near capacity.");
 }
 
-if (passkey.equals("open sesame")) {
-    System.out.println("Access granted.");
+if (departmentCode.equals("ENG-42")) {
+    System.out.println("Access granted to technical wing.");
 } else {
-    System.out.println("Access denied.");
+    System.out.println("Visitor pass required.");
 }
 ```
 
 #### Practice (✪ 1/7)
 
-- **✪** [SpeedingTicket.md](./exercises/SpeedingTicket.md) / [SpeedingTicket.java](./exercises/SpeedingTicket.java) — Integer threshold check (`> 120`)
+- **✪** [SpeedingTicket.md](./exercises/SpeedingTicket.md) / [SpeedingTicket.java](./exercises/SpeedingTicket.java) — Numeric threshold check (`> 120`)
 - **✪** [CheckYourIndentation.md](./exercises/CheckYourIndentation.md) / [CheckYourIndentation.java](./exercises/CheckYourIndentation.java) — Code block formatting and 4-space indentation
 - **✪** [Orwell.md](./exercises/Orwell.md) / [Orwell.java](./exercises/Orwell.java) — Exact integer equality (`== 1984`)
-- **✪** [Ancient.md](./exercises/Ancient.md) / [Ancient.java](./exercises/Ancient.java) — Strict numeric inequality (`< 2015`)
+- **✪** [Ancient.md](./exercises/Ancient.md) / [Ancient.java](./exercises/Ancient.java) — Strict numeric comparison (`< 2015`)
 - **✪** [Positivity.md](./exercises/Positivity.md) / [Positivity.java](./exercises/Positivity.java) — Positive vs non-positive binary branch (`> 0`)
-- **✪** [Adulthood.md](./exercises/Adulthood.md) / [Adulthood.java](./exercises/Adulthood.java) — Age majority binary branch (`>= 18`)
-- **✪** [Password.md](./exercises/Password.md) / [Password.java](./exercises/Password.java) — String equality checking with `.equals()`
-- **✪** [Same.md](./exercises/Same.md) / [Same.java](./exercises/Same.java) — Comparing two user-provided strings with `.equals()`
+- **✪** [Adulthood.md](./exercises/Adulthood.md) / [Adulthood.java](./exercises/Adulthood.java) — Age threshold branch (`>= 18`)
+- **✪** [Password.md](./exercises/Password.md) / [Password.java](./exercises/Password.java) — Checking text equality with `.equals()`
+- **✪** [Same.md](./exercises/Same.md) / [Same.java](./exercises/Same.java) — Comparing two user strings with `.equals()`
 
 ---
 
-## 3. Multi-Branching, Remainder & Logical Operators
+## 3. Multiple Conditions, Remainder & Logical Operators
 
-### Multi-Way Branching: `else if`
+### Checking Multiple Conditions with `else if`
 
-When selecting among more than two alternatives, chain conditions using `else if`:
+When choosing among more than two alternatives, chain conditions using `else if`:
 
 ```java
-int score = 75;
+int waterTemperature = 45;
 
-if (score >= 90) {
-    System.out.println("Grade: A");
-} else if (score >= 80) {
-    System.out.println("Grade: B");
-} else if (score >= 70) {
-    System.out.println("Grade: C");
+if (waterTemperature <= 0) {
+    System.out.println("State: Solid (Ice)");
+} else if (waterTemperature < 100) {
+    System.out.println("State: Liquid (Water)");
 } else {
-    System.out.println("Grade: F");
+    System.out.println("State: Gas (Steam)");
 }
 ```
 
-#### Top-Down Evaluation Order
+Java evaluates chained conditions from top to bottom. Execution enters the **first** condition that evaluates to `true`. Once that branch finishes, Java exits the chain and skips all remaining branches.
 
-Java evaluates chained conditions from top to bottom. Execution branches into the **first** condition that evaluates to `true`. Once that block finishes, Java exits the entire chain, skipping all remaining `else if` and `else` branches.
+> [!TIP]
+> **Modern Java Note: Switch Expressions (Java 14+)**
+> When testing a variable against specific exact values rather than ranges, Java 14+ **switch expressions** offer a clean alternative to long `if-else if` chains:
+> ```java
+> String dayName = switch (dayNumber) {
+>     case 1 -> "Monday";
+>     case 2 -> "Tuesday";
+>     default -> "Other day";
+> };
+> ```
+> For range checks (like `temp <= 0`) or compound conditions, `if-else if` chains remain the standard tool.
 
-### Remainder Operator (`%`)
+### The Remainder Operator (`%`)
 
-The `%` operator returns the integer remainder after division. It tests divisibility: an integer $n$ is divisible by $d$ if and only if `n % d == 0`.
+The `%` operator computes the integer remainder left over after division. It is used to test divisibility: a number $n$ divides evenly by $d$ if `n % d == 0`.
+
+Checking if items can be packaged into full boxes of 6:
 
 ```java
-int number = 14;
+int items = 24;
 
-if (number % 2 == 0) {
-    System.out.println("Number " + number + " is even.");
+if (items % 6 == 0) {
+    System.out.println("The items fill full boxes of 6.");
 } else {
-    System.out.println("Number " + number + " is odd.");
+    int leftover = items % 6;
+    System.out.println("Leftover items that do not fill a box: " + leftover);
 }
 ```
-
-In Java, `%` preserves the sign of the left operand (`-7 % 2` is `-1`). Testing `remainder == 0` evaluates consistently for positive and negative numbers.
 
 ### Logical Operators
 
@@ -196,27 +186,28 @@ Logical operators combine or invert boolean expressions:
 
 | Operator | Name | Meaning | Truth Condition |
 | :--- | :--- | :--- | :--- |
-| `&&` | Logical AND | Both operands must be true | `true` only if both `A` and `B` evaluate to `true` |
-| `\|\|` | Logical OR | At least one operand must be true | `true` if either `A` or `B` evaluates to `true` |
-| `!` | Logical NOT | Inverts the boolean operand | `!true` is `false`, `!false` is `true` |
+| `&&` | Logical AND | Both conditions must be true | `true` only if both `A` and `B` are `true` |
+| `\|\|` | Logical OR | At least one condition must be true | `true` if either `A` or `B` is `true` |
+| `!` | Logical NOT | Inverts the condition | `!true` is `false`, `!false` is `true` |
 
 ```java
-int age = 25;
+int roomTemp = 22;
+int humidity = 45;
 
-if (age >= 0 && age <= 120) {
-    System.out.println("OK");
+if (roomTemp >= 20 && roomTemp <= 24 && humidity <= 60) {
+    System.out.println("Climate is comfortable.");
 } else {
-    System.out.println("Impossible!");
+    System.out.println("Climate requires adjustment.");
 }
 ```
 
 ### Short-Circuit Evaluation
 
 Java evaluates `&&` and `||` using **short-circuit evaluation**:
-- In `A && B`, if `A` is `false`, Java does not evaluate `B` (the result is guaranteed `false`).
-- In `A || B`, if `A` is `true`, Java does not evaluate `B` (the result is guaranteed `true`).
+- In `A && B`, if `A` is `false`, Java skips `B` (because the overall result is already guaranteed to be `false`).
+- In `A || B`, if `A` is `true`, Java skips `B` (because the overall result is already guaranteed to be `true`).
 
-This property prevents runtime exceptions such as division by zero:
+This prevents errors such as division by zero:
 
 ```java
 int count = 0;
@@ -227,51 +218,51 @@ if (count != 0 && total / count > 5) {
 }
 ```
 
-Because `count != 0` evaluates to `false`, Java skips `total / count > 5`, preventing an `ArithmeticException`.
+Because `count != 0` is `false`, Java never evaluates `total / count > 5`, avoiding an `ArithmeticException`.
 
 ---
 
 ## 4. Progressive Practice: Intermediate
 
-### Example 2: Range Boundaries & Parity Testing
+### Example 2: Range Classification and Multiple Branches
 
-Combining range checks, multi-way branching, and parity testing:
+Categorizing wind speed according to weather thresholds:
 
 ```java
-int points = 82;
+int windSpeedKmh = 35;
 
-if (points < 0 || points > 100) {
-    System.out.println("Impossible!");
-} else if (points >= 80) {
-    System.out.println("Grade: 4");
-} else if (points >= 60) {
-    System.out.println("Grade: 3");
+if (windSpeedKmh < 0) {
+    System.out.println("Invalid sensor reading.");
+} else if (windSpeedKmh <= 20) {
+    System.out.println("Light breeze");
+} else if (windSpeedKmh <= 60) {
+    System.out.println("Moderate wind");
 } else {
-    System.out.println("Grade: failed");
+    System.out.println("Gale force winds");
 }
 ```
 
-#### Evaluation Trace Table
+#### Evaluation Order Trace Table
 
-| Input `points` | `points < 0 \|\| points > 100` | `points >= 80` | `points >= 60` | Branch Executed | Output |
+| Input `windSpeedKmh` | `< 0` | `<= 20` | `<= 60` | Branch Executed | Output |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `105` | `true` | — (skipped) | — (skipped) | 1st branch (`if`) | `"Impossible!"` |
-| `82` | `false` | `true` | — (skipped) | 2nd branch (`else if`) | `"Grade: 4"` |
-| `65` | `false` | `false` | `true` | 3rd branch (`else if`) | `"Grade: 3"` |
-| `45` | `false` | `false` | `false` | 4th branch (`else`) | `"Grade: failed"` |
+| `-5` | `true` | — (skipped) | — (skipped) | 1st branch (`if`) | `"Invalid sensor reading."` |
+| `15` | `false` | `true` | — (skipped) | 2nd branch (`else if`) | `"Light breeze"` |
+| `35` | `false` | `false` | `true` | 3rd branch (`else if`) | `"Moderate wind"` |
+| `75` | `false` | `false` | `false` | 4th branch (`else`) | `"Gale force winds"` |
 
 #### Practice (✪✪ 2/7)
 
 - **✪✪** [LargerThanOrEqualTo.md](./exercises/LargerThanOrEqualTo.md) / [LargerThanOrEqualTo.java](./exercises/LargerThanOrEqualTo.java) — Compare two integers with equality tie handling
-- **✪✪** [GradesAndPoints.md](./exercises/GradesAndPoints.md) / [GradesAndPoints.java](./exercises/GradesAndPoints.java) — Multi-tier score grading scale with invalid input boundaries
-- **✪✪** [OddOrEven.md](./exercises/OddOrEven.md) / [OddOrEven.java](./exercises/OddOrEven.java) — Parity checking using remainder operator `% 2 == 0`
-- **✪✪** [CheckingTheAge.md](./exercises/CheckingTheAge.md) / [CheckingTheAge.java](./exercises/CheckingTheAge.java) — Validating human age limits using compound `&&` conditions
+- **✪✪** [GradesAndPoints.md](./exercises/GradesAndPoints.md) / [GradesAndPoints.java](./exercises/GradesAndPoints.java) — Multi-branch `else if` grading scale
+- **✪✪** [OddOrEven.md](./exercises/OddOrEven.md) / [OddOrEven.java](./exercises/OddOrEven.java) — Remainder even/odd check (`% 2 == 0`)
+- **✪✪** [CheckingTheAge.md](./exercises/CheckingTheAge.md) / [CheckingTheAge.java](./exercises/CheckingTheAge.java) — Range validation with logical `&&`
 
 ---
 
-## 5. Restrictive Ordering & Stepped Logic
+## 5. Branch Ordering & Unreachable Code
 
-When multiple conditions can match the same input, order branches from **most restrictive to least restrictive**.
+When multiple conditions can match an input, order your branches from **most specific to least specific**.
 
 ### The Unreachable Branch Trap
 
@@ -280,10 +271,10 @@ Consider the FizzBuzz rule:
 - Print `"Fizz"` if divisible by 3.
 - Print `"Buzz"` if divisible by 5.
 
-If individual conditions precede the compound condition:
+If single-condition checks come before the combined check:
 
 ```java
-// Incorrect: 15 satisfies (15 % 3 == 0) first, printing "Fizz"
+// Incorrect: 15 matches (15 % 3 == 0) first, printing "Fizz"
 if (number % 3 == 0) {
     System.out.println("Fizz");
 } else if (number % 5 == 0) {
@@ -293,10 +284,10 @@ if (number % 3 == 0) {
 }
 ```
 
-Placing the most restrictive condition first ensures inputs matching both criteria execute the correct branch:
+Placing the most specific condition first ensures inputs matching both criteria execute the intended branch:
 
 ```java
-// Correct: most restrictive condition evaluated first
+// Correct: most specific condition evaluated first
 if (number % 3 == 0 && number % 5 == 0) {
     System.out.println("FizzBuzz");
 } else if (number % 3 == 0) {
@@ -312,53 +303,55 @@ if (number % 3 == 0 && number % 5 == 0) {
 
 ## 6. Progressive Practice: Complex Combinations
 
-### Example 3: Hierarchical Rule Ordering (Leap Year)
+### Example 3: Hierarchical Rule Ordering
 
-A year is a leap year if it is divisible by 4. However, if it is divisible by 100, it is not a leap year unless it is also divisible by 400:
+Theme park safety regulations depend on height and adult supervision:
+- Guests $140$ cm or taller can ride solo.
+- Guests between $120$ cm and $139$ cm can ride only if accompanied by an adult.
+- Guests under $120$ cm cannot ride.
 
 ```java
-int year = 1900;
+int heightCm = 132;
+boolean hasAdultCompanion = true;
 
-if (year % 400 == 0) {
-    System.out.println("The year is a leap year.");
-} else if (year % 100 == 0) {
-    System.out.println("The year is not a leap year.");
-} else if (year % 4 == 0) {
-    System.out.println("The year is a leap year.");
+if (heightCm >= 140) {
+    System.out.println("Approved: Solo rider.");
+} else if (heightCm >= 120 && hasAdultCompanion) {
+    System.out.println("Approved: Accompanied rider.");
 } else {
-    System.out.println("The year is not a leap year.");
+    System.out.println("Admission denied: Height requirement not met.");
 }
 ```
 
-#### Leap Year Trace Table
+#### Safety Regulation Trace Table
 
-| Input `year` | `year % 400 == 0` | `year % 100 == 0` | `year % 4 == 0` | Branch Executed | Result |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `2000` | `true` | — (skipped) | — (skipped) | 1st branch | Leap year |
-| `1900` | `false` | `true` | — (skipped) | 2nd branch | Not a leap year |
-| `2024` | `false` | `false` | `true` | 3rd branch | Leap year |
-| `2023` | `false` | `false` | `false` | 4th branch (`else`) | Not a leap year |
+| `heightCm` | `hasAdultCompanion` | Branch Executed | Result |
+| :--- | :--- | :--- | :--- |
+| `145` | `false` | 1st branch (`heightCm >= 140`) | Approved solo |
+| `132` | `true` | 2nd branch (`>= 120 && companion`) | Approved accompanied |
+| `132` | `false` | 3rd branch (`else`) | Denied |
+| `110` | `true` | 3rd branch (`else`) | Denied |
 
 #### Practice (✪✪✪ 3/7)
 
 - **✪✪✪** [LeapYear.md](./exercises/LeapYear.md) / [LeapYear.java](./exercises/LeapYear.java) — Multi-rule divisibility ordering (400, 100, 4)
-- **✪✪✪** [GiftTax.md](./exercises/GiftTax.md) / [GiftTax.java](./exercises/GiftTax.java) — Progressive tiered bracket calculations with base taxes and percentages
+- **✪✪✪** [GiftTax.md](./exercises/GiftTax.md) / [GiftTax.java](./exercises/GiftTax.java) — Stepped tax bracket calculation with base taxes and percentages
 
 ---
 
 ## 7. Common Conditionals Pitfalls
 
-- **Semicolon After `if` Parentheses:** Placing a semicolon immediately after the condition terminates the statement:
+- **Semicolon After `if` Parentheses:** Placing a semicolon directly after the condition ends the `if` statement prematurely:
   ```java
-  if (speed > 120); // Empty statement!
+  if (temperature > 30); // Empty statement!
   {
-      System.out.println("Speeding ticket!"); // Executes unconditionally
+      System.out.println("Hot day!"); // Executes unconditionally
   }
   ```
-- **Assignment (`=`) vs. Equality (`==`):** Writing `if (x = 5)` attempts an assignment. In Java, this triggers a compiler error for numeric types because `int` cannot convert to `boolean`. For boolean variables, `if (isReady = false)` assigns `false` and evaluates to `false`.
-- **Reference Equality on Strings:** Comparing strings with `==` compares heap memory addresses. Always use `first.equals(second)`.
+- **Assignment (`=`) vs. Equality (`==`):** Writing `if (x = 5)` attempts an assignment. In Java, numbers cannot be converted to `boolean`, so this triggers a compiler error.
+- **Comparing Strings with `==`:** Always use `first.equals(second)` rather than `first == second`.
 - **Inverted Branch Order:** Placing general conditions before specific conditions shadows the specific conditions, making them unreachable.
-- **Short-Circuit Misunderstandings:** Operations inside the right operand of `&&` or `||` do not execute when the left operand determines the outcome.
+- **Short-Circuit Misunderstandings:** Code inside the right side of `&&` or `||` will not run when the left side already determines the result.
 
 ---
 
@@ -366,28 +359,28 @@ if (year % 400 == 0) {
 
 | Tier | Difficulty | Exercise | Core Concept | Spec | Starter Code | Verification Command |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1** | ✪ | Speeding Ticket | Single condition threshold (`> 120`) | [SpeedingTicket.md](./exercises/SpeedingTicket.md) | [SpeedingTicket.java](./exercises/SpeedingTicket.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.SpeedingTicketTest"` |
+| **Tier 1** | ✪ | Speeding Ticket | Single condition check (`> 120`) | [SpeedingTicket.md](./exercises/SpeedingTicket.md) | [SpeedingTicket.java](./exercises/SpeedingTicket.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.SpeedingTicketTest"` |
 | **Tier 1** | ✪ | Check Your Indentation | Code block formatting & scope | [CheckYourIndentation.md](./exercises/CheckYourIndentation.md) | [CheckYourIndentation.java](./exercises/CheckYourIndentation.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.CheckYourIndentationTest"` |
-| **Tier 1** | ✪ | Orwell | Strict integer equality (`== 1984`) | [Orwell.md](./exercises/Orwell.md) | [Orwell.java](./exercises/Orwell.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.OrwellTest"` |
-| **Tier 1** | ✪ | Ancient | Strict integer inequality (`< 2015`) | [Ancient.md](./exercises/Ancient.md) | [Ancient.java](./exercises/Ancient.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.AncientTest"` |
+| **Tier 1** | ✪ | Orwell | Exact integer equality (`== 1984`) | [Orwell.md](./exercises/Orwell.md) | [Orwell.java](./exercises/Orwell.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.OrwellTest"` |
+| **Tier 1** | ✪ | Ancient | Numeric comparison (`< 2015`) | [Ancient.md](./exercises/Ancient.md) | [Ancient.java](./exercises/Ancient.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.AncientTest"` |
 | **Tier 1** | ✪ | Positivity | Binary branch with `if-else` | [Positivity.md](./exercises/Positivity.md) | [Positivity.java](./exercises/Positivity.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.PositivityTest"` |
 | **Tier 1** | ✪ | Adulthood | Binary threshold with `if-else` | [Adulthood.md](./exercises/Adulthood.md) | [Adulthood.java](./exercises/Adulthood.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.AdulthoodTest"` |
 | **Tier 1** | ✪ | Password | String equality with `.equals()` | [Password.md](./exercises/Password.md) | [Password.java](./exercises/Password.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.PasswordTest"` |
-| **Tier 1** | ✪ | Same | Two-variable string comparison | [Same.md](./exercises/Same.md) | [Same.java](./exercises/Same.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.SameTest"` |
+| **Tier 1** | ✪ | Same | Comparing two strings with `.equals()` | [Same.md](./exercises/Same.md) | [Same.java](./exercises/Same.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.SameTest"` |
 | **Tier 2** | ✪✪ | Larger Than or Equal To | Two-variable comparison with tie | [LargerThanOrEqualTo.md](./exercises/LargerThanOrEqualTo.md) | [LargerThanOrEqualTo.java](./exercises/LargerThanOrEqualTo.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.LargerThanOrEqualToTest"` |
-| **Tier 2** | ✪✪ | Grades and Points | Multi-bracket `else if` grading scale | [GradesAndPoints.md](./exercises/GradesAndPoints.md) | [GradesAndPoints.java](./exercises/GradesAndPoints.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.GradesAndPointsTest"` |
-| **Tier 2** | ✪✪ | Odd or Even | Remainder parity testing (`% 2 == 0`) | [OddOrEven.md](./exercises/OddOrEven.md) | [OddOrEven.java](./exercises/OddOrEven.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.OddOrEvenTest"` |
+| **Tier 2** | ✪✪ | Grades and Points | Multi-branch `else if` grading scale | [GradesAndPoints.md](./exercises/GradesAndPoints.md) | [GradesAndPoints.java](./exercises/GradesAndPoints.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.GradesAndPointsTest"` |
+| **Tier 2** | ✪✪ | Odd or Even | Remainder even/odd check (`% 2 == 0`) | [OddOrEven.md](./exercises/OddOrEven.md) | [OddOrEven.java](./exercises/OddOrEven.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.OddOrEvenTest"` |
 | **Tier 2** | ✪✪ | Checking the Age | Range validation with logical `&&` | [CheckingTheAge.md](./exercises/CheckingTheAge.md) | [CheckingTheAge.java](./exercises/CheckingTheAge.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.CheckingTheAgeTest"` |
 | **Tier 3** | ✪✪✪ | Leap Year | Hierarchical divisibility ordering | [LeapYear.md](./exercises/LeapYear.md) | [LeapYear.java](./exercises/LeapYear.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.LeapYearTest"` |
 | **Tier 3** | ✪✪✪ | Gift Tax | Stepped tax bracket calculation | [GiftTax.md](./exercises/GiftTax.md) | [GiftTax.java](./exercises/GiftTax.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.GiftTaxTest"` |
 
 ---
 
-## Advanced Practice Drills
+## Applied Logic & Problem Solving
 
-Ready to test your logic on real-world edge cases and progressive overload challenges?
+Ready to apply your conditional logic to real-world problem solving, boundary checks, and algorithmic patterns?
 
-👉 **Next Step:** Continue to [6.5 Logic, Math & Conditional Drills](./exercises/drills/6.5-logic-drills.md) for 25 targeted drill exercises covering guard clauses, the waterfall pattern, interval collisions, and modular clock arithmetic.
+Continue to [6.5 Applied Logic & Problem Solving](./logic/6.5-applied-logic.md) for 25 applied exercises covering guard clauses, tiered rate calculations, overlapping ranges, and clock cycles.
 
 ---
 
@@ -395,5 +388,4 @@ Ready to test your logic on real-world edge cases and progressive overload chall
 
 - **Control Flow Statements (The if-then and if-then-else Statements):** [Oracle Java Tutorials](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html)
 - **Equality, Relational, and Conditional Operators:** [Oracle Java Tutorials](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/op2.html)
-- **String Class (`equals`):** [Oracle Java SE Documentation](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html#equals(java.lang.Object))
-
+- **String Class (`equals`):** [Oracle Java SE Documentation](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html#equals(java.lang.Object))\n

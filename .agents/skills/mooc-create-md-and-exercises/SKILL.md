@@ -18,7 +18,7 @@ graph TD
     A[1. Scaffold Exercises & Tests] --> B[2. Author/Refactor Conceptual Guide]
     B --> C[3. Run /no-ai-slop Audit]
     C --> D[4. Calibrate Star Ratings 1-3 Stars]
-    D --> E[5. Structure Progressive Walkthroughs & Drills]
+    D --> E[5. Structure Progressive Examples & Exercises]
     E --> F[6. Verify Build & Roadmap]
 ```
 
@@ -38,20 +38,20 @@ partXX/sYY<name>/
     └── <ExerciseName>.md
 ```
 
-For progressive overload drill modules (e.g. Section 1.6.5):
+For applied logic and problem-solving modules (such as Section 1.6.5):
 ```text
 partXX/sYY<name>/
 ├── <n>-<name>.md
 ├── exercises/                  <-- Standard MOOC exercises
-└── drills/
-    ├── <n.5>-logic-drills.md   <-- Drills guide
-    └── exercises/              <-- Package: partXX.sYY<name>.drills.exercises
-        ├── <DrillName>.java
-        └── <DrillName>.md
+└── logic/
+    ├── <n.5>-applied-logic.md  <-- Applied logic guide
+    └── exercises/              <-- Package: partXX.sYY<name>.logic.exercises
+        ├── <ExerciseName>.java
+        └── <ExerciseName>.md
 ```
 
 #### A. Create the Exercise Specification (`<ExerciseName>.md`)
-Location: `src/main/java/partXX/sYY<name>/exercises/<ExerciseName>.md` (or `.../drills/exercises/...`)
+Location: `src/main/java/partXX/sYY<name>/exercises/<ExerciseName>.md` (or `.../logic/exercises/...`)
 
 Include:
 - Top-right difficulty badge:
@@ -100,20 +100,22 @@ Audit every markdown file (specs and guides) before publishing:
 
 - **Cut banned words:** `delve`, `foster`, `leverage`, `utilize`, `streamline`, `robust`, `crucial`, `paramount`, `dive in`, `tapestry`, `testament`.
 - **Drop dramatic labels:** Replace melodrama like "The Trap", "The Instinctive Trap", and "Literal Negation" with technical descriptions (`Wrap with !`, `Keep && (Broken)`, `Single Guard Clause`).
-- **Remove obscure jargon:** Do not write "runs valid block". Name the exact behavior: "Evaluates to false; prints 'Invalid score'".
-- **Cut throat-clearing and binary contrasts:** Drop "In this section, we will explore..." and "This is not X. It's Y." State the point directly in active voice with concrete code.
+- **Remove obscure academic jargon:** Avoid abstract terms like "parity testing", "multi-branch classification", "1D interval collision detection", and formal logic symbols ($\\neg, \\land, \\lor$). Name the exact programming behavior in plain terms: "checking even or odd with remainder operator (`% 2 == 0`)", "checking if two number ranges overlap", and boolean operators (`!`, `&&`, `||`).
+- **Explain KEY terminology:** Ground every key term right where it is introduced using Helsinki MOOC mental models (containers for variables, memory addresses vs character values for strings).
+- **Include modern Java advice:** Add practical `> [!TIP]` callouts for modern Java features (Java 11 single-file launch, Java 15 text blocks, Java 10 `var`, Java 14 switch expressions) while explaining why fundamentals come first.
+- **Cut throat-clearing and binary contrasts:** Drop generic setup phrases. State the point directly in active voice with concrete code.
 
 ---
 
 ### 3. Calibrate Star Ratings (1–7 Scale, Capped at 3 Stars)
 
-Calibrate exercises between 1 and 3 stars on a universal 7-star scale (where 6–7 stars represent LeetCode Hard problems):
+Calibrate exercises between 1 and 3 stars on a universal 7-star scale (where 6–7 stars represent complex algorithmic challenges):
 
 | Rating | Tier Name | Criteria & Cognitive Demands | Examples |
 | :--- | :--- | :--- | :--- |
 | **✪ (1/7)** | **Basic Mechanics** | Single sequential flow; no branching or single trivial `if`; direct string literals or single print/read operations. | `AdaLovelace`, `Greeting`, `Positivity`, `Password` |
-| **✪✪ (2/7)** | **Elementary Branching & Types** | 2-boundary range checks (`[min, max]`), multi-branch `if-else if-else`, type conversion/casting in division, basic modulo checks (`% 2 == 0`). | `OddOrEven`, `ValidScore`, `TemperatureAlert`, `WorkingHours` |
-| **✪✪✪ (3/7)** | **Multi-Variable & Compound Logic** | Compound logic with 3+ variables, interval overlap, stepped waterfall calculations, 24-hr clock math, leap-year rules, state matrices. | `ValidTriangle`, `LeapYear`, `GiftTax`, `MiddleOfThree`, `RangeOverlap` |
+| **✪✪ (2/7)** | **Elementary Branching & Types** | 2-boundary range checks (`[min, max]`), multi-branch `if-else if-else`, type conversion/casting in division, remainder check (`% 2 == 0`). | `OddOrEven`, `ValidScore`, `TemperatureAlert`, `WorkingHours` |
+| **✪✪✪ (3/7)** | **Multi-Variable & Compound Logic** | Compound logic with 3+ variables, interval overlap, stepped rate calculations, 24-hr clock math, leap-year rules. | `ValidTriangle`, `LeapYear`, `GiftTax`, `MiddleOfThree`, `RangeOverlap` |
 
 **Rules:**
 - Every exercise file must include both the top-right HTML badge `<div align="right"><b>Difficulty:</b> ✪...</div>` and the metadata line `**Difficulty:** ✪...`.
@@ -121,33 +123,30 @@ Calibrate exercises between 1 and 3 stars on a universal 7-star scale (where 6�
 
 ---
 
-### 4. Structure Conceptual Guides (`<n>-<name>.md`)
+## 4. Structure Conceptual Guides (`<n>-<name>.md`)
 
-Place exercises directly below the concept they practice, then group extra drills at the end.
+Place exercises directly below the concept they practice, then group extra applied exercises at the end.
 
-#### A. Three Progressive Worked Examples Per Topic
+### A. Three Progressive Worked Examples Per Topic
 For each core concept, provide 3 progressive examples:
-1. **Example 1 (Basic / ✪):** Single-concept demonstration $\rightarrow$ follow immediately with **Practice Drills (✪ 1/7)** linking 2–3 one-star exercises.
-2. **Example 2 (Medium / ✪✪):** Two-boundary range check or linear classification $\rightarrow$ follow immediately with **Practice Drills (✪✪ 2/7)** linking 2–4 two-star exercises.
-3. **Example 3 (Harder / ✪✪✪):** Compound constraint, waterfall rate, interval math, or cycle $\rightarrow$ follow immediately with **Practice Drills (✪✪✪ 3/7)** linking 2–3 three-star exercises.
+1. **Example 1 (Basic / ✪):** Single-concept demonstration -> follow immediately with **Practice (✪ 1/7)** linking one-star exercises.
+2. **Example 2 (Medium / ✪✪):** Two-boundary range check or linear classification -> follow immediately with **Practice (✪✪ 2/7)** linking two-star exercises.
+3. **Example 3 (Harder / ✪✪✪):** Compound constraint, tiered rate, range overlap, or cycle -> follow immediately with **Practice (✪✪✪ 3/7)** linking three-star exercises.
 
-#### B. Common Pitfalls
-Explain specific code errors after the examples (out-of-order branches, flipped logic operators, flat-rate waterfall traps, integer division truncation).
+### B. Common Pitfalls
+Explain specific code errors after the examples (out-of-order branches, flipped logic operators, flat-rate calculation traps, integer division truncation).
 
-#### C. Additional Practice Drills
-Add an extra drills section grouped by tier (✪, ✪✪, ✪✪✪) for more repetitions across other domains.
-
-#### D. Complete Drills Roadmap Index
-End the guide with a table listing all drills in the section:
+### C. Complete Section Roadmap Index
+End the guide with a table listing all exercises in the section:
 ```markdown
-## Complete Drills Roadmap
+## Complete Section Exercises Roadmap
 
-| Tier | Difficulty | Drill | Core Concept | Spec | Starter Code | Verification Command |
+| Tier | Difficulty | Exercise | Core Concept | Spec | Starter Code | Verification Command |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1** | ✪✪ | Valid Score | Numeric bounds, guard clause | [ValidScore.md](./ValidScore.md) | [ValidScore.java](./ValidScore.java) | `./gradlew test --tests "..."` |
+| **Tier 1** | ✪ | Sandbox | Java program structure, compilation | [Sandbox.md](./exercises/Sandbox.md) | [Sandbox.java](./exercises/Sandbox.java) | `./gradlew test --tests "..."` |
 ```
 
-#### E. Official Documentation
+### D. Official Documentation
 Link to official Oracle Java Tutorials and Javadoc at the bottom.
 
 ---
