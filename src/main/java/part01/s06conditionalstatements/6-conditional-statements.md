@@ -107,8 +107,14 @@ Because `==` compares only what is stored inside the variable box on the stack, 
 To check the characters inside the text, use `.equals()`. It follows the address over to the heap and checks each letter.
 
 > [!NOTE]
-> **Curious to learn more? (Optional Reading)**
-> Check out [Baeldung: Stack Memory and Heap Space in Java](https://www.baeldung.com/java-stack-heap-memory) if you want to explore how Java organizes memory behind the scenes.
+> **A Simple Analogy: Sticky Notes and the Warehouse**
+> Think of the **stack** as sticky notes on your desk. For a number like `int count = 5;`, the number `5` is written directly on the note.
+>
+> A `String` can be much larger, like a book. Java stores the actual text in a giant warehouse called the **heap**. Your sticky note on the stack only holds the shelf code telling Java where that book sits.
+>
+> When you compare strings with `==`, Java only compares what is written on the sticky notes (the shelf codes). Even if two books contain the exact same words, they sit on different shelves, so `==` gives `false`. The `.equals()` method walks over to the shelves and reads the actual words to see if they match.
+>
+> Memory architecture is a complex topic, so this model is purposefully simplified to avoid confusing or overwhelming you right now. We will explore objects and references in depth later in Part 4. If you are curious to read ahead, check out [Baeldung: Stack Memory and Heap Space in Java](https://www.baeldung.com/java-stack-heap-memory).
 
 ### Example 2: Verifying Text Equality
 
