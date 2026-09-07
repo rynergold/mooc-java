@@ -46,7 +46,7 @@ public class Echo {
 
 ---
 
-## 2. Progressive Input Techniques
+## 2. Reading and Combining Input
 
 ### Example 1: Reading and Reusing Input
 

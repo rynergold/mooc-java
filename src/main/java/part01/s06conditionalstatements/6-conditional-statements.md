@@ -62,7 +62,32 @@ if (passCredits > 0) {
 
 The `if` and `else` blocks are mutually exclusive. Exactly one branch executes.
 
-### Comparing Strings: `.equals()` vs. `==`
+### Example 1: Numeric Threshold Checks
+
+Testing a numeric sensor threshold and validating capacity limits:
+
+```java
+int stockCount = 150;
+
+if (stockCount > 100) {
+    System.out.println("Storage is near capacity.");
+} else {
+    System.out.println("Storage capacity is optimal.");
+}
+```
+
+#### Practice (✪ 1/7)
+
+- **✪** [SpeedingTicket.md](./exercises/SpeedingTicket.md) / [SpeedingTicket.java](./exercises/SpeedingTicket.java) — Numeric threshold check (`> 120`)
+- **✪** [CheckYourIndentation.md](./exercises/CheckYourIndentation.md) / [CheckYourIndentation.java](./exercises/CheckYourIndentation.java) — Code block formatting and 4-space indentation
+- **✪** [Orwell.md](./exercises/Orwell.md) / [Orwell.java](./exercises/Orwell.java) — Strict integer equality (`== 1984`)
+- **✪** [Ancient.md](./exercises/Ancient.md) / [Ancient.java](./exercises/Ancient.java) — Strict numeric comparison (`< 2015`)
+- **✪** [Positivity.md](./exercises/Positivity.md) / [Positivity.java](./exercises/Positivity.java) — Positive vs non-positive binary branch (`> 0`)
+- **✪** [Adulthood.md](./exercises/Adulthood.md) / [Adulthood.java](./exercises/Adulthood.java) — Age threshold branch (`>= 18`)
+
+---
+
+## 2. Comparing Strings: `.equals()` vs. `==`
 
 Variables for primitive types (`int`, `double`, `boolean`) hold values directly in their memory containers. The `==` operator compares the contents of those containers.
 
@@ -76,6 +101,10 @@ Stack                           Heap
 
 - `==` compares the memory addresses. Two strings created separately have different memory addresses, so `input == passkey` evaluates to `false` even if the words are identical.
 - `.equals()` looks inside the memory addresses and compares the actual sequence of characters.
+
+### Example 2: Verifying Text Equality
+
+Reading a user status code and comparing it using `.equals()`:
 
 ```java
 Scanner scanner = new Scanner(System.in);
@@ -95,45 +124,14 @@ if (status.equals("ACTIVE")) {
 
 Always use `.equals()` when comparing text.
 
----
-
-## 2. Progressive Practice: Foundation
-
-### Example 1: Threshold and String Verification
-
-Testing a numeric threshold and checking an exact code:
-
-```java
-int stockCount = 150;
-String departmentCode = "ENG-42";
-
-if (stockCount > 100) {
-    System.out.println("Storage is near capacity.");
-}
-
-if (departmentCode.equals("ENG-42")) {
-    System.out.println("Access granted to technical wing.");
-} else {
-    System.out.println("Visitor pass required.");
-}
-```
-
 #### Practice (✪ 1/7)
 
-- **✪** [SpeedingTicket.md](./exercises/SpeedingTicket.md) / [SpeedingTicket.java](./exercises/SpeedingTicket.java) — Numeric threshold check (`> 120`)
-- **✪** [CheckYourIndentation.md](./exercises/CheckYourIndentation.md) / [CheckYourIndentation.java](./exercises/CheckYourIndentation.java) — Code block formatting and 4-space indentation
-- **✪** [Orwell.md](./exercises/Orwell.md) / [Orwell.java](./exercises/Orwell.java) — Exact integer equality (`== 1984`)
-- **✪** [Ancient.md](./exercises/Ancient.md) / [Ancient.java](./exercises/Ancient.java) — Strict numeric comparison (`< 2015`)
-- **✪** [Positivity.md](./exercises/Positivity.md) / [Positivity.java](./exercises/Positivity.java) — Positive vs non-positive binary branch (`> 0`)
-- **✪** [Adulthood.md](./exercises/Adulthood.md) / [Adulthood.java](./exercises/Adulthood.java) — Age threshold branch (`>= 18`)
 - **✪** [Password.md](./exercises/Password.md) / [Password.java](./exercises/Password.java) — Checking text equality with `.equals()`
 - **✪** [Same.md](./exercises/Same.md) / [Same.java](./exercises/Same.java) — Comparing two user strings with `.equals()`
 
 ---
 
-## 3. Multiple Conditions, Remainder & Logical Operators
-
-### Checking Multiple Conditions with `else if`
+## 3. Multiple Conditions with `else if`
 
 When choosing among more than two alternatives, chain conditions using `else if`:
 
@@ -161,11 +159,47 @@ Java evaluates chained conditions from top to bottom. Execution enters the **fir
 >     default -> "Other day";
 > };
 > ```
-> For range checks (like `temp <= 0`) or compound conditions, `if-else if` chains remain the standard tool.
+> For range checks (like `waterTemperature <= 0`) or compound conditions, `if-else if` chains remain the standard tool.
 
-### The Remainder Operator (`%`)
+### Example 3: Tiered Range Classification
+
+Categorizing wind speed according to weather thresholds:
+
+```java
+int windSpeedKmh = 35;
+
+if (windSpeedKmh < 0) {
+    System.out.println("Invalid sensor reading.");
+} else if (windSpeedKmh <= 20) {
+    System.out.println("Light breeze");
+} else if (windSpeedKmh <= 60) {
+    System.out.println("Moderate wind");
+} else {
+    System.out.println("Gale force winds");
+}
+```
+
+#### Evaluation Order Trace Table
+
+| Input `windSpeedKmh` | `< 0` | `<= 20` | `<= 60` | Branch Executed | Output |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `-5` | `true` | — (skipped) | — (skipped) | 1st branch (`if`) | `"Invalid sensor reading."` |
+| `15` | `false` | `true` | — (skipped) | 2nd branch (`else if`) | `"Light breeze"` |
+| `35` | `false` | `false` | `true` | 3rd branch (`else if`) | `"Moderate wind"` |
+| `75` | `false` | `false` | `false` | 4th branch (`else`) | `"Gale force winds"` |
+
+#### Practice (✪✪ 2/7)
+
+- **✪✪** [LargerThanOrEqualTo.md](./exercises/LargerThanOrEqualTo.md) / [LargerThanOrEqualTo.java](./exercises/LargerThanOrEqualTo.java) — Compare two integers with equality tie handling
+- **✪✪** [GradesAndPoints.md](./exercises/GradesAndPoints.md) / [GradesAndPoints.java](./exercises/GradesAndPoints.java) — Multi-branch `else if` grading scale
+
+---
+
+## 4. The Remainder Operator (`%`)
 
 The `%` operator computes the integer remainder left over after division. It is used to test divisibility: a number $n$ divides evenly by $d$ if `n % d == 0`.
+
+### Example 4: Testing Divisibility
 
 Checking if items can be packaged into full boxes of 6:
 
@@ -180,7 +214,13 @@ if (items % 6 == 0) {
 }
 ```
 
-### Logical Operators
+#### Practice (✪✪ 2/7)
+
+- **✪✪** [OddOrEven.md](./exercises/OddOrEven.md) / [OddOrEven.java](./exercises/OddOrEven.java) — Remainder even/odd check (`% 2 == 0`)
+
+---
+
+## 5. Logical Operators & Short-Circuit Evaluation
 
 Logical operators combine or invert boolean expressions:
 
@@ -220,47 +260,13 @@ if (count != 0 && total / count > 5) {
 
 Because `count != 0` is `false`, Java never evaluates `total / count > 5`, avoiding an `ArithmeticException`.
 
----
-
-## 4. Progressive Practice: Intermediate
-
-### Example 2: Range Classification and Multiple Branches
-
-Categorizing wind speed according to weather thresholds:
-
-```java
-int windSpeedKmh = 35;
-
-if (windSpeedKmh < 0) {
-    System.out.println("Invalid sensor reading.");
-} else if (windSpeedKmh <= 20) {
-    System.out.println("Light breeze");
-} else if (windSpeedKmh <= 60) {
-    System.out.println("Moderate wind");
-} else {
-    System.out.println("Gale force winds");
-}
-```
-
-#### Evaluation Order Trace Table
-
-| Input `windSpeedKmh` | `< 0` | `<= 20` | `<= 60` | Branch Executed | Output |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `-5` | `true` | — (skipped) | — (skipped) | 1st branch (`if`) | `"Invalid sensor reading."` |
-| `15` | `false` | `true` | — (skipped) | 2nd branch (`else if`) | `"Light breeze"` |
-| `35` | `false` | `false` | `true` | 3rd branch (`else if`) | `"Moderate wind"` |
-| `75` | `false` | `false` | `false` | 4th branch (`else`) | `"Gale force winds"` |
-
 #### Practice (✪✪ 2/7)
 
-- **✪✪** [LargerThanOrEqualTo.md](./exercises/LargerThanOrEqualTo.md) / [LargerThanOrEqualTo.java](./exercises/LargerThanOrEqualTo.java) — Compare two integers with equality tie handling
-- **✪✪** [GradesAndPoints.md](./exercises/GradesAndPoints.md) / [GradesAndPoints.java](./exercises/GradesAndPoints.java) — Multi-branch `else if` grading scale
-- **✪✪** [OddOrEven.md](./exercises/OddOrEven.md) / [OddOrEven.java](./exercises/OddOrEven.java) — Remainder even/odd check (`% 2 == 0`)
 - **✪✪** [CheckingTheAge.md](./exercises/CheckingTheAge.md) / [CheckingTheAge.java](./exercises/CheckingTheAge.java) — Range validation with logical `&&`
 
 ---
 
-## 5. Branch Ordering & Unreachable Code
+## 6. Branch Ordering & Hierarchical Rules
 
 When multiple conditions can match an input, order your branches from **most specific to least specific**.
 
@@ -299,11 +305,7 @@ if (number % 3 == 0 && number % 5 == 0) {
 }
 ```
 
----
-
-## 6. Progressive Practice: Complex Combinations
-
-### Example 3: Hierarchical Rule Ordering
+### Example 5: Hierarchical Safety Regulations
 
 Theme park safety regulations depend on height and adult supervision:
 - Guests $140$ cm or taller can ride solo.

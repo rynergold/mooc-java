@@ -47,7 +47,7 @@ int withoutParens = 1 + 1 + 3 * 2 + 5;   // 1 + 1 + 6 + 5 = 13
 
 ---
 
-## 2. Progressive Calculation Techniques
+## 2. Performing Calculations in Code
 
 ### Example 1: Basic Arithmetic Chains
 

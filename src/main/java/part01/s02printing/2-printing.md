@@ -37,7 +37,7 @@ Welcome to Java programming!
 
 ---
 
-## 2. Progressive Printing Techniques
+## 2. Multi-Line Printing & Formatting
 
 ### Example 1: Single-Line Printing
 

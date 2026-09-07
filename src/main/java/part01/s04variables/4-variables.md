@@ -52,7 +52,7 @@ String flightCode = "AY101";
 
 ---
 
-## 2. Progressive Variable Techniques
+## 2. Working with Variables and Types
 
 ### Example 1: Declaring, Reassigning, and Displaying Types
 
