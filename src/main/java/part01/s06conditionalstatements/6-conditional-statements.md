@@ -99,8 +99,14 @@ Stack                           Heap
 [ passkey ] ---> (0x80F2) ---> "secret"
 ```
 
-- `==` compares the memory addresses. Two strings created separately have different memory addresses, so `input == passkey` evaluates to `false` even if the words are identical.
-- `.equals()` looks inside the memory addresses and compares the actual sequence of characters.
+- **Stack:** Fast, temporary memory that tracks currently active variables. For an object like a `String`, the stack only holds its memory address (reference).
+- **Heap:** The shared memory pool where the actual contents of objects (such as the characters of text) live.
+- `==` compares the memory addresses stored on the stack. Two strings created separately reside at different addresses on the heap, so `input == passkey` evaluates to `false` even if the words are identical.
+- `.equals()` follows the address over to the heap and compares the actual sequence of characters.
+
+> [!NOTE]
+> **Curious about Stack vs. Heap? (Optional Reading)**
+> For this section, you only need to know that primitive variables hold their values directly, while objects live on the heap and are referenced by memory addresses. If you want to explore further, see [Baeldung: Stack Memory and Heap Space in Java](https://www.baeldung.com/java-stack-heap-memory).
 
 ### Example 2: Verifying Text Equality
 
