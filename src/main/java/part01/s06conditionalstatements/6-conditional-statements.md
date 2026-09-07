@@ -107,14 +107,19 @@ Because `==` compares only what is stored inside the variable box on the stack, 
 To check the characters inside the text, use `.equals()`. It follows the address over to the heap and checks each letter.
 
 > [!NOTE]
-> **A Simple Analogy: Sticky Notes and the Warehouse**
-> Think of the **stack** as sticky notes on your desk. For a number like `int count = 5;`, the number `5` is written directly on the note.
+> **What Are the Stack and Heap Physically?**
+> Physically, neither the stack nor the heap is a separate chip or part of the CPU. Both exist in your computer's main memory (**RAM**). When your program runs, the JVM reserves a block of RAM and organizes it into dedicated zones:
+> - **The Stack (in RAM):** A fast, strictly ordered region of RAM that holds active local variables. It functions like a physical stack of plates: variables are added when a method starts and removed immediately when it finishes. The CPU tracks the top of this stack using a dedicated internal register (the stack pointer), making access fast.
+> - **The Heap (in RAM):** A large, flexible pool of RAM where objects (like text strings) live dynamically for as long as your program needs them.
 >
-> A `String` can be much larger, like a book. Java stores the actual text in a giant warehouse called the **heap**. Your sticky note on the stack only holds the shelf code telling Java where that book sits.
+> **The Sticky Note and Warehouse Analogy:**
+> Think of your variable on the **stack** as a sticky note on your desk. For a number like `int count = 5;`, the number `5` is written directly on the note.
+>
+> A `String` can be much larger, like a book. Java keeps the actual text in the warehouse (the **heap**). Your sticky note on the stack only holds the shelf code telling Java where that book sits.
 >
 > When you compare strings with `==`, Java only compares what is written on the sticky notes (the shelf codes). Even if two books contain the exact same words, they sit on different shelves, so `==` gives `false`. The `.equals()` method walks over to the shelves and reads the actual words to see if they match.
 >
-> Memory architecture is a complex topic, so this model is purposefully simplified to avoid confusing or overwhelming you right now. We will explore objects and references in depth later in Part 4. If you are curious to read ahead, check out [Baeldung: Stack Memory and Heap Space in Java](https://www.baeldung.com/java-stack-heap-memory).
+> Memory architecture is a deep topic, so this model is purposefully simplified to provide intuition without overwhelming you with low-level details. We will explore objects and references in depth in Part 4. If you want to explore further, check out [Baeldung: Stack Memory and Heap Space in Java](https://www.baeldung.com/java-stack-heap-memory).
 
 ### Example 2: Verifying Text Equality
 
