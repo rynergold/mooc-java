@@ -1,11 +1,23 @@
+# IDE and editor files
 .idea/
 *.iml
+.vscode/
+
+# Build and runtime outputs
 out/
 target/
-.DS_Store
-*.class
 .gradle/
 build/
 bin/
+*.class
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Scripts and scratch tooling
+*.py
 *.pyc
 __pycache__/
+*.sh
+
