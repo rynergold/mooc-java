@@ -111,9 +111,9 @@ To check the characters inside the text, use `.equals()`. It follows the address
 > If terms like "stack" and "heap" sound unfamiliar, do not worry. Computer memory architecture is a deep topic, and understanding its low-level mechanics is not required to write good Java code or complete this course. We will explore objects and references in depth when we reach Part 4.
 >
 > If you are curious about what happens behind the scenes:
-> Both the stack and the heap live in your computer's main memory (**RAM**). When your Java program runs, the Java Virtual Machine organizes RAM into dedicated zones:
-> - **The Stack (in RAM):** A fast, temporary workspace that holds active variables while code runs.
-> - **The Heap (in RAM):** A flexible storage pool where objects—like text strings—live for as long as your program needs them.
+> Both the stack and the heap live in your computer's main memory (**RAM**, or Random Access Memory—the physical memory sticks installed on your motherboard used for fast short-term storage while apps run, unlike a hard drive or SSD that saves files permanently). When your Java program runs, the Java Virtual Machine organizes RAM into dedicated zones:
+> - **The Stack:** Named after a physical stack of cafeteria trays or plates: new items go on top, and you take them off the top first (last-in, first-out). It serves as a fast, temporary workspace holding active local variables while code runs.
+> - **The Heap:** Named after an everyday "heap" or pile of items: things can be stored and retrieved in any order without a rigid lineup. It serves as a flexible storage pool where objects—like text strings—live for as long as your program needs them.
 >
 > **The Sticky Note and Warehouse Analogy:**
 > Think of your variable on the **stack** as a sticky note on your desk. For a primitive number like `int count = 5;`, the value `5` is written directly on the note.
