@@ -7,252 +7,182 @@ hidden: false
 > [!NOTE]
 > **Learning Objectives**
 >
-> - Learn to write a program that prints text.
-> 
-> - Become familiar with executing programs.
-> 
-> - Know what the term "parameter" means.
+> - Print text to standard output using `System.out.println()`.
+> - Control sequential output across multiple lines.
+> - Distinguish `System.out.println()` from `System.out.print()`.
+> - Use single-line (`//`) and multi-line (`/* ... */`) comments to document code.
+> - Match exact text output including whitespace and capitalization.
 
-The print command `System.out.println("Hello world");` prints the text "Hello world".
+---
+
+## 1. Printing Text to the Console
+
+The `System.out.println()` statement prints text to the console, followed by a newline:
 
 ```java
 System.out.println("Hello world!");
 ```
 
-**Sample Output**
+Output:
 ```text
 Hello world!
 ```
 
-In this material, text boxes like the one above show the output of the preceding code examples. Accordingly, the above program would produce the print output "Hello world!". You can test these examples yourself using the "Sandbox" exercise template in your IDE.
+### Components of the Print Statement
+- **`System.out`**: The standard output stream representing the terminal console.
+- **`.println(...)`**: The method that writes characters to the stream and moves the cursor to the beginning of the next line.
+- **`"Hello world!"`**: The **argument** (a string literal) passed into the method. String literals must be wrapped in double quotes.
 
-You can print any text you want by replacing the text inside the quotes. Just ensure the surrounding syntax—`System.out.println("` and `");`—remains unchanged. The command below will print the text "Hello there!".
+---
 
-```java
-System.out.println("Hello there!");
-```
+## 2. Progressive Printing Techniques
 
-**Sample Output**
-```text
-Hello there!
-```
+### Example 1: Single-Line Printing
 
-## Program Boilerplate
-
-In Java, programs require some boilerplate code to function. For instance, the boilerplate shown below tells the computer the name of your program. Below, the name of the program is `Example`. This name has to correspond to the name of the file that contains the source code (e.g. `Example.java`).
+In Java, all executable statements must be placed inside the `main` method of a class:
 
 ```java
-public class Example {
-    public static void main(String[] args) {
+package part01.s02printing;
 
-        System.out.println("Text to be printed");
-
-    }
-}
-```
-
-Execution of the program starts from the line that follows `public static void main(String[] args) {`, and ends at the closing curly bracket `}`. Commands are executed one line at a time. We'll learn what the terms `public class` and `public static void` mean later on. In the above example, `System.out.println("Text to be printed")` is the only command to be executed. Its output is:
-
-**Sample Output**
-```text
-Text to be printed
-```
-
-> [!NOTE]
-> **Examples in the Material and Code Templates**
->
-> The examples in the material will not always show the template, but you can assume that your program file always needs one. As such, the examples might be as short as a single line, such as the example below that illustrates the print command.
-> 
-> ```java
-> System.out.println("Hello world");
-> ```
-> 
-> A full Java program looks like this:
-> 
-> ```java
-> public class Example {
->     public static void main(String[] args) {
->         // Here goes the statements used by the program
->         System.out.println("Hello world!");
->     }
-> }
-> ```
-
-Here's the second programming exercise of this course. If you'd like, you can watch this video on how to solve the exercise first:
-
-[Watch on YouTube](https://www.youtube.com/watch?v=-DzOKI6iH5w)
-
-### Programming Exercise: Ada Lovelace
-
-The exercise template has the following boilerplate code:
-
-```java
 public class AdaLovelace {
     public static void main(String[] args) {
-        // Write your program here
-
+        System.out.println("Ada Lovelace");
     }
 }
 ```
 
-The line "// Write your program here" is a _line comment_, and the computer will ignore it when executing the program. Add a new line below the line comment that prints the string "Ada Lovelace" and run the program. The output of the program should be:
-
-**Sample Output**
+Output:
 ```text
 Ada Lovelace
 ```
 
-Once you've finished the exercise and see that it prints the correct string, you can move on to the next task. After that, you can read more about [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace), who was one of the first programmers.
+#### Practice (✪ 1/7)
 
-> [!NOTE]
-> **Running the Program**
->
-> You can run a program in your IDE by pressing the run or play button, typically found near your code or in the top menu.
-> 
-> When a program is run, the source code is first compiled into Java bytecode. This compilation process is done by Java's compiler, which itself is a program. Following that, the program gets executed, meaning the interpreter executes commands one-by-one by reading the Java bytecode.
-> 
-> This compile process affects how and when errors occur. When a program is compiled before execution, the compiler can search for errors in it. This also affects the hints provided by the IDE, and in this way, the programmer can receive immediate feedback on any errors.
-> 
-> The IDE both compiles and executes the program with just one press of a button. However, the programming environment compiles the program continuously, so it can report errors. You can, for example, try to change above Ada Lovelace exercise print command to `Systemoutprintln("hi!")` -- what you'll notice is that the line will be underlined and you'll be notified of an error on the left-hand side.
+- **✪** [AdaLovelace.md](./exercises/AdaLovelace.md) / [AdaLovelace.java](./exercises/AdaLovelace.java) — Single-line string output
 
-## Printing Multiple Lines
+---
 
-Programs are constructed command-by-command, where each command is placed on a new line. In the example below, the command `System.out.println` appears twice, which means that two print commands are being executed in the program.
+### Example 2: Sequential Multi-Line Execution
+
+Java executes statements sequentially from top to bottom. Calling `System.out.println()` multiple times prints each string on a separate line:
 
 ```java
-public class Ohjelma {
+public class MultiLine {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println("... and the universe!");
+        System.out.println("Once upon a time");
+        System.out.println("there was");
+        System.out.println("a program");
     }
 }
 ```
 
-The program above will print:
-
-**Sample Output**
-```text
-Hello world!
-... and the universe!
-```
-
-> [!NOTE]
-> **Exact Inspector**
->
-> The automated tests are meticulous. The guidelines in the assignments regarding the print format are very precise. If the assignment expects you to print a parenthesis, you must print the parenthesis.
-> 
-> This precision matters everywhere in programming. Missing a single character may cause an error. Novice programmers often enter a comma instead of a dot, and write, for instance `printin` instead of `println`, leave out apostrophes, or forget the semicolon after a command. Any one of these would cause an error and cause the program execution to fail.
-> 
-> Learning programming is, in fact, a path full of mistakes -- and every error message is a chance to learn. Keep a lookout for any red signs in the IDE and try to read the test errors!
-
-### Programming Exercise: Once Upon a Time
-
-The exercise template comes with the following template:
-
-```java
-public class OnceUponATime {
-    public static void main(String[] args) {
-        // Write your program here
-
-    }
-}
-```
-
-Modify the program so that it will print the following text. Use three `System.out.println`-commands for printing.
-
-**Sample Output**
+Output:
 ```text
 Once upon a time
 there was
 a program
 ```
 
-> [!NOTE]
-> **"sout"**
->
-> Writing the command `System.out.println("...")` can be taxing. In your IDE (like IntelliJ or VS Code), try to write **sout** on a blank line (within main) and press Enter or Tab. What happens? This shortcut may save you a lot of time in the future.
-> 
-> The animation below illustrates the use of the sout command. The user first writes sout and then presses tab. Magic!
-> 
-> ![](../img/part1.2-sout.gif)
+> [!TIP]
+> **IDE Shortcut:** In IntelliJ and VS Code, type `sout` on an empty line inside `main` and press <kbd>Tab</kbd> or <kbd>Enter</kbd> to generate `System.out.println("");` instantly.
 
-### Programming Exercise: Dinosaur
+#### Practice (✪ 1/7)
 
-The exercise comes ready with the following template:
+- **✪** [OnceUponATime.md](./exercises/OnceUponATime.md) / [OnceUponATime.java](./exercises/OnceUponATime.java) — Multi-line sequential printing
+- **✪** [Dinosaur.md](./exercises/Dinosaur.md) / [Dinosaur.java](./exercises/Dinosaur.java) — Multi-line text using `sout`
+
+---
+
+### Example 3: ASCII Art and Whitespace Alignment
+
+Precise character placement allows you to draw shapes in the console using spaces and characters:
 
 ```java
-public class Dinosaur {
+public class Arrow {
     public static void main(String[] args) {
-        // Write your program here
+        System.out.println("  *  ");
+        System.out.println(" *** ");
+        System.out.println("*****");
     }
 }
 ```
 
-Edit the program so that it will print the following text. Use the "sout"-shorthand for writing the print commands.
-
-**Sample Output**
+Output:
 ```text
-Once upon a time
-there was
-a dinosaur
+  *  
+ *** 
+*****
 ```
 
-## Terminology and Code Comments
+Leading spaces inside quotation marks are preserved literally by the console.
 
-### Command parameters
+#### Practice (✪ 1/7)
 
-Pass the information to print—the **parameters**—inside the parentheses `()` that follow the command. For example, passing `Hi` as a parameter to the `System.out.println` command is done like this: `System.out.println("Hi")`.
+- **✪** [TriangleDrill.md](./exercises/TriangleDrill.md) / [TriangleDrill.java](./exercises/TriangleDrill.java) — Character alignment and ASCII rendering
 
-### Semicolon Separates Commands
+---
 
-Commands are separated with a semicolon `;`. We could, if we wanted to, write almost everything on a single line. However, that would be difficult to understand.
+## 3. `println` vs. `print`
+
+Java provides two primary methods on `System.out`:
+
+- **`System.out.println()`**: Prints the argument and appends a newline character (`\n`). Subsequent output starts on the next line.
+- **`System.out.print()`**: Prints the argument without appending a newline. Subsequent output continues on the same line.
 
 ```java
-System.out.println("Hello "); System.out.println("world"); System.out.println("!\n");
+System.out.print("Hello ");
+System.out.println("World");
+// Output: Hello World
 ```
 
-**Sample Output**
-```text
-Hello
-world
-!
-```
+---
 
-Although the previous example works, it's important to be considerate of other programmers (and your future self!) and to use line breaks. That way, anyone reading the program knows that each line does only a single concrete thing.
+## 4. Code Comments
 
-### Comments
+Comments let you write explanatory notes that the Java compiler ignores during execution:
 
-Source code can be commented to clarify it or to add notes. There are two ways to do this.
-
-- Single-line comments are marked with two slashes `//`. Everything following them on the same line is interpreted as a comment.
-
-- Multi-line comments are marked with a slash and an asterisk `/*`, and closed with an asterisk followed by a slash `*/`. Everything between them is interpreted as a comment.
-
-Below is an example of a program where both are used.
+- **Single-Line Comments (`//`)**: Everything from `//` to the end of that line is ignored.
+- **Multi-Line Comments (`/* ... */`)**: Everything between `/*` and `*/` is ignored, across multiple lines.
 
 ```java
-public class Comments {
+public class CommentsExample {
     public static void main(String[] args) {
-        // Printing
-        System.out.println("Text to print");
-        System.out.println("More text to print!");
-        /* Next:
-        - more on printing
-        - more practice
-        - variables
-        - ...
-        */
-        System.out.println("Some other text to print");
-        // System.out.println("Trying stuff out")
+        // This is a single-line comment
+        System.out.println("Visible text");
+
+        /*
+         * This is a multi-line comment.
+         * The compiler skips all lines within this block.
+         */
+        
+        // System.out.println("Disabled line");
     }
 }
 ```
 
-The last line of the example shows a particularly handy use-case for comments. Code that has been written does not need to be deleted to try out something else.
+---
+
+## 5. Common Output Pitfalls
+
+- **Missing Quotes:** Writing `System.out.println(Hello);` causes a compiler error (`cannot find symbol`) because Java treats unquoted words as variable names.
+- **Trailing or Leading Whitespace:** Automated tests check output character-by-character. An extra space at the end of a line (`"Ada Lovelace "`) causes tests expecting `"Ada Lovelace"` to fail.
+- **Spelling and Case:** Java is case-sensitive. `"ada lovelace"` does not match `"Ada Lovelace"`.
+
+---
+
+## Complete Section Exercises Roadmap
+
+| Tier | Difficulty | Exercise | Core Concept | Spec | Starter Code | Verification Command |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Tier 1** | ✪ | Ada Lovelace | Single-line string printing | [AdaLovelace.md](./exercises/AdaLovelace.md) | [AdaLovelace.java](./exercises/AdaLovelace.java) | `./gradlew test --tests "part01.s02printing.exercises.AdaLovelaceTest"` |
+| **Tier 1** | ✪ | Once Upon a Time | Multi-line sequential execution | [OnceUponATime.md](./exercises/OnceUponATime.md) | [OnceUponATime.java](./exercises/OnceUponATime.java) | `./gradlew test --tests "part01.s02printing.exercises.OnceUponATimeTest"` |
+| **Tier 1** | ✪ | Dinosaur | Multi-line text with `sout` | [Dinosaur.md](./exercises/Dinosaur.md) | [Dinosaur.java](./exercises/Dinosaur.java) | `./gradlew test --tests "part01.s02printing.exercises.DinosaurTest"` |
+| **Tier 1** | ✪ | Triangle Drill | ASCII art, space alignment | [TriangleDrill.md](./exercises/TriangleDrill.md) | [TriangleDrill.java](./exercises/TriangleDrill.java) | `./gradlew test --tests "part01.s02printing.exercises.TriangleDrillTest"` |
+
+---
 
 ## Official Documentation
 
-When writing Java, you will eventually need to read documentation to understand how built-in code works. 
-
-* **The Source of Truth:** [Oracle's Java SE Documentation (System.out)](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/System.html#out). This is the official "Javadoc". It is extremely dense and written like a technical specification, but it is the absolute authority on what the code does.
-* **The Learning Alternative:** Because Oracle's docs are written for engineers rather than beginners, the industry standard for *understandable* Java explanations is a site called **Baeldung**. Here is their guide on [System.out.println](https://www.baeldung.com/java-testing-system-out-println).
+- **PrintStream (`println`):** [Oracle Java SE Documentation](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/PrintStream.html#println(java.lang.String))
+- **System (`System.out`):** [Oracle Java SE Documentation](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/System.html#out)
+- **Java Comments:** [Oracle Java Language Specification](https://docs.oracle.com/javase/specs/jls/se21/html/jls-3.html#jls-3.7)

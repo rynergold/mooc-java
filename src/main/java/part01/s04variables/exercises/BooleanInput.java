@@ -1,0 +1,14 @@
+package part01.s04variables.exercises;
+
+import java.util.Scanner;
+
+public class BooleanInput {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Write your program here
+      System.out.println("Write something:");
+      boolean value =  Boolean.valueOf(scanner.nextLine());
+      System.out.println("True or false? " + value);
+    }
+}

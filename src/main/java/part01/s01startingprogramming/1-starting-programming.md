@@ -1,30 +1,120 @@
 ---
 path: "/part-1/1-starting-programming"
-title: "Getting started with programming"
+title: "Getting Started with Programming"
+hidden: false
 ---
-## Programmers Write Source Code
 
-Programming is about designing and implementing software to solve problems. We do this by writing instructions in a **programming language**—a syntax designed to be readable by humans but executable by machines.
+> [!NOTE]
+> **Learning Objectives**
+>
+> - Understand how human-readable Java source code compiles into bytecode and executes on the JVM.
+> - Identify the core components of a Java program: packages, classes, and the `main` method.
+> - Print text to the console using `System.out.println()`.
+> - Diagnose syntax errors including missing semicolons, case sensitivity, and unmatched braces.
 
-There are hundreds of languages, but we are using **[Java](https://en.wikipedia.org/wiki/Java_(programming_language))**. It's strongly typed, object-oriented, and powers everything from Android apps to enterprise financial systems. Mastering Java gives you a rock-solid foundation for picking up almost any other language later.
+---
 
-The text you write is called **source code**. Source code is made up of statements and expressions that the computer reads sequentially (top-to-bottom, left-to-right). 
+## 1. How Java Executes Code
 
-For example, to print "Hello World", you use a built-in Java command:
+Computers execute instructions expressed as binary machine code. Because binary instructions are impractical for humans to write directly, developers write in high-level programming languages like **Java**.
 
-```java
-System.out.println("Hello World");
+Java uses a two-phase execution model:
+
+```
+[Source Code (.java)]
+        │
+        ▼  javac (Java Compiler)
+[Bytecode (.class)]
+        │
+        ▼  java (Java Virtual Machine / JVM)
+[Machine Code (CPU)]
 ```
 
-### Key Takeaways:
-- **`System.out.println()`**: A built-in statement used to print a string of text to the console.
-- **Strings**: Text data must be wrapped in double quotation marks (`"Like this"`).
-- **Semicolons (`;`)**: Every statement in Java must end with a semicolon. Think of it as a period at the end of a sentence.
-- **Boilerplate**: Java requires a structural "frame" (classes and methods) around your code to run. We'll cover this soon—for now, just know it's mandatory scaffolding.
+1. **Compilation:** The Java compiler (`javac`) checks your source code for syntax errors and translates it into platform-independent **bytecode** stored in `.class` files.
+2. **Execution:** The Java Virtual Machine (`java` / JVM) translates bytecode instructions into machine instructions specific to your operating system and CPU.
+
+This design enables Java's write-once, run-anywhere model: compiled bytecode runs on any system with a compatible JVM installed.
 
 ---
 
-## Conceptual Check
+## 2. Structure of a Java Program
+
+A minimal Java program consists of a package declaration, a class definition, and an entry-point method:
+
+```java
+package part01.s01startingprogramming;
+
+public class Sandbox {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+```
+
+### Components of the Program
+
+- **`package`**: Organizes related classes into a namespace matching the directory structure on disk (`part01/s01startingprogramming`).
+- **`public class Sandbox`**: In Java, all executable code resides inside a class. When a class is declared `public`, its name must exactly match the file name (`Sandbox.java`).
+- **`public static void main(String[] args)`**: The **entry point** of the program. When you run a Java application, execution begins at the first statement inside `main`.
+- **`{ ... }` (Curly Braces)**: Delimit code blocks. Every opening brace `{` must have a matching closing brace `}`.
+- **`System.out.println(...)`**: An instruction that prints the provided argument to the console, followed by a newline.
+- **`;` (Semicolon)**: Terminates a statement. Every individual command in Java must end with a semicolon.
+- **`"Hello World"` (String Literal)**: Text data enclosed in double quotation marks.
+
+---
+
+## 3. The Minimal Program
+
+### Example 1: Printing to the Console
+
+Printing text requires passing a string literal as an argument into `System.out.println()`:
+
+```java
+System.out.println("Welcome to programming!");
+```
+
+When this statement executes:
+1. The string `"Welcome to programming!"` is sent to the standard output stream (`System.out`).
+2. The console displays the text.
+3. The cursor moves to the beginning of the next line.
+
+#### Practice (✪ 1/7)
+
+Verify your local environment and run your first program:
+
+- **✪** [Sandbox.md](./exercises/Sandbox.md) / [Sandbox.java](./exercises/Sandbox.java) — Minimal program structure and first execution check
+
+---
+
+## 4. Common Compiler Pitfalls
+
+The Java compiler rejects programs containing syntax errors. Watch for these common issues:
+
+- **Missing Semicolon (`;`)**:
+  ```java
+  // Compiler error: ';' expected
+  System.out.println("Hello World")
+  ```
+- **Case Sensitivity**: Java differentiates between lowercase and uppercase letters.
+  ```java
+  // Compiler error: package system does not exist
+  system.out.println("Hello World");
+  ```
+- **Single vs. Double Quotes**: Double quotes (`"..."`) denote strings. Single quotes (`'...'`) denote single characters (`char`).
+  ```java
+  // Compiler error: unclosed character literal
+  System.out.println('Hello World');
+  ```
+- **Mismatched Class and File Names**: A public class named `Example` in a file named `Sandbox.java` fails to compile:
+  ```
+  class Example is public, should be declared in a file named Example.java
+  ```
+
+---
+
+## 5. Conceptual Check
+
+Test your understanding of Java fundamentals before writing code:
 
 **Q1: Will the following program compile? Why or why not?**
 ```java
@@ -37,30 +127,35 @@ public class Welcome {
 <details>
 <summary><strong>View Answer</strong></summary>
 
-No. It is missing a semicolon `;` closing the print statement. The Java compiler is unforgiving and will halt with a syntax error.
+No. It is missing a semicolon `;` at the end of the print statement. In Java, individual statements must terminate with a semicolon.
 </details>
 
-**Q2: In the command `System.out.println("Ada Lovelace");`, what is the technical term for the string `"Ada Lovelace"`?**
+**Q2: In the command `System.out.println("Ada Lovelace");`, what is the technical term for `"Ada Lovelace"`?**
 <details>
 <summary><strong>View Answer</strong></summary>
 
-A **parameter**. (e.g., "I passed the string \'Ada Lovelace\' as a parameter to the println command.")
+An **argument** (or parameter). The string literal `"Ada Lovelace"` is passed as input to the `println` method.
 </details>
 
-**Q3: When you run a Java program, what happens to your human-readable source code?**
+**Q3: What role does the Java Virtual Machine (JVM) play in running code?**
 <details>
 <summary><strong>View Answer</strong></summary>
 
-The source code is compiled into **bytecode**. Then, the **Java Interpreter** (part of the JVM - Java Virtual Machine) reads the bytecode and converts it into the exact machine code for the specific OS on the fly. This enables "Write Once, Run Anywhere" (WORA).
+The compiler (`javac`) first translates human-readable source code into platform-independent **bytecode**. The JVM (`java`) interprets this bytecode and converts it into native machine instructions for your specific operating system and processor at runtime.
 </details>
 
 ---
 
-*Next up: `02printing/` — your first exercises.*
+## Complete Section Exercises Roadmap
 
-## Navigating Java Documentation
+| Tier | Difficulty | Exercise | Core Concept | Spec | Starter Code | Verification Command |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Tier 1** | ✪ | Sandbox | Java program structure, compilation | [Sandbox.md](./exercises/Sandbox.md) | [Sandbox.java](./exercises/Sandbox.java) | `./gradlew test --tests "part01.s01startingprogramming.exercises.SandboxTest"` |
 
-As you learn Java, you will often need to look up how built-in tools work. Knowing where to look is half the battle.
+---
 
-* **The Defacto Standard:** [Oracle's Java SE API Documentation](https://docs.oracle.com/en/java/javase/21/docs/api/index.html). This is the official manual. It is written like a technical specification for engineers, so it can be dense and confusing for beginners. However, it is the absolute source of truth.
-* **The Learning Alternative:** The industry standard for *understandable* Java tutorials is a site called [Baeldung](https://www.baeldung.com/). If Oracle gives you the strict technical rules, Baeldung gives you the clear, readable examples of how to actually use the code in the real world. Keep it bookmarked as an essential supplement to this course.
+## Official Documentation
+
+- **The Java Tutorials — "Hello World!" Application:** [Oracle Java SE Documentation](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html)
+- **The Java Tutorials — A Closer Look at "Hello World!":** [Oracle Java SE Documentation](https://docs.oracle.com/javase/tutorial/getStarted/application/index.html)
+- **Java Platform, Standard Edition API Specification:** [Oracle Java SE Documentation](https://docs.oracle.com/en/java/javase/21/docs/api/index.html)
