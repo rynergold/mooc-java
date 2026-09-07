@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -43,6 +44,7 @@ class AdulthoodTest {
         String output = outContent.toString();
         assertTrue(output.contains("How old are you?"), "Missing prompt 'How old are you?'");
         assertTrue(output.contains("You are not an adult"), "Expected 'You are not an adult' for age 12");
+        assertFalse(output.contains("You are an adult"), "Must not print 'You are an adult' for age 12");
     }
 
     @Test
@@ -53,6 +55,7 @@ class AdulthoodTest {
         String output = outContent.toString();
         assertTrue(output.contains("How old are you?"), "Missing prompt 'How old are you?'");
         assertTrue(output.contains("You are an adult"), "Expected 'You are an adult' for age 18");
+        assertFalse(output.contains("You are not an adult"), "Must not print 'You are not an adult' for age 18");
     }
 
     @Test
@@ -63,5 +66,6 @@ class AdulthoodTest {
         String output = outContent.toString();
         assertTrue(output.contains("How old are you?"), "Missing prompt 'How old are you?'");
         assertTrue(output.contains("You are an adult"), "Expected 'You are an adult' for age 32");
+        assertFalse(output.contains("You are not an adult"), "Must not print 'You are not an adult' for age 32");
     }
 }

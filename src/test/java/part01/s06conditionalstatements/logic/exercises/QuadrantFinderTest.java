@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -41,34 +42,48 @@ class QuadrantFinderTest {
         QuadrantFinder.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Quadrant 1"), "Positive x and y should be Quadrant 1");
+        assertTrue(output.contains("Quadrant 1"), "(3, 5) is in Quadrant 1");
+        assertFalse(output.contains("Quadrant 2"), "Quadrant 1 must not print Quadrant 2");
+        assertFalse(output.contains("Quadrant 3"), "Quadrant 1 must not print Quadrant 3");
+        assertFalse(output.contains("Quadrant 4"), "Quadrant 1 must not print Quadrant 4");
+        assertFalse(output.contains("Origin"), "Quadrant 1 must not print Origin");
+        assertFalse(output.contains("Axis"), "Quadrant 1 must not print Axis");
     }
 
     @Test
     public void testQuadrantTwo() {
-        setInput("-4\n2\n");
+        setInput("-2\n4\n");
         QuadrantFinder.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Quadrant 2"), "Negative x and positive y should be Quadrant 2");
+        assertTrue(output.contains("Quadrant 2"), "(-2, 4) is in Quadrant 2");
+        assertFalse(output.contains("Quadrant 1"), "Quadrant 2 must not print Quadrant 1");
+        assertFalse(output.contains("Quadrant 3"), "Quadrant 2 must not print Quadrant 3");
+        assertFalse(output.contains("Quadrant 4"), "Quadrant 2 must not print Quadrant 4");
     }
 
     @Test
     public void testQuadrantThree() {
-        setInput("-2\n-8\n");
+        setInput("-3\n-7\n");
         QuadrantFinder.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Quadrant 3"), "Negative x and negative y should be Quadrant 3");
+        assertTrue(output.contains("Quadrant 3"), "(-3, -7) is in Quadrant 3");
+        assertFalse(output.contains("Quadrant 1"), "Quadrant 3 must not print Quadrant 1");
+        assertFalse(output.contains("Quadrant 2"), "Quadrant 3 must not print Quadrant 2");
+        assertFalse(output.contains("Quadrant 4"), "Quadrant 3 must not print Quadrant 4");
     }
 
     @Test
     public void testQuadrantFour() {
-        setInput("6\n-1\n");
+        setInput("4\n-1\n");
         QuadrantFinder.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Quadrant 4"), "Positive x and negative y should be Quadrant 4");
+        assertTrue(output.contains("Quadrant 4"), "(4, -1) is in Quadrant 4");
+        assertFalse(output.contains("Quadrant 1"), "Quadrant 4 must not print Quadrant 1");
+        assertFalse(output.contains("Quadrant 2"), "Quadrant 4 must not print Quadrant 2");
+        assertFalse(output.contains("Quadrant 3"), "Quadrant 4 must not print Quadrant 3");
     }
 
     @Test
@@ -77,15 +92,18 @@ class QuadrantFinderTest {
         QuadrantFinder.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Origin"), "(0, 0) should be Origin");
+        assertTrue(output.contains("Origin"), "(0, 0) is the Origin");
+        assertFalse(output.contains("Quadrant"), "Origin must not print Quadrant");
     }
 
     @Test
     public void testAxis() {
-        setInput("0\n-7\n");
+        setInput("0\n5\n");
         QuadrantFinder.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Axis"), "(0, -7) should be on an Axis");
+        assertTrue(output.contains("Axis"), "(0, 5) lies on an Axis");
+        assertFalse(output.contains("Quadrant"), "Axis point must not print Quadrant");
+        assertFalse(output.contains("Origin"), "Axis point must not print Origin");
     }
 }

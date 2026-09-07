@@ -37,42 +37,45 @@ class DiscountEligibilityTest {
     }
 
     @Test
-    public void testYouthDiscount() {
-        setInput("15\n");
+    public void testTwentyPercentDiscount() {
+        setInput("120\nyes\n");
         DiscountEligibility.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Discount applied"), "Under 18 qualifies for youth discount");
-        assertFalse(output.contains("Standard price"), "Discount recipient must not pay standard");
+        assertTrue(output.contains("Discount applied: 20%"), "Over 100 and member gets 20%");
+        assertFalse(output.contains("10%"), "20% discount must not report 10%");
+        assertFalse(output.contains("No discount"), "20% discount must not report No discount");
     }
 
     @Test
-    public void testSeniorDiscount() {
-        setInput("65\n");
+    public void testTenPercentDiscountAmountOnly() {
+        setInput("150\nno\n");
         DiscountEligibility.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Discount applied"), "65 qualifies for senior discount");
-        assertFalse(output.contains("Standard price"), "Discount recipient must not pay standard");
+        assertTrue(output.contains("Discount applied: 10%"), "Over 100 but non-member gets 10%");
+        assertFalse(output.contains("20%"), "10% discount must not report 20%");
+        assertFalse(output.contains("No discount"), "10% discount must not report No discount");
     }
 
     @Test
-    public void testStandardAdultPrice() {
-        setInput("18\n");
+    public void testTenPercentDiscountMemberOnly() {
+        setInput("50\nyes\n");
         DiscountEligibility.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Standard price"), "18 pays standard price");
-        assertFalse(output.contains("Discount applied"), "Adult must not get discount");
+        assertTrue(output.contains("Discount applied: 10%"), "Under 100 but member gets 10%");
+        assertFalse(output.contains("20%"), "10% discount must not report 20%");
+        assertFalse(output.contains("No discount"), "10% discount must not report No discount");
     }
 
     @Test
-    public void testStandardMiddleAgePrice() {
-        setInput("40\n");
+    public void testNoDiscount() {
+        setInput("50\nno\n");
         DiscountEligibility.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Standard price"), "40 pays standard price");
-        assertFalse(output.contains("Discount applied"), "Adult must not get discount");
+        assertTrue(output.contains("No discount"), "Under 100 and non-member gets no discount");
+        assertFalse(output.contains("Discount applied:"), "No discount must not report a discount applied");
     }
 }

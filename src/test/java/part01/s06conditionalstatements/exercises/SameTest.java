@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -44,6 +45,7 @@ class SameTest {
         assertTrue(output.contains("Enter the first string:"), "Missing prompt 1");
         assertTrue(output.contains("Enter the second string:"), "Missing prompt 2");
         assertTrue(output.contains("Same"), "Expected 'Same' for identical strings");
+        assertFalse(output.contains("Different"), "Must not print 'Different' for identical strings");
     }
 
     @Test
@@ -55,6 +57,7 @@ class SameTest {
         assertTrue(output.contains("Enter the first string:"), "Missing prompt 1");
         assertTrue(output.contains("Enter the second string:"), "Missing prompt 2");
         assertTrue(output.contains("Different"), "Expected 'Different' for different strings");
+        assertFalse(output.contains("Same"), "Must not print 'Same' for different strings");
     }
 
     @Test
@@ -64,5 +67,6 @@ class SameTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Different"), "String comparison should be case-sensitive");
+        assertFalse(output.contains("Same"), "Must not print 'Same' when case differs");
     }
 }

@@ -38,7 +38,7 @@ class TicketPriceTest {
 
     @Test
     public void testChildPriceUnderTwelve() {
-        setInput("9\n");
+        setInput("8\n");
         TicketPrice.main(new String[]{});
 
         String output = outContent.toString();
@@ -53,14 +53,16 @@ class TicketPriceTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Ticket price: 10 euros"), "age 12 is standard price");
+        assertFalse(output.contains("Ticket price: 5 euros"), "age 12 must not pay child price");
     }
 
     @Test
     public void testAdult() {
-        setInput("35\n");
+        setInput("25\n");
         TicketPrice.main(new String[]{});
 
         String output = outContent.toString();
         assertTrue(output.contains("Ticket price: 10 euros"), "adult should pay 10 euros");
+        assertFalse(output.contains("Ticket price: 5 euros"), "adult must not pay child price");
     }
 }

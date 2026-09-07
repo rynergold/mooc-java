@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -42,6 +43,7 @@ class ClockWrap12Test {
 
         String output = outContent.toString();
         assertTrue(output.contains("12 AM"), "hour 0 should be 12 AM");
+        assertFalse(output.contains("PM"), "hour 0 must not report PM");
     }
 
     @Test
@@ -51,6 +53,7 @@ class ClockWrap12Test {
 
         String output = outContent.toString();
         assertTrue(output.contains("9 AM"), "hour 9 should be 9 AM");
+        assertFalse(output.contains("PM"), "hour 9 must not report PM");
     }
 
     @Test
@@ -60,6 +63,7 @@ class ClockWrap12Test {
 
         String output = outContent.toString();
         assertTrue(output.contains("12 PM"), "hour 12 should be 12 PM");
+        assertFalse(output.contains("AM"), "hour 12 must not report AM");
     }
 
     @Test
@@ -69,5 +73,6 @@ class ClockWrap12Test {
 
         String output = outContent.toString();
         assertTrue(output.contains("5 PM"), "hour 17 should be 5 PM");
+        assertFalse(output.contains("AM"), "hour 17 must not report AM");
     }
 }

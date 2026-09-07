@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -43,6 +44,7 @@ class PositivityTest {
         String output = outContent.toString();
         assertTrue(output.contains("Give a number:"), "Missing prompt 'Give a number:'");
         assertTrue(output.contains("The number is positive."), "Expected 'The number is positive.' for input 5");
+        assertFalse(output.contains("The number is not positive."), "Must not print 'The number is not positive.' for input 5");
     }
 
     @Test
@@ -53,6 +55,7 @@ class PositivityTest {
         String output = outContent.toString();
         assertTrue(output.contains("Give a number:"), "Missing prompt 'Give a number:'");
         assertTrue(output.contains("The number is not positive."), "Expected 'The number is not positive.' for input -2");
+        assertFalse(output.contains("The number is positive."), "Must not print 'The number is positive.' for input -2");
     }
 
     @Test
@@ -63,5 +66,6 @@ class PositivityTest {
         String output = outContent.toString();
         assertTrue(output.contains("Give a number:"), "Missing prompt 'Give a number:'");
         assertTrue(output.contains("The number is not positive."), "Expected 'The number is not positive.' for input 0");
+        assertFalse(output.contains("The number is positive."), "Must not print 'The number is positive.' for input 0");
     }
 }

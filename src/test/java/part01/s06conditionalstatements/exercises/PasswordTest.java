@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -43,6 +44,7 @@ class PasswordTest {
         String output = outContent.toString();
         assertTrue(output.contains("Password?"), "Missing prompt 'Password?'");
         assertTrue(output.contains("Welcome!"), "Expected 'Welcome!' for correct password");
+        assertFalse(output.contains("Off with you!"), "Must not print 'Off with you!' for correct password");
     }
 
     @Test
@@ -53,6 +55,7 @@ class PasswordTest {
         String output = outContent.toString();
         assertTrue(output.contains("Password?"), "Missing prompt 'Password?'");
         assertTrue(output.contains("Off with you!"), "Expected 'Off with you!' for wrong password");
+        assertFalse(output.contains("Welcome!"), "Must not print 'Welcome!' for wrong password");
     }
 
     @Test
@@ -62,5 +65,6 @@ class PasswordTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Off with you!"), "Password check must be case sensitive");
+        assertFalse(output.contains("Welcome!"), "Must not print 'Welcome!' for wrong casing");
     }
 }

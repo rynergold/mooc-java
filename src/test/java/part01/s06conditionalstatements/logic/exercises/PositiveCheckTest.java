@@ -53,6 +53,7 @@ class PositiveCheckTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("The number is not positive"), "0 is not positive");
+        assertFalse(output.contains("The number is positive"), "0 is not positive, must not print 'The number is positive'");
     }
 
     @Test
@@ -62,5 +63,6 @@ class PositiveCheckTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("The number is not positive"), "-4 is not positive");
+        assertFalse(output.contains("The number is positive"), "-4 is not positive, must not print 'The number is positive'");
     }
 }

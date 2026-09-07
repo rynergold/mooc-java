@@ -43,7 +43,9 @@ class TrafficLightTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Stop"), "red light must print Stop");
+        assertFalse(output.contains("Slow down"), "red light must not print Slow down");
         assertFalse(output.contains("Go"), "red light must not print Go");
+        assertFalse(output.contains("Invalid color"), "red light must not print Invalid color");
     }
 
     @Test
@@ -53,6 +55,9 @@ class TrafficLightTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Slow down"), "yellow light must print Slow down");
+        assertFalse(output.contains("Stop"), "yellow light must not print Stop");
+        assertFalse(output.contains("Go"), "yellow light must not print Go");
+        assertFalse(output.contains("Invalid color"), "yellow light must not print Invalid color");
     }
 
     @Test
@@ -63,6 +68,8 @@ class TrafficLightTest {
         String output = outContent.toString();
         assertTrue(output.contains("Go"), "green light must print Go");
         assertFalse(output.contains("Stop"), "green light must not print Stop");
+        assertFalse(output.contains("Slow down"), "green light must not print Slow down");
+        assertFalse(output.contains("Invalid color"), "green light must not print Invalid color");
     }
 
     @Test
@@ -72,5 +79,8 @@ class TrafficLightTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Invalid color"), "unrecognized color must print Invalid color");
+        assertFalse(output.contains("Stop"), "invalid color must not print Stop");
+        assertFalse(output.contains("Slow down"), "invalid color must not print Slow down");
+        assertFalse(output.contains("Go"), "invalid color must not print Go");
     }
 }

@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -35,6 +36,11 @@ class TimeDifferenceTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
+    private void assertSingleDurationOutput(String output) {
+        int count = output.split("Duration:", -1).length - 1;
+        assertEquals(1, count, "Should print 'Duration:' exactly once, but printed " + count + " times");
+    }
+
     @Test
     public void testSameDayDuration() {
         setInput("9\n30\n11\n45\n");
@@ -42,6 +48,7 @@ class TimeDifferenceTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Duration: 2 hours and 15 minutes"), "9:30 to 11:45 should be 2 hours and 15 minutes");
+        assertSingleDurationOutput(output);
     }
 
     @Test
@@ -51,6 +58,7 @@ class TimeDifferenceTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Duration: 2 hours and 30 minutes"), "22:50 to 01:20 should be 2 hours and 30 minutes");
+        assertSingleDurationOutput(output);
     }
 
     @Test
@@ -60,5 +68,6 @@ class TimeDifferenceTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Duration: 0 hours and 0 minutes"), "Identical times should be 0 hours and 0 minutes");
+        assertSingleDurationOutput(output);
     }
 }

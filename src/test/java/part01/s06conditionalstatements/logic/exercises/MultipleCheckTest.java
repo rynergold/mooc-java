@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -42,6 +43,7 @@ class MultipleCheckTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Multiples"), "12 is a multiple of 4");
+        assertFalse(output.contains("Not multiples"), "Multiples must not report Not multiples");
     }
 
     @Test
@@ -51,6 +53,7 @@ class MultipleCheckTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Multiples"), "15 is a multiple of 3");
+        assertFalse(output.contains("Not multiples"), "Multiples must not report Not multiples");
     }
 
     @Test
@@ -59,6 +62,7 @@ class MultipleCheckTest {
         MultipleCheck.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Not multiples"), "7 and 5 are not multiples");
+        assertTrue(output.contains("Not multiples"), "7 and 5 are not multiples of each other");
+        assertFalse(output.replace("Not multiples", "").contains("Multiples"), "Not multiples must not also print Multiples");
     }
 }

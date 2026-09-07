@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -42,6 +43,9 @@ class TriangleTypeTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Equilateral"), "5, 5, 5 should be Equilateral");
+        assertFalse(output.contains("Isosceles"), "Equilateral must not report Isosceles");
+        assertFalse(output.contains("Scalene"), "Equilateral must not report Scalene");
+        assertFalse(output.contains("Not a triangle"), "Equilateral must not report Not a triangle");
     }
 
     @Test
@@ -51,6 +55,9 @@ class TriangleTypeTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Isosceles"), "5, 5, 8 should be Isosceles");
+        assertFalse(output.contains("Equilateral"), "Isosceles must not report Equilateral");
+        assertFalse(output.contains("Scalene"), "Isosceles must not report Scalene");
+        assertFalse(output.contains("Not a triangle"), "Isosceles must not report Not a triangle");
     }
 
     @Test
@@ -60,6 +67,9 @@ class TriangleTypeTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Scalene"), "3, 4, 5 should be Scalene");
+        assertFalse(output.contains("Equilateral"), "Scalene must not report Equilateral");
+        assertFalse(output.contains("Isosceles"), "Scalene must not report Isosceles");
+        assertFalse(output.contains("Not a triangle"), "Scalene must not report Not a triangle");
     }
 
     @Test
@@ -69,5 +79,8 @@ class TriangleTypeTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Not a triangle"), "1, 2, 10 cannot form a triangle");
+        assertFalse(output.contains("Equilateral"), "Not a triangle must not report Equilateral");
+        assertFalse(output.contains("Isosceles"), "Not a triangle must not report Isosceles");
+        assertFalse(output.contains("Scalene"), "Not a triangle must not report Scalene");
     }
 }

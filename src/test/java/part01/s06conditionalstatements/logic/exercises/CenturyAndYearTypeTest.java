@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -43,6 +44,7 @@ class CenturyAndYearTypeTest {
         String output = outContent.toString();
         assertTrue(output.contains("Century: 20"), "1984 should be in the 20th century");
         assertTrue(output.contains("Type: Leap year"), "1984 is a leap year");
+        assertFalse(output.contains("Type: Common year"), "1984 must not be reported as Common year");
     }
 
     @Test
@@ -53,6 +55,7 @@ class CenturyAndYearTypeTest {
         String output = outContent.toString();
         assertTrue(output.contains("Century: 19"), "1900 is the last year of the 19th century");
         assertTrue(output.contains("Type: Common year"), "1900 is not a leap year (divisible by 100, not 400)");
+        assertFalse(output.contains("Type: Leap year"), "1900 must not be reported as Leap year");
     }
 
     @Test
@@ -63,6 +66,7 @@ class CenturyAndYearTypeTest {
         String output = outContent.toString();
         assertTrue(output.contains("Century: 20"), "2000 is the last year of the 20th century");
         assertTrue(output.contains("Type: Leap year"), "2000 is a leap year (divisible by 400)");
+        assertFalse(output.contains("Type: Common year"), "2000 must not be reported as Common year");
     }
 
     @Test
@@ -71,7 +75,8 @@ class CenturyAndYearTypeTest {
         CenturyAndYearType.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Century: 21"), "2023 is in the 21st century");
-        assertTrue(output.contains("Type: Common year"), "2023 is a common year");
+        assertTrue(output.contains("Century: 21"), "2023 should be in the 21st century");
+        assertTrue(output.contains("Type: Common year"), "2023 is not a leap year");
+        assertFalse(output.contains("Type: Leap year"), "2023 must not be reported as Leap year");
     }
 }

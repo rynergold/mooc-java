@@ -37,52 +37,52 @@ class ExamPassTest {
     }
 
     @Test
-    public void testBothPassingNormal() {
-        setInput("75\n80\n");
+    public void testPassedBothRequirementsMet() {
+        setInput("75\n85\n");
         ExamPass.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Passed"), "Both >= 50 should pass");
-        assertFalse(output.contains("Failed"), "Passed exam must not print failed");
+        assertTrue(output.contains("Exam passed"), "Score 75 and 85% attendance meets requirements");
+        assertFalse(output.contains("Exam failed"), "Passing student must not report failed");
     }
 
     @Test
-    public void testBothPassingExactBoundaries() {
-        setInput("50\n50\n");
+    public void testPassedExactBoundaries() {
+        setInput("60\n75\n");
         ExamPass.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Passed"), "50 and 50 are inclusive pass marks");
-        assertFalse(output.contains("Failed"), "Passed exam must not print failed");
+        assertTrue(output.contains("Exam passed"), "Score 60 and 75% attendance are exact minimum thresholds");
+        assertFalse(output.contains("Exam failed"), "Passing student must not report failed");
     }
 
     @Test
-    public void testTheoryFails() {
-        setInput("45\n80\n");
+    public void testFailedLowScore() {
+        setInput("59\n85\n");
         ExamPass.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Failed"), "Theory below 50 must fail");
-        assertFalse(output.contains("Passed"), "Failed exam must not print passed");
+        assertTrue(output.contains("Exam failed"), "Score 59 is below minimum 60");
+        assertFalse(output.contains("Exam passed"), "Failing student must not report passed");
     }
 
     @Test
-    public void testPracticalFails() {
-        setInput("75\n30\n");
+    public void testFailedLowAttendance() {
+        setInput("80\n74\n");
         ExamPass.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Failed"), "Practical below 50 must fail");
-        assertFalse(output.contains("Passed"), "Failed exam must not print passed");
+        assertTrue(output.contains("Exam failed"), "Attendance 74% is below minimum 75%");
+        assertFalse(output.contains("Exam passed"), "Failing student must not report passed");
     }
 
     @Test
-    public void testBothFail() {
-        setInput("40\n40\n");
+    public void testFailedBothLow() {
+        setInput("40\n50\n");
         ExamPass.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Failed"), "Both below 50 must fail");
-        assertFalse(output.contains("Passed"), "Failed exam must not print passed");
+        assertTrue(output.contains("Exam failed"), "Failing both score and attendance must fail");
+        assertFalse(output.contains("Exam passed"), "Failing student must not report passed");
     }
 }

@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -36,47 +37,52 @@ class DateValidatorTest {
     }
 
     @Test
-    public void testValidLeapDay() {
-        setInput("29\n2\n2020\n");
+    public void testValidStandardDate() {
+        setInput("2023\n5\n15\n");
         DateValidator.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Valid date"), "Feb 29, 2020 is valid in a leap year");
+        assertTrue(output.contains("Valid date"), "May 15, 2023 should be valid");
+        assertFalse(output.contains("Invalid date"), "Valid date must not report 'Invalid date'");
+    }
+
+    @Test
+    public void testValidLeapDay() {
+        setInput("2024\n2\n29\n");
+        DateValidator.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Valid date"), "Feb 29 on leap year 2024 is valid");
+        assertFalse(output.contains("Invalid date"), "Valid leap day must not report 'Invalid date'");
     }
 
     @Test
     public void testInvalidLeapDayCommonYear() {
-        setInput("29\n2\n2021\n");
+        setInput("2023\n2\n29\n");
         DateValidator.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Invalid date"), "Feb 29, 2021 is invalid in a common year");
+        assertTrue(output.contains("Invalid date"), "Feb 29 on common year 2023 is invalid");
+        assertFalse(output.replace("Invalid date", "").contains("Valid date"), "Invalid date must not also print 'Valid date'");
     }
 
     @Test
     public void testInvalidAprilThirtyOne() {
-        setInput("31\n4\n2022\n");
+        setInput("2023\n4\n31\n");
         DateValidator.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Invalid date"), "April only has 30 days");
-    }
-
-    @Test
-    public void testValidStandardDate() {
-        setInput("15\n8\n1995\n");
-        DateValidator.main(new String[]{});
-
-        String output = outContent.toString();
-        assertTrue(output.contains("Valid date"), "August 15, 1995 is a valid date");
+        assertTrue(output.contains("Invalid date"), "April has only 30 days");
+        assertFalse(output.replace("Invalid date", "").contains("Valid date"), "Invalid date must not also print 'Valid date'");
     }
 
     @Test
     public void testInvalidMonth() {
-        setInput("10\n13\n2022\n");
+        setInput("2023\n13\n1\n");
         DateValidator.main(new String[]{});
 
         String output = outContent.toString();
         assertTrue(output.contains("Invalid date"), "Month 13 is invalid");
+        assertFalse(output.replace("Invalid date", "").contains("Valid date"), "Invalid date must not also print 'Valid date'");
     }
 }

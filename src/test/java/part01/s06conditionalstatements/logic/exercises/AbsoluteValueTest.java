@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -42,6 +43,7 @@ class AbsoluteValueTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("7"), "-7 absolute value should be 7");
+        assertFalse(output.contains("-7"), "-7 should be converted to positive 7 and not output as -7");
     }
 
     @Test

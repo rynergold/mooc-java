@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -43,6 +44,7 @@ class OddOrEvenTest {
         String output = outContent.toString();
         assertTrue(output.contains("Give a number:"), "Missing prompt 'Give a number:'");
         assertTrue(output.contains("Number 2 is even."), "Expected 'Number 2 is even.'");
+        assertFalse(output.contains("is odd."), "Must not print 'is odd.' for 2");
     }
 
     @Test
@@ -53,6 +55,7 @@ class OddOrEvenTest {
         String output = outContent.toString();
         assertTrue(output.contains("Give a number:"), "Missing prompt 'Give a number:'");
         assertTrue(output.contains("Number 7 is odd."), "Expected 'Number 7 is odd.'");
+        assertFalse(output.contains("is even."), "Must not print 'is even.' for 7");
     }
 
     @Test
@@ -62,6 +65,7 @@ class OddOrEvenTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Number 0 is even."), "Expected 'Number 0 is even.'");
+        assertFalse(output.contains("is odd."), "Must not print 'is odd.' for 0");
     }
 
     @Test
@@ -71,6 +75,7 @@ class OddOrEvenTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Number -4 is even."), "Expected 'Number -4 is even.'");
+        assertFalse(output.contains("is odd."), "Must not print 'is odd.' for -4");
     }
 
     @Test
@@ -80,5 +85,6 @@ class OddOrEvenTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Number -3 is odd."), "Expected 'Number -3 is odd.'");
+        assertFalse(output.contains("is even."), "Must not print 'is even.' for -3");
     }
 }

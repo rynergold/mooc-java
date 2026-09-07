@@ -63,26 +63,26 @@ class BankWithdrawalTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Invalid withdrawal"), "Amount > balance must be invalid");
-        assertFalse(output.contains("Withdrawal successful"), "Invalid withdrawal must not report success");
+        assertFalse(output.contains("Withdrawal successful"), "Invalid withdrawal must not print successful");
     }
 
     @Test
-    public void testInvalidZeroWithdrawal() {
+    public void testInvalidZeroAmount() {
         setInput("500\n0\n");
         BankWithdrawal.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Invalid withdrawal"), "Amount of 0 must be invalid");
-        assertFalse(output.contains("Withdrawal successful"), "Invalid withdrawal must not report success");
+        assertTrue(output.contains("Invalid withdrawal"), "Zero amount must be invalid");
+        assertFalse(output.contains("Withdrawal successful"), "Invalid withdrawal must not print successful");
     }
 
     @Test
-    public void testInvalidNegativeWithdrawal() {
+    public void testInvalidNegativeAmount() {
         setInput("500\n-50\n");
         BankWithdrawal.main(new String[]{});
 
         String output = outContent.toString();
         assertTrue(output.contains("Invalid withdrawal"), "Negative amount must be invalid");
-        assertFalse(output.contains("Withdrawal successful"), "Invalid withdrawal must not report success");
+        assertFalse(output.contains("Withdrawal successful"), "Invalid withdrawal must not print successful");
     }
 }

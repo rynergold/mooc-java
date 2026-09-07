@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -35,6 +36,11 @@ class MiddleOfThreeTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
+    private void assertSingleMiddleOutput(String output) {
+        int count = output.split("The middle number is:", -1).length - 1;
+        assertEquals(1, count, "Should print 'The middle number is:' exactly once, but printed " + count + " times");
+    }
+
     @Test
     public void testMiddleValueFirst() {
         setInput("10\n5\n20\n");
@@ -42,6 +48,7 @@ class MiddleOfThreeTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("The middle number is: 10"), "Middle of 10, 5, 20 is 10");
+        assertSingleMiddleOutput(output);
     }
 
     @Test
@@ -51,6 +58,7 @@ class MiddleOfThreeTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("The middle number is: 7"), "Middle of 3, 7, 15 is 7");
+        assertSingleMiddleOutput(output);
     }
 
     @Test
@@ -60,6 +68,7 @@ class MiddleOfThreeTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("The middle number is: 12"), "Middle of 20, 5, 12 is 12");
+        assertSingleMiddleOutput(output);
     }
 
     @Test
@@ -69,6 +78,7 @@ class MiddleOfThreeTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("The middle number is: 5"), "Middle of 5, 5, 2 is 5");
+        assertSingleMiddleOutput(output);
     }
 
     @Test
@@ -78,5 +88,6 @@ class MiddleOfThreeTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("The middle number is: 4"), "Middle of 4, 4, 4 is 4");
+        assertSingleMiddleOutput(output);
     }
 }

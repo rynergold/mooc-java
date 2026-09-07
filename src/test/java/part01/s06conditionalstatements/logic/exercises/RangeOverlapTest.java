@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -41,33 +42,37 @@ class RangeOverlapTest {
         RangeOverlap.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Overlapping"), "[1, 5] and [3, 8] overlap");
+        assertTrue(output.contains("Overlapping"), "[1, 5] and [3, 8] overlap in [3, 5]");
+        assertFalse(output.contains("Disjoint"), "Overlapping ranges must not report Disjoint");
     }
 
     @Test
     public void testDisjoint() {
-        setInput("1\n4\n5\n10\n");
+        setInput("1\n4\n6\n10\n");
         RangeOverlap.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Disjoint"), "[1, 4] and [5, 10] are disjoint");
+        assertTrue(output.contains("Disjoint"), "[1, 4] and [6, 10] do not overlap");
+        assertFalse(output.contains("Overlapping"), "Disjoint ranges must not report Overlapping");
     }
 
     @Test
     public void testOverlappingEndpoint() {
-        setInput("2\n6\n6\n9\n");
+        setInput("1\n5\n5\n10\n");
         RangeOverlap.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Overlapping"), "[2, 6] and [6, 9] overlap at point 6");
+        assertTrue(output.contains("Overlapping"), "Sharing endpoint 5 counts as overlapping");
+        assertFalse(output.contains("Disjoint"), "Overlapping ranges must not report Disjoint");
     }
 
     @Test
     public void testContainedWithin() {
-        setInput("2\n10\n4\n7\n");
+        setInput("2\n8\n4\n6\n");
         RangeOverlap.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Overlapping"), "[4, 7] is contained within [2, 10]");
+        assertTrue(output.contains("Overlapping"), "[4, 6] inside [2, 8] is overlapping");
+        assertFalse(output.contains("Disjoint"), "Overlapping ranges must not report Disjoint");
     }
 }

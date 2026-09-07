@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -43,6 +44,7 @@ class LeapYearTest {
         String output = outContent.toString();
         assertTrue(output.contains("Give a year:"), "Missing prompt 'Give a year:'");
         assertTrue(output.contains("The year is not a leap year."), "Expected 2011 to not be a leap year");
+        assertFalse(output.replace("The year is not a leap year.", "").contains("The year is a leap year."), "Must not also print leap year for 2011");
     }
 
     @Test
@@ -52,6 +54,7 @@ class LeapYearTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("The year is a leap year."), "Expected 2012 to be a leap year");
+        assertFalse(output.contains("The year is not a leap year."), "Must not print not a leap year for 2012");
     }
 
     @Test
@@ -61,6 +64,7 @@ class LeapYearTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("The year is not a leap year."), "Expected 1800 to not be a leap year");
+        assertFalse(output.replace("The year is not a leap year.", "").contains("The year is a leap year."), "Must not also print leap year for 1800");
     }
 
     @Test
@@ -70,5 +74,6 @@ class LeapYearTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("The year is a leap year."), "Expected 2000 to be a leap year");
+        assertFalse(output.contains("The year is not a leap year."), "Must not print not a leap year for 2000");
     }
 }

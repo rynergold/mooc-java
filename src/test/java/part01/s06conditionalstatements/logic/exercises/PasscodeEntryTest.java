@@ -38,22 +38,28 @@ class PasscodeEntryTest {
 
     @Test
     public void testValidPinNormal() {
-        setInput("1234\n");
+        setInput("4567\n");
         PasscodeEntry.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Access granted"), "1234 should be granted access");
-        assertFalse(output.contains("Invalid PIN"), "Valid PIN must not print 'Invalid PIN'");
+        assertTrue(output.contains("Access granted"), "4567 is a valid 4-digit PIN");
+        assertFalse(output.contains("Access denied"), "Valid PIN must not report Access denied");
     }
 
     @Test
     public void testValidPinBoundaries() {
         setInput("1000\n");
         PasscodeEntry.main(new String[]{});
+        String out1 = outContent.toString();
+        assertTrue(out1.contains("Access granted"), "1000 is lowest 4-digit PIN");
+        assertFalse(out1.contains("Access denied"), "1000 must not report Access denied");
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Access granted"), "1000 is inclusive lower bound");
-        assertFalse(output.contains("Invalid PIN"), "Valid PIN must not print 'Invalid PIN'");
+        outContent.reset();
+        setInput("9999\n");
+        PasscodeEntry.main(new String[]{});
+        String out2 = outContent.toString();
+        assertTrue(out2.contains("Access granted"), "9999 is highest 4-digit PIN");
+        assertFalse(out2.contains("Access denied"), "9999 must not report Access denied");
     }
 
     @Test
@@ -62,8 +68,8 @@ class PasscodeEntryTest {
         PasscodeEntry.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Invalid PIN"), "999 is too short to be 4-digit");
-        assertFalse(output.contains("Access granted"), "Invalid PIN must not grant access");
+        assertTrue(output.contains("Access denied"), "999 has fewer than 4 digits");
+        assertFalse(output.contains("Access granted"), "Invalid PIN must not report Access granted");
     }
 
     @Test
@@ -72,17 +78,17 @@ class PasscodeEntryTest {
         PasscodeEntry.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Invalid PIN"), "10000 is too long to be 4-digit");
-        assertFalse(output.contains("Access granted"), "Invalid PIN must not grant access");
+        assertTrue(output.contains("Access denied"), "10000 has more than 4 digits");
+        assertFalse(output.contains("Access granted"), "Invalid PIN must not report Access granted");
     }
 
     @Test
     public void testInvalidPinNegative() {
-        setInput("-500\n");
+        setInput("-1000\n");
         PasscodeEntry.main(new String[]{});
 
         String output = outContent.toString();
-        assertTrue(output.contains("Invalid PIN"), "Negative numbers cannot be valid 4-digit PINs");
-        assertFalse(output.contains("Access granted"), "Invalid PIN must not grant access");
+        assertTrue(output.contains("Access denied"), "Negative number is not a valid PIN");
+        assertFalse(output.contains("Access granted"), "Negative PIN must not report Access granted");
     }
 }

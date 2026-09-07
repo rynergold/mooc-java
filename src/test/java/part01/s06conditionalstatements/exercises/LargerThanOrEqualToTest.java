@@ -9,6 +9,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
 
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -44,6 +45,7 @@ class LargerThanOrEqualToTest {
         assertTrue(output.contains("Give the first number:"), "Missing prompt 1");
         assertTrue(output.contains("Give the second number:"), "Missing prompt 2");
         assertTrue(output.contains("Greater number is: 5"), "Expected 'Greater number is: 5'");
+        assertFalse(output.contains("The numbers are equal!"), "Must not print 'The numbers are equal!' when first is greater");
     }
 
     @Test
@@ -55,6 +57,7 @@ class LargerThanOrEqualToTest {
         assertTrue(output.contains("Give the first number:"), "Missing prompt 1");
         assertTrue(output.contains("Give the second number:"), "Missing prompt 2");
         assertTrue(output.contains("Greater number is: 8"), "Expected 'Greater number is: 8'");
+        assertFalse(output.contains("The numbers are equal!"), "Must not print 'The numbers are equal!' when second is greater");
     }
 
     @Test
@@ -66,6 +69,7 @@ class LargerThanOrEqualToTest {
         assertTrue(output.contains("Give the first number:"), "Missing prompt 1");
         assertTrue(output.contains("Give the second number:"), "Missing prompt 2");
         assertTrue(output.contains("The numbers are equal!"), "Expected 'The numbers are equal!'");
+        assertFalse(output.contains("Greater number is:"), "Must not print 'Greater number is:' when numbers are equal");
     }
 
     @Test
@@ -75,5 +79,6 @@ class LargerThanOrEqualToTest {
 
         String output = outContent.toString();
         assertTrue(output.contains("Greater number is: -2"), "Expected 'Greater number is: -2'");
+        assertFalse(output.contains("The numbers are equal!"), "Must not print 'The numbers are equal!' for -5 and -2");
     }
 }
