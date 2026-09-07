@@ -166,22 +166,6 @@ int z = x + y; // 20 + 10 = 30
 
 ---
 
-## Complete Section Exercises Roadmap
-
-| Tier | Difficulty | Exercise | Core Concept | Spec | Starter Code | Verification Command |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1** | ✪ | Seconds in a Day | Multiplication calculation | [SecondsInADay.md](./exercises/SecondsInADay.md) | [SecondsInADay.java](./exercises/SecondsInADay.java) | `./gradlew test --tests "part01.s05calculating.exercises.SecondsInADayTest"` |
-| **Tier 1** | ✪ | Sum of Two Numbers | Two-variable addition | [SumOfTwoNumbers.md](./exercises/SumOfTwoNumbers.md) | [SumOfTwoNumbers.java](./exercises/SumOfTwoNumbers.java) | `./gradlew test --tests "part01.s05calculating.exercises.SumOfTwoNumbersTest"` |
-| **Tier 1** | ✪ | Sum of Three Numbers | Three-variable addition | [SumOfThreeNumbers.md](./exercises/SumOfThreeNumbers.md) | [SumOfThreeNumbers.java](./exercises/SumOfThreeNumbers.java) | `./gradlew test --tests "part01.s05calculating.exercises.SumOfThreeNumbersTest"` |
-| **Tier 1** | ✪ | Addition Formula | Outputting formatted addition equation | [AdditionFormula.md](./exercises/AdditionFormula.md) | [AdditionFormula.java](./exercises/AdditionFormula.java) | `./gradlew test --tests "part01.s05calculating.exercises.AdditionFormulaTest"` |
-| **Tier 1** | ✪ | Multiplication Formula | Outputting formatted multiplication equation | [MultiplicationFormula.md](./exercises/MultiplicationFormula.md) | [MultiplicationFormula.java](./exercises/MultiplicationFormula.java) | `./gradlew test --tests "part01.s05calculating.exercises.MultiplicationFormulaTest"` |
-| **Tier 2** | ✪✪ | Average of Two Numbers | Double casting in division | [AverageOfTwoNumbers.md](./exercises/AverageOfTwoNumbers.md) | [AverageOfTwoNumbers.java](./exercises/AverageOfTwoNumbers.java) | `./gradlew test --tests "part01.s05calculating.exercises.AverageOfTwoNumbersTest"` |
-| **Tier 2** | ✪✪ | Average of Three Numbers | Multiple-variable decimal average | [AverageOfThreeNumbers.md](./exercises/AverageOfThreeNumbers.md) | [AverageOfThreeNumbers.java](./exercises/AverageOfThreeNumbers.java) | `./gradlew test --tests "part01.s05calculating.exercises.AverageOfThreeNumbersTest"` |
-| **Tier 2** | ✪✪ | Simple Calculator | Multi-operation arithmetic | [SimpleCalculator.md](./exercises/SimpleCalculator.md) | [SimpleCalculator.java](./exercises/SimpleCalculator.java) | `./gradlew test --tests "part01.s05calculating.exercises.SimpleCalculatorTest"` |
-| **Tier 2** | ✪✪ | Bill Splitter | Decimal currency division and tip | [BillSplitter.md](./exercises/BillSplitter.md) | [BillSplitter.java](./exercises/BillSplitter.java) | `./gradlew test --tests "part01.s05calculating.exercises.BillSplitterTest"` |
-
----
-
 ## Official Documentation
 
 - **Operators:** [Oracle Java Tutorials (Summary of Operators)](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/opsummary.html)

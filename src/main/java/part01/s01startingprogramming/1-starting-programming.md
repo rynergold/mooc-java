@@ -155,14 +155,6 @@ The compiler (`javac`) translates source code into platform-independent **byteco
 
 ---
 
-## Complete Section Exercises Roadmap
-
-| Tier | Difficulty | Exercise | Core Concept | Spec | Starter Code | Verification Command |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1** | ✪ | Sandbox | Java program structure, compilation | [Sandbox.md](./exercises/Sandbox.md) | [Sandbox.java](./exercises/Sandbox.java) | `./gradlew test --tests "part01.s01startingprogramming.exercises.SandboxTest"` |
-
----
-
 ## Official Documentation
 
 - **The Java Tutorials — "Hello World!" Application:** [Oracle Java SE Documentation](https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html)

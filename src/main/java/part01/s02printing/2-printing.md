@@ -182,17 +182,6 @@ public class CommentsExample {
 
 ---
 
-## Complete Section Exercises Roadmap
-
-| Tier | Difficulty | Exercise | Core Concept | Spec | Starter Code | Verification Command |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1** | ✪ | Ada Lovelace | Single-line string printing | [AdaLovelace.md](./exercises/AdaLovelace.md) | [AdaLovelace.java](./exercises/AdaLovelace.java) | `./gradlew test --tests "part01.s02printing.exercises.AdaLovelaceTest"` |
-| **Tier 1** | ✪ | Once Upon a Time | Multi-line sequential execution | [OnceUponATime.md](./exercises/OnceUponATime.md) | [OnceUponATime.java](./exercises/OnceUponATime.java) | `./gradlew test --tests "part01.s02printing.exercises.OnceUponATimeTest"` |
-| **Tier 1** | ✪ | Dinosaur | Multi-line text with `sout` | [Dinosaur.md](./exercises/Dinosaur.md) | [Dinosaur.java](./exercises/Dinosaur.java) | `./gradlew test --tests "part01.s02printing.exercises.DinosaurTest"` |
-| **Tier 1** | ✪ | Triangle Drill | Character alignment and spacing | [TriangleDrill.md](./exercises/TriangleDrill.md) | [TriangleDrill.java](./exercises/TriangleDrill.java) | `./gradlew test --tests "part01.s02printing.exercises.TriangleDrillTest"` |
-
----
-
 ## Official Documentation
 
 - **PrintStream (`println`):** [Oracle Java SE Documentation](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/io/PrintStream.html#println(java.lang.String))

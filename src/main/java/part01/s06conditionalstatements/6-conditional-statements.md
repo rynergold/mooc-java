@@ -89,24 +89,26 @@ if (stockCount > 100) {
 
 ## 2. Comparing Strings: `.equals()` vs. `==`
 
-Variables for primitive types (`int`, `double`, `boolean`) hold values directly in their memory containers. The `==` operator compares the contents of those containers.
+Variables for numbers and booleans (`int`, `double`, `boolean`) hold their values directly inside their own variable box. The `==` operator checks whether two boxes contain the same value.
 
-Strings in Java are objects. A `String` variable holds a reference (memory address) pointing to where the text is stored in memory:
+Strings work differently. In Java, text can be long and varied, so Java stores the actual characters in a separate memory area called the **heap**. The variable box on the **stack** only holds the address of where that text lives:
 
 ```
-Stack                           Heap
-[ input   ] ---> (0x20A4) ---> "secret"
-[ passkey ] ---> (0x80F2) ---> "secret"
+Stack (Variable boxes)          Heap (Where text lives)
+[ input   ] ---> (address A) ---> "secret"
+[ passkey ] ---> (address B) ---> "secret"
 ```
 
-- **Stack:** Fast, temporary memory that tracks currently active variables. For an object like a `String`, the stack only holds its memory address (reference).
-- **Heap:** The shared memory pool where the actual contents of objects (such as the characters of text) live.
-- `==` compares the memory addresses stored on the stack. Two strings created separately reside at different addresses on the heap, so `input == passkey` evaluates to `false` even if the words are identical.
-- `.equals()` follows the address over to the heap and compares the actual sequence of characters.
+- **Stack:** Where your named variables live.
+- **Heap:** Where the actual text of strings lives.
+
+Because `==` compares only what is stored inside the variable box on the stack, it compares the two addresses. Two strings created separately have different addresses, so `input == passkey` produces `false` even when both spell `"secret"`.
+
+To check the characters inside the text, use `.equals()`. It follows the address over to the heap and checks each letter.
 
 > [!NOTE]
-> **Curious about Stack vs. Heap? (Optional Reading)**
-> For this section, you only need to know that primitive variables hold their values directly, while objects live on the heap and are referenced by memory addresses. If you want to explore further, see [Baeldung: Stack Memory and Heap Space in Java](https://www.baeldung.com/java-stack-heap-memory).
+> **Curious to learn more? (Optional Reading)**
+> Check out [Baeldung: Stack Memory and Heap Space in Java](https://www.baeldung.com/java-stack-heap-memory) if you want to explore how Java organizes memory behind the scenes.
 
 ### Example 2: Verifying Text Equality
 
@@ -360,27 +362,6 @@ if (heightCm >= 140) {
 - **Comparing Strings with `==`:** Always use `first.equals(second)` rather than `first == second`.
 - **Inverted Branch Order:** Placing general conditions before specific conditions shadows the specific conditions, making them unreachable.
 - **Short-Circuit Misunderstandings:** Code inside the right side of `&&` or `||` will not run when the left side already determines the result.
-
----
-
-## Complete Section Exercises Roadmap
-
-| Tier | Difficulty | Exercise | Core Concept | Spec | Starter Code | Verification Command |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1** | ✪ | Speeding Ticket | Single condition check (`> 120`) | [SpeedingTicket.md](./exercises/SpeedingTicket.md) | [SpeedingTicket.java](./exercises/SpeedingTicket.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.SpeedingTicketTest"` |
-| **Tier 1** | ✪ | Check Your Indentation | Code block formatting & scope | [CheckYourIndentation.md](./exercises/CheckYourIndentation.md) | [CheckYourIndentation.java](./exercises/CheckYourIndentation.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.CheckYourIndentationTest"` |
-| **Tier 1** | ✪ | Orwell | Exact integer equality (`== 1984`) | [Orwell.md](./exercises/Orwell.md) | [Orwell.java](./exercises/Orwell.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.OrwellTest"` |
-| **Tier 1** | ✪ | Ancient | Numeric comparison (`< 2015`) | [Ancient.md](./exercises/Ancient.md) | [Ancient.java](./exercises/Ancient.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.AncientTest"` |
-| **Tier 1** | ✪ | Positivity | Binary branch with `if-else` | [Positivity.md](./exercises/Positivity.md) | [Positivity.java](./exercises/Positivity.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.PositivityTest"` |
-| **Tier 1** | ✪ | Adulthood | Binary threshold with `if-else` | [Adulthood.md](./exercises/Adulthood.md) | [Adulthood.java](./exercises/Adulthood.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.AdulthoodTest"` |
-| **Tier 1** | ✪ | Password | String equality with `.equals()` | [Password.md](./exercises/Password.md) | [Password.java](./exercises/Password.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.PasswordTest"` |
-| **Tier 1** | ✪ | Same | Comparing two strings with `.equals()` | [Same.md](./exercises/Same.md) | [Same.java](./exercises/Same.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.SameTest"` |
-| **Tier 2** | ✪✪ | Larger Than or Equal To | Two-variable comparison with tie | [LargerThanOrEqualTo.md](./exercises/LargerThanOrEqualTo.md) | [LargerThanOrEqualTo.java](./exercises/LargerThanOrEqualTo.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.LargerThanOrEqualToTest"` |
-| **Tier 2** | ✪✪ | Grades and Points | Multi-branch `else if` grading scale | [GradesAndPoints.md](./exercises/GradesAndPoints.md) | [GradesAndPoints.java](./exercises/GradesAndPoints.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.GradesAndPointsTest"` |
-| **Tier 2** | ✪✪ | Odd or Even | Remainder even/odd check (`% 2 == 0`) | [OddOrEven.md](./exercises/OddOrEven.md) | [OddOrEven.java](./exercises/OddOrEven.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.OddOrEvenTest"` |
-| **Tier 2** | ✪✪ | Checking the Age | Range validation with logical `&&` | [CheckingTheAge.md](./exercises/CheckingTheAge.md) | [CheckingTheAge.java](./exercises/CheckingTheAge.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.CheckingTheAgeTest"` |
-| **Tier 3** | ✪✪✪ | Leap Year | Hierarchical divisibility ordering | [LeapYear.md](./exercises/LeapYear.md) | [LeapYear.java](./exercises/LeapYear.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.LeapYearTest"` |
-| **Tier 3** | ✪✪✪ | Gift Tax | Stepped tax bracket calculation | [GiftTax.md](./exercises/GiftTax.md) | [GiftTax.java](./exercises/GiftTax.java) | `./gradlew test --tests "part01.s06conditionalstatements.exercises.GiftTaxTest"` |
 
 ---
 

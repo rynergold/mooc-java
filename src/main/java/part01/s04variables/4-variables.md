@@ -169,19 +169,6 @@ System.out.println("Engine: " + engineSize + "L | Electric: " + isElectric);
 
 ---
 
-## Complete Section Exercises Roadmap
-
-| Tier | Difficulty | Exercise | Core Concept | Spec | Starter Code | Verification Command |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1** | ✪ | Various Variables | Declaring and displaying multiple types | [VariousVariables.md](./exercises/VariousVariables.md) | [VariousVariables.java](./exercises/VariousVariables.java) | `./gradlew test --tests "part01.s04variables.exercises.VariousVariablesTest"` |
-| **Tier 1** | ✪ | Integer Input | Converting text into `int` | [IntegerInput.md](./exercises/IntegerInput.md) | [IntegerInput.java](./exercises/IntegerInput.java) | `./gradlew test --tests "part01.s04variables.exercises.IntegerInputTest"` |
-| **Tier 1** | ✪ | Double Input | Converting text into `double` | [DoubleInput.md](./exercises/DoubleInput.md) | [DoubleInput.java](./exercises/DoubleInput.java) | `./gradlew test --tests "part01.s04variables.exercises.DoubleInputTest"` |
-| **Tier 1** | ✪ | Boolean Input | Converting text into `boolean` | [BooleanInput.md](./exercises/BooleanInput.md) | [BooleanInput.java](./exercises/BooleanInput.java) | `./gradlew test --tests "part01.s04variables.exercises.BooleanInputTest"` |
-| **Tier 1** | ✪ | Different Types Of Input | Sequential conversion of mixed types | [DifferentTypesOfInput.md](./exercises/DifferentTypesOfInput.md) | [DifferentTypesOfInput.java](./exercises/DifferentTypesOfInput.java) | `./gradlew test --tests "part01.s04variables.exercises.DifferentTypesOfInputTest"` |
-| **Tier 1** | ✪ | Character Sheet | Storing multiple attributes across types | [CharacterSheet.md](./exercises/CharacterSheet.md) | [CharacterSheet.java](./exercises/CharacterSheet.java) | `./gradlew test --tests "part01.s04variables.exercises.CharacterSheetTest"` |
-
----
-
 ## Official Documentation
 
 - **Primitive Data Types:** [Oracle Java Tutorials](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)

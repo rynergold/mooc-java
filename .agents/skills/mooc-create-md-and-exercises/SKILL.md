@@ -19,7 +19,7 @@ graph TD
     B --> C[3. Run /no-ai-slop Audit]
     C --> D[4. Calibrate Star Ratings 1-3 Stars]
     D --> E[5. Structure Progressive Examples & Exercises]
-    E --> F[6. Verify Build & Roadmap]
+    E --> F[6. Verify Build & Test Suites]
 ```
 
 ---
@@ -136,17 +136,7 @@ For each core concept, provide 3 progressive examples:
 ### B. Common Pitfalls
 Explain specific code errors after the examples (out-of-order branches, flipped logic operators, flat-rate calculation traps, integer division truncation).
 
-### C. Complete Section Roadmap Index
-End the guide with a table listing all exercises in the section:
-```markdown
-## Complete Section Exercises Roadmap
-
-| Tier | Difficulty | Exercise | Core Concept | Spec | Starter Code | Verification Command |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1** | ✪ | Sandbox | Java program structure, compilation | [Sandbox.md](./exercises/Sandbox.md) | [Sandbox.java](./exercises/Sandbox.java) | `./gradlew test --tests "..."` |
-```
-
-### D. Official Documentation
+### C. Official Documentation
 Link to official Oracle Java Tutorials and Javadoc at the bottom.
 
 ---

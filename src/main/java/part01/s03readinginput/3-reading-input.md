@@ -157,20 +157,6 @@ System.out.println("Customs clearance scheduled upon arrival in " + country + ".
 
 ---
 
-## Complete Section Exercises Roadmap
-
-| Tier | Difficulty | Exercise | Core Concept | Spec | Starter Code | Verification Command |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Tier 1** | ✪ | Message | Basic console input with `Scanner` | [Message.md](./exercises/Message.md) | [Message.java](./exercises/Message.java) | `./gradlew test --tests "part01.s03readinginput.exercises.MessageTest"` |
-| **Tier 1** | ✪ | Message Three Times | Variable reuse across print calls | [MessageThreeTimes.md](./exercises/MessageThreeTimes.md) | [MessageThreeTimes.java](./exercises/MessageThreeTimes.java) | `./gradlew test --tests "part01.s03readinginput.exercises.MessageThreeTimesTest"` |
-| **Tier 1** | ✪ | Hi Ada Lovelace | String concatenation with `+` | [HiAdaLovelace.md](./exercises/HiAdaLovelace.md) | [HiAdaLovelace.java](./exercises/HiAdaLovelace.java) | `./gradlew test --tests "part01.s03readinginput.exercises.HiAdaLovelaceTest"` |
-| **Tier 1** | ✪ | Greeting | Input capture with interactive prompt | [Greeting.md](./exercises/Greeting.md) | [Greeting.java](./exercises/Greeting.java) | `./gradlew test --tests "part01.s03readinginput.exercises.GreetingTest"` |
-| **Tier 1** | ✪ | Conversation | Multi-turn prompt and response sequence | [Conversation.md](./exercises/Conversation.md) | [Conversation.java](./exercises/Conversation.java) | `./gradlew test --tests "part01.s03readinginput.exercises.ConversationTest"` |
-| **Tier 1** | ✪ | Story | Combining multiple variables into narrative | [Story.md](./exercises/Story.md) | [Story.java](./exercises/Story.java) | `./gradlew test --tests "part01.s03readinginput.exercises.StoryTest"` |
-| **Tier 1** | ✪ | Mad Libs | Assembling narrative from user inputs | [MadLibs.md](./exercises/MadLibs.md) | [MadLibs.java](./exercises/MadLibs.java) | `./gradlew test --tests "part01.s03readinginput.exercises.MadLibsTest"` |
-
----
-
 ## Official Documentation
 
 - **Scanner Class:** [Oracle Java SE Javadoc (Scanner)](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Scanner.html)
