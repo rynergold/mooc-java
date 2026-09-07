@@ -107,13 +107,13 @@ Because `==` compares only what is stored inside the variable box on the stack, 
 To check the characters inside the text, use `.equals()`. It follows the address over to the heap and checks each letter.
 
 > [!NOTE]
-> **What Are the Stack and Heap Physically?**
-> Physically, neither the stack nor the heap is a separate chip or part of the CPU. Both exist in your computer's main memory (**RAM**). When your program runs, the JVM reserves a block of RAM and organizes it into dedicated zones:
-> - **The Stack (in RAM):** A fast, strictly ordered region of RAM that holds active local variables. It functions like a physical stack of plates: variables are added when a method starts and removed immediately when it finishes. The CPU tracks the top of this stack using a dedicated internal register (the stack pointer), making access fast.
-> - **The Heap (in RAM):** A large, flexible pool of RAM where objects (like text strings) live dynamically for as long as your program needs them.
+> **Understanding the Stack and Heap in Memory**
+> Both the stack and the heap live in your computer's main memory (**RAM**). When a Java program starts, the Java Virtual Machine reserves a block of RAM and organizes it into dedicated zones:
+> - **The Stack:** An ordered region of RAM that holds active local variables. Variables are allocated when code begins running and cleared immediately when it finishes, making lookups very fast.
+> - **The Heap:** A large, flexible region of RAM where objects (such as text strings) are stored dynamically for as long as the program needs them.
 >
 > **The Sticky Note and Warehouse Analogy:**
-> Think of your variable on the **stack** as a sticky note on your desk. For a number like `int count = 5;`, the number `5` is written directly on the note.
+> Think of your variable on the **stack** as a sticky note on your desk. For a primitive number like `int count = 5;`, the number `5` is written directly on the note.
 >
 > A `String` can be much larger, like a book. Java keeps the actual text in the warehouse (the **heap**). Your sticky note on the stack only holds the shelf code telling Java where that book sits.
 >
