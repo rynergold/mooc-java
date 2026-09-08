@@ -12,6 +12,7 @@ public class PositiveCheck {
     int i = Integer.parseInt(s.nextLine());
     if (i < 1) {
       System.out.println("The number is not positive");
+      return;
     }
     System.out.println("The number is positive");
   }
