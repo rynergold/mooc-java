@@ -8,8 +8,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -36,14 +37,23 @@ class BankWithdrawalTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
+    private void assertResult(String output, String expectedMessage) {
+        assertTrue(output.contains("Enter current balance:"), "Must display 'Enter current balance:' prompt");
+        assertTrue(output.contains("Enter withdrawal amount:"), "Must display 'Enter withdrawal amount:' prompt");
+        List<String> lines = output.lines()
+                .map(String::trim)
+                .filter(l -> !l.isEmpty() && !l.startsWith("Enter current balance") && !l.startsWith("Enter withdrawal amount"))
+                .toList();
+        assertEquals(1, lines.size(), "Should print exactly one result line, but found: " + lines);
+        assertEquals(expectedMessage, lines.get(0), "Expected status message: " + expectedMessage);
+    }
+
     @Test
     public void testValidPartialWithdrawal() {
         setInput("500\n200\n");
         BankWithdrawal.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Withdrawal successful. Remaining balance: 300"), "500 - 200 should leave 300");
-        assertFalse(output.contains("Invalid withdrawal"), "Valid withdrawal should not print invalid");
+        assertResult(outContent.toString(), "Withdrawal successful. Remaining balance: 300");
     }
 
     @Test
@@ -51,19 +61,31 @@ class BankWithdrawalTest {
         setInput("500\n500\n");
         BankWithdrawal.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Withdrawal successful. Remaining balance: 0"), "500 - 500 should leave 0");
-        assertFalse(output.contains("Invalid withdrawal"), "Valid withdrawal should not print invalid");
+        assertResult(outContent.toString(), "Withdrawal successful. Remaining balance: 0");
     }
 
     @Test
-    public void testInvalidAmountExceedsBalance() {
+    public void testValidMinimumPositiveWithdrawal() {
+        setInput("500\n1\n");
+        BankWithdrawal.main(new String[]{});
+
+        assertResult(outContent.toString(), "Withdrawal successful. Remaining balance: 499");
+    }
+
+    @Test
+    public void testInvalidImmediateAmountExceedsBalance() {
+        setInput("500\n501\n");
+        BankWithdrawal.main(new String[]{});
+
+        assertResult(outContent.toString(), "Invalid withdrawal");
+    }
+
+    @Test
+    public void testInvalidLargeAmountExceedsBalance() {
         setInput("500\n600\n");
         BankWithdrawal.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Invalid withdrawal"), "Amount > balance must be invalid");
-        assertFalse(output.contains("Withdrawal successful"), "Invalid withdrawal must not print successful");
+        assertResult(outContent.toString(), "Invalid withdrawal");
     }
 
     @Test
@@ -71,9 +93,15 @@ class BankWithdrawalTest {
         setInput("500\n0\n");
         BankWithdrawal.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Invalid withdrawal"), "Zero amount must be invalid");
-        assertFalse(output.contains("Withdrawal successful"), "Invalid withdrawal must not print successful");
+        assertResult(outContent.toString(), "Invalid withdrawal");
+    }
+
+    @Test
+    public void testInvalidImmediateNegativeAmount() {
+        setInput("500\n-1\n");
+        BankWithdrawal.main(new String[]{});
+
+        assertResult(outContent.toString(), "Invalid withdrawal");
     }
 
     @Test
@@ -81,8 +109,14 @@ class BankWithdrawalTest {
         setInput("500\n-50\n");
         BankWithdrawal.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Invalid withdrawal"), "Negative amount must be invalid");
-        assertFalse(output.contains("Withdrawal successful"), "Invalid withdrawal must not print successful");
+        assertResult(outContent.toString(), "Invalid withdrawal");
+    }
+
+    @Test
+    public void testZeroBalanceCannotWithdrawOne() {
+        setInput("0\n1\n");
+        BankWithdrawal.main(new String[]{});
+
+        assertResult(outContent.toString(), "Invalid withdrawal");
     }
 }
