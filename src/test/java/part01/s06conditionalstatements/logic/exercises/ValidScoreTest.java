@@ -8,8 +8,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -36,14 +37,22 @@ class ValidScoreTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
+    private void assertResult(String output, String expectedMessage) {
+        assertTrue(output.contains("Enter score:"), "Program must display the prompt 'Enter score:'");
+        List<String> lines = output.lines()
+                .map(String::trim)
+                .filter(l -> !l.isEmpty() && !l.startsWith("Enter score"))
+                .toList();
+        assertEquals(1, lines.size(), "Should print exactly one result line, but found: " + lines);
+        assertEquals(expectedMessage, lines.get(0), "Expected status message: " + expectedMessage);
+    }
+
     @Test
     public void testValidNormalScore() {
         setInput("75\n");
         ValidScore.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Valid score"), "75 is within 0 to 100");
-        assertFalse(output.contains("Invalid score"), "Valid score must not print 'Invalid score'");
+        assertResult(outContent.toString(), "Valid score");
     }
 
     @Test
@@ -51,9 +60,23 @@ class ValidScoreTest {
         setInput("0\n");
         ValidScore.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Valid score"), "0 is inclusive boundary");
-        assertFalse(output.contains("Invalid score"), "Valid score must not print 'Invalid score'");
+        assertResult(outContent.toString(), "Valid score");
+    }
+
+    @Test
+    public void testValidBoundaryOne() {
+        setInput("1\n");
+        ValidScore.main(new String[]{});
+
+        assertResult(outContent.toString(), "Valid score");
+    }
+
+    @Test
+    public void testValidBoundaryNinetyNine() {
+        setInput("99\n");
+        ValidScore.main(new String[]{});
+
+        assertResult(outContent.toString(), "Valid score");
     }
 
     @Test
@@ -61,28 +84,46 @@ class ValidScoreTest {
         setInput("100\n");
         ValidScore.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Valid score"), "100 is inclusive boundary");
-        assertFalse(output.contains("Invalid score"), "Valid score must not print 'Invalid score'");
+        assertResult(outContent.toString(), "Valid score");
     }
 
     @Test
-    public void testInvalidNegative() {
+    public void testInvalidImmediateNegativeOne() {
+        setInput("-1\n");
+        ValidScore.main(new String[]{});
+
+        assertResult(outContent.toString(), "Invalid score");
+    }
+
+    @Test
+    public void testInvalidNegativeFive() {
         setInput("-5\n");
         ValidScore.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Invalid score"), "-5 is below zero");
-        assertFalse(output.contains("Valid score"), "Invalid score must not print 'Valid score'");
+        assertResult(outContent.toString(), "Invalid score");
     }
 
     @Test
-    public void testInvalidOverHundred() {
+    public void testInvalidLargeNegative() {
+        setInput("-100\n");
+        ValidScore.main(new String[]{});
+
+        assertResult(outContent.toString(), "Invalid score");
+    }
+
+    @Test
+    public void testInvalidImmediateOverHundred() {
         setInput("101\n");
         ValidScore.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Invalid score"), "101 is above 100");
-        assertFalse(output.contains("Valid score"), "Invalid score must not print 'Valid score'");
+        assertResult(outContent.toString(), "Invalid score");
+    }
+
+    @Test
+    public void testInvalidLargeScore() {
+        setInput("500\n");
+        ValidScore.main(new String[]{});
+
+        assertResult(outContent.toString(), "Invalid score");
     }
 }
