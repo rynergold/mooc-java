@@ -2,6 +2,13 @@
 .idea/
 *.iml
 .vscode/
+.project
+.classpath
+.settings/
+nbproject/
+*.swp
+*.swo
+*~
 
 # Build and runtime outputs
 out/
@@ -10,14 +17,30 @@ target/
 build/
 bin/
 *.class
+reports/
+*.log
 
 # OS metadata
 .DS_Store
+._*
 Thumbs.db
+desktop.ini
+.Spotlight-V100
+.Trashes
 
-# Scripts and scratch tooling
-*.py
+# Python caches and bytecode
 *.pyc
+*.pyo
 __pycache__/
-*.sh
+.pytest_cache/
 
+# Local scratch and agent runtime artifacts
+scratch/
+tmp/
+.system_generated/
+.env
+.env.local
+scripts/
+
+# Explicitly track repo-level agent configs (overrides ~/.gitignore_global)
+!CLAUDE.md

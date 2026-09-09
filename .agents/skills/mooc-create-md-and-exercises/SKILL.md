@@ -1,74 +1,89 @@
 ---
 name: mooc-create-md-and-exercises
-description: Scaffolds Java exercises, JUnit 5 test suites, and refactors MOOC conceptual markdown files into clean, no-ai-slop guides with modular exercise links. Use when starting a new section or preparing section exercises and notes.
+description: Ingests a Helsinki MOOC section from the web, modernizes Java advice, strips spoilers, scaffolds exercise specs and starter files, generates JUnit 5 tests, calibrates 1-7 difficulty stars, and audits against AI slop.
 ---
 
-# MOOC Section Scaffolding & Conceptual Markdown Refactor
+# MOOC Section Scaffolding & Conceptual Guide Ingestion
 
-Workflow for preparing a Helsinki MOOC section: extract exercises into files, generate JUnit 5 test suites, assign difficulty ratings, write progressive conceptual guides, and strip AI filler.
+A standardized pipeline to ingest a Helsinki Java MOOC section from the official curriculum (https://java-programming.mooc.fi/), refactor it into clean, spoiler-free conceptual guides, scaffold isolated exercises with JUnit 5 test suites, and calibrate difficulty ratings on a 1–7 star scale.
 
 ---
 
-## Pipeline
-
-Follow these steps in order:
+## Complete Scaffolding Pipeline
 
 ```mermaid
 graph TD
-    A[1. Scaffold Exercises & Tests] --> B[2. Author/Refactor Conceptual Guide]
-    B --> C[3. Run /no-ai-slop Audit]
-    C --> D[4. Calibrate Star Ratings 1-3 Stars]
-    D --> E[5. Structure Progressive Examples & Exercises]
-    E --> F[6. Verify Build & Test Suites]
+    A[1. Ingest & Read Helsinki Source] --> B[2. Check Modern LTS Java Alignment]
+    B --> C[3. Redact Spoilers & Anti-Cheat Rewrite]
+    C --> D[4. Scaffold Exercises, Starters & Tests]
+    D --> E[5. Calibrate Universal 1-7 Star Ratings]
+    E --> F[6. Audit Guides & Specs with /no-ai-slop]
+    F --> G[7. Verify Compilation via Gradle]
 ```
 
 ---
 
-## Steps
+## Step-by-Step Execution
 
-### 1. Scaffold Individual Exercises
+### Step 1: Ingest Helsinki Course Material
+1. Locate or fetch the target section from Helsinki MOOC:
+   - Base URL: `https://java-programming.mooc.fi/part-<X>/<Y>-<section-name>`
+   - Alternatively read existing raw markdown if already present in `src/main/java/partXX/sYY<name>/<n>-<name>.md`.
+2. Extract:
+   - Core learning objectives.
+   - Conceptual themes, explanations, and diagrams.
+   - Programming exercise requirements, sample inputs, and expected console outputs.
 
-Every section isolates its exercises into a dedicated `exercises/` subfolder, keeping conceptual guides at the root of the section directory:
+---
+
+### Step 2: Modernize Java Advice (LTS Standards)
+- Ensure all explanations, syntax, and conventions align with modern LTS Java (Java 17 / 21) while respecting pedagogical progression:
+  - Mention modern enhancements in `> [!TIP]` callouts (e.g. text blocks, `var`, switch expressions, enhanced pattern matching).
+  - Explicitly explain why introductory sections teach core syntax first before syntactic sugar.
+  - Never leap ahead of the learner's scope (e.g. avoid streams, lambdas, or complex OOP in Part 1).
+
+---
+
+### Step 3: Redact Spoilers & Anti-Cheat Example Rewriting (CRITICAL)
+In the raw MOOC text, code examples frequently give away the exact solution to the exercises that follow immediately.
+- **Rule:** The conceptual guide must **NEVER** contain a code example that directly solves a section exercise.
+- **Action:** Audit every code snippet in the conceptual guide:
+  - If an exercise asks to check if a speed exceeds 120 (`SpeedingTicket`), rewrite the guide's example to use a completely different domain (e.g. checking freezer temperature, pressure thresholds, or battery percentage).
+  - If an exercise asks to compute leap years, demonstrate nested/compound logic using employee shift scheduling or ticket discounts.
+  - The conceptual guide must build the **mental model** and demonstrate the syntax, forcing the learner to independently apply the concept to the exercise domain.
+
+---
+
+### Step 4: Scaffold Isolated Exercises & JUnit 5 Tests
+
+Every section must isolate its exercises in a dedicated `exercises/` subdirectory (or `logic/exercises/` for applied problem-solving modules):
 
 ```text
 partXX/sYY<name>/
-├── <n>-<name>.md               <-- Conceptual guide
+├── <n>-<name>.md               <-- Spoiler-free conceptual guide
 └── exercises/                  <-- Package: partXX.sYY<name>.exercises
-    ├── <ExerciseName>.java
-    └── <ExerciseName>.md
+    ├── <ExerciseName>.java     <-- Clean starter file
+    └── <ExerciseName>.md       <-- Detailed specification
 ```
 
-For applied logic and problem-solving modules (such as Section 1.6.5):
-```text
-partXX/sYY<name>/
-├── <n>-<name>.md
-├── exercises/                  <-- Standard MOOC exercises
-└── logic/
-    ├── <n.5>-applied-logic.md  <-- Applied logic guide
-    └── exercises/              <-- Package: partXX.sYY<name>.logic.exercises
-        ├── <ExerciseName>.java
-        └── <ExerciseName>.md
-```
-
-#### A. Create the Exercise Specification (`<ExerciseName>.md`)
-Location: `src/main/java/partXX/sYY<name>/exercises/<ExerciseName>.md` (or `.../logic/exercises/...`)
-
-Include:
+#### A. Exercise Specification (`<ExerciseName>.md`)
+Location: `src/main/java/partXX/sYY<name>/exercises/<ExerciseName>.md`
+Must include:
 - Top-right difficulty badge:
   ```html
   <div align="right">
     <b>Difficulty:</b> ✪✪ (2/7)
   </div>
   ```
-- Exercise metadata (`**Exercise:**`, `**Category:**`, `**Difficulty:**`, `**Package:**`)
-- **Spec:** Bullet points with exact terminal prompts and calculation requirements.
-- **Examples:** Markdown table with stdin vs expected stdout.
+- Metadata headers: `**Exercise:**`, `**Category:**`, `**Difficulty:**`, `**Package:**`.
+- **Spec:** Bulleted requirements, exact console prompts, calculation rules.
+- **Examples:** Clean Markdown table displaying stdin vs expected stdout.
 - **Terminal Practice:** Exact Gradle test command:
   ```bash
   ./gradlew test --tests "partXX.sYY<name>.exercises.<ExerciseName>Test"
   ```
 
-#### B. Create the Java Starter File (`<ExerciseName>.java`)
+#### B. Java Starter File (`<ExerciseName>.java`)
 Location: `src/main/java/partXX/sYY<name>/exercises/<ExerciseName>.java`
 ```java
 package partXX.sYY<name>.exercises;
@@ -85,64 +100,46 @@ public class ExerciseName {
 }
 ```
 
-#### C. Create the JUnit 5 Test Class (`<ExerciseName>Test.java`)
+#### C. JUnit 5 Test Class (`<ExerciseName>Test.java`)
 Location: `src/test/java/partXX/sYY<name>/exercises/<ExerciseName>Test.java`
-- Package declaration matches: `package partXX.sYY<name>.exercises;`.
-- Redirect `System.in` and `System.out` in `@BeforeEach` and restore them in `@AfterEach`.
-- Add at least 3 test cases covering standard inputs, boundary values, and edge cases.
-- Assert against prompts and computed outputs with descriptive failure messages.
+- Package matches: `package partXX.sYY<name>.exercises;`.
+- Use `@BeforeEach` and `@AfterEach` to redirect and restore `System.in` and `System.out`.
+- Include at least 3 distinct test cases covering:
+  1. Standard/happy path input.
+  2. Boundary/threshold values (e.g. exact threshold boundary).
+  3. Edge/rejection cases (zero, negative, or invalid states).
 
 ---
 
-### 2. Audit Markdown Against AI Patterns (`/no-ai-slop`)
+### Step 5: Calibrate Star Ratings (Universal 1–7 Scale)
 
-Audit every markdown file (specs and guides) before publishing:
+Calibrate every exercise and drill against the universal 7-star difficulty rubric:
 
-- **Cut banned words:** `delve`, `foster`, `leverage`, `utilize`, `streamline`, `robust`, `crucial`, `paramount`, `dive in`, `tapestry`, `testament`.
-- **Drop dramatic labels:** Replace melodrama like "The Trap", "The Instinctive Trap", and "Literal Negation" with technical descriptions (`Wrap with !`, `Keep && (Broken)`, `Single Guard Clause`).
-- **Remove obscure academic jargon:** Avoid abstract terms like "parity testing", "multi-branch classification", "1D interval collision detection", and formal logic symbols ($\\neg, \\land, \\lor$). Name the exact programming behavior in plain terms: "checking even or odd with remainder operator (`% 2 == 0`)", "checking if two number ranges overlap", and boolean operators (`!`, `&&`, `||`).
-- **Explain KEY terminology:** Ground every key term right where it is introduced using Helsinki MOOC mental models (containers for variables, memory addresses vs character values for strings).
-- **Include modern Java advice:** Add practical `> [!TIP]` callouts for modern Java features (Java 11 single-file launch, Java 15 text blocks, Java 10 `var`, Java 14 switch expressions) while explaining why fundamentals come first.
-- **Cut throat-clearing and binary contrasts:** Drop generic setup phrases. State the point directly in active voice with concrete code.
-
----
-
-### 3. Calibrate Star Ratings (1–7 Scale, Capped at 3 Stars)
-
-Calibrate exercises between 1 and 3 stars on a universal 7-star scale (where 6–7 stars represent complex algorithmic challenges):
-
-| Rating | Tier Name | Criteria & Cognitive Demands | Examples |
+| Rating | Tier Name | Criteria & Cognitive Demands | Scope & Course Capping |
 | :--- | :--- | :--- | :--- |
-| **✪ (1/7)** | **Basic Mechanics** | Single sequential flow; no branching or single trivial `if`; direct string literals or single print/read operations. | `AdaLovelace`, `Greeting`, `Positivity`, `Password` |
-| **✪✪ (2/7)** | **Elementary Branching & Types** | 2-boundary range checks (`[min, max]`), multi-branch `if-else if-else`, type conversion/casting in division, remainder check (`% 2 == 0`). | `OddOrEven`, `ValidScore`, `TemperatureAlert`, `WorkingHours` |
-| **✪✪✪ (3/7)** | **Multi-Variable & Compound Logic** | Compound logic with 3+ variables, interval overlap, stepped rate calculations, 24-hr clock math, leap-year rules. | `ValidTriangle`, `LeapYear`, `GiftTax`, `MiddleOfThree`, `RangeOverlap` |
+| **✪ (1/7)** | **Basic Mechanics** | Sequential flow; single print/read; trivial single `if`; direct string literal matches. | Standard MOOC Parts 1–2 |
+| **✪✪ (2/7)** | **Elementary Branching & Types** | 2-boundary range checks (`[min, max]`), `if-else if-else`, type casting, remainder (`% 2 == 0`). | Standard MOOC Parts 1–3 |
+| **✪✪✪ (3/7)** | **Multi-Variable & Compound Logic** | Compound logic (3+ variables), interval overlap, stepped/tiered pricing, 24-hr clock wrap. | Standard MOOC Parts 1–4 |
+| **✪✪✪✪ (4/7)** | **State Tracking & Object Graphs** | Complex nested loops, object state encapsulation, multi-step validation. | **Course Cap** (Parts 4–14) |
+| **✪✪✪✪✪ to ✪✪✪✪✪✪✪ (5–7/7)** | **Algorithmic & Competitive Drills** | Dynamic programming, recursion depth, graph traversals, custom data structures. | **Drills Only** (Extension challenges) |
 
-**Rules:**
-- Every exercise file must include both the top-right HTML badge `<div align="right"><b>Difficulty:</b> ✪...</div>` and the metadata line `**Difficulty:** ✪...`.
-- Match the star count to the rubric above. Do not assign more than 3 stars in this introductory course.
-
----
-
-## 4. Structure Conceptual Guides (`<n>-<name>.md`)
-
-Place exercises directly below the concept they practice, then group extra applied exercises at the end.
-
-### A. Three Progressive Worked Examples Per Topic
-For each core concept, provide 3 progressive examples:
-1. **Example 1 (Basic / ✪):** Single-concept demonstration -> follow immediately with **Practice (✪ 1/7)** linking one-star exercises.
-2. **Example 2 (Medium / ✪✪):** Two-boundary range check or linear classification -> follow immediately with **Practice (✪✪ 2/7)** linking two-star exercises.
-3. **Example 3 (Harder / ✪✪✪):** Compound constraint, tiered rate, range overlap, or cycle -> follow immediately with **Practice (✪✪✪ 3/7)** linking three-star exercises.
-
-### B. Common Pitfalls
-Explain specific code errors after the examples (out-of-order branches, flipped logic operators, flat-rate calculation traps, integer division truncation).
-
-### C. Official Documentation
-Link to official Oracle Java Tutorials and Javadoc at the bottom.
+> [!NOTE]
+> Standard curriculum exercises are capped at **3 to 4 stars**. Ratings of 5 to 7 stars are reserved strictly for extension drill challenges.
 
 ---
 
-### 5. Verification & Git Autonomy
+### Step 6: Audit Against AI Slop (`/no-ai-slop`)
+Audit **both** the conceptual markdown guide (`<n>-<name>.md`) and every exercise specification (`<ExerciseName>.md`):
+- **Purge banned vocabulary:** `delve`, `foster`, `leverage`, `utilize`, `streamline`, `robust`, `crucial`, `paramount`, `dive in`, `tapestry`, `testament`.
+- **Remove dramatic labels:** Replace melodrama like *"The Lethal Trap"* with precise technical names (`Flipped Operator`, `Single Guard Clause`).
+- **Ground key terminology:** Define each concept immediately with clear mental models.
+- **Direct, active voice:** Cut throat-clearing intros ("In this section, we will explore..."). Lead with the code and concept.
 
-- Run `./gradlew compileJava compileTestJava` to confirm starters and tests compile.
-- Run tests with `./gradlew test --tests ...`.
-- Never run `git commit` or `git push`. Let the user stage and commit their own code.
+---
+
+### Step 7: Verify Compilation
+Run Gradle compilation to verify all newly generated starters and test classes compile cleanly:
+```bash
+./gradlew compileJava compileTestJava
+```
+*Never execute git commits or pushes. Leave git operations to the learner.*

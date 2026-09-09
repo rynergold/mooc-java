@@ -8,8 +8,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -36,43 +37,69 @@ class WorkingHoursTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
+    private void assertResult(String output, String expectedMessage) {
+        assertTrue(output.contains("Enter hour (0-23):"), "Must display 'Enter hour (0-23):' prompt");
+        List<String> lines = output.lines()
+                .map(String::trim)
+                .filter(l -> !l.isEmpty() && !l.startsWith("Enter hour"))
+                .toList();
+        assertEquals(1, lines.size(), "Should print exactly one status line, but found: " + lines);
+        assertEquals(expectedMessage, lines.get(0), "Expected status message: " + expectedMessage);
+    }
+
     @Test
     public void testOpenMidday() {
         setInput("14\n");
         WorkingHours.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Office open"), "14:00 is within working hours");
-        assertFalse(output.contains("Office closed"), "Must not report closed during open hours");
+        assertResult(outContent.toString(), "Office open");
     }
 
     @Test
-    public void testOpenBoundaries() {
+    public void testOpenLowerBoundaryNine() {
         setInput("9\n");
         WorkingHours.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Office open"), "9:00 is inclusive opening time");
-        assertFalse(output.contains("Office closed"), "Must not report closed at 9:00");
+        assertResult(outContent.toString(), "Office open");
     }
 
     @Test
-    public void testClosedBeforeNine() {
+    public void testOpenUpperBoundarySeventeen() {
+        setInput("17\n");
+        WorkingHours.main(new String[]{});
+
+        assertResult(outContent.toString(), "Office open");
+    }
+
+    @Test
+    public void testClosedImmediateBeforeNine() {
         setInput("8\n");
         WorkingHours.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Office closed"), "8:00 is before opening");
-        assertFalse(output.contains("Office open"), "Must not report open before 9:00");
+        assertResult(outContent.toString(), "Office closed");
     }
 
     @Test
-    public void testClosedAfterSeventeen() {
+    public void testClosedImmediateAfterSeventeen() {
         setInput("18\n");
         WorkingHours.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Office closed"), "18:00 is after closing");
-        assertFalse(output.contains("Office open"), "Must not report open after 17:00");
+        assertResult(outContent.toString(), "Office closed");
+    }
+
+    @Test
+    public void testClosedMidnightZero() {
+        setInput("0\n");
+        WorkingHours.main(new String[]{});
+
+        assertResult(outContent.toString(), "Office closed");
+    }
+
+    @Test
+    public void testClosedLateNightTwentyThree() {
+        setInput("23\n");
+        WorkingHours.main(new String[]{});
+
+        assertResult(outContent.toString(), "Office closed");
     }
 }
