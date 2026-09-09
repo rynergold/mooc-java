@@ -8,8 +8,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -36,43 +37,69 @@ class TemperatureAlertTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
+    private void assertResult(String output, String expectedMessage) {
+        assertTrue(output.contains("Enter temperature:"), "Program must display the prompt 'Enter temperature:'");
+        List<String> lines = output.lines()
+                .map(String::trim)
+                .filter(l -> !l.isEmpty() && !l.startsWith("Enter temperature"))
+                .toList();
+        assertEquals(1, lines.size(), "Should print exactly one status line, but found: " + lines);
+        assertEquals(expectedMessage, lines.get(0), "Expected status message: " + expectedMessage);
+    }
+
     @Test
     public void testTemperatureNormalMidRange() {
         setInput("5\n");
         TemperatureAlert.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Temperature normal"), "5 is between 2 and 8");
-        assertFalse(output.contains("Temperature alarm!"), "Normal temperature must not alarm");
+        assertResult(outContent.toString(), "Temperature normal");
     }
 
     @Test
-    public void testTemperatureNormalBoundaries() {
+    public void testTemperatureNormalLowerBoundaryTwo() {
         setInput("2\n");
         TemperatureAlert.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Temperature normal"), "2 is inclusive safe boundary");
-        assertFalse(output.contains("Temperature alarm!"), "Normal temperature must not alarm");
+        assertResult(outContent.toString(), "Temperature normal");
     }
 
     @Test
-    public void testTemperatureAlarmTooCold() {
+    public void testTemperatureNormalUpperBoundaryEight() {
+        setInput("8\n");
+        TemperatureAlert.main(new String[]{});
+
+        assertResult(outContent.toString(), "Temperature normal");
+    }
+
+    @Test
+    public void testTemperatureAlarmImmediateTooCold() {
         setInput("1\n");
         TemperatureAlert.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Temperature alarm!"), "1 is too cold");
-        assertFalse(output.contains("Temperature normal"), "Alarm must not report normal");
+        assertResult(outContent.toString(), "Temperature alarm!");
     }
 
     @Test
-    public void testTemperatureAlarmTooWarm() {
+    public void testTemperatureAlarmImmediateTooWarm() {
         setInput("9\n");
         TemperatureAlert.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Temperature alarm!"), "9 is too warm");
-        assertFalse(output.contains("Temperature normal"), "Alarm must not report normal");
+        assertResult(outContent.toString(), "Temperature alarm!");
+    }
+
+    @Test
+    public void testTemperatureAlarmSubZero() {
+        setInput("-3\n");
+        TemperatureAlert.main(new String[]{});
+
+        assertResult(outContent.toString(), "Temperature alarm!");
+    }
+
+    @Test
+    public void testTemperatureAlarmExtremeHigh() {
+        setInput("45\n");
+        TemperatureAlert.main(new String[]{});
+
+        assertResult(outContent.toString(), "Temperature alarm!");
     }
 }
