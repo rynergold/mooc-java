@@ -8,8 +8,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -36,43 +37,93 @@ class SpeedCameraTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
+    private void assertResult(String output, String expectedMessage) {
+        assertTrue(output.contains("Enter vehicle speed:"), "Must display 'Enter vehicle speed:' prompt");
+        List<String> lines = output.lines()
+                .map(String::trim)
+                .filter(l -> !l.isEmpty() && !l.startsWith("Enter vehicle speed"))
+                .toList();
+        assertEquals(1, lines.size(), "Should print exactly one status line, but found: " + lines);
+        assertEquals(expectedMessage, lines.get(0), "Expected status message: " + expectedMessage);
+    }
+
     @Test
-    public void testLegalNormalSpeed() {
+    public void testLegalMidRangeSpeed() {
         setInput("65\n");
         SpeedCamera.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Speed normal"), "65 is within [40, 100]");
-        assertFalse(output.contains("Speed violation"), "Legal speed must not report violation");
+        assertResult(outContent.toString(), "Speed normal");
     }
 
     @Test
-    public void testLegalBoundaries() {
+    public void testLegalLowerBoundaryForty() {
         setInput("40\n");
         SpeedCamera.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Speed normal"), "40 is inclusive minimum");
-        assertFalse(output.contains("Speed violation"), "Legal speed must not report violation");
+        assertResult(outContent.toString(), "Speed normal");
     }
 
     @Test
-    public void testViolationTooSlow() {
-        setInput("35\n");
+    public void testLegalUpperBoundaryHundred() {
+        setInput("100\n");
         SpeedCamera.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Speed violation"), "35 is below minimum 40");
-        assertFalse(output.contains("Speed normal"), "Too slow is a violation");
+        assertResult(outContent.toString(), "Speed normal");
     }
 
     @Test
-    public void testViolationTooFast() {
-        setInput("120\n");
+    public void testLegalInteriorLowBoundaryFortyOne() {
+        setInput("41\n");
         SpeedCamera.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Speed violation"), "120 exceeds maximum 100");
-        assertFalse(output.contains("Speed normal"), "Too fast is a violation");
+        assertResult(outContent.toString(), "Speed normal");
+    }
+
+    @Test
+    public void testLegalInteriorHighBoundaryNinetyNine() {
+        setInput("99\n");
+        SpeedCamera.main(new String[]{});
+
+        assertResult(outContent.toString(), "Speed normal");
+    }
+
+    @Test
+    public void testViolationImmediateBelowForty() {
+        setInput("39\n");
+        SpeedCamera.main(new String[]{});
+
+        assertResult(outContent.toString(), "Speed violation");
+    }
+
+    @Test
+    public void testViolationImmediateAboveHundred() {
+        setInput("101\n");
+        SpeedCamera.main(new String[]{});
+
+        assertResult(outContent.toString(), "Speed violation");
+    }
+
+    @Test
+    public void testViolationFarBelowForty() {
+        setInput("15\n");
+        SpeedCamera.main(new String[]{});
+
+        assertResult(outContent.toString(), "Speed violation");
+    }
+
+    @Test
+    public void testViolationFarAboveHundred() {
+        setInput("160\n");
+        SpeedCamera.main(new String[]{});
+
+        assertResult(outContent.toString(), "Speed violation");
+    }
+
+    @Test
+    public void testViolationZeroSpeed() {
+        setInput("0\n");
+        SpeedCamera.main(new String[]{});
+
+        assertResult(outContent.toString(), "Speed violation");
     }
 }
