@@ -8,8 +8,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -36,16 +37,22 @@ class TrafficLightTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
+    private void assertResult(String output, String expectedMessage) {
+        assertTrue(output.contains("Enter traffic light color:"), "Must display 'Enter traffic light color:' prompt");
+        List<String> lines = output.lines()
+                .map(String::trim)
+                .filter(l -> !l.isEmpty() && !l.startsWith("Enter traffic light color"))
+                .toList();
+        assertEquals(1, lines.size(), "Should print exactly one command line, but found: " + lines);
+        assertEquals(expectedMessage, lines.get(0), "Expected command: " + expectedMessage);
+    }
+
     @Test
     public void testRed() {
         setInput("red\n");
         TrafficLight.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Stop"), "red light must print Stop");
-        assertFalse(output.contains("Slow down"), "red light must not print Slow down");
-        assertFalse(output.contains("Go"), "red light must not print Go");
-        assertFalse(output.contains("Invalid color"), "red light must not print Invalid color");
+        assertResult(outContent.toString(), "Stop");
     }
 
     @Test
@@ -53,11 +60,7 @@ class TrafficLightTest {
         setInput("yellow\n");
         TrafficLight.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Slow down"), "yellow light must print Slow down");
-        assertFalse(output.contains("Stop"), "yellow light must not print Stop");
-        assertFalse(output.contains("Go"), "yellow light must not print Go");
-        assertFalse(output.contains("Invalid color"), "yellow light must not print Invalid color");
+        assertResult(outContent.toString(), "Slow down");
     }
 
     @Test
@@ -65,11 +68,7 @@ class TrafficLightTest {
         setInput("green\n");
         TrafficLight.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Go"), "green light must print Go");
-        assertFalse(output.contains("Stop"), "green light must not print Stop");
-        assertFalse(output.contains("Slow down"), "green light must not print Slow down");
-        assertFalse(output.contains("Invalid color"), "green light must not print Invalid color");
+        assertResult(outContent.toString(), "Go");
     }
 
     @Test
@@ -77,10 +76,22 @@ class TrafficLightTest {
         setInput("purple\n");
         TrafficLight.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Invalid color"), "unrecognized color must print Invalid color");
-        assertFalse(output.contains("Stop"), "invalid color must not print Stop");
-        assertFalse(output.contains("Slow down"), "invalid color must not print Slow down");
-        assertFalse(output.contains("Go"), "invalid color must not print Go");
+        assertResult(outContent.toString(), "Invalid color");
+    }
+
+    @Test
+    public void testCaseSensitivity() {
+        setInput("Red\n");
+        TrafficLight.main(new String[]{});
+
+        assertResult(outContent.toString(), "Invalid color");
+    }
+
+    @Test
+    public void testEmptyInput() {
+        setInput("\n");
+        TrafficLight.main(new String[]{});
+
+        assertResult(outContent.toString(), "Invalid color");
     }
 }
