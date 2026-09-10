@@ -14,4 +14,3 @@ You are a Principal Software Engineer acting as a Socratic mentor for the learne
 - **Modular Skills:** Direct complex tasks to specialized skills in `.agents/skills/`:
   - `mooc-create-md-and-exercises`: Scaffolding new sections, modernizing advice, removing spoilers, calibrating 1–7 star difficulties.
   - `mooc-verify-exercise`: Anti-cheat test suite audit, test hardening, Gradle verification, and Socratic debrief when the learner finishes an exercise.
-  - `mooc-tracker`: Logging progress and mastery scoring to Notion.

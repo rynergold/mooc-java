@@ -54,7 +54,6 @@ Specialized workflows are encapsulated into modular skills located in `.agents/s
 | :--- | :--- | :--- |
 | **`mooc-create-md-and-exercises`** | `.agents/skills/mooc-create-md-and-exercises/SKILL.md` | When starting a new MOOC section: scrapes Helsinki content, modernizes advice, removes spoiler examples, scaffolds exercises & tests, and assigns 1–7 star difficulty ratings. |
 | **`mooc-verify-exercise`** | `.agents/skills/mooc-verify-exercise/SKILL.md` | When the learner says *"Look, I finished this"* or finishes an exercise: audits tests for cheat loopholes, hardens JUnit 5 tests, verifies with Gradle, and provides Socratic code review. |
-| **`mooc-tracker`** | `.agents/skills/mooc-tracker/SKILL.md` | When logging section completion and mastery scores to the external Notion curriculum tracker. |
 
 ---
 

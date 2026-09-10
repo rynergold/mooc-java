@@ -14,4 +14,3 @@ This repository follows the universal guidelines defined in [AGENTS.md](./AGENTS
 ## Modular Skills
 - Scaffolding new sections: refer to `.agents/skills/mooc-create-md-and-exercises/SKILL.md`
 - Verifying finished exercises and hardening tests: refer to `.agents/skills/mooc-verify-exercise/SKILL.md`
-- Tracking progress in Notion: refer to `.agents/skills/mooc-tracker/SKILL.md`

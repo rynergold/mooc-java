@@ -55,7 +55,7 @@ This repository is designed to be paired with an AI coding assistant (Antigravit
 
 All agent behaviors and core rules are specified in **[AGENTS.md](./AGENTS.md)** (with synchronized shims in `CLAUDE.md` and `GEMINI.md`).
 
-### The Three Modular Skills
+### Modular Skills
 
 Specialized workflows live in `.agents/skills/`:
 
@@ -63,7 +63,9 @@ Specialized workflows live in `.agents/skills/`:
 | :--- | :--- | :--- |
 | **`mooc-create-md-and-exercises`** | Scaffolding a new section | Scrapes Helsinki MOOC, modernizes Java advice (LTS standards), **redacts spoilers from conceptual examples**, generates exercise specs/starters, builds JUnit 5 tests, and calibrates 1–7 star difficulty ratings. |
 | **`mooc-verify-exercise`** | *"Look, I finished this"* or `/mooc-verify` | Audits test suites for cheat loopholes (hardcoded outputs, missing boundaries), hardens JUnit 5 tests, verifies execution with Gradle, and delivers Socratic code reviews. |
-| **`mooc-tracker`** | `/mooc-tracker` | Syncs progress and mastery scores (1–5) to an external Notion curriculum database. |
+
+> [!TIP]
+> **Progress Tracking:** Tracking style is left entirely to the learner. You can use local notes (e.g. Obsidian, markdown logs, or the roadmap checklist below).
 
 ---
 
