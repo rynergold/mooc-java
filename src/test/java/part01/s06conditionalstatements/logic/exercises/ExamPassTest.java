@@ -8,8 +8,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -36,53 +37,70 @@ class ExamPassTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
+    private void assertResult(String output, String expectedMessage) {
+        assertTrue(output.contains("Enter theory score:"), "Must display 'Enter theory score:' prompt");
+        assertTrue(output.contains("Enter practical score:"), "Must display 'Enter practical score:' prompt");
+        List<String> lines = output.lines()
+                .map(String::trim)
+                .filter(l -> !l.isEmpty() && !l.startsWith("Enter theory") && !l.startsWith("Enter practical"))
+                .toList();
+        assertEquals(1, lines.size(), "Should print exactly one status line, but found: " + lines);
+        assertEquals(expectedMessage, lines.get(0), "Expected status message: " + expectedMessage);
+    }
+
     @Test
-    public void testPassedBothRequirementsMet() {
-        setInput("75\n85\n");
+    public void testPassedBothHigh() {
+        setInput("75\n80\n");
         ExamPass.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Exam passed"), "Score 75 and 85% attendance meets requirements");
-        assertFalse(output.contains("Exam failed"), "Passing student must not report failed");
+        assertResult(outContent.toString(), "Passed");
     }
 
     @Test
     public void testPassedExactBoundaries() {
-        setInput("60\n75\n");
+        setInput("50\n50\n");
         ExamPass.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Exam passed"), "Score 60 and 75% attendance are exact minimum thresholds");
-        assertFalse(output.contains("Exam failed"), "Passing student must not report failed");
+        assertResult(outContent.toString(), "Passed");
     }
 
     @Test
-    public void testFailedLowScore() {
-        setInput("59\n85\n");
+    public void testFailedTheoryBelowFifty() {
+        setInput("49\n80\n");
         ExamPass.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Exam failed"), "Score 59 is below minimum 60");
-        assertFalse(output.contains("Exam passed"), "Failing student must not report passed");
+        assertResult(outContent.toString(), "Failed");
     }
 
     @Test
-    public void testFailedLowAttendance() {
-        setInput("80\n74\n");
+    public void testFailedPracticalBelowFifty() {
+        setInput("75\n49\n");
         ExamPass.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Exam failed"), "Attendance 74% is below minimum 75%");
-        assertFalse(output.contains("Exam passed"), "Failing student must not report passed");
+        assertResult(outContent.toString(), "Failed");
     }
 
     @Test
-    public void testFailedBothLow() {
-        setInput("40\n50\n");
+    public void testFailedBothBelowFifty() {
+        setInput("40\n40\n");
         ExamPass.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Exam failed"), "Failing both score and attendance must fail");
-        assertFalse(output.contains("Exam passed"), "Failing student must not report passed");
+        assertResult(outContent.toString(), "Failed");
+    }
+
+    @Test
+    public void testFailedZeroScores() {
+        setInput("0\n0\n");
+        ExamPass.main(new String[]{});
+
+        assertResult(outContent.toString(), "Failed");
+    }
+
+    @Test
+    public void testPassedPerfectScores() {
+        setInput("100\n100\n");
+        ExamPass.main(new String[]{});
+
+        assertResult(outContent.toString(), "Passed");
     }
 }
