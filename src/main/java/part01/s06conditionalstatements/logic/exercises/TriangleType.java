@@ -41,11 +41,8 @@ public class TriangleType {
       System.out.println(ISOSCELES);
       return;
     }
-    if (isScalene) {
-      System.out.println(SCALENE);
-      return;
-    }
     
-    System.out.println("Not a triangle");
+    System.out.println(SCALENE);
+    
   }
 }
