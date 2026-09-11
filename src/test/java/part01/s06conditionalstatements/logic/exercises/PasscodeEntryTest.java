@@ -8,8 +8,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -36,59 +37,77 @@ class PasscodeEntryTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
+    private void assertResult(String output, String expectedMessage) {
+        assertTrue(output.contains("Enter 4-digit PIN:"), "Must display 'Enter 4-digit PIN:' prompt");
+        List<String> lines = output.lines()
+                .map(String::trim)
+                .filter(l -> !l.isEmpty() && !l.startsWith("Enter 4-digit PIN"))
+                .toList();
+        assertEquals(1, lines.size(), "Should print exactly one status line, but found: " + lines);
+        assertEquals(expectedMessage, lines.get(0), "Expected status message: " + expectedMessage);
+    }
+
     @Test
     public void testValidPinNormal() {
         setInput("4567\n");
         PasscodeEntry.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Access granted"), "4567 is a valid 4-digit PIN");
-        assertFalse(output.contains("Access denied"), "Valid PIN must not report Access denied");
+        assertResult(outContent.toString(), "Access granted");
     }
 
     @Test
-    public void testValidPinBoundaries() {
+    public void testValidLowerBoundaryThousand() {
         setInput("1000\n");
         PasscodeEntry.main(new String[]{});
-        String out1 = outContent.toString();
-        assertTrue(out1.contains("Access granted"), "1000 is lowest 4-digit PIN");
-        assertFalse(out1.contains("Access denied"), "1000 must not report Access denied");
 
-        outContent.reset();
-        setInput("9999\n");
-        PasscodeEntry.main(new String[]{});
-        String out2 = outContent.toString();
-        assertTrue(out2.contains("Access granted"), "9999 is highest 4-digit PIN");
-        assertFalse(out2.contains("Access denied"), "9999 must not report Access denied");
+        assertResult(outContent.toString(), "Access granted");
     }
 
     @Test
-    public void testInvalidPinTooShort() {
+    public void testValidUpperBoundaryNineNineNineNine() {
+        setInput("9999\n");
+        PasscodeEntry.main(new String[]{});
+
+        assertResult(outContent.toString(), "Access granted");
+    }
+
+    @Test
+    public void testValidInteriorLowBoundaryThousandOne() {
+        setInput("1001\n");
+        PasscodeEntry.main(new String[]{});
+
+        assertResult(outContent.toString(), "Access granted");
+    }
+
+    @Test
+    public void testInvalidImmediateBelowThousand() {
         setInput("999\n");
         PasscodeEntry.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Access denied"), "999 has fewer than 4 digits");
-        assertFalse(output.contains("Access granted"), "Invalid PIN must not report Access granted");
+        assertResult(outContent.toString(), "Invalid PIN");
     }
 
     @Test
-    public void testInvalidPinTooLong() {
+    public void testInvalidImmediateAboveNineNineNineNine() {
         setInput("10000\n");
         PasscodeEntry.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Access denied"), "10000 has more than 4 digits");
-        assertFalse(output.contains("Access granted"), "Invalid PIN must not report Access granted");
+        assertResult(outContent.toString(), "Invalid PIN");
     }
 
     @Test
-    public void testInvalidPinNegative() {
-        setInput("-1000\n");
+    public void testInvalidNegativePin() {
+        setInput("-500\n");
         PasscodeEntry.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Access denied"), "Negative number is not a valid PIN");
-        assertFalse(output.contains("Access granted"), "Negative PIN must not report Access granted");
+        assertResult(outContent.toString(), "Invalid PIN");
+    }
+
+    @Test
+    public void testInvalidZeroPin() {
+        setInput("0\n");
+        PasscodeEntry.main(new String[]{});
+
+        assertResult(outContent.toString(), "Invalid PIN");
     }
 }
