@@ -8,8 +8,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -36,46 +37,77 @@ class DiscountEligibilityTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
-    @Test
-    public void testTwentyPercentDiscount() {
-        setInput("120\nyes\n");
-        DiscountEligibility.main(new String[]{});
-
-        String output = outContent.toString();
-        assertTrue(output.contains("Discount applied: 20%"), "Over 100 and member gets 20%");
-        assertFalse(output.contains("10%"), "20% discount must not report 10%");
-        assertFalse(output.contains("No discount"), "20% discount must not report No discount");
+    private void assertResult(String output, String expectedMessage) {
+        assertTrue(output.contains("Enter age:"), "Must display 'Enter age:' prompt");
+        List<String> lines = output.lines()
+                .map(String::trim)
+                .filter(l -> !l.isEmpty() && !l.startsWith("Enter age"))
+                .toList();
+        assertEquals(1, lines.size(), "Should print exactly one status line, but found: " + lines);
+        assertEquals(expectedMessage, lines.get(0), "Expected status message: " + expectedMessage);
     }
 
     @Test
-    public void testTenPercentDiscountAmountOnly() {
-        setInput("150\nno\n");
+    public void testYouthMidRange() {
+        setInput("15\n");
         DiscountEligibility.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Discount applied: 10%"), "Over 100 but non-member gets 10%");
-        assertFalse(output.contains("20%"), "10% discount must not report 20%");
-        assertFalse(output.contains("No discount"), "10% discount must not report No discount");
+        assertResult(outContent.toString(), "Discount applied");
     }
 
     @Test
-    public void testTenPercentDiscountMemberOnly() {
-        setInput("50\nyes\n");
+    public void testYouthBoundarySeventeen() {
+        setInput("17\n");
         DiscountEligibility.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Discount applied: 10%"), "Under 100 but member gets 10%");
-        assertFalse(output.contains("20%"), "10% discount must not report 20%");
-        assertFalse(output.contains("No discount"), "10% discount must not report No discount");
+        assertResult(outContent.toString(), "Discount applied");
     }
 
     @Test
-    public void testNoDiscount() {
-        setInput("50\nno\n");
+    public void testStandardPriceLowerBoundaryEighteen() {
+        setInput("18\n");
         DiscountEligibility.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("No discount"), "Under 100 and non-member gets no discount");
-        assertFalse(output.contains("Discount applied:"), "No discount must not report a discount applied");
+        assertResult(outContent.toString(), "Standard price");
+    }
+
+    @Test
+    public void testStandardPriceMidRangeForty() {
+        setInput("40\n");
+        DiscountEligibility.main(new String[]{});
+
+        assertResult(outContent.toString(), "Standard price");
+    }
+
+    @Test
+    public void testStandardPriceUpperBoundarySixtyFour() {
+        setInput("64\n");
+        DiscountEligibility.main(new String[]{});
+
+        assertResult(outContent.toString(), "Standard price");
+    }
+
+    @Test
+    public void testSeniorBoundarySixtyFive() {
+        setInput("65\n");
+        DiscountEligibility.main(new String[]{});
+
+        assertResult(outContent.toString(), "Discount applied");
+    }
+
+    @Test
+    public void testSeniorSeventy() {
+        setInput("70\n");
+        DiscountEligibility.main(new String[]{});
+
+        assertResult(outContent.toString(), "Discount applied");
+    }
+
+    @Test
+    public void testInfantZero() {
+        setInput("0\n");
+        DiscountEligibility.main(new String[]{});
+
+        assertResult(outContent.toString(), "Discount applied");
     }
 }
