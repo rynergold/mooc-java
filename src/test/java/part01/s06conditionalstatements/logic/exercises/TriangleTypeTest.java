@@ -8,8 +8,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -36,28 +37,48 @@ class TriangleTypeTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
+    private void assertResult(String output, String expectedMessage) {
+        assertTrue(output.contains("Enter side 1:"), "Must display 'Enter side 1:' prompt");
+        assertTrue(output.contains("Enter side 2:"), "Must display 'Enter side 2:' prompt");
+        assertTrue(output.contains("Enter side 3:"), "Must display 'Enter side 3:' prompt");
+        List<String> lines = output.lines()
+                .map(String::trim)
+                .filter(l -> !l.isEmpty() && !l.startsWith("Enter side"))
+                .toList();
+        assertEquals(1, lines.size(), "Should print exactly one result line, but found: " + lines);
+        assertEquals(expectedMessage, lines.get(0), "Expected classification: " + expectedMessage);
+    }
+
     @Test
     public void testEquilateral() {
         setInput("5\n5\n5\n");
         TriangleType.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Equilateral"), "5, 5, 5 should be Equilateral");
-        assertFalse(output.contains("Isosceles"), "Equilateral must not report Isosceles");
-        assertFalse(output.contains("Scalene"), "Equilateral must not report Scalene");
-        assertFalse(output.contains("Not a triangle"), "Equilateral must not report Not a triangle");
+        assertResult(outContent.toString(), "Equilateral");
     }
 
     @Test
-    public void testIsosceles() {
+    public void testIsoscelesSidesOneAndTwoEqual() {
         setInput("5\n5\n8\n");
         TriangleType.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Isosceles"), "5, 5, 8 should be Isosceles");
-        assertFalse(output.contains("Equilateral"), "Isosceles must not report Equilateral");
-        assertFalse(output.contains("Scalene"), "Isosceles must not report Scalene");
-        assertFalse(output.contains("Not a triangle"), "Isosceles must not report Not a triangle");
+        assertResult(outContent.toString(), "Isosceles");
+    }
+
+    @Test
+    public void testIsoscelesSidesOneAndThreeEqual() {
+        setInput("5\n8\n5\n");
+        TriangleType.main(new String[]{});
+
+        assertResult(outContent.toString(), "Isosceles");
+    }
+
+    @Test
+    public void testIsoscelesSidesTwoAndThreeEqual() {
+        setInput("8\n5\n5\n");
+        TriangleType.main(new String[]{});
+
+        assertResult(outContent.toString(), "Isosceles");
     }
 
     @Test
@@ -65,22 +86,38 @@ class TriangleTypeTest {
         setInput("3\n4\n5\n");
         TriangleType.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Scalene"), "3, 4, 5 should be Scalene");
-        assertFalse(output.contains("Equilateral"), "Scalene must not report Equilateral");
-        assertFalse(output.contains("Isosceles"), "Scalene must not report Isosceles");
-        assertFalse(output.contains("Not a triangle"), "Scalene must not report Not a triangle");
+        assertResult(outContent.toString(), "Scalene");
     }
 
     @Test
-    public void testNotATriangle() {
+    public void testNotATriangleTooLong() {
         setInput("1\n2\n10\n");
         TriangleType.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Not a triangle"), "1, 2, 10 cannot form a triangle");
-        assertFalse(output.contains("Equilateral"), "Not a triangle must not report Equilateral");
-        assertFalse(output.contains("Isosceles"), "Not a triangle must not report Isosceles");
-        assertFalse(output.contains("Scalene"), "Not a triangle must not report Scalene");
+        assertResult(outContent.toString(), "Not a triangle");
+    }
+
+    @Test
+    public void testNotATriangleDegenerateFlatLine() {
+        setInput("2\n3\n5\n");
+        TriangleType.main(new String[]{});
+
+        assertResult(outContent.toString(), "Not a triangle");
+    }
+
+    @Test
+    public void testNotATriangleZeroSide() {
+        setInput("0\n5\n5\n");
+        TriangleType.main(new String[]{});
+
+        assertResult(outContent.toString(), "Not a triangle");
+    }
+
+    @Test
+    public void testNotATriangleNegativeSide() {
+        setInput("-2\n4\n4\n");
+        TriangleType.main(new String[]{});
+
+        assertResult(outContent.toString(), "Not a triangle");
     }
 }
