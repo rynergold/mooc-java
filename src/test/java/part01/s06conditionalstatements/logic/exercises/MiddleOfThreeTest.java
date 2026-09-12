@@ -8,6 +8,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -36,9 +37,16 @@ class MiddleOfThreeTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
-    private void assertSingleMiddleOutput(String output) {
-        int count = output.split("The middle number is:", -1).length - 1;
-        assertEquals(1, count, "Should print 'The middle number is:' exactly once, but printed " + count + " times");
+    private void assertResult(String output, int expectedMiddle) {
+        assertTrue(output.contains("Enter first number:"), "Must display 'Enter first number:' prompt");
+        assertTrue(output.contains("Enter second number:"), "Must display 'Enter second number:' prompt");
+        assertTrue(output.contains("Enter third number:"), "Must display 'Enter third number:' prompt");
+        List<String> lines = output.lines()
+                .map(String::trim)
+                .filter(l -> !l.isEmpty() && !l.startsWith("Enter first") && !l.startsWith("Enter second") && !l.startsWith("Enter third"))
+                .toList();
+        assertEquals(1, lines.size(), "Should print exactly one result line, but found: " + lines);
+        assertEquals("The middle number is: " + expectedMiddle, lines.get(0), "Expected output with middle number " + expectedMiddle);
     }
 
     @Test
@@ -46,9 +54,7 @@ class MiddleOfThreeTest {
         setInput("10\n5\n20\n");
         MiddleOfThree.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("The middle number is: 10"), "Middle of 10, 5, 20 is 10");
-        assertSingleMiddleOutput(output);
+        assertResult(outContent.toString(), 10);
     }
 
     @Test
@@ -56,9 +62,7 @@ class MiddleOfThreeTest {
         setInput("3\n7\n15\n");
         MiddleOfThree.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("The middle number is: 7"), "Middle of 3, 7, 15 is 7");
-        assertSingleMiddleOutput(output);
+        assertResult(outContent.toString(), 7);
     }
 
     @Test
@@ -66,19 +70,31 @@ class MiddleOfThreeTest {
         setInput("20\n5\n12\n");
         MiddleOfThree.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("The middle number is: 12"), "Middle of 20, 5, 12 is 12");
-        assertSingleMiddleOutput(output);
+        assertResult(outContent.toString(), 12);
     }
 
     @Test
-    public void testWithDuplicates() {
+    public void testWithDuplicatesFirstAndSecond() {
         setInput("5\n5\n2\n");
         MiddleOfThree.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("The middle number is: 5"), "Middle of 5, 5, 2 is 5");
-        assertSingleMiddleOutput(output);
+        assertResult(outContent.toString(), 5);
+    }
+
+    @Test
+    public void testWithDuplicatesSecondAndThird() {
+        setInput("2\n5\n5\n");
+        MiddleOfThree.main(new String[]{});
+
+        assertResult(outContent.toString(), 5);
+    }
+
+    @Test
+    public void testWithDuplicatesFirstAndThird() {
+        setInput("5\n2\n5\n");
+        MiddleOfThree.main(new String[]{});
+
+        assertResult(outContent.toString(), 5);
     }
 
     @Test
@@ -86,8 +102,14 @@ class MiddleOfThreeTest {
         setInput("4\n4\n4\n");
         MiddleOfThree.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("The middle number is: 4"), "Middle of 4, 4, 4 is 4");
-        assertSingleMiddleOutput(output);
+        assertResult(outContent.toString(), 4);
+    }
+
+    @Test
+    public void testNegativeNumbers() {
+        setInput("-10\n-5\n-20\n");
+        MiddleOfThree.main(new String[]{});
+
+        assertResult(outContent.toString(), -10);
     }
 }

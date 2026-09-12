@@ -8,8 +8,9 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
 import java.io.PrintStream;
+import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 /**
@@ -36,33 +37,61 @@ class TicketPriceTest {
         System.setIn(new ByteArrayInputStream(input.getBytes()));
     }
 
+    private void assertResult(String output, String expectedMessage) {
+        assertTrue(output.contains("Enter age:"), "Must display 'Enter age:' prompt");
+        List<String> lines = output.lines()
+                .map(String::trim)
+                .filter(l -> !l.isEmpty() && !l.startsWith("Enter age"))
+                .toList();
+        assertEquals(1, lines.size(), "Should print exactly one price line, but found: " + lines);
+        assertEquals(expectedMessage, lines.get(0), "Expected price message: " + expectedMessage);
+    }
+
     @Test
     public void testChildPriceUnderTwelve() {
         setInput("8\n");
         TicketPrice.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Ticket price: 5 euros"), "under 12 should pay 5 euros");
-        assertFalse(output.contains("Ticket price: 10 euros"), "child should not pay standard price");
+        assertResult(outContent.toString(), "Ticket price: 5 euros");
     }
 
     @Test
-    public void testBoundaryTwelve() {
+    public void testChildPriceImmediateUnderTwelve() {
+        setInput("11\n");
+        TicketPrice.main(new String[]{});
+
+        assertResult(outContent.toString(), "Ticket price: 5 euros");
+    }
+
+    @Test
+    public void testExactBoundaryTwelve() {
         setInput("12\n");
         TicketPrice.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Ticket price: 10 euros"), "age 12 is standard price");
-        assertFalse(output.contains("Ticket price: 5 euros"), "age 12 must not pay child price");
+        assertResult(outContent.toString(), "Ticket price: 10 euros");
     }
 
     @Test
-    public void testAdult() {
+    public void testImmediateOverTwelve() {
+        setInput("13\n");
+        TicketPrice.main(new String[]{});
+
+        assertResult(outContent.toString(), "Ticket price: 10 euros");
+    }
+
+    @Test
+    public void testAdultTwentyFive() {
         setInput("25\n");
         TicketPrice.main(new String[]{});
 
-        String output = outContent.toString();
-        assertTrue(output.contains("Ticket price: 10 euros"), "adult should pay 10 euros");
-        assertFalse(output.contains("Ticket price: 5 euros"), "adult must not pay child price");
+        assertResult(outContent.toString(), "Ticket price: 10 euros");
+    }
+
+    @Test
+    public void testInfantZero() {
+        setInput("0\n");
+        TicketPrice.main(new String[]{});
+
+        assertResult(outContent.toString(), "Ticket price: 5 euros");
     }
 }
