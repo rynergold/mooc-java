@@ -69,12 +69,6 @@ partXX/sYY<name>/
 #### A. Exercise Specification (`<ExerciseName>.md`)
 Location: `src/main/java/partXX/sYY<name>/exercises/<ExerciseName>.md`
 Must include:
-- Top-right difficulty badge:
-  ```html
-  <div align="right">
-    <b>Difficulty:</b> ✪✪ (2/7)
-  </div>
-  ```
 - Metadata headers: `**Exercise:**`, `**Category:**`, `**Difficulty:**`, `**Package:**`.
 - **Spec:** Bulleted requirements, exact console prompts, calculation rules.
 - **Examples:** Clean Markdown table displaying stdin vs expected stdout.
