@@ -38,7 +38,7 @@ class DateValidatorTest {
 
     @Test
     public void testValidStandardDate() {
-        setInput("2023\n5\n15\n");
+        setInput("15\n5\n2023\n");
         DateValidator.main(new String[]{});
 
         String output = outContent.toString();
@@ -48,7 +48,7 @@ class DateValidatorTest {
 
     @Test
     public void testValidLeapDay() {
-        setInput("2024\n2\n29\n");
+        setInput("29\n2\n2024\n");
         DateValidator.main(new String[]{});
 
         String output = outContent.toString();
@@ -58,7 +58,7 @@ class DateValidatorTest {
 
     @Test
     public void testInvalidLeapDayCommonYear() {
-        setInput("2023\n2\n29\n");
+        setInput("29\n2\n2023\n");
         DateValidator.main(new String[]{});
 
         String output = outContent.toString();
@@ -68,7 +68,7 @@ class DateValidatorTest {
 
     @Test
     public void testInvalidAprilThirtyOne() {
-        setInput("2023\n4\n31\n");
+        setInput("31\n4\n2023\n");
         DateValidator.main(new String[]{});
 
         String output = outContent.toString();
@@ -78,11 +78,61 @@ class DateValidatorTest {
 
     @Test
     public void testInvalidMonth() {
-        setInput("2023\n13\n1\n");
+        setInput("1\n13\n2023\n");
         DateValidator.main(new String[]{});
 
         String output = outContent.toString();
         assertTrue(output.contains("Invalid date"), "Month 13 is invalid");
         assertFalse(output.replace("Invalid date", "").contains("Valid date"), "Invalid date must not also print 'Valid date'");
+    }
+
+    @Test
+    public void testValidCenturyLeapDay() {
+        setInput("29\n2\n2000\n");
+        DateValidator.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Valid date"), "Year 2000 is divisible by 400, so Feb 29 is valid");
+        assertFalse(output.contains("Invalid date"), "Valid date must not report 'Invalid date'");
+    }
+
+    @Test
+    public void testInvalidCenturyCommonDay() {
+        setInput("29\n2\n1900\n");
+        DateValidator.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Invalid date"), "Year 1900 is divisible by 100 but not 400, so Feb 29 is invalid");
+        assertFalse(output.replace("Invalid date", "").contains("Valid date"), "Invalid date must not also print 'Valid date'");
+    }
+
+    @Test
+    public void testInvalidDayZero() {
+        setInput("0\n5\n2023\n");
+        DateValidator.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Invalid date"), "Day 0 is invalid");
+        assertFalse(output.replace("Invalid date", "").contains("Valid date"), "Invalid date must not also print 'Valid date'");
+    }
+
+    @Test
+    public void testInvalidYearZero() {
+        setInput("15\n5\n0\n");
+        DateValidator.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Invalid date"), "Year 0 is invalid (years must be strictly positive)");
+        assertFalse(output.replace("Invalid date", "").contains("Valid date"), "Invalid date must not also print 'Valid date'");
+    }
+
+    @Test
+    public void testValidDecemberThirtyOne() {
+        setInput("31\n12\n2023\n");
+        DateValidator.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Valid date"), "December 31 is valid");
+        assertFalse(output.contains("Invalid date"), "Valid date must not report 'Invalid date'");
     }
 }
