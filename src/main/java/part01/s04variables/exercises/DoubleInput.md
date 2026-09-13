@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪ (1/7)
-</div>
-
 # Double Input
 
 **Exercise:** `part01-Part01_13.DoubleInput`  

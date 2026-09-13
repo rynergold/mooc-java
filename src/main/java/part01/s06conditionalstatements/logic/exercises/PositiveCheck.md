@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪ (1/7)
-</div>
-
 # Positive Check
 
 **Category:** Logic Drill (Tier 1)  

@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪✪✪ (3/7)
-</div>
-
 # Range Overlap
 
 **Category:** Logic Drill (Tier 3)  

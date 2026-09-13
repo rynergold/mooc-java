@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪✪ (2/7)
-</div>
-
 # Average of Two Numbers
 
 **Exercise:** `part01-Part01_21.AverageOfTwoNumbers`  

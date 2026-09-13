@@ -83,4 +83,34 @@ class CinemaTicketTest {
         assertFalse(output.contains("Price: 9€"), "Senior must not pay 9€");
         assertFalse(output.contains("Price: 12€"), "Senior must not pay 12€");
     }
+
+    @Test
+    public void testBoundaryAgeFiveStandard() {
+        setInput("5\nMonday\n");
+        CinemaTicket.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Price: 12€"), "Age 5 is no longer free; standard price is 12€");
+        assertFalse(output.contains("Price: 0€"), "Age 5 must not be free");
+    }
+
+    @Test
+    public void testBoundaryAgeSixtyFourWednesday() {
+        setInput("64\nWednesday\n");
+        CinemaTicket.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Price: 9€"), "Age 64 on Wednesday qualifies for the 9€ discount");
+        assertFalse(output.contains("Price: 8€"), "Age 64 is not a senior");
+    }
+
+    @Test
+    public void testBoundaryAgeSixtyFiveStandard() {
+        setInput("65\nMonday\n");
+        CinemaTicket.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Price: 8€"), "Age 65 qualifies for senior rate 8€");
+        assertFalse(output.contains("Price: 12€"), "Age 65 must not pay regular 12€");
+    }
 }

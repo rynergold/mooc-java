@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪ (1/7)
-</div>
-
 # Message Three Times
 
 **Exercise:** `part01-Part01_07.MessageThreeTimes`  

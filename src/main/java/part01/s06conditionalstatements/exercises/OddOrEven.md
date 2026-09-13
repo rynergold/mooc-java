@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪✪ (2/7)
-</div>
-
 # Odd or Even
 
 **Exercise:** `part01-Part01_32.OddOrEven`  

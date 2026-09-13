@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪ (1/7)
-</div>
-
 # Mad Libs (Extension Drill)
 
 **Exercise:** `part01-Part01_Drill_01.MadLibs`  

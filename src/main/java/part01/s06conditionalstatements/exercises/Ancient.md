@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪ (1/7)
-</div>
-
 # Ancient
 
 **Exercise:** `part01-Part01_27.Ancient`  

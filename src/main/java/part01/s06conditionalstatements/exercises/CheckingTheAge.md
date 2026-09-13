@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪✪ (2/7)
-</div>
-
 # Checking the Age
 
 **Exercise:** `part01-Part01_35.CheckingTheAge`  

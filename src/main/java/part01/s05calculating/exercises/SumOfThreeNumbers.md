@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪ (1/7)
-</div>
-
 # Sum of Three Numbers
 
 **Exercise:** `part01-Part01_18.SumOfThreeNumbers`  

@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪✪ (2/7)
-</div>
-
 # Grades and Points
 
 **Exercise:** `part01-Part01_31.GradesAndPoints`  

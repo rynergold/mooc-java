@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪ (1/7)
-</div>
-
 # Once Upon a Time
 
 **Exercise:** `part01-Part01_03.OnceUponATime`  

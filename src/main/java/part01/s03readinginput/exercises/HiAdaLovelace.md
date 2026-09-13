@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪ (1/7)
-</div>
-
 # Hi Ada Lovelace!
 
 **Exercise:** `part01-Part01_06.HiAdaLovelace`  

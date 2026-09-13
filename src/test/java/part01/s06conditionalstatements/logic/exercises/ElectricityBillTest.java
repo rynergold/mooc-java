@@ -77,4 +77,34 @@ class ElectricityBillTest {
         assertFalse(output.contains("22.5"), "Third tier must not report second tier total");
         assertSingleBillOutput(output);
     }
+
+    @Test
+    public void testZeroKWh() {
+        setInput("0\n");
+        ElectricityBill.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Total bill: 5.0€") || output.contains("Total bill: 5€"), "0 kWh should cost only base fee 5.0€");
+        assertSingleBillOutput(output);
+    }
+
+    @Test
+    public void testExactBoundaryOneHundred() {
+        setInput("100\n");
+        ElectricityBill.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Total bill: 15.0€") || output.contains("Total bill: 15€"), "100 kWh should cost 5.0 + 10.0 = 15.0€");
+        assertSingleBillOutput(output);
+    }
+
+    @Test
+    public void testExactBoundaryTwoHundred() {
+        setInput("200\n");
+        ElectricityBill.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Total bill: 30.0€") || output.contains("Total bill: 30€"), "200 kWh should cost 5.0 + 10.0 + 15.0 = 30.0€");
+        assertSingleBillOutput(output);
+    }
 }

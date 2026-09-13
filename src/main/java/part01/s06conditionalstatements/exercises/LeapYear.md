@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪✪✪ (3/7)
-</div>
-
 # Leap Year
 
 **Exercise:** `part01-Part01_36.LeapYear`  

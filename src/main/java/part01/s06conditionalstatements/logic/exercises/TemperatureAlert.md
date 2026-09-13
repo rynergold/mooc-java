@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪✪ (2/7)
-</div>
-
 # Temperature Alert
 
 **Category:** Logic Drill (Tier 1)  

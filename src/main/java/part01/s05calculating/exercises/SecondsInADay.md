@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪ (1/7)
-</div>
-
 # Seconds in a Day
 
 **Exercise:** `part01-Part01_16.SecondsInADay`  

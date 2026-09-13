@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪ (1/7)
-</div>
-
 # Absolute Value
 
 **Category:** Logic Drill (Tier 1)  

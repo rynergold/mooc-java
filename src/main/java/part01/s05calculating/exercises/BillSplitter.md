@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪✪ (2/7)
-</div>
-
 # Bill Splitter (Extension Drill)
 
 **Exercise:** `part01-Part01_Drill_03.BillSplitter`  

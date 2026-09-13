@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪✪ (2/7)
-</div>
-
 # Simple Calculator
 
 **Exercise:** `part01-Part01_23.SimpleCalculator`  

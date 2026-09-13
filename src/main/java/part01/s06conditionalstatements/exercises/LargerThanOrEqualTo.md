@@ -1,7 +1,3 @@
-<div align="right">
-  <b>Difficulty:</b> ✪✪ (2/7)
-</div>
-
 # Larger Than or Equal To
 
 **Exercise:** `part01-Part01_30.LargerThanOrEqualTo`  
