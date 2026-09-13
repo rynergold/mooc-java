@@ -70,4 +70,24 @@ class TimeDifferenceTest {
         assertTrue(output.contains("Duration: 0 hours and 0 minutes"), "Identical times should be 0 hours and 0 minutes");
         assertSingleDurationOutput(output);
     }
+
+    @Test
+    public void testMidnightBoundaryMinutes() {
+        setInput("23\n59\n0\n1\n");
+        TimeDifference.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Duration: 0 hours and 2 minutes"), "23:59 to 00:01 should be 0 hours and 2 minutes");
+        assertSingleDurationOutput(output);
+    }
+
+    @Test
+    public void testNearlyFullDayDuration() {
+        setInput("10\n0\n9\n59\n");
+        TimeDifference.main(new String[]{});
+
+        String output = outContent.toString();
+        assertTrue(output.contains("Duration: 23 hours and 59 minutes"), "10:00 to 09:59 should be 23 hours and 59 minutes");
+        assertSingleDurationOutput(output);
+    }
 }
