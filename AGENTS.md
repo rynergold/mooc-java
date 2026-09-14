@@ -52,8 +52,9 @@ Specialized workflows are encapsulated into modular skills located in `.agents/s
 
 | Skill | Location | When to Use |
 | :--- | :--- | :--- |
-| **`mooc-create-md-and-exercises`** | `.agents/skills/mooc-create-md-and-exercises/SKILL.md` | When starting a new MOOC section: scrapes Helsinki content, modernizes advice, removes spoiler examples, scaffolds exercises & tests, and assigns 1–7 star difficulty ratings. |
-| **`mooc-verify-exercise`** | `.agents/skills/mooc-verify-exercise/SKILL.md` | When the learner says *"Look, I finished this"* or finishes an exercise: audits tests for cheat loopholes, hardens JUnit 5 tests, verifies with Gradle, and provides Socratic code review. |
+| **`mooc-build-guide`** | `.agents/skills/mooc-build-guide/SKILL.md` | When building or enhancing a section's reading guide: enriches explanations, adds Mermaid diagrams, downloads local media, and edits with `/no-ai-slop`. |
+| **`mooc-create-exercises`** | `.agents/skills/mooc-create-exercises/SKILL.md` | When scaffolding exercises for a section: generates specs (`.md`), starter files (`.java`), baseline JUnit 5 tests, and 1–7 star ratings. |
+| **`mooc-audit-exercise`** | `.agents/skills/mooc-audit-exercise/SKILL.md` | Pre-flight test hardening & spec check before coding; solution verification, anti-cheat audit, and Socratic review after coding. |
 
 ---
 
