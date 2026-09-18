@@ -1,6 +1,18 @@
-# Helsinki Java MOOC: Socratic Mastery Lab
+# Java Fundamentals Course
 
-A structured, test-driven companion for mastering Java from first principles through the [University of Helsinki Java MOOC](https://java-programming.mooc.fi/). Built for deliberate practice, spoiler-free conceptual understanding, and automated verification using JUnit 5.
+Forked from the MOOC Java Course by the [University of Helsinki Java MOOC](https://java-programming.mooc.fi/), The aim with this course is to provide the learner with:
+- More practice exercises of varying difficulty
+- A leaner, to the point, written content
+
+## Why
+
+Reason number one, I did not go to University, and I dropped out of school. I wanted to become a software engineer and what stood in my way for a long period of time was that, "I am too stupid" because of my clearly non-traditional background.
+
+Today, I am a software engineer and I hold the same belief but that resilience and consistency matters much more.
+
+My methodology of learning is simple. Practice, practice, practice. What worked for me to become a software engineer is 80% challenging yourself with practice, and 20% conceptual learning. My aim is to provide that access to practice, enough that your brain will go numb (I have completed all the exercises in this course).
+
+Reason number two, I strongly dislike how wealth blocks people from STEM fields so here's a course for free built on top of the already great MOOC Java course by Uni of Helsinki.
 
 ---
 
@@ -81,7 +93,7 @@ To ensure genuine mastery and eliminate copy-pasting:
 
 ## 🗺️ The Roadmap (Table of Contents)
 
-- [x] **Part 1.1–1.6:** Getting Started (Printing, Variables, Conditionals)
+- [ ] **Part 1.1–1.6:** Getting Started (Printing, Variables, Conditionals)
 - [ ] **Part 1.65:** Applied Logic & Problem-Solving Drills (In Progress)
 - [ ] **Part 2:** Repeating Functionality (Loops & Methods)
 - [ ] **Part 3:** Lists and Arrays
@@ -112,3 +124,4 @@ To ensure genuine mastery and eliminate copy-pasting:
 
 - **Part 1.1:** Realized that `System.out.println()` requires a semicolon at the end, and text must be wrapped in double-quotes to be treated as a String parameter.
 - **Part 1.6:** Discovered De Morgan's Laws: inverting `a && b` becomes `!a || !b`, which makes guard clauses and early rejection checks much cleaner.
+
