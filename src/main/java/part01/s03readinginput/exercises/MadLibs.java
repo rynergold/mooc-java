@@ -14,9 +14,11 @@ public class MadLibs {
     String v = s.nextLine();
     System.out.println("Give a quote or shout:");
     String qos = s.nextLine();
-    
+
     System.out.println("--- Mad Libs Adventure ---");
     System.out.println("Today, a " + a + " " + n + " " + v + " into the server room.");
     System.out.println("It shouted: \"" + qos + '"');
+
+    s.close();
   }
 }

@@ -52,21 +52,27 @@ Specialized workflows are encapsulated into modular skills located in `.agents/s
 
 | Skill | Location | When to Use |
 | :--- | :--- | :--- |
-| **`mooc-build-guide`** | `.agents/skills/mooc-build-guide/SKILL.md` | When building or enhancing a section's reading guide: enriches explanations, adds Mermaid diagrams, downloads local media, and edits with `/no-ai-slop`. |
-| **`mooc-create-exercises`** | `.agents/skills/mooc-create-exercises/SKILL.md` | When scaffolding exercises for a section: generates specs (`.md`), starter files (`.java`), baseline JUnit 5 tests, and 1–7 star ratings. |
-| **`mooc-audit-exercise`** | `.agents/skills/mooc-audit-exercise/SKILL.md` | Pre-flight test hardening & spec check before coding; solution verification, anti-cheat audit, and Socratic review after coding. |
+| **`mooc-build-guide`** | `.agents/skills/mooc-build-guide/SKILL.md` | When building or updating a standard section reading guide: structures concepts 1:1 with MOOC exercises using a clean template. |
+| **`mooc-refine-guide`** | `.agents/skills/mooc-refine-guide/SKILL.md` | When cleaning up a section reading guide: prunes filler via `/no-ai-slop`, removes unnecessary diagrams, and ensures examples don't give away exercise answers. |
+| **`mooc-build-exercises`** | `.agents/skills/mooc-build-exercises/SKILL.md` | When scaffolding exercises for a section: generates specs (`.md`), starter files (`.java`), baseline JUnit 5 tests, and 1–4 star ratings. |
+| **`mooc-refine-exercises`** | `.agents/skills/mooc-refine-exercises/SKILL.md` | When checking created exercises: audits assertion readability, boundary tests, whitespace traps, and specification clarity. |
+| **`mooc-verify-solution`** | `.agents/skills/mooc-verify-solution/SKILL.md` | When testing and reviewing student code: reports test failures neutrally and reviews passing code for scope-aligned improvements. |
+| **`mooc-unblock-exercise`** | `.agents/skills/mooc-unblock-exercise/SKILL.md` | When the learner is stuck or asks for help: guides them one question at a time by checking requirements first and walking through the code without writing solutions. |
+| **`mooc-build-drills`** | `.agents/skills/mooc-build-drills/SKILL.md` | When generating extra practice drills (<n>.5-drills-<topic>.md) and test suites to build muscle memory after completing standard exercises. |
 
 ---
 
 ## 4. Standardized Difficulty Scale (Universal 1–7 Stars)
 
-All exercises and drills follow a universal 7-star cognitive difficulty scale:
+All exercises follow a universal 7-star cognitive difficulty scale that measures problem-solving and conceptual complexity alongside syntax:
 
-- **✪ (1/7) — Basic Mechanics:** Sequential execution, single print/read operations, simple arithmetic, single trivial condition.
-- **✪✪ (2/7) — Elementary Branching & Types:** Two-boundary ranges, `if-else if-else`, type conversion/casting, remainder checks (`% 2 == 0`).
-- **✪✪✪ (3/7) — Multi-Variable & Compound Logic:** Compound boolean logic (3+ conditions), interval overlap, stepped/tiered rate calculations, 24-hr clock wrap.
-- **✪✪✪✪ (4/7) — Nested Logic & State Tracking:** Multi-state loops, complex object state encapsulation, multi-step algorithms (capping the standard course).
-- **✪✪✪✪✪ to ✪✪✪✪✪✪✪ (5–7/7) — Advanced Algorithmic Drills:** Reserved for custom progressive overload drill challenges (recursion, search/sort optimization, complex graph/state traversals).
+- **✪ (1/7) — Direct Translation:** The learner translates the problem description directly into code without transforming the problem. Code runs sequentially, handles single print or read operations, or computes basic arithmetic. For example, reading an integer and printing its square.
+- **✪✪ (2/7) — Single Rule Evaluation:** The learner evaluates a single condition or maps an input to a binary outcome. Code uses `if-else` branching, basic comparisons, type conversion, or modulo checks like `% 2 == 0`. For example, calculating an absolute value or checking whether a number is even or odd.
+- **✪✪✪ (3/7) — Interacting Conditions & Running Totals:** The learner coordinates multiple conditions simultaneously or tracks a changing value across iterations. Code uses compound boolean logic (`&&`, `||`), tiered rate calculations, or running accumulators inside a loop. For example, calculating leap year rules, computing tiered tax rates, or finding the average of positive numbers.
+- **✪✪✪✪ (4/7) — Dependent State & Loop Invariants:** The learner manages multiple moving variables where decisions in one step depend on prior state. Code uses nested loops, multi-step validation loops, or min/max tracking. Standard MOOC exercises cap at this level. For example, prime number verification, the Euclidean algorithm for greatest common divisor, or printing asterisks patterns.
+- **✪✪✪✪✪ (5/7) — Non-Obvious Strategy (LeetCode Medium):** The code itself may only use basic loops and arrays, but solving the problem requires deducing a pattern rather than following instructions verbatim. Solutions rely on two-pointer coordination, frequency counting, or sliding windows. For example, finding the longest contiguous sequence of numbers.
+- **✪✪✪✪✪✪ (6/7) — Multi-Constraint Optimization:** The learner must balance conflicting rules or prune search spaces to prevent brute-force execution. Solutions use binary search over ranges, recursion with backtracking, or cycle detection. For example, searching in a rotated sorted array.
+- **✪✪✪✪✪✪✪ (7/7) — Multi-Layered Deduction (LeetCode Hard):** The problem requires coordinating multiple algorithmic insights and tracking interdependent state transitions. Solutions use multi-pointer geometric passes or dynamic state arrays. For example, solving trapping rain water.
 
 *Standard MOOC curriculum exercises are capped at 3 to 4 stars.*
 
